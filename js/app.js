@@ -750,9 +750,9 @@ function renderAccount(){
           <div class="years">${state.user.email || 'без почты'}</div>
         </div>
       </div>
-      <p class="lede">Аккаунт настоящий: прогресс сохраняется на сервере (Firebase) и подгрузится
-      на любом устройстве, где ты войдёшь с той же почтой.</p>
     `));
+    wrap.appendChild(el(`<p class="lede">Аккаунт настоящий: прогресс сохраняется на сервере (Firebase) и подгрузится
+      на любом устройстве, где ты войдёшь с той же почтой.</p>`));
     const btn = el(`<button class="btn outline">Выйти</button>`);
     btn.onclick = async () => { await signOut(auth); setScreen('home'); };
     wrap.appendChild(btn);
@@ -780,16 +780,12 @@ function renderAccount(){
   });
   const fields = wrap.querySelector('#authFields');
   if(state.authMode==='register'){
-    fields.appendChild(el(`
-      <div class="field"><label>Имя</label><input type="text" id="fName" placeholder="Как к тебе обращаться"></div>
-      <div class="field"><label>Почта</label><input type="text" id="fEmail" placeholder="you@example.com"></div>
-      <div class="field"><label>Пароль</label><input type="password" id="fPass" placeholder="минимум 6 символов"></div>
-    `));
+    fields.appendChild(el(`<div class="field"><label>Имя</label><input type="text" id="fName" placeholder="Как к тебе обращаться"></div>`));
+    fields.appendChild(el(`<div class="field"><label>Почта</label><input type="text" id="fEmail" placeholder="you@example.com"></div>`));
+    fields.appendChild(el(`<div class="field"><label>Пароль</label><input type="password" id="fPass" placeholder="минимум 6 символов"></div>`));
   } else {
-    fields.appendChild(el(`
-      <div class="field"><label>Почта</label><input type="text" id="fEmail" placeholder="you@example.com"></div>
-      <div class="field"><label>Пароль</label><input type="password" id="fPass" placeholder="••••••••"></div>
-    `));
+    fields.appendChild(el(`<div class="field"><label>Почта</label><input type="text" id="fEmail" placeholder="you@example.com"></div>`));
+    fields.appendChild(el(`<div class="field"><label>Пароль</label><input type="password" id="fPass" placeholder="••••••••"></div>`));
   }
   const errBox = wrap.querySelector('#authError');
   const submitBtn = wrap.querySelector('#authSubmit');
@@ -875,10 +871,8 @@ function renderTestScreen(){
 
   const pct = Math.round((t.idx/t.questions.length)*100);
   const timerHtml = t.timed ? `<span class="timer-badge" id="examTimer">${Math.floor(t.timeLeft/60)}:${String(t.timeLeft%60).padStart(2,'0')}</span>` : '';
-  wrap.appendChild(el(`
-    <div class="test-progress"><span>Вопрос ${t.idx+1} из ${t.questions.length}${timerHtml}</span><span>Верно: ${t.correctCount}</span></div>
-    <div class="test-progress-bar"><div class="fill" style="width:${pct}%"></div></div>
-  `));
+  wrap.appendChild(el(`<div class="test-progress"><span>Вопрос ${t.idx+1} из ${t.questions.length}${timerHtml}</span><span>Верно: ${t.correctCount}</span></div>`));
+  wrap.appendChild(el(`<div class="test-progress-bar"><div class="fill" style="width:${pct}%"></div></div>`));
 
   const q = t.questions[t.idx];
   const card = document.createElement('div');
