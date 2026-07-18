@@ -235,6 +235,30 @@ footer.site{margin-top:56px;padding:24px 0;text-align:center;color:var(--text-fa
 .profile-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;display:flex;gap:16px;align-items:center;margin-bottom:24px;}
 .profile-avatar{width:52px;height:52px;border-radius:50%;background:linear-gradient(155deg,var(--accent),#a97a26);display:flex;align-items:center;justify-content:center;font-family:'Yeseva One',serif;font-size:1.3rem;color:#1a1200;flex-shrink:0;}
 
+/* readable stat rows (levels / categories on profile page) */
+.stat-rows{display:flex;flex-direction:column;gap:9px;margin-top:16px;}
+.stat-row-item{
+  display:grid;grid-template-columns:48px 1fr 64px;align-items:center;gap:16px;
+  background:var(--card);border:1px solid var(--border);border-radius:10px;padding:13px 16px;
+}
+.stat-row-item.wide-label{grid-template-columns:104px 1fr 64px;}
+.stat-row-item .srl-badge{font-family:'Yeseva One',serif;font-size:1.05rem;color:var(--accent);text-align:center;}
+.stat-row-item.wide-label .srl-badge{font-family:'Manrope',sans-serif;font-weight:700;font-size:0.85rem;color:var(--text);text-align:left;}
+.stat-row-item .srl-bar-track{height:7px;background:var(--border);border-radius:4px;overflow:hidden;}
+.stat-row-item .srl-bar-fill{height:100%;background:var(--accent);border-radius:4px;transition:width .3s;}
+.stat-row-item .srl-meta{margin-top:6px;font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-faint);}
+.stat-row-item .srl-pct{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:1.05rem;color:var(--text);text-align:right;}
+.stat-row-item .srl-pct.empty{color:var(--text-faint);font-weight:400;font-size:0.78rem;}
+@media (max-width:480px){
+  .stat-row-item, .stat-row-item.wide-label{grid-template-columns:40px 1fr 50px;gap:10px;padding:11px 12px;}
+}
+
+/* settings danger zone */
+.danger-card{border-color:var(--danger)!important;}
+.btn.danger{border-color:var(--danger);color:#f5989d;}
+.btn.danger:hover{background:var(--danger-soft);}
+
+
 /* achievements */
 .badges-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:16px;}
 .badge{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;opacity:.4;}
