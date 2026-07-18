@@ -9,13 +9,15 @@ import {
   signInWithEmailAndPassword,
   signOut,
   onAuthStateChanged,
-  updateProfile
+  updateProfile,
+  deleteUser
 } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js";
 import {
   getFirestore,
   doc,
   getDoc,
-  setDoc
+  setDoc,
+  deleteDoc
 } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js";
 
 // Этот объект не секретный — его можно спокойно держать в открытом коде сайта.
@@ -40,9 +42,11 @@ export {
   signOut,
   onAuthStateChanged,
   updateProfile,
+  deleteUser,
   doc,
   getDoc,
-  setDoc
+  setDoc,
+  deleteDoc
 };
 
 // Человекочитаемые тексты ошибок Firebase Auth вместо английских кодов.
