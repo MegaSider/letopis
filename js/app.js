@@ -6,6 +6,7 @@ import {
   IMG, RULERS, PERIODS, LEVELS, LEVEL_DESC, QUESTIONS,
   PERSONS, PERSON_CATEGORIES, DATES_KB, CATS, CAT_LABEL
 } from './data.js';
+import { EGE_VARIANTS } from './ege.js';
 import {
   auth, db,
   createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut,
@@ -22,7 +23,8 @@ const state = {
   dateIdx: 0,                // текущая позиция в DATES_KB
   mistakes: new Set(),       // id вопросов, отвеченных сейчас неверно
   premiumInterest: false, premiumEmail:'',
-  builder: { count:15, levels: new Set(LEVELS), cats: new Set(CATS), type:'any' }
+  builder: { count:15, levels: new Set(LEVELS), cats: new Set(CATS), type:'any' },
+  egeTest: null
 };
 LEVELS.forEach(l => state.stats[l] = {answered:0, correct:0});
 CATS.forEach(c => state.catStats[c] = {answered:0, correct:0});
@@ -97,6 +99,19 @@ function startCustomTest(){
   if(pool.length === 0) return;
   const n = Math.min(Math.max(1, b.count || 10), pool.length);
   beginTest(shuffle(pool).slice(0,n), 'custom', null);
+}
+function startEgeVariant(variantId){
+  const variant = EGE_VARIANTS.find(v => v.id === variantId);
+  if(!variant) return;
+  const n = variant.tasks.length;
+  state.egeTest = {
+    variant, idx:0,
+    answers: new Array(n).fill(''),
+    checked: new Array(n).fill(false),
+    correct: new Array(n).fill(null), // true/false для seq, 1/0.5/0 для open (самооценка)
+  };
+  state.screen = 'ege';
+  render();
 }
 function clearTestTimer(){
   if(state.test && state.test.timerId){ clearInterval(state.test.timerId); state.test.timerId = null; }
@@ -175,6 +190,7 @@ function render(){
   const app = document.getElementById('app');
   app.innerHTML = '';
   if(state.screen === 'test' && state.test){ app.appendChild(renderTestScreen()); return; }
+  if(state.screen === 'ege' && state.egeTest){ app.appendChild(renderEgeScreen()); return; }
   const map = {home:renderHome, levels:renderLevels, rulers:renderRulers, periods:renderPeriods, culture:renderCulture, general:renderGeneral, knowledge:renderKnowledge, person:renderPerson, yearsdb:renderDatesDB, profile:renderProfile, settings:renderSettings, premium:renderPremium};
   app.appendChild((map[state.screen] || renderHome)());
 }
@@ -428,6 +444,23 @@ function renderGeneral(){
   const c0 = el(`<div class="card"><div class="body"><h3>Пробник ЕГЭ · часть 1</h3><div class="years">19 вопросов · 35 минут · с таймером</div><p class="desc">Пропорции разделов и лимит времени приближены к реальной части 1 экзамена: правители, периоды, культура, даты.</p><button class="cta">Начать</button></div></div>`);
   c0.querySelector('.cta').onclick = () => startMockExam();
   grid.appendChild(c0);
+
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Полные варианты ЕГЭ</h2><span class="count">структура 21 задания, как на настоящем экзамене</span></div>`));
+  wrap.appendChild(el(`<p class="lede">Часть 1 — краткий ответ (цифры или слово), проверяется автоматически. Часть 2 — развёрнутый ответ: пишешь свой вариант, затем сверяешь с эталоном и оцениваешь себя сам, как при реальной подготовке к экзамену.</p>`));
+  const egeGrid = el(`<div class="grid"></div>`);
+  EGE_VARIANTS.forEach(v=>{
+    const card = el(`
+      <div class="card"><div class="body">
+        <h3>${v.title}</h3>
+        <div class="years">${v.tasks.length} заданий · части 1 и 2</div>
+        <p class="desc">${v.source}${v.note ? ' · '+v.note : ''}</p>
+        <button class="cta">Начать вариант</button>
+      </div></div>
+    `);
+    card.querySelector('.cta').onclick = () => startEgeVariant(v.id);
+    egeGrid.appendChild(card);
+  });
+  wrap.appendChild(egeGrid);
   const c1 = el(`<div class="card"><div class="body"><h3>Тест на даты</h3><div class="years">${dateCount} вопросов · впиши год</div><p class="desc">Только ключевые даты российской истории — впиши год цифрами.</p><button class="cta">Начать</button></div></div>`);
   c1.querySelector('.cta').onclick = () => startDatesTest();
   grid.appendChild(c1);
@@ -1011,6 +1044,139 @@ async function loadProgress(uid){
 /* ========================================================================
    TEST SCREEN
    ======================================================================== */
+/* ========================================================================
+   ПОЛНЫЙ ВАРИАНТ ЕГЭ
+   ======================================================================== */
+function renderEgeScreen(){
+  const t = state.egeTest;
+  const wrap = document.createElement('div');
+  wrap.className = 'test-shell';
+
+  if(t.idx >= t.variant.tasks.length){
+    wrap.appendChild(renderEgeResult());
+    return wrap;
+  }
+
+  const back = el(`<a class="back-link" href="#">← Прервать и вернуться</a>`);
+  back.onclick = (e) => { e.preventDefault(); setScreen('general'); };
+  wrap.appendChild(back);
+
+  const pct = Math.round((t.idx/t.variant.tasks.length)*100);
+  wrap.appendChild(el(`
+    <div class="test-progress"><span>Задание ${t.idx+1} из ${t.variant.tasks.length} · часть ${t.variant.tasks[t.idx].part}</span><span>${t.variant.title}</span></div>
+  `));
+  wrap.appendChild(el(`<div class="test-progress-bar"><div class="fill" style="width:${pct}%"></div></div>`));
+
+  const task = t.variant.tasks[t.idx];
+  const card = document.createElement('div');
+  card.className = 'question-card';
+  card.appendChild(el(`<div class="ege-num">Задание ${task.n}${task.points?' · '+task.points+' балл'+(task.points===1?'':(task.points<5?'а':'ов')):''}</div>`));
+  card.appendChild(el(`<p class="qtext">${task.prompt}</p>`));
+  if(task.context) card.appendChild(el(`<div class="ege-context">${task.context}</div>`));
+
+  const feedbackHolder = el(`<div></div>`);
+  const controls = el(`<div class="controls"></div>`);
+
+  if(task.type === 'seq'){
+    const form = el(`<div class="text-answer"><input type="text" placeholder="Впиши ответ..." autocomplete="off"><button class="btn">Ответить</button></div>`);
+    const input = form.querySelector('input');
+    const submit = () => {
+      if(t.checked[t.idx]) return;
+      const val = input.value;
+      if(!val.trim()) return;
+      const ok = checkAnswer({ty:'t', a:task.answer, alt:[]}, val);
+      t.checked[t.idx] = true;
+      t.correct[t.idx] = ok;
+      [...form.querySelectorAll('input,button')].forEach(elm => elm.disabled = true);
+      feedbackHolder.appendChild(el(ok ? `<div class="feedback ok">Верно!</div>` : `<div class="feedback bad">Неверно. Правильный ответ: ${task.answer}</div>`));
+      addEgeNextButton(controls, t);
+    };
+    form.querySelector('button').onclick = submit;
+    input.addEventListener('keydown', (e) => { if(e.key === 'Enter') submit(); });
+    card.appendChild(form);
+    setTimeout(()=>input.focus(), 50);
+  } else {
+    const form = el(`<div class="field"><label>Твой ответ (черновик)</label></div>`);
+    const textarea = document.createElement('textarea');
+    textarea.className = 'ege-answer-area';
+    textarea.placeholder = 'Напиши свой развёрнутый ответ здесь...';
+    form.appendChild(textarea);
+    card.appendChild(form);
+
+    const revealBtn = el(`<button class="btn outline" style="margin-top:10px">Показать эталон и критерии</button>`);
+    revealBtn.onclick = () => {
+      revealBtn.remove();
+      feedbackHolder.appendChild(el(`<div class="ege-model"><div class="ege-model-cap">Эталон ответа</div><div class="ege-model-text">${task.model.replace(/\n/g,'<br>')}</div></div>`));
+      const gradeRow = el(`<div class="ege-grade-row"></div>`);
+      [['Справился полностью',1], ['Частично',0.5], ['Не справился',0]].forEach(([label,val])=>{
+        const b = document.createElement('button');
+        b.className = 'chip';
+        b.textContent = label;
+        b.onclick = () => {
+          t.checked[t.idx] = true;
+          t.correct[t.idx] = val;
+          [...gradeRow.children].forEach(c=>c.classList.remove('active'));
+          b.classList.add('active');
+          if(!controls.querySelector('button')) addEgeNextButton(controls, t);
+        };
+        gradeRow.appendChild(b);
+      });
+      feedbackHolder.appendChild(el(`<p style="font-size:0.78rem;color:var(--text-faint);margin:10px 0 6px">Сравни свой ответ с эталоном и оцени себя честно:</p>`));
+      feedbackHolder.appendChild(gradeRow);
+    };
+    card.appendChild(revealBtn);
+  }
+
+  card.appendChild(feedbackHolder);
+  card.appendChild(controls);
+  wrap.appendChild(card);
+  return wrap;
+}
+
+function addEgeNextButton(controls, t){
+  const isLast = t.idx === t.variant.tasks.length - 1;
+  const btn = document.createElement('button');
+  btn.className = 'btn';
+  btn.textContent = isLast ? 'Завершить вариант' : 'Следующее задание';
+  btn.onclick = () => { t.idx++; render(); };
+  controls.appendChild(btn);
+}
+
+function renderEgeResult(){
+  const t = state.egeTest;
+  const tasks = t.variant.tasks;
+  let earned = 0, max = 0, part1 = 0, part1max = 0, part2 = 0, part2max = 0, unanswered = 0;
+  tasks.forEach((task,i)=>{
+    const pts = task.points || 1;
+    max += pts;
+    const c = t.correct[i];
+    let got = 0;
+    if(c === true) got = pts;
+    else if(typeof c === 'number') got = pts * c;
+    else if(c === null) unanswered++;
+    earned += got;
+    if(task.part===1){ part1max += pts; part1 += got; } else { part2max += pts; part2 += got; }
+  });
+  const round1 = n => Math.round(n*10)/10;
+  const wrap = el(`
+    <div class="result-card">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:1px">Вариант завершён</div>
+      <div class="score">${round1(earned)} / ${max}</div>
+      <p>Часть 1: ${round1(part1)} из ${part1max} · Часть 2 (самооценка): ${round1(part2)} из ${part2max}${unanswered?` · пропущено заданий: ${unanswered}`:''}</p>
+      <p style="font-size:0.78rem">Часть 2 оценивается тобой самостоятельно по эталону — это ориентир, а не официальный балл ЕГЭ.</p>
+      <div class="actions" style="display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap">
+        <button class="btn">Пройти ещё раз</button>
+        <button class="btn outline">Назад</button>
+      </div>
+    </div>
+  `);
+  const [again, back] = wrap.querySelectorAll('.actions button');
+  again.onclick = () => startEgeVariant(t.variant.id);
+  back.onclick = () => setScreen('general');
+  return wrap;
+}
+
+
 function renderTestScreen(){
   const t = state.test;
   const wrap = document.createElement('div');
