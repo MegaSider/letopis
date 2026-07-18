@@ -9,7 +9,7 @@ import {
 import {
   auth, db,
   createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut,
-  onAuthStateChanged, updateProfile, doc, getDoc, setDoc,
+  onAuthStateChanged, updateProfile, deleteUser, doc, getDoc, setDoc, deleteDoc,
   translateAuthError
 } from './firebase.js';
 
@@ -21,7 +21,8 @@ const state = {
   kbQuery:'', kbCategory:'Все',
   dateIdx: 0,                // текущая позиция в DATES_KB
   mistakes: new Set(),       // id вопросов, отвеченных сейчас неверно
-  premiumInterest: false, premiumEmail:''
+  premiumInterest: false, premiumEmail:'',
+  builder: { count:15, levels: new Set(LEVELS), cats: new Set(CATS), type:'any' }
 };
 LEVELS.forEach(l => state.stats[l] = {answered:0, correct:0});
 CATS.forEach(c => state.catStats[c] = {answered:0, correct:0});
@@ -90,6 +91,13 @@ function startMockExam(){
   const set = [...pick(byCat.ruler,9), ...pick(byCat.period,6), ...pick(byCat.culture,2), ...pick(byCat.date,2)];
   beginTest(shuffle(set), 'mock', null, {timed:true, seconds:2100});
 }
+function startCustomTest(){
+  const b = state.builder;
+  const pool = QUESTIONS.filter(q => b.levels.has(q.lvl) && b.cats.has(q.cat) && (b.type==='any' || q.ty===b.type));
+  if(pool.length === 0) return;
+  const n = Math.min(Math.max(1, b.count || 10), pool.length);
+  beginTest(shuffle(pool).slice(0,n), 'custom', null);
+}
 function clearTestTimer(){
   if(state.test && state.test.timerId){ clearInterval(state.test.timerId); state.test.timerId = null; }
 }
@@ -132,7 +140,7 @@ const TABS = [
   {id:'general', label:'Общие тесты'},
   {id:'knowledge', label:'База знаний'},
   {id:'yearsdb', label:'Даты'},
-  {id:'progress', label:'Мой прогресс'},
+  {id:'profile', label:'Профиль'},
 ];
 
 function setScreen(id){ clearTestTimer(); state.screen = id; render(); window.scrollTo({top:0, behavior:'smooth'}); }
@@ -157,7 +165,7 @@ function renderHeaderLevel(){
   document.getElementById('headerLevel').innerHTML = 'Уровень: <b>' + (lvl || '—') + '</b>';
   const acc = document.getElementById('headerAccount');
   acc.textContent = state.user ? ('👤 ' + state.user.name) : 'Войти';
-  acc.onclick = () => setScreen('account');
+  acc.onclick = () => setScreen('profile');
 }
 function el(html){ const d = document.createElement('div'); d.innerHTML = html.trim(); return d.firstChild; }
 
@@ -167,7 +175,7 @@ function render(){
   const app = document.getElementById('app');
   app.innerHTML = '';
   if(state.screen === 'test' && state.test){ app.appendChild(renderTestScreen()); return; }
-  const map = {home:renderHome, levels:renderLevels, rulers:renderRulers, periods:renderPeriods, culture:renderCulture, general:renderGeneral, knowledge:renderKnowledge, person:renderPerson, yearsdb:renderDatesDB, account:renderAccount, progress:renderProgress, premium:renderPremium};
+  const map = {home:renderHome, levels:renderLevels, rulers:renderRulers, periods:renderPeriods, culture:renderCulture, general:renderGeneral, knowledge:renderKnowledge, person:renderPerson, yearsdb:renderDatesDB, profile:renderProfile, settings:renderSettings, premium:renderPremium};
   app.appendChild((map[state.screen] || renderHome)());
 }
 
@@ -430,39 +438,117 @@ function renderGeneral(){
   const c3 = el(`<div class="card"><div class="body"><h3>Работа над ошибками</h3><div class="years">${mistakeCount} вопрос${mistakeCount===1?'':(mistakeCount>=2&&mistakeCount<=4?'а':'ов')} в списке</div><p class="desc">Все вопросы, где ты пока ответил неверно, собраны в один тест.</p><button class="cta" ${mistakeCount===0?'disabled':''}>${mistakeCount===0?'Пока пусто':'Начать'}</button></div></div>`);
   if(mistakeCount>0) c3.querySelector('.cta').onclick = () => startMistakesTest();
   grid.appendChild(c3);
+
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Собрать свой тест</h2></div>`));
+  wrap.appendChild(el(`<p class="lede">Выбери уровни сложности, разделы и сколько вопросов хочешь получить.</p>`));
+
+  const b = state.builder;
+  const box = el(`<div class="chronicle" style="max-width:640px"></div>`);
+
+  box.appendChild(el(`<div class="caption">Уровни сложности</div>`));
+  const lvlChips = el(`<div class="chips"></div>`);
+  LEVELS.forEach(l=>{
+    const chip = el(`<button class="chip ${b.levels.has(l)?'active':''}">${l}</button>`);
+    chip.onclick = () => { if(b.levels.has(l)){ if(b.levels.size>1) b.levels.delete(l); } else b.levels.add(l); render(); };
+    lvlChips.appendChild(chip);
+  });
+  box.appendChild(lvlChips);
+
+  box.appendChild(el(`<div class="caption" style="margin-top:16px">Разделы</div>`));
+  const catChips = el(`<div class="chips"></div>`);
+  CATS.forEach(c=>{
+    const chip = el(`<button class="chip ${b.cats.has(c)?'active':''}">${CAT_LABEL[c]}</button>`);
+    chip.onclick = () => { if(b.cats.has(c)){ if(b.cats.size>1) b.cats.delete(c); } else b.cats.add(c); render(); };
+    catChips.appendChild(chip);
+  });
+  box.appendChild(catChips);
+
+  box.appendChild(el(`<div class="caption" style="margin-top:16px">Тип вопросов</div>`));
+  const typeChips = el(`<div class="chips"></div>`);
+  [['any','Любой'], ['m','С вариантами'], ['t','Письменный ответ']].forEach(([val,label])=>{
+    const chip = el(`<button class="chip ${b.type===val?'active':''}">${label}</button>`);
+    chip.onclick = () => { b.type = val; render(); };
+    typeChips.appendChild(chip);
+  });
+  box.appendChild(typeChips);
+
+  const pool = QUESTIONS.filter(q => b.levels.has(q.lvl) && b.cats.has(q.cat) && (b.type==='any' || q.ty===b.type));
+  const safeCount = Math.min(b.count || 10, Math.max(pool.length,1));
+  const countRow = el(`
+    <div style="margin-top:18px;display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap">
+      <div class="field" style="margin:0;max-width:150px">
+        <label>Количество вопросов</label>
+        <input type="number" id="builderCount" min="1" max="${Math.max(pool.length,1)}" value="${safeCount}">
+      </div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--text-faint);padding-bottom:11px">доступно вопросов: ${pool.length}</div>
+    </div>
+  `);
+  const countInput = countRow.querySelector('#builderCount');
+  countInput.oninput = () => {
+    const v = parseInt(countInput.value, 10);
+    b.count = isNaN(v) ? b.count : v;
+  };
+  box.appendChild(countRow);
+
+  const startBtn = el(`<button class="btn" style="margin-top:16px" ${pool.length===0?'disabled':''}>${pool.length===0?'Нет подходящих вопросов':'Собрать тест'}</button>`);
+  startBtn.onclick = () => startCustomTest();
+  box.appendChild(startBtn);
+  wrap.appendChild(box);
+
   return wrap;
 }
 
-function renderProgress(){
-  const lvl = computeLevelInfo();
-  const wrap = el(`
-    <div>
-      <div class="section-head"><h2>Мой прогресс</h2></div>
-      <p class="lede">Уровень определяется автоматически по всем пройденным тестам и проценту правильных ответов на каждом уровне сложности вопросов.</p>
-      <div class="chronicle" style="max-width:520px">
-        <div class="caption">Текущая оценка</div>
-        ${renderScaleHTML(lvl)}
+function renderStatRowItem(label, answered, correct, opts){
+  opts = opts || {};
+  const pct = answered ? Math.round(100*correct/answered) : null;
+  return el(`
+    <div class="stat-row-item ${opts.wide?'wide-label':''}">
+      <div class="srl-badge">${label}</div>
+      <div>
+        <div class="srl-bar-track"><div class="srl-bar-fill" style="width:${pct||0}%"></div></div>
+        <div class="srl-meta">${answered ? correct+' из '+answered+' верно' : 'нет данных'}</div>
       </div>
+      <div class="srl-pct ${pct===null?'empty':''}">${pct===null ? '—' : pct+'%'}</div>
     </div>
   `);
-  const table = el(`<table class="stats-table"><thead><tr><th>Уровень</th><th>Отвечено</th><th>Верно</th><th>Точность</th></tr></thead><tbody></tbody></table>`);
-  const tbody = table.querySelector('tbody');
-  LEVELS.forEach(l=>{
-    const s = state.stats[l];
-    const acc = s.answered ? Math.round(100*s.correct/s.answered)+'%' : '—';
-    tbody.appendChild(el(`<tr><td>${l}</td><td class="num">${s.answered}</td><td class="num">${s.correct}</td><td class="num">${acc}</td></tr>`));
-  });
-  wrap.appendChild(table);
+}
+
+function renderProfile(){
+  if(!state.user) return renderAuthForm();
+
+  const wrap = document.createElement('div');
+  wrap.appendChild(el(`<div class="section-head"><h2>Профиль</h2></div>`));
+
+  wrap.appendChild(el(`
+    <div class="profile-card">
+      <div class="profile-avatar">${state.user.name[0].toUpperCase()}</div>
+      <div style="flex:1">
+        <h3>${state.user.name}</h3>
+        <div class="years">${state.user.email || 'без почты'}</div>
+      </div>
+    </div>
+  `));
+  const settingsBtn = el(`<button class="btn outline" style="margin-top:14px">⚙ Настройки аккаунта</button>`);
+  settingsBtn.onclick = () => setScreen('settings');
+  wrap.appendChild(settingsBtn);
+
+  const lvl = computeLevelInfo();
+  wrap.appendChild(el(`
+    <div class="chronicle" style="max-width:560px;margin-top:28px">
+      <div class="caption">Текущая оценка</div>
+      ${renderScaleHTML(lvl)}
+    </div>
+  `));
+
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Точность по уровням сложности</h2></div>`));
+  const levelRows = el(`<div class="stat-rows"></div>`);
+  LEVELS.forEach(l => levelRows.appendChild(renderStatRowItem(l, state.stats[l].answered, state.stats[l].correct)));
+  wrap.appendChild(levelRows);
 
   wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Сильные и слабые разделы</h2></div>`));
-  const catTable = el(`<table class="stats-table"><thead><tr><th>Раздел</th><th>Отвечено</th><th>Верно</th><th>Точность</th></tr></thead><tbody></tbody></table>`);
-  const catBody = catTable.querySelector('tbody');
-  CATS.forEach(c=>{
-    const s = state.catStats[c];
-    const acc = s.answered ? Math.round(100*s.correct/s.answered)+'%' : '—';
-    catBody.appendChild(el(`<tr><td>${CAT_LABEL[c]}</td><td class="num">${s.answered}</td><td class="num">${s.correct}</td><td class="num">${acc}</td></tr>`));
-  });
-  wrap.appendChild(catTable);
+  const catRows = el(`<div class="stat-rows"></div>`);
+  CATS.forEach(c => catRows.appendChild(renderStatRowItem(CAT_LABEL[c], state.catStats[c].answered, state.catStats[c].correct, {wide:true})));
+  wrap.appendChild(catRows);
 
   const mistakeCount = state.mistakes.size;
   wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Работа над ошибками</h2><span class="count">${mistakeCount} вопросов</span></div>`));
@@ -738,30 +824,10 @@ function renderDateOfDay(holder){
 /* ========================================================================
    АККАУНТ (демо-режим, без бэкенда — данные живут только в этой сессии)
    ======================================================================== */
-function renderAccount(){
-  if(state.user){
-    const wrap = document.createElement('div');
-    wrap.appendChild(el(`<div class="section-head"><h2>Аккаунт</h2></div>`));
-    wrap.appendChild(el(`
-      <div class="profile-card">
-        <div class="profile-avatar">${state.user.name[0].toUpperCase()}</div>
-        <div>
-          <h3>${state.user.name}</h3>
-          <div class="years">${state.user.email || 'без почты'}</div>
-        </div>
-      </div>
-    `));
-    wrap.appendChild(el(`<p class="lede">Аккаунт настоящий: прогресс сохраняется на сервере (Firebase) и подгрузится
-      на любом устройстве, где ты войдёшь с той же почтой.</p>`));
-    const btn = el(`<button class="btn outline">Выйти</button>`);
-    btn.onclick = async () => { await signOut(auth); setScreen('home'); };
-    wrap.appendChild(btn);
-    return wrap;
-  }
-
+function renderAuthForm(){
   const wrap = el(`
     <div>
-      <div class="section-head"><h2>Аккаунт</h2></div>
+      <div class="section-head"><h2>Профиль</h2></div>
       <p class="lede">Зарегистрируйся, чтобы прогресс сохранялся навсегда и был доступен с любого устройства.</p>
       <div class="auth-card">
         <div class="auth-tabs">
@@ -816,13 +882,99 @@ function renderAccount(){
         await signInWithEmailAndPassword(auth, email, pass);
       }
       // onAuthStateChanged сам подхватит пользователя и перерисует экран
-      setScreen('progress');
+      setScreen('profile');
     } catch(e){
       console.error('Ошибка авторизации Firebase:', e);
       errBox.appendChild(el(`<div class="feedback bad" style="margin:10px 0">${translateAuthError(e.code)}</div>`));
       submitBtn.disabled = false;
     }
   };
+  return wrap;
+}
+
+function renderSettings(){
+  if(!state.user) return renderAuthForm();
+
+  const wrap = document.createElement('div');
+  const back = el(`<a class="back-link" href="#">← Назад в профиль</a>`);
+  back.onclick = (e) => { e.preventDefault(); setScreen('profile'); };
+  wrap.appendChild(back);
+  wrap.appendChild(el(`<div class="section-head"><h2>Настройки аккаунта</h2></div>`));
+
+  // смена имени
+  const nickCard = el(`
+    <div class="auth-card">
+      <h3 style="margin-bottom:12px">Имя в профиле</h3>
+      <div class="field"><label>Имя</label><input type="text" id="stName" value="${state.user.name}"></div>
+      <div id="nickMsg"></div>
+      <button class="btn" id="nickSave" style="width:100%;margin-top:6px">Сохранить имя</button>
+    </div>
+  `);
+  const nickMsg = nickCard.querySelector('#nickMsg');
+  const nickBtn = nickCard.querySelector('#nickSave');
+  nickBtn.onclick = async () => {
+    nickMsg.innerHTML = '';
+    const newName = nickCard.querySelector('#stName').value.trim();
+    if(!newName){ nickMsg.appendChild(el(`<div class="feedback bad" style="margin:10px 0">Имя не может быть пустым.</div>`)); return; }
+    nickBtn.disabled = true;
+    try{
+      await updateProfile(auth.currentUser, {displayName:newName});
+      await setDoc(doc(db,'users',state.user.uid), {name:newName}, {merge:true});
+      state.user.name = newName;
+      nickMsg.appendChild(el(`<div class="feedback ok" style="margin:10px 0">Готово, имя обновлено.</div>`));
+      renderHeaderLevel();
+    } catch(e){
+      console.error('Не удалось изменить имя:', e);
+      nickMsg.appendChild(el(`<div class="feedback bad" style="margin:10px 0">Не получилось сохранить. Попробуй ещё раз.</div>`));
+    }
+    nickBtn.disabled = false;
+  };
+  wrap.appendChild(nickCard);
+
+  // выход
+  const logoutBtn = el(`<button class="btn outline" style="margin-top:24px">Выйти из аккаунта</button>`);
+  logoutBtn.onclick = async () => { await signOut(auth); setScreen('home'); };
+  wrap.appendChild(logoutBtn);
+
+  // опасная зона: удаление аккаунта
+  const dangerCard = el(`
+    <div class="auth-card danger-card" style="margin-top:30px">
+      <h3 style="margin-bottom:8px;color:#f5989d">Опасная зона</h3>
+      <p class="lede" style="margin:0 0 14px">Удаление аккаунта необратимо: пропадут прогресс, достижения и вход по этой почте.</p>
+      <button class="btn danger" id="delBtn">Удалить аккаунт</button>
+      <div id="delMsg"></div>
+    </div>
+  `);
+  let confirmStage = false;
+  const delBtn = dangerCard.querySelector('#delBtn');
+  const delMsg = dangerCard.querySelector('#delMsg');
+  delBtn.onclick = async () => {
+    if(!confirmStage){
+      confirmStage = true;
+      delBtn.textContent = 'Точно удалить? Нажми ещё раз';
+      return;
+    }
+    delBtn.disabled = true;
+    delMsg.innerHTML = '';
+    try{
+      const uid = state.user.uid;
+      await deleteDoc(doc(db, 'users', uid));
+      await deleteUser(auth.currentUser);
+      // onAuthStateChanged сбросит state.user и перерисует экран сам
+      setScreen('home');
+    } catch(e){
+      console.error('Не удалось удалить аккаунт:', e);
+      const msg = e.code === 'auth/requires-recent-login'
+        ? 'Для удаления нужно недавно входить в аккаунт — выйди и зайди снова, затем повтори.'
+        : 'Не получилось удалить аккаунт. Попробуй ещё раз.';
+      delMsg.appendChild(el(`<div class="feedback bad" style="margin:10px 0">${msg}</div>`));
+      delBtn.disabled = false;
+      delBtn.textContent = 'Удалить аккаунт';
+      confirmStage = false;
+    }
+  };
+  wrap.appendChild(dangerCard);
+
   return wrap;
 }
 
@@ -916,7 +1068,7 @@ function exitTarget(){
   if(kind === 'ruler') return 'rulers';
   if(kind === 'period') return 'periods';
   if(kind === 'culture') return 'culture';
-  if(kind === 'dates' || kind === 'random' || kind === 'mock' || kind === 'mistakes') return 'general';
+  if(kind === 'dates' || kind === 'random' || kind === 'mock' || kind === 'mistakes' || kind === 'custom') return 'general';
   return 'home';
 }
 
@@ -971,12 +1123,12 @@ function renderResult(){
     <div class="result-card">
       <div style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:1px">${timeUp ? 'Время вышло' : 'Тест завершён'}</div>
       <div class="score">${t.correctCount} / ${(t.results||[]).length || total}</div>
-      <p>${pct}% правильных ответов. Твой общий уровень подготовки обновлён — загляни во вкладку «Мой прогресс».</p>
+      <p>${pct}% правильных ответов. Твой общий уровень подготовки обновлён — загляни во вкладку «Профиль».</p>
       <div id="resultBreakdown"></div>
       <div class="actions" style="display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap">
         <button class="btn">Пройти ещё раз</button>
         <button class="btn outline">Назад</button>
-        <button class="btn outline">Мой прогресс</button>
+        <button class="btn outline">Профиль</button>
       </div>
     </div>
   `);
@@ -998,10 +1150,11 @@ function renderResult(){
     else if(kind==='dates') startDatesTest();
     else if(kind==='mock') startMockExam();
     else if(kind==='mistakes') startMistakesTest();
+    else if(kind==='custom') startCustomTest();
     else startRandomTest();
   };
   back.onclick = () => setScreen(exitTarget());
-  prog.onclick = () => setScreen('progress');
+  prog.onclick = () => setScreen('profile');
   return wrap;
 }
 
