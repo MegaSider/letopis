@@ -255,8 +255,26 @@ footer.site{margin-top:56px;padding:24px 0;text-align:center;color:var(--text-fa
 
 /* settings danger zone */
 .danger-card{border-color:var(--danger)!important;}
-.btn.danger{border-color:var(--danger);color:#f5989d;}
-.btn.danger:hover{background:var(--danger-soft);}
+.btn.danger{background:transparent;border:1.5px solid var(--danger);color:#f5989d;}
+.btn.danger:hover{background:var(--danger-soft);border-color:#f5989d;}
+.btn.danger:disabled{background:var(--border);border-color:var(--border);color:var(--text-faint);}
+
+/* EGE variant screen */
+.ege-num{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;}
+.ege-context{background:var(--bg-alt);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin:4px 0 18px;font-size:0.86rem;color:var(--text-dim);}
+.ege-table{width:100%;border-collapse:collapse;font-size:0.84rem;}
+.ege-table th,.ege-table td{border:1px solid var(--border);padding:8px 10px;text-align:left;color:var(--text-dim);}
+.ege-table th{background:var(--card);color:var(--text-faint);font-family:'JetBrains Mono',monospace;font-size:0.68rem;text-transform:uppercase;}
+.ege-list{margin:8px 0 0;padding-left:20px;color:var(--text-dim);font-size:0.86rem;}
+.ege-list li{margin-bottom:4px;}
+.ege-source{font-style:italic;color:var(--text-dim);line-height:1.6;border-left:2px solid var(--accent-dim);padding-left:12px;}
+.ege-options{margin-top:10px;font-size:0.8rem;color:var(--text-faint);}
+.ege-answer-area{width:100%;min-height:110px;padding:12px 14px;border:1.5px solid var(--border);border-radius:9px;background:var(--bg-alt);color:var(--text);font-family:'Manrope',sans-serif;font-size:0.9rem;resize:vertical;}
+.ege-answer-area:focus{outline:none;border-color:var(--accent-dim);}
+.ege-model{background:var(--accent-soft);border:1px solid var(--accent-dim);border-radius:10px;padding:14px 16px;margin-top:14px;}
+.ege-model-cap{font-family:'JetBrains Mono',monospace;font-size:0.68rem;text-transform:uppercase;letter-spacing:.5px;color:var(--accent);margin-bottom:6px;}
+.ege-model-text{font-size:0.86rem;color:var(--text);line-height:1.6;}
+.ege-grade-row{display:flex;gap:8px;flex-wrap:wrap;}
 
 
 /* achievements */
