@@ -1,0 +1,736 @@
+{
+  "module": "01",
+  "title": "ИСТОКИ РУССКОЙ ГОСУДАРСТВЕННОСТИ",
+  "events": [
+    {
+      "text": "Выделение восточных славян как самостоятельной ветви славян",
+      "dateRaw": "VI–VII вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 501,
+      "yearEnd": 700,
+      "precision": "century-range",
+      "centuryStart": 6,
+      "centuryEnd": 7,
+      "id": "01-0001"
+    },
+    {
+      "text": "Начало расселения восточных славян на Восточно-Европейской равнине",
+      "dateRaw": "VI–VIII вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 501,
+      "yearEnd": 800,
+      "precision": "century-range",
+      "centuryStart": 6,
+      "centuryEnd": 8,
+      "id": "01-0002"
+    },
+    {
+      "text": "Формирование союзов восточнославянских племён",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0003"
+    },
+    {
+      "text": "Распространение пашенного земледелия",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0004"
+    },
+    {
+      "text": "Развитие подсечно-огневого земледелия в лесной зоне",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0005"
+    },
+    {
+      "text": "Распространение переложного земледелия в лесостепной зоне",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0006"
+    },
+    {
+      "text": "Развитие железоделательного ремесла",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0007"
+    },
+    {
+      "text": "Развитие кузнечного ремесла",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0008"
+    },
+    {
+      "text": "Развитие гончарного производства",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0009"
+    },
+    {
+      "text": "Развитие ткачества",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0010"
+    },
+    {
+      "text": "Распространение языческих верований",
+      "dateRaw": "VI–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 501,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 6,
+      "centuryEnd": 9,
+      "id": "01-0011"
+    },
+    {
+      "text": "Формирование вечевых традиций",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0012"
+    },
+    {
+      "text": "Возникновение укреплённых поселений (городищ)",
+      "dateRaw": "VIII–IX вв.",
+      "section": "ВОСТОЧНЫЕ СЛАВЯНЕ",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0013"
+    },
+    {
+      "text": "Поляне",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0014"
+    },
+    {
+      "text": "Древляне",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0015"
+    },
+    {
+      "text": "Северяне",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0016"
+    },
+    {
+      "text": "Кривичи",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0017"
+    },
+    {
+      "text": "Словене ильменские",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0018"
+    },
+    {
+      "text": "Вятичи",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0019"
+    },
+    {
+      "text": "Радимичи",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0020"
+    },
+    {
+      "text": "Дреговичи",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0021"
+    },
+    {
+      "text": "Уличи",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0022"
+    },
+    {
+      "text": "Тиверцы",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0023"
+    },
+    {
+      "text": "Белые хорваты",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0024"
+    },
+    {
+      "text": "Волыняне (дуле́бы)",
+      "dateRaw": "VIII–IX вв.",
+      "section": "СОЮЗЫ ВОСТОЧНОСЛАВЯНСКИХ ПЛЕМЁН",
+      "yearStart": 701,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 8,
+      "centuryEnd": 9,
+      "id": "01-0025"
+    },
+    {
+      "text": "Существование Аварского каганата",
+      "dateRaw": "VI–IX вв.",
+      "section": "СОСЕДИ ВОСТОЧНЫХ СЛАВЯН",
+      "yearStart": 501,
+      "yearEnd": 900,
+      "precision": "century-range",
+      "centuryStart": 6,
+      "centuryEnd": 9,
+      "id": "01-0026"
+    },
+    {
+      "text": "Существование Хазарского каганата",
+      "dateRaw": "VII–X вв.",
+      "section": "СОСЕДИ ВОСТОЧНЫХ СЛАВЯН",
+      "yearStart": 601,
+      "yearEnd": 1000,
+      "precision": "century-range",
+      "centuryStart": 7,
+      "centuryEnd": 10,
+      "id": "01-0027"
+    },
+    {
+      "text": "Возникновение Волжской Булгарии",
+      "dateRaw": "около 922 г.",
+      "section": "СОСЕДИ ВОСТОЧНЫХ СЛАВЯН",
+      "yearStart": 922,
+      "yearEnd": 922,
+      "precision": "approx",
+      "id": "01-0028"
+    },
+    {
+      "text": "Существование Волжской Булгарии",
+      "dateRaw": "X–XIII вв.",
+      "section": "СОСЕДИ ВОСТОЧНЫХ СЛАВЯН",
+      "yearStart": 901,
+      "yearEnd": 1300,
+      "precision": "century-range",
+      "centuryStart": 10,
+      "centuryEnd": 13,
+      "id": "01-0029"
+    },
+    {
+      "text": "Появление печенегов у южных границ Руси",
+      "dateRaw": "IX в.",
+      "section": "СОСЕДИ ВОСТОЧНЫХ СЛАВЯН",
+      "yearStart": 801,
+      "yearEnd": 900,
+      "precision": "century",
+      "century": 9,
+      "id": "01-0030"
+    },
+    {
+      "text": "Появление половцев в Причерноморье",
+      "dateRaw": "XI в.",
+      "section": "СОСЕДИ ВОСТОЧНЫХ СЛАВЯН",
+      "yearStart": 1001,
+      "yearEnd": 1100,
+      "precision": "century",
+      "century": 11,
+      "id": "01-0031"
+    },
+    {
+      "text": "Активная торговля с Византией",
+      "dateRaw": "IX–X вв.",
+      "section": "СОСЕДИ ВОСТОЧНЫХ СЛАВЯН",
+      "yearStart": 801,
+      "yearEnd": 1000,
+      "precision": "century-range",
+      "centuryStart": 9,
+      "centuryEnd": 10,
+      "id": "01-0032"
+    },
+    {
+      "text": "Формирование пути «из варяг в греки»",
+      "dateRaw": "IX в.",
+      "section": "СОСЕДИ ВОСТОЧНЫХ СЛАВЯН",
+      "yearStart": 801,
+      "yearEnd": 900,
+      "precision": "century",
+      "century": 9,
+      "id": "01-0033"
+    },
+    {
+      "text": "Развитие волжского торгового пути",
+      "dateRaw": "IX–X вв.",
+      "section": "СОСЕДИ ВОСТОЧНЫХ СЛАВЯН",
+      "yearStart": 801,
+      "yearEnd": 1000,
+      "precision": "century-range",
+      "centuryStart": 9,
+      "centuryEnd": 10,
+      "id": "01-0034"
+    },
+    {
+      "text": "Призвание Рюрика в Ладогу (по летописной традиции)",
+      "dateRaw": "862",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 862,
+      "yearEnd": 862,
+      "precision": "year",
+      "id": "01-0035"
+    },
+    {
+      "text": "Начало княжения Рюрика",
+      "dateRaw": "862",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 862,
+      "yearEnd": 862,
+      "precision": "year",
+      "id": "01-0036"
+    },
+    {
+      "text": "Приход Рюрика в Новгород",
+      "dateRaw": "862",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 862,
+      "yearEnd": 862,
+      "precision": "year",
+      "id": "01-0037"
+    },
+    {
+      "text": "Правление Рюрика",
+      "dateRaw": "862–879",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 862,
+      "yearEnd": 879,
+      "precision": "range",
+      "id": "01-0038"
+    },
+    {
+      "text": "Начало правления Олега как регента при Игоре",
+      "dateRaw": "879",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 879,
+      "yearEnd": 879,
+      "precision": "year",
+      "id": "01-0039"
+    },
+    {
+      "text": "Поход Олега на Киев",
+      "dateRaw": "882",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 882,
+      "yearEnd": 882,
+      "precision": "year",
+      "id": "01-0040"
+    },
+    {
+      "text": "Взятие Киева",
+      "dateRaw": "882",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 882,
+      "yearEnd": 882,
+      "precision": "year",
+      "id": "01-0041"
+    },
+    {
+      "text": "Объединение Новгорода и Киева",
+      "dateRaw": "882",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 882,
+      "yearEnd": 882,
+      "precision": "year",
+      "id": "01-0042"
+    },
+    {
+      "text": "Перенос политического центра в Киев",
+      "dateRaw": "882",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 882,
+      "yearEnd": 882,
+      "precision": "year",
+      "id": "01-0043"
+    },
+    {
+      "text": "Образование Древнерусского государства",
+      "dateRaw": "882",
+      "section": "ВОЗНИКНОВЕНИЕ ГОСУДАРСТВА РУСЬ",
+      "yearStart": 882,
+      "yearEnd": 882,
+      "precision": "year",
+      "id": "01-0044"
+    },
+    {
+      "text": "Начало правления Олега",
+      "dateRaw": "879",
+      "section": "КНЯЗЬ ОЛЕГ",
+      "yearStart": 879,
+      "yearEnd": 879,
+      "precision": "year",
+      "id": "01-0045"
+    },
+    {
+      "text": "Объединение Руси",
+      "dateRaw": "882",
+      "section": "КНЯЗЬ ОЛЕГ",
+      "yearStart": 882,
+      "yearEnd": 882,
+      "precision": "year",
+      "id": "01-0046"
+    },
+    {
+      "text": "Поход Олега на Константинополь",
+      "dateRaw": "907",
+      "section": "КНЯЗЬ ОЛЕГ",
+      "yearStart": 907,
+      "yearEnd": 907,
+      "precision": "year",
+      "id": "01-0047"
+    },
+    {
+      "text": "Заключение русско-византийского договора",
+      "dateRaw": "911",
+      "section": "КНЯЗЬ ОЛЕГ",
+      "yearStart": 911,
+      "yearEnd": 911,
+      "precision": "year",
+      "id": "01-0048"
+    },
+    {
+      "text": "Смерть князя Олега",
+      "dateRaw": "912",
+      "section": "КНЯЗЬ ОЛЕГ",
+      "yearStart": 912,
+      "yearEnd": 912,
+      "precision": "year",
+      "id": "01-0049"
+    },
+    {
+      "text": "Начало княжения Игоря",
+      "dateRaw": "912",
+      "section": "КНЯЗЬ ИГОРЬ",
+      "yearStart": 912,
+      "yearEnd": 912,
+      "precision": "year",
+      "id": "01-0050"
+    },
+    {
+      "text": "Поход Игоря против древлян",
+      "dateRaw": "X в.",
+      "section": "КНЯЗЬ ИГОРЬ",
+      "yearStart": 901,
+      "yearEnd": 1000,
+      "precision": "century",
+      "century": 10,
+      "id": "01-0051"
+    },
+    {
+      "text": "Первый поход Игоря на Византию",
+      "dateRaw": "941",
+      "section": "КНЯЗЬ ИГОРЬ",
+      "yearStart": 941,
+      "yearEnd": 941,
+      "precision": "year",
+      "id": "01-0052"
+    },
+    {
+      "text": "Второй поход Игоря на Византию",
+      "dateRaw": "944",
+      "section": "КНЯЗЬ ИГОРЬ",
+      "yearStart": 944,
+      "yearEnd": 944,
+      "precision": "year",
+      "id": "01-0053"
+    },
+    {
+      "text": "Заключение нового русско-византийского договора",
+      "dateRaw": "944",
+      "section": "КНЯЗЬ ИГОРЬ",
+      "yearStart": 944,
+      "yearEnd": 944,
+      "precision": "year",
+      "id": "01-0054"
+    },
+    {
+      "text": "Гибель князя Игоря во время сбора дани",
+      "dateRaw": "945",
+      "section": "КНЯЗЬ ИГОРЬ",
+      "yearStart": 945,
+      "yearEnd": 945,
+      "precision": "year",
+      "id": "01-0055"
+    },
+    {
+      "text": "Начало правления княгини Ольги",
+      "dateRaw": "945",
+      "section": "КНЯГИНЯ ОЛЬГА",
+      "yearStart": 945,
+      "yearEnd": 945,
+      "precision": "year",
+      "id": "01-0056"
+    },
+    {
+      "text": "Проведение налоговой реформы",
+      "dateRaw": "946",
+      "section": "КНЯГИНЯ ОЛЬГА",
+      "yearStart": 946,
+      "yearEnd": 946,
+      "precision": "year",
+      "id": "01-0057"
+    },
+    {
+      "text": "Учреждение уроков",
+      "dateRaw": "946",
+      "section": "КНЯГИНЯ ОЛЬГА",
+      "yearStart": 946,
+      "yearEnd": 946,
+      "precision": "year",
+      "id": "01-0058"
+    },
+    {
+      "text": "Учреждение погостов",
+      "dateRaw": "946",
+      "section": "КНЯГИНЯ ОЛЬГА",
+      "yearStart": 946,
+      "yearEnd": 946,
+      "precision": "year",
+      "id": "01-0059"
+    },
+    {
+      "text": "Установление размеров дани",
+      "dateRaw": "946",
+      "section": "КНЯГИНЯ ОЛЬГА",
+      "yearStart": 946,
+      "yearEnd": 946,
+      "precision": "year",
+      "id": "01-0060"
+    },
+    {
+      "text": "Поездка в Константинополь",
+      "dateRaw": "957",
+      "section": "КНЯГИНЯ ОЛЬГА",
+      "yearStart": 957,
+      "yearEnd": 957,
+      "precision": "year",
+      "id": "01-0061"
+    },
+    {
+      "text": "Крещение княгини Ольги",
+      "dateRaw": "957",
+      "section": "КНЯГИНЯ ОЛЬГА",
+      "yearStart": 957,
+      "yearEnd": 957,
+      "precision": "year",
+      "id": "01-0062"
+    },
+    {
+      "text": "Начало самостоятельного правления",
+      "dateRaw": "964",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 964,
+      "yearEnd": 964,
+      "precision": "year",
+      "id": "01-0063"
+    },
+    {
+      "text": "Разгром Волжской Булгарии",
+      "dateRaw": "964",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 964,
+      "yearEnd": 964,
+      "precision": "year",
+      "id": "01-0064"
+    },
+    {
+      "text": "Разгром Хазарского каганата",
+      "dateRaw": "965",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 965,
+      "yearEnd": 965,
+      "precision": "year",
+      "id": "01-0065"
+    },
+    {
+      "text": "Подчинение вятичей",
+      "dateRaw": "966",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 966,
+      "yearEnd": 966,
+      "precision": "year",
+      "id": "01-0066"
+    },
+    {
+      "text": "Первый Балканский поход",
+      "dateRaw": "968",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 968,
+      "yearEnd": 968,
+      "precision": "year",
+      "id": "01-0067"
+    },
+    {
+      "text": "Оборона Киева от печенегов",
+      "dateRaw": "968",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 968,
+      "yearEnd": 968,
+      "precision": "year",
+      "id": "01-0068"
+    },
+    {
+      "text": "Второй Балканский поход",
+      "dateRaw": "969–971",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 969,
+      "yearEnd": 971,
+      "precision": "range",
+      "id": "01-0069"
+    },
+    {
+      "text": "Русско-византийская война",
+      "dateRaw": "970–971",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 970,
+      "yearEnd": 971,
+      "precision": "range",
+      "id": "01-0070"
+    },
+    {
+      "text": "Мир с Византией",
+      "dateRaw": "971",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 971,
+      "yearEnd": 971,
+      "precision": "year",
+      "id": "01-0071"
+    },
+    {
+      "text": "Гибель Святослава на днепровских порогах",
+      "dateRaw": "972",
+      "section": "КНЯЗЬ СВЯТОСЛАВ ИГОРЕВИЧ",
+      "yearStart": 972,
+      "yearEnd": 972,
+      "precision": "year",
+      "id": "01-0072"
+    },
+    {
+      "text": "Начало борьбы сыновей Святослава за власть",
+      "dateRaw": "972",
+      "section": "ПЕРЕХОД К ЭПОХЕ КИЕВСКОЙ РУСИ",
+      "yearStart": 972,
+      "yearEnd": 972,
+      "precision": "year",
+      "id": "01-0073"
+    },
+    {
+      "text": "Установление власти Владимира Святославича",
+      "dateRaw": "980",
+      "section": "ПЕРЕХОД К ЭПОХЕ КИЕВСКОЙ РУСИ",
+      "yearStart": 980,
+      "yearEnd": 980,
+      "precision": "year",
+      "id": "01-0074"
+    }
+  ]
+}
