@@ -1,0 +1,600 @@
+{
+  "module": "10",
+  "title": "ЕКАТЕРИНА II ВНУТРЕННЯЯ ПОЛИТИКА",
+  "events": [
+    {
+      "text": "Дворцовый переворот",
+      "dateRaw": "1762",
+      "section": "ПРИХОД К ВЛАСТИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "10-0001"
+    },
+    {
+      "text": "Начало правления Екатерины II",
+      "dateRaw": "1762",
+      "section": "ПРИХОД К ВЛАСТИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "10-0002"
+    },
+    {
+      "text": "Свержение Петра III",
+      "dateRaw": "1762",
+      "section": "ПРИХОД К ВЛАСТИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "10-0003"
+    },
+    {
+      "text": "Гибель Петра III",
+      "dateRaw": "1762",
+      "section": "ПРИХОД К ВЛАСТИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "10-0004"
+    },
+    {
+      "text": "Начало политики просвещённого абсолютизма",
+      "dateRaw": "1760-е гг.",
+      "section": "ПРИХОД К ВЛАСТИ",
+      "yearStart": 1760,
+      "yearEnd": 1769,
+      "precision": "decade",
+      "decade": 1760,
+      "id": "10-0005"
+    },
+    {
+      "text": "Подтверждение Манифеста о вольности дворянства",
+      "dateRaw": "1762",
+      "section": "ПЕРВЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "10-0006"
+    },
+    {
+      "text": "Реформа Сената",
+      "dateRaw": "1763",
+      "section": "ПЕРВЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1763,
+      "yearEnd": 1763,
+      "precision": "year",
+      "id": "10-0007"
+    },
+    {
+      "text": "Разделение Сената на департаменты",
+      "dateRaw": "1763",
+      "section": "ПЕРВЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1763,
+      "yearEnd": 1763,
+      "precision": "year",
+      "id": "10-0008"
+    },
+    {
+      "text": "Секуляризация церковных земель",
+      "dateRaw": "1764",
+      "section": "ПЕРВЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1764,
+      "yearEnd": 1764,
+      "precision": "year",
+      "id": "10-0009"
+    },
+    {
+      "text": "Ликвидация гетманства на Левобережной Украине",
+      "dateRaw": "1764",
+      "section": "ПЕРВЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1764,
+      "yearEnd": 1764,
+      "precision": "year",
+      "id": "10-0010"
+    },
+    {
+      "text": "Учреждение Малороссийской коллегии",
+      "dateRaw": "1764",
+      "section": "ПЕРВЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1764,
+      "yearEnd": 1764,
+      "precision": "year",
+      "id": "10-0011"
+    },
+    {
+      "text": "Основание Смольного института благородных девиц",
+      "dateRaw": "1764",
+      "section": "ПЕРВЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1764,
+      "yearEnd": 1764,
+      "precision": "year",
+      "id": "10-0012"
+    },
+    {
+      "text": "Учреждение Вольного экономического общества",
+      "dateRaw": "1765",
+      "section": "ПЕРВЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1765,
+      "yearEnd": 1765,
+      "precision": "year",
+      "id": "10-0013"
+    },
+    {
+      "text": "Разрешение помещикам ссылать крепостных на каторгу без суда",
+      "dateRaw": "1765",
+      "section": "ПЕРВЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1765,
+      "yearEnd": 1765,
+      "precision": "year",
+      "id": "10-0014"
+    },
+    {
+      "text": "Публикация «Наказа» Екатерины II",
+      "dateRaw": "1767",
+      "section": "УЛОЖЕННАЯ КОМИССИЯ",
+      "yearStart": 1767,
+      "yearEnd": 1767,
+      "precision": "year",
+      "id": "10-0015"
+    },
+    {
+      "text": "Созыв Уложенной комиссии",
+      "dateRaw": "1767",
+      "section": "УЛОЖЕННАЯ КОМИССИЯ",
+      "yearStart": 1767,
+      "yearEnd": 1767,
+      "precision": "year",
+      "id": "10-0016"
+    },
+    {
+      "text": "Начало работы Уложенной комиссии",
+      "dateRaw": "1767",
+      "section": "УЛОЖЕННАЯ КОМИССИЯ",
+      "yearStart": 1767,
+      "yearEnd": 1767,
+      "precision": "year",
+      "id": "10-0017"
+    },
+    {
+      "text": "Запрет крестьянам подавать жалобы на помещиков",
+      "dateRaw": "1767",
+      "section": "УЛОЖЕННАЯ КОМИССИЯ",
+      "yearStart": 1767,
+      "yearEnd": 1767,
+      "precision": "year",
+      "id": "10-0018"
+    },
+    {
+      "text": "Прекращение деятельности Уложенной комиссии",
+      "dateRaw": "1768",
+      "section": "УЛОЖЕННАЯ КОМИССИЯ",
+      "yearStart": 1768,
+      "yearEnd": 1768,
+      "precision": "year",
+      "id": "10-0019"
+    },
+    {
+      "text": "Учреждение Ассигнационного банка",
+      "dateRaw": "1768",
+      "section": "ФИНАНСЫ И ЭКОНОМИКА",
+      "yearStart": 1768,
+      "yearEnd": 1768,
+      "precision": "year",
+      "id": "10-0020"
+    },
+    {
+      "text": "Начало выпуска ассигнаций",
+      "dateRaw": "1769",
+      "section": "ФИНАНСЫ И ЭКОНОМИКА",
+      "yearStart": 1769,
+      "yearEnd": 1769,
+      "precision": "year",
+      "id": "10-0021"
+    },
+    {
+      "text": "Развитие внутренней торговли",
+      "dateRaw": "вторая половина XVIII в.",
+      "section": "ФИНАНСЫ И ЭКОНОМИКА",
+      "yearStart": 1751,
+      "yearEnd": 1800,
+      "precision": "century-part",
+      "century": 18,
+      "id": "10-0022"
+    },
+    {
+      "text": "Развитие мануфактурного производства",
+      "dateRaw": "вторая половина XVIII в.",
+      "section": "ФИНАНСЫ И ЭКОНОМИКА",
+      "yearStart": 1751,
+      "yearEnd": 1800,
+      "precision": "century-part",
+      "century": 18,
+      "id": "10-0023"
+    },
+    {
+      "text": "Развитие горнозаводской промышленности",
+      "dateRaw": "вторая половина XVIII в.",
+      "section": "ФИНАНСЫ И ЭКОНОМИКА",
+      "yearStart": 1751,
+      "yearEnd": 1800,
+      "precision": "century-part",
+      "century": 18,
+      "id": "10-0024"
+    },
+    {
+      "text": "Развитие предпринимательства",
+      "dateRaw": "вторая половина XVIII в.",
+      "section": "ФИНАНСЫ И ЭКОНОМИКА",
+      "yearStart": 1751,
+      "yearEnd": 1800,
+      "precision": "century-part",
+      "century": 18,
+      "id": "10-0025"
+    },
+    {
+      "text": "Начало восстания Емельяна Пугачёва",
+      "dateRaw": "1773",
+      "section": "КРЕСТЬЯНСКАЯ ВОЙНА",
+      "yearStart": 1773,
+      "yearEnd": 1773,
+      "precision": "year",
+      "id": "10-0026"
+    },
+    {
+      "text": "Манифест Пугачёва",
+      "dateRaw": "1773",
+      "section": "КРЕСТЬЯНСКАЯ ВОЙНА",
+      "yearStart": 1773,
+      "yearEnd": 1773,
+      "precision": "year",
+      "id": "10-0027"
+    },
+    {
+      "text": "Осада Оренбурга",
+      "dateRaw": "1773–1774",
+      "section": "КРЕСТЬЯНСКАЯ ВОЙНА",
+      "yearStart": 1773,
+      "yearEnd": 1774,
+      "precision": "range",
+      "id": "10-0028"
+    },
+    {
+      "text": "Взятие Казани войсками Пугачёва",
+      "dateRaw": "1774",
+      "section": "КРЕСТЬЯНСКАЯ ВОЙНА",
+      "yearStart": 1774,
+      "yearEnd": 1774,
+      "precision": "year",
+      "id": "10-0029"
+    },
+    {
+      "text": "Разгром армии Пугачёва",
+      "dateRaw": "1774",
+      "section": "КРЕСТЬЯНСКАЯ ВОЙНА",
+      "yearStart": 1774,
+      "yearEnd": 1774,
+      "precision": "year",
+      "id": "10-0030"
+    },
+    {
+      "text": "Казнь Емельяна Пугачёва",
+      "dateRaw": "1775",
+      "section": "КРЕСТЬЯНСКАЯ ВОЙНА",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0031"
+    },
+    {
+      "text": "Окончание Крестьянской войны",
+      "dateRaw": "1775",
+      "section": "КРЕСТЬЯНСКАЯ ВОЙНА",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0032"
+    },
+    {
+      "text": "Губернская реформа",
+      "dateRaw": "1775",
+      "section": "РЕФОРМЫ ПОСЛЕ ВОССТАНИЯ",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0033"
+    },
+    {
+      "text": "Принятие «Учреждения для управления губерний»",
+      "dateRaw": "1775",
+      "section": "РЕФОРМЫ ПОСЛЕ ВОССТАНИЯ",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0034"
+    },
+    {
+      "text": "Увеличение числа губерний",
+      "dateRaw": "1775",
+      "section": "РЕФОРМЫ ПОСЛЕ ВОССТАНИЯ",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0035"
+    },
+    {
+      "text": "Ликвидация Запорожской Сечи",
+      "dateRaw": "1775",
+      "section": "РЕФОРМЫ ПОСЛЕ ВОССТАНИЯ",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0036"
+    },
+    {
+      "text": "Манифест о свободе предпринимательства",
+      "dateRaw": "1775",
+      "section": "РЕФОРМЫ ПОСЛЕ ВОССТАНИЯ",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0037"
+    },
+    {
+      "text": "Городская реформа (подготовительный этап)",
+      "dateRaw": "вторая половина 1770-х гг.",
+      "section": "РЕФОРМЫ ПОСЛЕ ВОССТАНИЯ",
+      "yearStart": 1775,
+      "yearEnd": 1779,
+      "precision": "decade-part",
+      "decade": 1770,
+      "id": "10-0038"
+    },
+    {
+      "text": "Чумной бунт в Москве",
+      "dateRaw": "1771",
+      "section": "ПОЛИЦЕЙСКАЯ И СОЦИАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": 1771,
+      "yearEnd": 1771,
+      "precision": "year",
+      "id": "10-0039"
+    },
+    {
+      "text": "Учреждение Приказов общественного призрения",
+      "dateRaw": "1775",
+      "section": "ПОЛИЦЕЙСКАЯ И СОЦИАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0040"
+    },
+    {
+      "text": "Создание губернских судов нового типа",
+      "dateRaw": "1775",
+      "section": "ПОЛИЦЕЙСКАЯ И СОЦИАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0041"
+    },
+    {
+      "text": "Создание совестных судов",
+      "dateRaw": "1775",
+      "section": "ПОЛИЦЕЙСКАЯ И СОЦИАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": 1775,
+      "yearEnd": 1775,
+      "precision": "year",
+      "id": "10-0042"
+    },
+    {
+      "text": "Учреждение управ благочиния (подготовка реформы)",
+      "dateRaw": "конец 1770-х гг.",
+      "section": "ПОЛИЦЕЙСКАЯ И СОЦИАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": 1776,
+      "yearEnd": 1779,
+      "precision": "decade-part",
+      "decade": 1770,
+      "id": "10-0043"
+    },
+    {
+      "text": "Устав благочиния",
+      "dateRaw": "1782",
+      "section": "РЕФОРМЫ 1780-х ГОДОВ",
+      "yearStart": 1782,
+      "yearEnd": 1782,
+      "precision": "year",
+      "id": "10-0044"
+    },
+    {
+      "text": "Присоединение Крыма к Российской империи",
+      "dateRaw": "1783",
+      "section": "РЕФОРМЫ 1780-х ГОДОВ",
+      "yearStart": 1783,
+      "yearEnd": 1783,
+      "precision": "year",
+      "id": "10-0045"
+    },
+    {
+      "text": "Введение крепостного права на Левобережной Украине",
+      "dateRaw": "1783",
+      "section": "РЕФОРМЫ 1780-х ГОДОВ",
+      "yearStart": 1783,
+      "yearEnd": 1783,
+      "precision": "year",
+      "id": "10-0046"
+    },
+    {
+      "text": "Жалованная грамота дворянству",
+      "dateRaw": "1785",
+      "section": "РЕФОРМЫ 1780-х ГОДОВ",
+      "yearStart": 1785,
+      "yearEnd": 1785,
+      "precision": "year",
+      "id": "10-0047"
+    },
+    {
+      "text": "Жалованная грамота городам",
+      "dateRaw": "1785",
+      "section": "РЕФОРМЫ 1780-х ГОДОВ",
+      "yearStart": 1785,
+      "yearEnd": 1785,
+      "precision": "year",
+      "id": "10-0048"
+    },
+    {
+      "text": "Оформление дворянского самоуправления",
+      "dateRaw": "1785",
+      "section": "РЕФОРМЫ 1780-х ГОДОВ",
+      "yearStart": 1785,
+      "yearEnd": 1785,
+      "precision": "year",
+      "id": "10-0049"
+    },
+    {
+      "text": "Школьная реформа",
+      "dateRaw": "1786",
+      "section": "РЕФОРМЫ 1780-х ГОДОВ",
+      "yearStart": 1786,
+      "yearEnd": 1786,
+      "precision": "year",
+      "id": "10-0050"
+    },
+    {
+      "text": "Учреждение сети народных училищ",
+      "dateRaw": "1786",
+      "section": "РЕФОРМЫ 1780-х ГОДОВ",
+      "yearStart": 1786,
+      "yearEnd": 1786,
+      "precision": "year",
+      "id": "10-0051"
+    },
+    {
+      "text": "Начало борьбы с влиянием Французской революции",
+      "dateRaw": "1789",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1789,
+      "yearEnd": 1789,
+      "precision": "year",
+      "id": "10-0052"
+    },
+    {
+      "text": "Арест А. Н. Радищева",
+      "dateRaw": "1790",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1790,
+      "yearEnd": 1790,
+      "precision": "year",
+      "id": "10-0053"
+    },
+    {
+      "text": "Ссылка А. Н. Радищева",
+      "dateRaw": "1790",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1790,
+      "yearEnd": 1790,
+      "precision": "year",
+      "id": "10-0054"
+    },
+    {
+      "text": "Арест Н. И. Новикова",
+      "dateRaw": "1792",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1792,
+      "yearEnd": 1792,
+      "precision": "year",
+      "id": "10-0055"
+    },
+    {
+      "text": "Третий раздел Речи Посполитой",
+      "dateRaw": "1795",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1795,
+      "yearEnd": 1795,
+      "precision": "year",
+      "id": "10-0056"
+    },
+    {
+      "text": "Смерть Екатерины II",
+      "dateRaw": "1796",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1796,
+      "yearEnd": 1796,
+      "precision": "year",
+      "id": "10-0057"
+    },
+    {
+      "text": "Начало правления Павла I",
+      "dateRaw": "1796",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1796,
+      "yearEnd": 1796,
+      "precision": "year",
+      "id": "10-0058"
+    },
+    {
+      "text": "Основание Смольного института",
+      "dateRaw": "1764",
+      "section": "КУЛЬТУРА И ОБРАЗОВАНИЕ",
+      "yearStart": 1764,
+      "yearEnd": 1764,
+      "precision": "year",
+      "id": "10-0059"
+    },
+    {
+      "text": "Основание Вольного экономического общества",
+      "dateRaw": "1765",
+      "section": "КУЛЬТУРА И ОБРАЗОВАНИЕ",
+      "yearStart": 1765,
+      "yearEnd": 1765,
+      "precision": "year",
+      "id": "10-0060"
+    },
+    {
+      "text": "Учреждение Российской академии",
+      "dateRaw": "1783",
+      "section": "КУЛЬТУРА И ОБРАЗОВАНИЕ",
+      "yearStart": 1783,
+      "yearEnd": 1783,
+      "precision": "year",
+      "id": "10-0061"
+    },
+    {
+      "text": "Развитие классицизма",
+      "dateRaw": "вторая половина XVIII в.",
+      "section": "КУЛЬТУРА И ОБРАЗОВАНИЕ",
+      "yearStart": 1751,
+      "yearEnd": 1800,
+      "precision": "century-part",
+      "century": 18,
+      "id": "10-0062"
+    },
+    {
+      "text": "Развитие русского Просвещения",
+      "dateRaw": "вторая половина XVIII в.",
+      "section": "КУЛЬТУРА И ОБРАЗОВАНИЕ",
+      "yearStart": 1751,
+      "yearEnd": 1800,
+      "precision": "century-part",
+      "century": 18,
+      "id": "10-0063"
+    },
+    {
+      "text": "Ликвидация гетманства",
+      "dateRaw": "1764",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1764,
+      "yearEnd": 1764,
+      "precision": "year",
+      "id": "10-0064"
+    },
+    {
+      "text": "Крестьянская война под предводительством Е. И. Пугачёва",
+      "dateRaw": "1773–1775",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1773,
+      "yearEnd": 1775,
+      "precision": "range",
+      "id": "10-0065"
+    }
+  ]
+}
