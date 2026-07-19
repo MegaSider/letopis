@@ -1,0 +1,492 @@
+{
+  "module": "23",
+  "title": "НОВАЯ ЭКОНОМИЧЕСКАЯ ПОЛИТИКА И ОБРАЗОВАНИЕ СССР",
+  "events": [
+    {
+      "text": "X съезд РКП(б)",
+      "dateRaw": "1921",
+      "section": "ПЕРЕХОД К НЭПУ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0001"
+    },
+    {
+      "text": "Принятие решения о переходе к новой экономической политике (НЭП)",
+      "dateRaw": "1921",
+      "section": "ПЕРЕХОД К НЭПУ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0002"
+    },
+    {
+      "text": "Отмена продовольственной развёрстки",
+      "dateRaw": "1921",
+      "section": "ПЕРЕХОД К НЭПУ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0003"
+    },
+    {
+      "text": "Введение продовольственного налога (продналога)",
+      "dateRaw": "1921",
+      "section": "ПЕРЕХОД К НЭПУ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0004"
+    },
+    {
+      "text": "Разрешение свободной торговли",
+      "dateRaw": "1921",
+      "section": "ПЕРЕХОД К НЭПУ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0005"
+    },
+    {
+      "text": "Начало новой экономической политики",
+      "dateRaw": "1921",
+      "section": "ПЕРЕХОД К НЭПУ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0006"
+    },
+    {
+      "text": "Запрет фракций в РКП(б)",
+      "dateRaw": "1921",
+      "section": "ПЕРЕХОД К НЭПУ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0007"
+    },
+    {
+      "text": "Разрешение аренды мелких предприятий",
+      "dateRaw": "1921",
+      "section": "ВОССТАНОВЛЕНИЕ ЭКОНОМИКИ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0008"
+    },
+    {
+      "text": "Разрешение использования наёмного труда в отдельных сферах",
+      "dateRaw": "1921",
+      "section": "ВОССТАНОВЛЕНИЕ ЭКОНОМИКИ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0009"
+    },
+    {
+      "text": "Создание государственных трестов",
+      "dateRaw": "1921",
+      "section": "ВОССТАНОВЛЕНИЕ ЭКОНОМИКИ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0010"
+    },
+    {
+      "text": "Создание синдикатов",
+      "dateRaw": "1922",
+      "section": "ВОССТАНОВЛЕНИЕ ЭКОНОМИКИ",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0011"
+    },
+    {
+      "text": "Начало восстановления промышленности",
+      "dateRaw": "1921–1925",
+      "section": "ВОССТАНОВЛЕНИЕ ЭКОНОМИКИ",
+      "yearStart": 1921,
+      "yearEnd": 1925,
+      "precision": "range",
+      "id": "23-0012"
+    },
+    {
+      "text": "Начало восстановления сельского хозяйства",
+      "dateRaw": "1921–1925",
+      "section": "ВОССТАНОВЛЕНИЕ ЭКОНОМИКИ",
+      "yearStart": 1921,
+      "yearEnd": 1925,
+      "precision": "range",
+      "id": "23-0013"
+    },
+    {
+      "text": "Начало денежной реформы Г. Я. Сокольникова",
+      "dateRaw": "1922",
+      "section": "ФИНАНСОВАЯ РЕФОРМА",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0014"
+    },
+    {
+      "text": "Выпуск советского червонца",
+      "dateRaw": "1922",
+      "section": "ФИНАНСОВАЯ РЕФОРМА",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0015"
+    },
+    {
+      "text": "Завершение денежной реформы",
+      "dateRaw": "1924",
+      "section": "ФИНАНСОВАЯ РЕФОРМА",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0016"
+    },
+    {
+      "text": "Стабилизация денежного обращения",
+      "dateRaw": "1924",
+      "section": "ФИНАНСОВАЯ РЕФОРМА",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0017"
+    },
+    {
+      "text": "Договор об образовании СССР",
+      "dateRaw": "1922",
+      "section": "ОБРАЗОВАНИЕ СССР",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0018"
+    },
+    {
+      "text": "I Всесоюзный съезд Советов",
+      "dateRaw": "1922",
+      "section": "ОБРАЗОВАНИЕ СССР",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0019"
+    },
+    {
+      "text": "Образование Союза Советских Социалистических Республик (СССР)",
+      "dateRaw": "1922",
+      "section": "ОБРАЗОВАНИЕ СССР",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0020"
+    },
+    {
+      "text": "Вхождение РСФСР, УССР, БССР и ЗСФСР в состав СССР",
+      "dateRaw": "1922",
+      "section": "ОБРАЗОВАНИЕ СССР",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0021"
+    },
+    {
+      "text": "Принятие Конституции СССР",
+      "dateRaw": "1924",
+      "section": "ПЕРВАЯ КОНСТИТУЦИЯ СССР",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0022"
+    },
+    {
+      "text": "II Всесоюзный съезд Советов",
+      "dateRaw": "1924",
+      "section": "ПЕРВАЯ КОНСТИТУЦИЯ СССР",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0023"
+    },
+    {
+      "text": "Окончательное оформление союзного государства",
+      "dateRaw": "1924",
+      "section": "ПЕРВАЯ КОНСТИТУЦИЯ СССР",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0024"
+    },
+    {
+      "text": "Болезнь В. И. Ленина",
+      "dateRaw": "1922",
+      "section": "ВНУТРИПАРТИЙНАЯ БОРЬБА",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0025"
+    },
+    {
+      "text": "«Письмо к съезду» В. И. Ленина",
+      "dateRaw": "1922–1923",
+      "section": "ВНУТРИПАРТИЙНАЯ БОРЬБА",
+      "yearStart": 1922,
+      "yearEnd": 1923,
+      "precision": "range",
+      "id": "23-0026"
+    },
+    {
+      "text": "Смерть В. И. Ленина",
+      "dateRaw": "1924",
+      "section": "ВНУТРИПАРТИЙНАЯ БОРЬБА",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0027"
+    },
+    {
+      "text": "Начало борьбы за власть в партии",
+      "dateRaw": "1924",
+      "section": "ВНУТРИПАРТИЙНАЯ БОРЬБА",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0028"
+    },
+    {
+      "text": "Разгром «левой оппозиции»",
+      "dateRaw": "1927",
+      "section": "ВНУТРИПАРТИЙНАЯ БОРЬБА",
+      "yearStart": 1927,
+      "yearEnd": 1927,
+      "precision": "year",
+      "id": "23-0029"
+    },
+    {
+      "text": "Исключение Л. Д. Троцкого из партии",
+      "dateRaw": "1927",
+      "section": "ВНУТРИПАРТИЙНАЯ БОРЬБА",
+      "yearStart": 1927,
+      "yearEnd": 1927,
+      "precision": "year",
+      "id": "23-0030"
+    },
+    {
+      "text": "Высылка Л. Д. Троцкого из СССР",
+      "dateRaw": "1929",
+      "section": "ВНУТРИПАРТИЙНАЯ БОРЬБА",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "precision": "year",
+      "id": "23-0031"
+    },
+    {
+      "text": "Генуэзская конференция",
+      "dateRaw": "1922",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0032"
+    },
+    {
+      "text": "Подписание Рапалльского договора с Германией",
+      "dateRaw": "1922",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0033"
+    },
+    {
+      "text": "Установление дипломатических отношений СССР с Великобританией",
+      "dateRaw": "1924",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0034"
+    },
+    {
+      "text": "Установление дипломатических отношений СССР с Францией",
+      "dateRaw": "1924",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0035"
+    },
+    {
+      "text": "Признание СССР рядом европейских государств",
+      "dateRaw": "1924–1925",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1924,
+      "yearEnd": 1925,
+      "precision": "range",
+      "id": "23-0036"
+    },
+    {
+      "text": "Начало кампании по ликвидации неграмотности",
+      "dateRaw": "1920-е гг.",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "23-0037"
+    },
+    {
+      "text": "Образование Всесоюзной пионерской организации",
+      "dateRaw": "1922",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0038"
+    },
+    {
+      "text": "Создание СССР как единого союзного государства",
+      "dateRaw": "1922",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0039"
+    },
+    {
+      "text": "Начало политики коренизации",
+      "dateRaw": "1920-е гг.",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "23-0040"
+    },
+    {
+      "text": "Хлебозаготовительный кризис",
+      "dateRaw": "1927–1928",
+      "section": "ЗАВЕРШЕНИЕ НЭПА",
+      "yearStart": 1927,
+      "yearEnd": 1928,
+      "precision": "range",
+      "id": "23-0041"
+    },
+    {
+      "text": "Начало свёртывания новой экономической политики",
+      "dateRaw": "1928",
+      "section": "ЗАВЕРШЕНИЕ НЭПА",
+      "yearStart": 1928,
+      "yearEnd": 1928,
+      "precision": "year",
+      "id": "23-0042"
+    },
+    {
+      "text": "Переход к политике форсированной индустриализации",
+      "dateRaw": "1928",
+      "section": "ЗАВЕРШЕНИЕ НЭПА",
+      "yearStart": 1928,
+      "yearEnd": 1928,
+      "precision": "year",
+      "id": "23-0043"
+    },
+    {
+      "text": "Фактическое завершение НЭП",
+      "dateRaw": "1928–1929",
+      "section": "ЗАВЕРШЕНИЕ НЭПА",
+      "yearStart": 1928,
+      "yearEnd": 1929,
+      "precision": "range",
+      "id": "23-0044"
+    },
+    {
+      "text": "Переход к НЭП",
+      "dateRaw": "1921",
+      "section": "ИТОГИ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0045"
+    },
+    {
+      "text": "Продналог",
+      "dateRaw": "1921",
+      "section": "ИТОГИ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0046"
+    },
+    {
+      "text": "Запрет фракций",
+      "dateRaw": "1921",
+      "section": "ИТОГИ",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "23-0047"
+    },
+    {
+      "text": "Образование СССР",
+      "dateRaw": "1922",
+      "section": "ИТОГИ",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0048"
+    },
+    {
+      "text": "Рапалльский договор",
+      "dateRaw": "1922",
+      "section": "ИТОГИ",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "23-0049"
+    },
+    {
+      "text": "Денежная реформа Сокольникова",
+      "dateRaw": "1922–1924",
+      "section": "ИТОГИ",
+      "yearStart": 1922,
+      "yearEnd": 1924,
+      "precision": "range",
+      "id": "23-0050"
+    },
+    {
+      "text": "Конституция СССР",
+      "dateRaw": "1924",
+      "section": "ИТОГИ",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0051"
+    },
+    {
+      "text": "Смерть Ленина",
+      "dateRaw": "1924",
+      "section": "ИТОГИ",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "precision": "year",
+      "id": "23-0052"
+    },
+    {
+      "text": "Разгром левой оппозиции",
+      "dateRaw": "1927",
+      "section": "ИТОГИ",
+      "yearStart": 1927,
+      "yearEnd": 1927,
+      "precision": "year",
+      "id": "23-0053"
+    },
+    {
+      "text": "Начало свёртывания НЭП",
+      "dateRaw": "1928",
+      "section": "ИТОГИ",
+      "yearStart": 1928,
+      "yearEnd": 1928,
+      "precision": "year",
+      "id": "23-0054"
+    }
+  ]
+}
