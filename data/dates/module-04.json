@@ -1,0 +1,847 @@
+{
+  "module": "04",
+  "title": "ВОЗВЫШЕНИЕ МОСКВЫ И ОБЪЕДИНЕНИЕ РУССКИХ ЗЕМЕЛЬ",
+  "events": [
+    {
+      "text": "Начало княжения Даниила Александровича в Москве",
+      "dateRaw": "1276",
+      "section": "ДАНИИЛ МОСКОВСКИЙ",
+      "yearStart": 1276,
+      "yearEnd": 1276,
+      "precision": "year",
+      "id": "04-0001"
+    },
+    {
+      "text": "Присоединение Коломны к Московскому княжеству",
+      "dateRaw": "1301",
+      "section": "ДАНИИЛ МОСКОВСКИЙ",
+      "yearStart": 1301,
+      "yearEnd": 1301,
+      "precision": "year",
+      "id": "04-0002"
+    },
+    {
+      "text": "Присоединение Переяславля-Залесского",
+      "dateRaw": "1302",
+      "section": "ДАНИИЛ МОСКОВСКИЙ",
+      "yearStart": 1302,
+      "yearEnd": 1302,
+      "precision": "year",
+      "id": "04-0003"
+    },
+    {
+      "text": "Смерть Даниила Московского",
+      "dateRaw": "1303",
+      "section": "ДАНИИЛ МОСКОВСКИЙ",
+      "yearStart": 1303,
+      "yearEnd": 1303,
+      "precision": "year",
+      "id": "04-0004"
+    },
+    {
+      "text": "Начало княжения Юрия Даниловича",
+      "dateRaw": "1303",
+      "section": "ЮРИЙ ДАНИЛОВИЧ",
+      "yearStart": 1303,
+      "yearEnd": 1303,
+      "precision": "year",
+      "id": "04-0005"
+    },
+    {
+      "text": "Борьба с Михаилом Тверским за великое княжение",
+      "dateRaw": "1304–1318",
+      "section": "ЮРИЙ ДАНИЛОВИЧ",
+      "yearStart": 1304,
+      "yearEnd": 1318,
+      "precision": "range",
+      "id": "04-0006"
+    },
+    {
+      "text": "Получение ярлыка на великое княжение",
+      "dateRaw": "1318",
+      "section": "ЮРИЙ ДАНИЛОВИЧ",
+      "yearStart": 1318,
+      "yearEnd": 1318,
+      "precision": "year",
+      "id": "04-0007"
+    },
+    {
+      "text": "Брак Юрия Даниловича с Кончакой",
+      "dateRaw": "1317",
+      "section": "ЮРИЙ ДАНИЛОВИЧ",
+      "yearStart": 1317,
+      "yearEnd": 1317,
+      "precision": "year",
+      "id": "04-0008"
+    },
+    {
+      "text": "Битва при Бортеневе",
+      "dateRaw": "1317",
+      "section": "ЮРИЙ ДАНИЛОВИЧ",
+      "yearStart": 1317,
+      "yearEnd": 1317,
+      "precision": "year",
+      "id": "04-0009"
+    },
+    {
+      "text": "Казнь Михаила Тверского в Орде",
+      "dateRaw": "1318",
+      "section": "ЮРИЙ ДАНИЛОВИЧ",
+      "yearStart": 1318,
+      "yearEnd": 1318,
+      "precision": "year",
+      "id": "04-0010"
+    },
+    {
+      "text": "Гибель Юрия Даниловича в Орде",
+      "dateRaw": "1325",
+      "section": "ЮРИЙ ДАНИЛОВИЧ",
+      "yearStart": 1325,
+      "yearEnd": 1325,
+      "precision": "year",
+      "id": "04-0011"
+    },
+    {
+      "text": "Начало княжения Ивана Калиты",
+      "dateRaw": "1325",
+      "section": "ИВАН I КАЛИТА",
+      "yearStart": 1325,
+      "yearEnd": 1325,
+      "precision": "year",
+      "id": "04-0012"
+    },
+    {
+      "text": "Перенос митрополичьей кафедры в Москву",
+      "dateRaw": "1325",
+      "section": "ИВАН I КАЛИТА",
+      "yearStart": 1325,
+      "yearEnd": 1325,
+      "precision": "year",
+      "id": "04-0013"
+    },
+    {
+      "text": "Подавление Тверского восстания",
+      "dateRaw": "1327",
+      "section": "ИВАН I КАЛИТА",
+      "yearStart": 1327,
+      "yearEnd": 1327,
+      "precision": "year",
+      "id": "04-0014"
+    },
+    {
+      "text": "Получение ярлыка на великое княжение Владимирское",
+      "dateRaw": "1328",
+      "section": "ИВАН I КАЛИТА",
+      "yearStart": 1328,
+      "yearEnd": 1328,
+      "precision": "year",
+      "id": "04-0015"
+    },
+    {
+      "text": "Начало длительного периода усиления Москвы",
+      "dateRaw": "XIV в.",
+      "section": "ИВАН I КАЛИТА",
+      "yearStart": 1301,
+      "yearEnd": 1400,
+      "precision": "century",
+      "century": 14,
+      "id": "04-0016"
+    },
+    {
+      "text": "Расширение территории Московского княжества",
+      "dateRaw": "1328–1340",
+      "section": "ИВАН I КАЛИТА",
+      "yearStart": 1328,
+      "yearEnd": 1340,
+      "precision": "range",
+      "id": "04-0017"
+    },
+    {
+      "text": "Смерть Ивана Калиты",
+      "dateRaw": "1340",
+      "section": "ИВАН I КАЛИТА",
+      "yearStart": 1340,
+      "yearEnd": 1340,
+      "precision": "year",
+      "id": "04-0018"
+    },
+    {
+      "text": "Начало княжения Семёна Гордого",
+      "dateRaw": "1340",
+      "section": "СЕМЁН ГОРДЫЙ И ИВАН II КРАСНЫЙ",
+      "yearStart": 1340,
+      "yearEnd": 1340,
+      "precision": "year",
+      "id": "04-0019"
+    },
+    {
+      "text": "Получение ярлыка на великое княжение Семёном Гордым",
+      "dateRaw": "1341",
+      "section": "СЕМЁН ГОРДЫЙ И ИВАН II КРАСНЫЙ",
+      "yearStart": 1341,
+      "yearEnd": 1341,
+      "precision": "year",
+      "id": "04-0020"
+    },
+    {
+      "text": "Смерть Семёна Гордого во время эпидемии чумы",
+      "dateRaw": "1353",
+      "section": "СЕМЁН ГОРДЫЙ И ИВАН II КРАСНЫЙ",
+      "yearStart": 1353,
+      "yearEnd": 1353,
+      "precision": "year",
+      "id": "04-0021"
+    },
+    {
+      "text": "Начало княжения Ивана II Красного",
+      "dateRaw": "1353",
+      "section": "СЕМЁН ГОРДЫЙ И ИВАН II КРАСНЫЙ",
+      "yearStart": 1353,
+      "yearEnd": 1353,
+      "precision": "year",
+      "id": "04-0022"
+    },
+    {
+      "text": "Смерть Ивана II Красного",
+      "dateRaw": "1359",
+      "section": "СЕМЁН ГОРДЫЙ И ИВАН II КРАСНЫЙ",
+      "yearStart": 1359,
+      "yearEnd": 1359,
+      "precision": "year",
+      "id": "04-0023"
+    },
+    {
+      "text": "Начало княжения Дмитрия Ивановича",
+      "dateRaw": "1359",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1359,
+      "yearEnd": 1359,
+      "precision": "year",
+      "id": "04-0024"
+    },
+    {
+      "text": "Начало правления митрополита Алексия при малолетнем князе",
+      "dateRaw": "1359",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1359,
+      "yearEnd": 1359,
+      "precision": "year",
+      "id": "04-0025"
+    },
+    {
+      "text": "Строительство белокаменного Московского Кремля",
+      "dateRaw": "1367",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1367,
+      "yearEnd": 1367,
+      "precision": "year",
+      "id": "04-0026"
+    },
+    {
+      "text": "Война с Тверским княжеством",
+      "dateRaw": "1368–1375",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1368,
+      "yearEnd": 1375,
+      "precision": "range",
+      "id": "04-0027"
+    },
+    {
+      "text": "Первый поход литовского князя Ольгерда на Москву",
+      "dateRaw": "1368",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1368,
+      "yearEnd": 1368,
+      "precision": "year",
+      "id": "04-0028"
+    },
+    {
+      "text": "Второй поход Ольгерда на Москву",
+      "dateRaw": "1370",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1370,
+      "yearEnd": 1370,
+      "precision": "year",
+      "id": "04-0029"
+    },
+    {
+      "text": "Третий поход Ольгерда на Москву",
+      "dateRaw": "1372",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1372,
+      "yearEnd": 1372,
+      "precision": "year",
+      "id": "04-0030"
+    },
+    {
+      "text": "Заключение Любутского мира",
+      "dateRaw": "1372",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1372,
+      "yearEnd": 1372,
+      "precision": "year",
+      "id": "04-0031"
+    },
+    {
+      "text": "Признание Дмитрия Донского старшим князем Тверью",
+      "dateRaw": "1375",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1375,
+      "yearEnd": 1375,
+      "precision": "year",
+      "id": "04-0032"
+    },
+    {
+      "text": "Битва на реке Воже",
+      "dateRaw": "1378",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1378,
+      "yearEnd": 1378,
+      "precision": "year",
+      "id": "04-0033"
+    },
+    {
+      "text": "Поход Мамая на Русь",
+      "dateRaw": "1380",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1380,
+      "yearEnd": 1380,
+      "precision": "year",
+      "id": "04-0034"
+    },
+    {
+      "text": "Куликовская битва",
+      "dateRaw": "1380",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1380,
+      "yearEnd": 1380,
+      "precision": "year",
+      "id": "04-0035"
+    },
+    {
+      "text": "Разгром войск Мамая",
+      "dateRaw": "1380",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1380,
+      "yearEnd": 1380,
+      "precision": "year",
+      "id": "04-0036"
+    },
+    {
+      "text": "Нашествие хана Тохтамыша",
+      "dateRaw": "1382",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1382,
+      "yearEnd": 1382,
+      "precision": "year",
+      "id": "04-0037"
+    },
+    {
+      "text": "Разорение Москвы Тохтамышем",
+      "dateRaw": "1382",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1382,
+      "yearEnd": 1382,
+      "precision": "year",
+      "id": "04-0038"
+    },
+    {
+      "text": "Получение ярлыка Дмитрием Донским после нашествия",
+      "dateRaw": "1383",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1383,
+      "yearEnd": 1383,
+      "precision": "year",
+      "id": "04-0039"
+    },
+    {
+      "text": "Передача великого княжения по наследству сыну Василию без санкции Орды",
+      "dateRaw": "1389",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1389,
+      "yearEnd": 1389,
+      "precision": "year",
+      "id": "04-0040"
+    },
+    {
+      "text": "Смерть Дмитрия Донского",
+      "dateRaw": "1389",
+      "section": "ДМИТРИЙ ДОНСКОЙ",
+      "yearStart": 1389,
+      "yearEnd": 1389,
+      "precision": "year",
+      "id": "04-0041"
+    },
+    {
+      "text": "Начало княжения Василия I",
+      "dateRaw": "1389",
+      "section": "ВАСИЛИЙ I",
+      "yearStart": 1389,
+      "yearEnd": 1389,
+      "precision": "year",
+      "id": "04-0042"
+    },
+    {
+      "text": "Присоединение Нижегородско-Суздальского княжества",
+      "dateRaw": "1392",
+      "section": "ВАСИЛИЙ I",
+      "yearStart": 1392,
+      "yearEnd": 1392,
+      "precision": "year",
+      "id": "04-0043"
+    },
+    {
+      "text": "Поход Тимура к границам Руси",
+      "dateRaw": "1395",
+      "section": "ВАСИЛИЙ I",
+      "yearStart": 1395,
+      "yearEnd": 1395,
+      "precision": "year",
+      "id": "04-0044"
+    },
+    {
+      "text": "Отступление войск Тимура",
+      "dateRaw": "1395",
+      "section": "ВАСИЛИЙ I",
+      "yearStart": 1395,
+      "yearEnd": 1395,
+      "precision": "year",
+      "id": "04-0045"
+    },
+    {
+      "text": "Война с Великим княжеством Литовским",
+      "dateRaw": "начало XV в.",
+      "section": "ВАСИЛИЙ I",
+      "yearStart": 1401,
+      "yearEnd": 1425,
+      "precision": "century-part",
+      "century": 15,
+      "id": "04-0046"
+    },
+    {
+      "text": "Нашествие Едигея",
+      "dateRaw": "1408",
+      "section": "ВАСИЛИЙ I",
+      "yearStart": 1408,
+      "yearEnd": 1408,
+      "precision": "year",
+      "id": "04-0047"
+    },
+    {
+      "text": "Осада Москвы Едигеем",
+      "dateRaw": "1408",
+      "section": "ВАСИЛИЙ I",
+      "yearStart": 1408,
+      "yearEnd": 1408,
+      "precision": "year",
+      "id": "04-0048"
+    },
+    {
+      "text": "Смерть Василия I",
+      "dateRaw": "1425",
+      "section": "ВАСИЛИЙ I",
+      "yearStart": 1425,
+      "yearEnd": 1425,
+      "precision": "year",
+      "id": "04-0049"
+    },
+    {
+      "text": "Начало междоусобной войны",
+      "dateRaw": "1425",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1425,
+      "yearEnd": 1425,
+      "precision": "year",
+      "id": "04-0050"
+    },
+    {
+      "text": "Начало княжения Василия II",
+      "dateRaw": "1425",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1425,
+      "yearEnd": 1425,
+      "precision": "year",
+      "id": "04-0051"
+    },
+    {
+      "text": "Борьба Василия II с Юрием Звенигородским",
+      "dateRaw": "1430-е гг.",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1430,
+      "yearEnd": 1439,
+      "precision": "decade",
+      "decade": 1430,
+      "id": "04-0052"
+    },
+    {
+      "text": "Захват Москвы Юрием Дмитриевичем",
+      "dateRaw": "1433",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1433,
+      "yearEnd": 1433,
+      "precision": "year",
+      "id": "04-0053"
+    },
+    {
+      "text": "Правление Юрия Дмитриевича в Москве",
+      "dateRaw": "1433",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1433,
+      "yearEnd": 1433,
+      "precision": "year",
+      "id": "04-0054"
+    },
+    {
+      "text": "Смерть Юрия Дмитриевича",
+      "dateRaw": "1434",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1434,
+      "yearEnd": 1434,
+      "precision": "year",
+      "id": "04-0055"
+    },
+    {
+      "text": "Борьба с Василием Косым",
+      "dateRaw": "1434–1436",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1434,
+      "yearEnd": 1436,
+      "precision": "range",
+      "id": "04-0056"
+    },
+    {
+      "text": "Ослепление Василия Косого",
+      "dateRaw": "1436",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1436,
+      "yearEnd": 1436,
+      "precision": "year",
+      "id": "04-0057"
+    },
+    {
+      "text": "Борьба с Дмитрием Шемякой",
+      "dateRaw": "1440-е гг.",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1440,
+      "yearEnd": 1449,
+      "precision": "decade",
+      "decade": 1440,
+      "id": "04-0058"
+    },
+    {
+      "text": "Пленение Василия II татарами под Суздалем",
+      "dateRaw": "1445",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1445,
+      "yearEnd": 1445,
+      "precision": "year",
+      "id": "04-0059"
+    },
+    {
+      "text": "Ослепление Василия II",
+      "dateRaw": "1446",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1446,
+      "yearEnd": 1446,
+      "precision": "year",
+      "id": "04-0060"
+    },
+    {
+      "text": "Возвращение Василия II на престол",
+      "dateRaw": "1447",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1447,
+      "yearEnd": 1447,
+      "precision": "year",
+      "id": "04-0061"
+    },
+    {
+      "text": "Окончание феодальной войны",
+      "dateRaw": "1453",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1453,
+      "yearEnd": 1453,
+      "precision": "year",
+      "id": "04-0062"
+    },
+    {
+      "text": "Смерть Дмитрия Шемяки",
+      "dateRaw": "1453",
+      "section": "ФЕОДАЛЬНАЯ ВОЙНА",
+      "yearStart": 1453,
+      "yearEnd": 1453,
+      "precision": "year",
+      "id": "04-0063"
+    },
+    {
+      "text": "Избрание митрополита Ионы без согласия Константинополя",
+      "dateRaw": "1448",
+      "section": "РУССКАЯ ПРАВОСЛАВНАЯ ЦЕРКОВЬ",
+      "yearStart": 1448,
+      "yearEnd": 1448,
+      "precision": "year",
+      "id": "04-0064"
+    },
+    {
+      "text": "Начало фактической самостоятельности Русской православной церкви",
+      "dateRaw": "1448",
+      "section": "РУССКАЯ ПРАВОСЛАВНАЯ ЦЕРКОВЬ",
+      "yearStart": 1448,
+      "yearEnd": 1448,
+      "precision": "year",
+      "id": "04-0065"
+    },
+    {
+      "text": "Падение Константинополя",
+      "dateRaw": "1453",
+      "section": "РУССКАЯ ПРАВОСЛАВНАЯ ЦЕРКОВЬ",
+      "yearStart": 1453,
+      "yearEnd": 1453,
+      "precision": "year",
+      "id": "04-0066"
+    },
+    {
+      "text": "Начало княжения Ивана III",
+      "dateRaw": "1462",
+      "section": "ИВАН III",
+      "yearStart": 1462,
+      "yearEnd": 1462,
+      "precision": "year",
+      "id": "04-0067"
+    },
+    {
+      "text": "Присоединение Ярославского княжества",
+      "dateRaw": "1463",
+      "section": "ИВАН III",
+      "yearStart": 1463,
+      "yearEnd": 1463,
+      "precision": "year",
+      "id": "04-0068"
+    },
+    {
+      "text": "Поход на Новгород",
+      "dateRaw": "1471",
+      "section": "ИВАН III",
+      "yearStart": 1471,
+      "yearEnd": 1471,
+      "precision": "year",
+      "id": "04-0069"
+    },
+    {
+      "text": "Битва на реке Шелони",
+      "dateRaw": "1471",
+      "section": "ИВАН III",
+      "yearStart": 1471,
+      "yearEnd": 1471,
+      "precision": "year",
+      "id": "04-0070"
+    },
+    {
+      "text": "Окончательное присоединение Новгородской земли",
+      "dateRaw": "1478",
+      "section": "ИВАН III",
+      "yearStart": 1478,
+      "yearEnd": 1478,
+      "precision": "year",
+      "id": "04-0071"
+    },
+    {
+      "text": "Ликвидация Новгородской республики",
+      "dateRaw": "1478",
+      "section": "ИВАН III",
+      "yearStart": 1478,
+      "yearEnd": 1478,
+      "precision": "year",
+      "id": "04-0072"
+    },
+    {
+      "text": "Стояние на реке Угре",
+      "dateRaw": "1480",
+      "section": "ИВАН III",
+      "yearStart": 1480,
+      "yearEnd": 1480,
+      "precision": "year",
+      "id": "04-0073"
+    },
+    {
+      "text": "Окончание ордынской зависимости Руси",
+      "dateRaw": "1480",
+      "section": "ИВАН III",
+      "yearStart": 1480,
+      "yearEnd": 1480,
+      "precision": "year",
+      "id": "04-0074"
+    },
+    {
+      "text": "Присоединение Тверского княжества",
+      "dateRaw": "1485",
+      "section": "ИВАН III",
+      "yearStart": 1485,
+      "yearEnd": 1485,
+      "precision": "year",
+      "id": "04-0075"
+    },
+    {
+      "text": "Начало строительства нового Московского Кремля из кирпича",
+      "dateRaw": "1485",
+      "section": "ИВАН III",
+      "yearStart": 1485,
+      "yearEnd": 1485,
+      "precision": "year",
+      "id": "04-0076"
+    },
+    {
+      "text": "Принятие титула «государь всея Руси»",
+      "dateRaw": "конец XV в.",
+      "section": "ИВАН III",
+      "yearStart": 1476,
+      "yearEnd": 1500,
+      "precision": "century-part",
+      "century": 15,
+      "id": "04-0077"
+    },
+    {
+      "text": "Брак Ивана III с Софьей Палеолог",
+      "dateRaw": "1472",
+      "section": "ИВАН III",
+      "yearStart": 1472,
+      "yearEnd": 1472,
+      "precision": "year",
+      "id": "04-0078"
+    },
+    {
+      "text": "Принятие двуглавого орла в государственной символике",
+      "dateRaw": "конец XV в.",
+      "section": "ИВАН III",
+      "yearStart": 1476,
+      "yearEnd": 1500,
+      "precision": "century-part",
+      "century": 15,
+      "id": "04-0079"
+    },
+    {
+      "text": "Издание Судебника Ивана III",
+      "dateRaw": "1497",
+      "section": "ИВАН III",
+      "yearStart": 1497,
+      "yearEnd": 1497,
+      "precision": "year",
+      "id": "04-0080"
+    },
+    {
+      "text": "Введение единого Юрьева дня",
+      "dateRaw": "1497",
+      "section": "ИВАН III",
+      "yearStart": 1497,
+      "yearEnd": 1497,
+      "precision": "year",
+      "id": "04-0081"
+    },
+    {
+      "text": "Начало строительства Грановитой палаты",
+      "dateRaw": "1487",
+      "section": "ИВАН III",
+      "yearStart": 1487,
+      "yearEnd": 1487,
+      "precision": "year",
+      "id": "04-0082"
+    },
+    {
+      "text": "Завершение строительства Грановитой палаты",
+      "dateRaw": "1491",
+      "section": "ИВАН III",
+      "yearStart": 1491,
+      "yearEnd": 1491,
+      "precision": "year",
+      "id": "04-0083"
+    },
+    {
+      "text": "Строительство Успенского собора Московского Кремля",
+      "dateRaw": "1475–1479",
+      "section": "ИВАН III",
+      "yearStart": 1475,
+      "yearEnd": 1479,
+      "precision": "range",
+      "id": "04-0084"
+    },
+    {
+      "text": "Строительство Благовещенского собора Московского Кремля",
+      "dateRaw": "1484–1489",
+      "section": "ИВАН III",
+      "yearStart": 1484,
+      "yearEnd": 1489,
+      "precision": "range",
+      "id": "04-0085"
+    },
+    {
+      "text": "Строительство Архангельского собора Московского Кремля",
+      "dateRaw": "1505–1508",
+      "section": "ИВАН III",
+      "yearStart": 1505,
+      "yearEnd": 1508,
+      "precision": "range",
+      "id": "04-0086"
+    },
+    {
+      "text": "Смерть Ивана III",
+      "dateRaw": "1505",
+      "section": "ИВАН III",
+      "yearStart": 1505,
+      "yearEnd": 1505,
+      "precision": "year",
+      "id": "04-0087"
+    },
+    {
+      "text": "Завершение объединения основных земель вокруг Москвы",
+      "dateRaw": "конец XV – начало XVI вв.",
+      "section": "ОБЪЕДИНЕНИЕ РУССКИХ ЗЕМЕЛЬ",
+      "yearStart": 1476,
+      "yearEnd": 1525,
+      "precision": "century-transition",
+      "centuryStart": 15,
+      "centuryEnd": 16,
+      "id": "04-0088"
+    },
+    {
+      "text": "Формирование единого Русского государства",
+      "dateRaw": "конец XV в.",
+      "section": "ОБЪЕДИНЕНИЕ РУССКИХ ЗЕМЕЛЬ",
+      "yearStart": 1476,
+      "yearEnd": 1500,
+      "precision": "century-part",
+      "century": 15,
+      "id": "04-0089"
+    },
+    {
+      "text": "Начало складывания общерусской системы управления",
+      "dateRaw": "конец XV в.",
+      "section": "ОБЪЕДИНЕНИЕ РУССКИХ ЗЕМЕЛЬ",
+      "yearStart": 1476,
+      "yearEnd": 1500,
+      "precision": "century-part",
+      "century": 15,
+      "id": "04-0090"
+    },
+    {
+      "text": "Усиление великокняжеской власти",
+      "dateRaw": "XV в.",
+      "section": "ОБЪЕДИНЕНИЕ РУССКИХ ЗЕМЕЛЬ",
+      "yearStart": 1401,
+      "yearEnd": 1500,
+      "precision": "century",
+      "century": 15,
+      "id": "04-0091"
+    },
+    {
+      "text": "Формирование приказной системы (предпосылки)",
+      "dateRaw": "конец XV – начало XVI вв.",
+      "section": "ОБЪЕДИНЕНИЕ РУССКИХ ЗЕМЕЛЬ",
+      "yearStart": 1476,
+      "yearEnd": 1525,
+      "precision": "century-transition",
+      "centuryStart": 15,
+      "centuryEnd": 16,
+      "id": "04-0092"
+    }
+  ]
+}
