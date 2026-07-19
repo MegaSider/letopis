@@ -1,0 +1,618 @@
+{
+  "module": "03",
+  "title": "РУССКИЕ ЗЕМЛИ В XII–XIII ВЕКАХ",
+  "events": [
+    {
+      "text": "Смерть Мстислава Великого",
+      "dateRaw": "1132",
+      "section": "НАЧАЛО ПОЛИТИЧЕСКОЙ РАЗДРОБЛЕННОСТИ",
+      "yearStart": 1132,
+      "yearEnd": 1132,
+      "precision": "year",
+      "id": "03-0001"
+    },
+    {
+      "text": "Начало периода политической раздробленности Руси",
+      "dateRaw": "1132",
+      "section": "НАЧАЛО ПОЛИТИЧЕСКОЙ РАЗДРОБЛЕННОСТИ",
+      "yearStart": 1132,
+      "yearEnd": 1132,
+      "precision": "year",
+      "id": "03-0002"
+    },
+    {
+      "text": "Усиление самостоятельности русских княжеств",
+      "dateRaw": "XII в.",
+      "section": "НАЧАЛО ПОЛИТИЧЕСКОЙ РАЗДРОБЛЕННОСТИ",
+      "yearStart": 1101,
+      "yearEnd": 1200,
+      "precision": "century",
+      "century": 12,
+      "id": "03-0003"
+    },
+    {
+      "text": "Рост политического значения местных княжеских династий",
+      "dateRaw": "XII в.",
+      "section": "НАЧАЛО ПОЛИТИЧЕСКОЙ РАЗДРОБЛЕННОСТИ",
+      "yearStart": 1101,
+      "yearEnd": 1200,
+      "precision": "century",
+      "century": 12,
+      "id": "03-0004"
+    },
+    {
+      "text": "Укрепление вечевых традиций в Новгороде",
+      "dateRaw": "XII в.",
+      "section": "НАЧАЛО ПОЛИТИЧЕСКОЙ РАЗДРОБЛЕННОСТИ",
+      "yearStart": 1101,
+      "yearEnd": 1200,
+      "precision": "century",
+      "century": 12,
+      "id": "03-0005"
+    },
+    {
+      "text": "Развитие Владимиро-Суздальского княжества",
+      "dateRaw": "XII–XIII вв.",
+      "section": "ОСНОВНЫЕ КНЯЖЕСТВА РУСИ",
+      "yearStart": 1101,
+      "yearEnd": 1300,
+      "precision": "century-range",
+      "centuryStart": 12,
+      "centuryEnd": 13,
+      "id": "03-0006"
+    },
+    {
+      "text": "Развитие Новгородской земли",
+      "dateRaw": "XII–XIII вв.",
+      "section": "ОСНОВНЫЕ КНЯЖЕСТВА РУСИ",
+      "yearStart": 1101,
+      "yearEnd": 1300,
+      "precision": "century-range",
+      "centuryStart": 12,
+      "centuryEnd": 13,
+      "id": "03-0007"
+    },
+    {
+      "text": "Развитие Галицкого княжества",
+      "dateRaw": "XII–XIII вв.",
+      "section": "ОСНОВНЫЕ КНЯЖЕСТВА РУСИ",
+      "yearStart": 1101,
+      "yearEnd": 1300,
+      "precision": "century-range",
+      "centuryStart": 12,
+      "centuryEnd": 13,
+      "id": "03-0008"
+    },
+    {
+      "text": "Развитие Волынского княжества",
+      "dateRaw": "XII–XIII вв.",
+      "section": "ОСНОВНЫЕ КНЯЖЕСТВА РУСИ",
+      "yearStart": 1101,
+      "yearEnd": 1300,
+      "precision": "century-range",
+      "centuryStart": 12,
+      "centuryEnd": 13,
+      "id": "03-0009"
+    },
+    {
+      "text": "Развитие Черниговского княжества",
+      "dateRaw": "XII–XIII вв.",
+      "section": "ОСНОВНЫЕ КНЯЖЕСТВА РУСИ",
+      "yearStart": 1101,
+      "yearEnd": 1300,
+      "precision": "century-range",
+      "centuryStart": 12,
+      "centuryEnd": 13,
+      "id": "03-0010"
+    },
+    {
+      "text": "Развитие Смоленского княжества",
+      "dateRaw": "XII–XIII вв.",
+      "section": "ОСНОВНЫЕ КНЯЖЕСТВА РУСИ",
+      "yearStart": 1101,
+      "yearEnd": 1300,
+      "precision": "century-range",
+      "centuryStart": 12,
+      "centuryEnd": 13,
+      "id": "03-0011"
+    },
+    {
+      "text": "Развитие Полоцкого княжества",
+      "dateRaw": "XII–XIII вв.",
+      "section": "ОСНОВНЫЕ КНЯЖЕСТВА РУСИ",
+      "yearStart": 1101,
+      "yearEnd": 1300,
+      "precision": "century-range",
+      "centuryStart": 12,
+      "centuryEnd": 13,
+      "id": "03-0012"
+    },
+    {
+      "text": "Образование Галицко-Волынского княжества",
+      "dateRaw": "1199",
+      "section": "ОСНОВНЫЕ КНЯЖЕСТВА РУСИ",
+      "yearStart": 1199,
+      "yearEnd": 1199,
+      "precision": "year",
+      "id": "03-0013"
+    },
+    {
+      "text": "Начало княжения в Ростово-Суздальской земле",
+      "dateRaw": "1125",
+      "section": "ЮРИЙ ДОЛГОРУКИЙ",
+      "yearStart": 1125,
+      "yearEnd": 1125,
+      "precision": "year",
+      "id": "03-0014"
+    },
+    {
+      "text": "Первое летописное упоминание Москвы",
+      "dateRaw": "1147",
+      "section": "ЮРИЙ ДОЛГОРУКИЙ",
+      "yearStart": 1147,
+      "yearEnd": 1147,
+      "precision": "year",
+      "id": "03-0015"
+    },
+    {
+      "text": "Укрепление Москвы как пограничного пункта",
+      "dateRaw": "1156",
+      "section": "ЮРИЙ ДОЛГОРУКИЙ",
+      "yearStart": 1156,
+      "yearEnd": 1156,
+      "precision": "year",
+      "id": "03-0016"
+    },
+    {
+      "text": "Начало великого княжения в Киеве",
+      "dateRaw": "1155",
+      "section": "ЮРИЙ ДОЛГОРУКИЙ",
+      "yearStart": 1155,
+      "yearEnd": 1155,
+      "precision": "year",
+      "id": "03-0017"
+    },
+    {
+      "text": "Смерть Юрия Долгорукого",
+      "dateRaw": "1157",
+      "section": "ЮРИЙ ДОЛГОРУКИЙ",
+      "yearStart": 1157,
+      "yearEnd": 1157,
+      "precision": "year",
+      "id": "03-0018"
+    },
+    {
+      "text": "Начало княжения во Владимиро-Суздальской земле",
+      "dateRaw": "1157",
+      "section": "АНДРЕЙ БОГОЛЮБСКИЙ",
+      "yearStart": 1157,
+      "yearEnd": 1157,
+      "precision": "year",
+      "id": "03-0019"
+    },
+    {
+      "text": "Перенос политического центра во Владимир",
+      "dateRaw": "XII в.",
+      "section": "АНДРЕЙ БОГОЛЮБСКИЙ",
+      "yearStart": 1101,
+      "yearEnd": 1200,
+      "precision": "century",
+      "century": 12,
+      "id": "03-0020"
+    },
+    {
+      "text": "Строительство Успенского собора во Владимире",
+      "dateRaw": "1158–1160",
+      "section": "АНДРЕЙ БОГОЛЮБСКИЙ",
+      "yearStart": 1158,
+      "yearEnd": 1160,
+      "precision": "range",
+      "id": "03-0021"
+    },
+    {
+      "text": "Поход на Киев",
+      "dateRaw": "1169",
+      "section": "АНДРЕЙ БОГОЛЮБСКИЙ",
+      "yearStart": 1169,
+      "yearEnd": 1169,
+      "precision": "year",
+      "id": "03-0022"
+    },
+    {
+      "text": "Взятие Киева войсками Андрея Боголюбского",
+      "dateRaw": "1169",
+      "section": "АНДРЕЙ БОГОЛЮБСКИЙ",
+      "yearStart": 1169,
+      "yearEnd": 1169,
+      "precision": "year",
+      "id": "03-0023"
+    },
+    {
+      "text": "Поход на Новгород",
+      "dateRaw": "1170",
+      "section": "АНДРЕЙ БОГОЛЮБСКИЙ",
+      "yearStart": 1170,
+      "yearEnd": 1170,
+      "precision": "year",
+      "id": "03-0024"
+    },
+    {
+      "text": "Убийство Андрея Боголюбского",
+      "dateRaw": "1174",
+      "section": "АНДРЕЙ БОГОЛЮБСКИЙ",
+      "yearStart": 1174,
+      "yearEnd": 1174,
+      "precision": "year",
+      "id": "03-0025"
+    },
+    {
+      "text": "Начало княжения",
+      "dateRaw": "1176",
+      "section": "ВСЕВОЛОД БОЛЬШОЕ ГНЕЗДО",
+      "yearStart": 1176,
+      "yearEnd": 1176,
+      "precision": "year",
+      "id": "03-0026"
+    },
+    {
+      "text": "Укрепление великокняжеской власти во Владимиро-Суздальской земле",
+      "dateRaw": "конец XII в.",
+      "section": "ВСЕВОЛОД БОЛЬШОЕ ГНЕЗДО",
+      "yearStart": 1176,
+      "yearEnd": 1200,
+      "precision": "century-part",
+      "century": 12,
+      "id": "03-0027"
+    },
+    {
+      "text": "Расширение влияния Владимиро-Суздальского княжества",
+      "dateRaw": "конец XII – начало XIII вв.",
+      "section": "ВСЕВОЛОД БОЛЬШОЕ ГНЕЗДО",
+      "yearStart": 1176,
+      "yearEnd": 1225,
+      "precision": "century-transition",
+      "centuryStart": 12,
+      "centuryEnd": 13,
+      "id": "03-0028"
+    },
+    {
+      "text": "Смерть Всеволода Большое Гнездо",
+      "dateRaw": "1212",
+      "section": "ВСЕВОЛОД БОЛЬШОЕ ГНЕЗДО",
+      "yearStart": 1212,
+      "yearEnd": 1212,
+      "precision": "year",
+      "id": "03-0029"
+    },
+    {
+      "text": "Начало княжения Романа Мстиславича",
+      "dateRaw": "1199",
+      "section": "ГАЛИЦКО-ВОЛЫНСКАЯ РУСЬ",
+      "yearStart": 1199,
+      "yearEnd": 1199,
+      "precision": "year",
+      "id": "03-0030"
+    },
+    {
+      "text": "Начало княжения Даниила Романовича",
+      "dateRaw": "1221",
+      "section": "ГАЛИЦКО-ВОЛЫНСКАЯ РУСЬ",
+      "yearStart": 1221,
+      "yearEnd": 1221,
+      "precision": "year",
+      "id": "03-0031"
+    },
+    {
+      "text": "Разгром тевтонских рыцарей под Дорогочином",
+      "dateRaw": "1238",
+      "section": "ГАЛИЦКО-ВОЛЫНСКАЯ РУСЬ",
+      "yearStart": 1238,
+      "yearEnd": 1238,
+      "precision": "year",
+      "id": "03-0032"
+    },
+    {
+      "text": "Коронация Даниила Романовича",
+      "dateRaw": "1253",
+      "section": "ГАЛИЦКО-ВОЛЫНСКАЯ РУСЬ",
+      "yearStart": 1253,
+      "yearEnd": 1253,
+      "precision": "year",
+      "id": "03-0033"
+    },
+    {
+      "text": "Образование Монгольской империи",
+      "dateRaw": "1206",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1206,
+      "yearEnd": 1206,
+      "precision": "year",
+      "id": "03-0034"
+    },
+    {
+      "text": "Битва на реке Калке",
+      "dateRaw": "1223",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1223,
+      "yearEnd": 1223,
+      "precision": "year",
+      "id": "03-0035"
+    },
+    {
+      "text": "Начало похода Батыя на Русь",
+      "dateRaw": "1237",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1237,
+      "yearEnd": 1237,
+      "precision": "year",
+      "id": "03-0036"
+    },
+    {
+      "text": "Разорение Рязани",
+      "dateRaw": "1237",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1237,
+      "yearEnd": 1237,
+      "precision": "year",
+      "id": "03-0037"
+    },
+    {
+      "text": "Взятие Коломны",
+      "dateRaw": "1238",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1238,
+      "yearEnd": 1238,
+      "precision": "year",
+      "id": "03-0038"
+    },
+    {
+      "text": "Осада и взятие Владимира",
+      "dateRaw": "1238",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1238,
+      "yearEnd": 1238,
+      "precision": "year",
+      "id": "03-0039"
+    },
+    {
+      "text": "Битва на реке Сить",
+      "dateRaw": "1238",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1238,
+      "yearEnd": 1238,
+      "precision": "year",
+      "id": "03-0040"
+    },
+    {
+      "text": "Оборона Торжка",
+      "dateRaw": "1238",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1238,
+      "yearEnd": 1238,
+      "precision": "year",
+      "id": "03-0041"
+    },
+    {
+      "text": "Оборона Козельска",
+      "dateRaw": "1238",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1238,
+      "yearEnd": 1238,
+      "precision": "year",
+      "id": "03-0042"
+    },
+    {
+      "text": "Начало второго похода Батыя на Русь",
+      "dateRaw": "1239",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1239,
+      "yearEnd": 1239,
+      "precision": "year",
+      "id": "03-0043"
+    },
+    {
+      "text": "Разорение Переяславля",
+      "dateRaw": "1239",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1239,
+      "yearEnd": 1239,
+      "precision": "year",
+      "id": "03-0044"
+    },
+    {
+      "text": "Разорение Чернигова",
+      "dateRaw": "1239",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1239,
+      "yearEnd": 1239,
+      "precision": "year",
+      "id": "03-0045"
+    },
+    {
+      "text": "Взятие Киева",
+      "dateRaw": "1240",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1240,
+      "yearEnd": 1240,
+      "precision": "year",
+      "id": "03-0046"
+    },
+    {
+      "text": "Завершение монгольского нашествия на Русь",
+      "dateRaw": "1240",
+      "section": "МОНГОЛЬСКОЕ НАШЕСТВИЕ",
+      "yearStart": 1240,
+      "yearEnd": 1240,
+      "precision": "year",
+      "id": "03-0047"
+    },
+    {
+      "text": "Образование Золотой Орды",
+      "dateRaw": "1243",
+      "section": "ОРДЫНСКОЕ ВЛАДЫЧЕСТВО",
+      "yearStart": 1243,
+      "yearEnd": 1243,
+      "precision": "year",
+      "id": "03-0048"
+    },
+    {
+      "text": "Начало ордынской зависимости русских княжеств",
+      "dateRaw": "XIII в.",
+      "section": "ОРДЫНСКОЕ ВЛАДЫЧЕСТВО",
+      "yearStart": 1201,
+      "yearEnd": 1300,
+      "precision": "century",
+      "century": 13,
+      "id": "03-0049"
+    },
+    {
+      "text": "Получение князьями ярлыков на великое княжение",
+      "dateRaw": "с XIII в.",
+      "section": "ОРДЫНСКОЕ ВЛАДЫЧЕСТВО",
+      "yearStart": 1201,
+      "yearEnd": 1201,
+      "precision": "since-century",
+      "century": 13,
+      "id": "03-0050"
+    },
+    {
+      "text": "Поездки русских князей в Орду",
+      "dateRaw": "XIII в.",
+      "section": "ОРДЫНСКОЕ ВЛАДЫЧЕСТВО",
+      "yearStart": 1201,
+      "yearEnd": 1300,
+      "precision": "century",
+      "century": 13,
+      "id": "03-0051"
+    },
+    {
+      "text": "Проведение ордынских переписей населения",
+      "dateRaw": "XIII в.",
+      "section": "ОРДЫНСКОЕ ВЛАДЫЧЕСТВО",
+      "yearStart": 1201,
+      "yearEnd": 1300,
+      "precision": "century",
+      "century": 13,
+      "id": "03-0052"
+    },
+    {
+      "text": "Установление выплаты выхода",
+      "dateRaw": "XIII в.",
+      "section": "ОРДЫНСКОЕ ВЛАДЫЧЕСТВО",
+      "yearStart": 1201,
+      "yearEnd": 1300,
+      "precision": "century",
+      "century": 13,
+      "id": "03-0053"
+    },
+    {
+      "text": "Начало княжения в Новгороде",
+      "dateRaw": "1236",
+      "section": "АЛЕКСАНДР НЕВСКИЙ",
+      "yearStart": 1236,
+      "yearEnd": 1236,
+      "precision": "year",
+      "id": "03-0054"
+    },
+    {
+      "text": "Невская битва",
+      "dateRaw": "1240",
+      "section": "АЛЕКСАНДР НЕВСКИЙ",
+      "yearStart": 1240,
+      "yearEnd": 1240,
+      "precision": "year",
+      "id": "03-0055"
+    },
+    {
+      "text": "Ледовое побоище на Чудском озере",
+      "dateRaw": "1242",
+      "section": "АЛЕКСАНДР НЕВСКИЙ",
+      "yearStart": 1242,
+      "yearEnd": 1242,
+      "precision": "year",
+      "id": "03-0056"
+    },
+    {
+      "text": "Получение ярлыка на великое княжение",
+      "dateRaw": "1252",
+      "section": "АЛЕКСАНДР НЕВСКИЙ",
+      "yearStart": 1252,
+      "yearEnd": 1252,
+      "precision": "year",
+      "id": "03-0057"
+    },
+    {
+      "text": "Поездка Александра Невского в Орду",
+      "dateRaw": "1252",
+      "section": "АЛЕКСАНДР НЕВСКИЙ",
+      "yearStart": 1252,
+      "yearEnd": 1252,
+      "precision": "year",
+      "id": "03-0058"
+    },
+    {
+      "text": "Подавление антиордынских выступлений",
+      "dateRaw": "1257–1259",
+      "section": "АЛЕКСАНДР НЕВСКИЙ",
+      "yearStart": 1257,
+      "yearEnd": 1259,
+      "precision": "range",
+      "id": "03-0059"
+    },
+    {
+      "text": "Смерть Александра Невского",
+      "dateRaw": "1263",
+      "section": "АЛЕКСАНДР НЕВСКИЙ",
+      "yearStart": 1263,
+      "yearEnd": 1263,
+      "precision": "year",
+      "id": "03-0060"
+    },
+    {
+      "text": "Перенос митрополичьей кафедры во Владимир",
+      "dateRaw": "1299",
+      "section": "РУССКАЯ ПРАВОСЛАВНАЯ ЦЕРКОВЬ",
+      "yearStart": 1299,
+      "yearEnd": 1299,
+      "precision": "year",
+      "id": "03-0061"
+    },
+    {
+      "text": "Строительство Дмитриевского собора во Владимире",
+      "dateRaw": "1194–1197",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1194,
+      "yearEnd": 1197,
+      "precision": "range",
+      "id": "03-0062"
+    },
+    {
+      "text": "Строительство Георгиевского собора в Юрьеве-Польском",
+      "dateRaw": "1230–1234",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1230,
+      "yearEnd": 1234,
+      "precision": "range",
+      "id": "03-0063"
+    },
+    {
+      "text": "Создание «Слова о полку Игореве»",
+      "dateRaw": "конец XII в.",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1176,
+      "yearEnd": 1200,
+      "precision": "century-part",
+      "century": 12,
+      "id": "03-0064"
+    },
+    {
+      "text": "Поход князя Игоря Святославича против половцев",
+      "dateRaw": "1185",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1185,
+      "yearEnd": 1185,
+      "precision": "year",
+      "id": "03-0065"
+    }
+  ]
+}
