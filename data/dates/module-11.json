@@ -1,0 +1,818 @@
+{
+  "module": "11",
+  "title": "ВНЕШНЯЯ ПОЛИТИКА ЕКАТЕРИНЫ II И ПАВЕЛ I",
+  "events": [
+    {
+      "text": "Начало русско-турецкой войны",
+      "dateRaw": "1768",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1768,
+      "yearEnd": 1768,
+      "precision": "year",
+      "id": "11-0001"
+    },
+    {
+      "text": "Сражение при Ларге",
+      "dateRaw": "1770",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1770,
+      "yearEnd": 1770,
+      "precision": "year",
+      "id": "11-0002"
+    },
+    {
+      "text": "Сражение при Кагуле",
+      "dateRaw": "1770",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1770,
+      "yearEnd": 1770,
+      "precision": "year",
+      "id": "11-0003"
+    },
+    {
+      "text": "Чесменское сражение",
+      "dateRaw": "1770",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1770,
+      "yearEnd": 1770,
+      "precision": "year",
+      "id": "11-0004"
+    },
+    {
+      "text": "Взятие Бухареста русскими войсками",
+      "dateRaw": "1770",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1770,
+      "yearEnd": 1770,
+      "precision": "year",
+      "id": "11-0005"
+    },
+    {
+      "text": "Сражение при Козлудже",
+      "dateRaw": "1774",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1774,
+      "yearEnd": 1774,
+      "precision": "year",
+      "id": "11-0006"
+    },
+    {
+      "text": "Заключение Кючук-Кайнарджийского мирного договора",
+      "dateRaw": "1774",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1774,
+      "yearEnd": 1774,
+      "precision": "year",
+      "id": "11-0007"
+    },
+    {
+      "text": "Окончание русско-турецкой войны",
+      "dateRaw": "1774",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1774,
+      "yearEnd": 1774,
+      "precision": "year",
+      "id": "11-0008"
+    },
+    {
+      "text": "Получение Россией Керчи",
+      "dateRaw": "1774",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1774,
+      "yearEnd": 1774,
+      "precision": "year",
+      "id": "11-0009"
+    },
+    {
+      "text": "Получение Россией Еникале",
+      "dateRaw": "1774",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1774,
+      "yearEnd": 1774,
+      "precision": "year",
+      "id": "11-0010"
+    },
+    {
+      "text": "Получение Россией Кинбурна",
+      "dateRaw": "1774",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1774,
+      "yearEnd": 1774,
+      "precision": "year",
+      "id": "11-0011"
+    },
+    {
+      "text": "Провозглашение независимости Крымского ханства от Османской империи",
+      "dateRaw": "1774",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1768–1774",
+      "yearStart": 1774,
+      "yearEnd": 1774,
+      "precision": "year",
+      "id": "11-0012"
+    },
+    {
+      "text": "Заключение Георгиевского трактата",
+      "dateRaw": "1783",
+      "section": "ПРИСОЕДИНЕНИЕ КРЫМА",
+      "yearStart": 1783,
+      "yearEnd": 1783,
+      "precision": "year",
+      "id": "11-0013"
+    },
+    {
+      "text": "Присоединение Крыма к Российской империи",
+      "dateRaw": "1783",
+      "section": "ПРИСОЕДИНЕНИЕ КРЫМА",
+      "yearStart": 1783,
+      "yearEnd": 1783,
+      "precision": "year",
+      "id": "11-0014"
+    },
+    {
+      "text": "Основание Севастополя",
+      "dateRaw": "1783",
+      "section": "ПРИСОЕДИНЕНИЕ КРЫМА",
+      "yearStart": 1783,
+      "yearEnd": 1783,
+      "precision": "year",
+      "id": "11-0015"
+    },
+    {
+      "text": "Основание Черноморского флота",
+      "dateRaw": "1783",
+      "section": "ПРИСОЕДИНЕНИЕ КРЫМА",
+      "yearStart": 1783,
+      "yearEnd": 1783,
+      "precision": "year",
+      "id": "11-0016"
+    },
+    {
+      "text": "Начало русско-турецкой войны",
+      "dateRaw": "1787",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1787,
+      "yearEnd": 1787,
+      "precision": "year",
+      "id": "11-0017"
+    },
+    {
+      "text": "Сражение у Кинбурна",
+      "dateRaw": "1787",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1787,
+      "yearEnd": 1787,
+      "precision": "year",
+      "id": "11-0018"
+    },
+    {
+      "text": "Осада Очакова",
+      "dateRaw": "1788",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1788,
+      "yearEnd": 1788,
+      "precision": "year",
+      "id": "11-0019"
+    },
+    {
+      "text": "Взятие Очакова",
+      "dateRaw": "1788",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1788,
+      "yearEnd": 1788,
+      "precision": "year",
+      "id": "11-0020"
+    },
+    {
+      "text": "Сражение при Фокшанах",
+      "dateRaw": "1789",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1789,
+      "yearEnd": 1789,
+      "precision": "year",
+      "id": "11-0021"
+    },
+    {
+      "text": "Сражение при Рымнике",
+      "dateRaw": "1789",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1789,
+      "yearEnd": 1789,
+      "precision": "year",
+      "id": "11-0022"
+    },
+    {
+      "text": "Морское сражение у острова Фидониси",
+      "dateRaw": "1788",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1788,
+      "yearEnd": 1788,
+      "precision": "year",
+      "id": "11-0023"
+    },
+    {
+      "text": "Керченское морское сражение",
+      "dateRaw": "1790",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1790,
+      "yearEnd": 1790,
+      "precision": "year",
+      "id": "11-0024"
+    },
+    {
+      "text": "Сражение у мыса Тендра",
+      "dateRaw": "1790",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1790,
+      "yearEnd": 1790,
+      "precision": "year",
+      "id": "11-0025"
+    },
+    {
+      "text": "Взятие Измаила",
+      "dateRaw": "1790",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1790,
+      "yearEnd": 1790,
+      "precision": "year",
+      "id": "11-0026"
+    },
+    {
+      "text": "Сражение у мыса Калиакрия",
+      "dateRaw": "1791",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1791,
+      "yearEnd": 1791,
+      "precision": "year",
+      "id": "11-0027"
+    },
+    {
+      "text": "Заключение Ясского мирного договора",
+      "dateRaw": "1791",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1791,
+      "yearEnd": 1791,
+      "precision": "year",
+      "id": "11-0028"
+    },
+    {
+      "text": "Окончание русско-турецкой войны",
+      "dateRaw": "1791",
+      "section": "РУССКО-ТУРЕЦКАЯ ВОЙНА 1787–1791",
+      "yearStart": 1791,
+      "yearEnd": 1791,
+      "precision": "year",
+      "id": "11-0029"
+    },
+    {
+      "text": "Первый раздел Речи Посполитой",
+      "dateRaw": "1772",
+      "section": "РАЗДЕЛЫ РЕЧИ ПОСПОЛИТОЙ",
+      "yearStart": 1772,
+      "yearEnd": 1772,
+      "precision": "year",
+      "id": "11-0030"
+    },
+    {
+      "text": "Второй раздел Речи Посполитой",
+      "dateRaw": "1793",
+      "section": "РАЗДЕЛЫ РЕЧИ ПОСПОЛИТОЙ",
+      "yearStart": 1793,
+      "yearEnd": 1793,
+      "precision": "year",
+      "id": "11-0031"
+    },
+    {
+      "text": "Третий раздел Речи Посполитой",
+      "dateRaw": "1795",
+      "section": "РАЗДЕЛЫ РЕЧИ ПОСПОЛИТОЙ",
+      "yearStart": 1795,
+      "yearEnd": 1795,
+      "precision": "year",
+      "id": "11-0032"
+    },
+    {
+      "text": "Присоединение Восточной Белоруссии",
+      "dateRaw": "1772",
+      "section": "РАЗДЕЛЫ РЕЧИ ПОСПОЛИТОЙ",
+      "yearStart": 1772,
+      "yearEnd": 1772,
+      "precision": "year",
+      "id": "11-0033"
+    },
+    {
+      "text": "Присоединение Правобережной Украины",
+      "dateRaw": "1793",
+      "section": "РАЗДЕЛЫ РЕЧИ ПОСПОЛИТОЙ",
+      "yearStart": 1793,
+      "yearEnd": 1793,
+      "precision": "year",
+      "id": "11-0034"
+    },
+    {
+      "text": "Присоединение Литвы",
+      "dateRaw": "1795",
+      "section": "РАЗДЕЛЫ РЕЧИ ПОСПОЛИТОЙ",
+      "yearStart": 1795,
+      "yearEnd": 1795,
+      "precision": "year",
+      "id": "11-0035"
+    },
+    {
+      "text": "Присоединение Курляндии",
+      "dateRaw": "1795",
+      "section": "РАЗДЕЛЫ РЕЧИ ПОСПОЛИТОЙ",
+      "yearStart": 1795,
+      "yearEnd": 1795,
+      "precision": "year",
+      "id": "11-0036"
+    },
+    {
+      "text": "Вооружённый нейтралитет России",
+      "dateRaw": "1780",
+      "section": "ДРУГИЕ НАПРАВЛЕНИЯ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1780,
+      "yearEnd": 1780,
+      "precision": "year",
+      "id": "11-0037"
+    },
+    {
+      "text": "Декларация о вооружённом нейтралитете",
+      "dateRaw": "1780",
+      "section": "ДРУГИЕ НАПРАВЛЕНИЯ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1780,
+      "yearEnd": 1780,
+      "precision": "year",
+      "id": "11-0038"
+    },
+    {
+      "text": "Начало русско-шведской войны",
+      "dateRaw": "1788",
+      "section": "ДРУГИЕ НАПРАВЛЕНИЯ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1788,
+      "yearEnd": 1788,
+      "precision": "year",
+      "id": "11-0039"
+    },
+    {
+      "text": "Гогландское морское сражение",
+      "dateRaw": "1788",
+      "section": "ДРУГИЕ НАПРАВЛЕНИЯ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1788,
+      "yearEnd": 1788,
+      "precision": "year",
+      "id": "11-0040"
+    },
+    {
+      "text": "Выборгское морское сражение",
+      "dateRaw": "1790",
+      "section": "ДРУГИЕ НАПРАВЛЕНИЯ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1790,
+      "yearEnd": 1790,
+      "precision": "year",
+      "id": "11-0041"
+    },
+    {
+      "text": "Заключение Верельского мирного договора",
+      "dateRaw": "1790",
+      "section": "ДРУГИЕ НАПРАВЛЕНИЯ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1790,
+      "yearEnd": 1790,
+      "precision": "year",
+      "id": "11-0042"
+    },
+    {
+      "text": "Окончание русско-шведской войны",
+      "dateRaw": "1790",
+      "section": "ДРУГИЕ НАПРАВЛЕНИЯ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1790,
+      "yearEnd": 1790,
+      "precision": "year",
+      "id": "11-0043"
+    },
+    {
+      "text": "Начало правления Павла I",
+      "dateRaw": "1796",
+      "section": "ПАВЕЛ I",
+      "yearStart": 1796,
+      "yearEnd": 1796,
+      "precision": "year",
+      "id": "11-0044"
+    },
+    {
+      "text": "Персидский поход",
+      "dateRaw": "1796",
+      "section": "ПАВЕЛ I",
+      "yearStart": 1796,
+      "yearEnd": 1796,
+      "precision": "year",
+      "id": "11-0045"
+    },
+    {
+      "text": "Отмена Персидского похода",
+      "dateRaw": "1797",
+      "section": "ПАВЕЛ I",
+      "yearStart": 1797,
+      "yearEnd": 1797,
+      "precision": "year",
+      "id": "11-0046"
+    },
+    {
+      "text": "Коронация Павла I",
+      "dateRaw": "1797",
+      "section": "ПРАВЛЕНИЕ ПАВЛА I",
+      "yearStart": 1797,
+      "yearEnd": 1797,
+      "precision": "year",
+      "id": "11-0047"
+    },
+    {
+      "text": "Издание Акта о престолонаследии",
+      "dateRaw": "1797",
+      "section": "ПРАВЛЕНИЕ ПАВЛА I",
+      "yearStart": 1797,
+      "yearEnd": 1797,
+      "precision": "year",
+      "id": "11-0048"
+    },
+    {
+      "text": "Учреждение Российско-американской компании",
+      "dateRaw": "1799",
+      "section": "ПРАВЛЕНИЕ ПАВЛА I",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0049"
+    },
+    {
+      "text": "Смерть Павла I",
+      "dateRaw": "1801",
+      "section": "ПРАВЛЕНИЕ ПАВЛА I",
+      "yearStart": 1801,
+      "yearEnd": 1801,
+      "precision": "year",
+      "id": "11-0050"
+    },
+    {
+      "text": "Дворцовый переворот",
+      "dateRaw": "1801",
+      "section": "ПРАВЛЕНИЕ ПАВЛА I",
+      "yearStart": 1801,
+      "yearEnd": 1801,
+      "precision": "year",
+      "id": "11-0051"
+    },
+    {
+      "text": "Начало правления Александра I",
+      "dateRaw": "1801",
+      "section": "ПРАВЛЕНИЕ ПАВЛА I",
+      "yearStart": 1801,
+      "yearEnd": 1801,
+      "precision": "year",
+      "id": "11-0052"
+    },
+    {
+      "text": "Издание Учреждения об императорской фамилии",
+      "dateRaw": "1797",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1797,
+      "yearEnd": 1797,
+      "precision": "year",
+      "id": "11-0053"
+    },
+    {
+      "text": "Издание Манифеста о трёхдневной барщине",
+      "dateRaw": "1797",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1797,
+      "yearEnd": 1797,
+      "precision": "year",
+      "id": "11-0054"
+    },
+    {
+      "text": "Ограничение дворянских привилегий",
+      "dateRaw": "1797–1800",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1797,
+      "yearEnd": 1800,
+      "precision": "range",
+      "id": "11-0055"
+    },
+    {
+      "text": "Восстановление ряда коллегий",
+      "dateRaw": "конец XVIII в.",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1776,
+      "yearEnd": 1800,
+      "precision": "century-part",
+      "century": 18,
+      "id": "11-0056"
+    },
+    {
+      "text": "Усиление военной дисциплины",
+      "dateRaw": "конец XVIII в.",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1776,
+      "yearEnd": 1800,
+      "precision": "century-part",
+      "century": 18,
+      "id": "11-0057"
+    },
+    {
+      "text": "Проведение реформ в армии",
+      "dateRaw": "1796–1801",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1796,
+      "yearEnd": 1801,
+      "precision": "range",
+      "id": "11-0058"
+    },
+    {
+      "text": "Введение новых воинских уставов",
+      "dateRaw": "1796–1797",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1796,
+      "yearEnd": 1797,
+      "precision": "range",
+      "id": "11-0059"
+    },
+    {
+      "text": "Учреждение Депо карт",
+      "dateRaw": "1797",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1797,
+      "yearEnd": 1797,
+      "precision": "year",
+      "id": "11-0060"
+    },
+    {
+      "text": "Вступление России во Вторую антифранцузскую коалицию",
+      "dateRaw": "1798",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1798,
+      "yearEnd": 1798,
+      "precision": "year",
+      "id": "11-0061"
+    },
+    {
+      "text": "Начало участия России в войнах Второй коалиции",
+      "dateRaw": "1798",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1798,
+      "yearEnd": 1798,
+      "precision": "year",
+      "id": "11-0062"
+    },
+    {
+      "text": "Средиземноморский поход русского флота",
+      "dateRaw": "1798–1800",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1798,
+      "yearEnd": 1800,
+      "precision": "range",
+      "id": "11-0063"
+    },
+    {
+      "text": "Освобождение Ионических островов",
+      "dateRaw": "1798–1799",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1798,
+      "yearEnd": 1799,
+      "precision": "range",
+      "id": "11-0064"
+    },
+    {
+      "text": "Взятие крепости Корфу",
+      "dateRaw": "1799",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0065"
+    },
+    {
+      "text": "Образование Республики Семи Островов",
+      "dateRaw": "1800",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА",
+      "yearStart": 1800,
+      "yearEnd": 1800,
+      "precision": "year",
+      "id": "11-0066"
+    },
+    {
+      "text": "Начало Итальянского похода",
+      "dateRaw": "1799",
+      "section": "ИТАЛЬЯНСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0067"
+    },
+    {
+      "text": "Сражение на реке Адда",
+      "dateRaw": "1799",
+      "section": "ИТАЛЬЯНСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0068"
+    },
+    {
+      "text": "Взятие Милана",
+      "dateRaw": "1799",
+      "section": "ИТАЛЬЯНСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0069"
+    },
+    {
+      "text": "Сражение на реке Треббия",
+      "dateRaw": "1799",
+      "section": "ИТАЛЬЯНСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0070"
+    },
+    {
+      "text": "Сражение при Нови",
+      "dateRaw": "1799",
+      "section": "ИТАЛЬЯНСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0071"
+    },
+    {
+      "text": "Завершение Итальянского похода",
+      "dateRaw": "1799",
+      "section": "ИТАЛЬЯНСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0072"
+    },
+    {
+      "text": "Начало Швейцарского похода",
+      "dateRaw": "1799",
+      "section": "ШВЕЙЦАРСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0073"
+    },
+    {
+      "text": "Переход через перевал Сен-Готард",
+      "dateRaw": "1799",
+      "section": "ШВЕЙЦАРСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0074"
+    },
+    {
+      "text": "Переход через Чёртов мост",
+      "dateRaw": "1799",
+      "section": "ШВЕЙЦАРСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0075"
+    },
+    {
+      "text": "Выход русской армии из окружения",
+      "dateRaw": "1799",
+      "section": "ШВЕЙЦАРСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0076"
+    },
+    {
+      "text": "Окончание Швейцарского похода",
+      "dateRaw": "1799",
+      "section": "ШВЕЙЦАРСКИЙ ПОХОД",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0077"
+    },
+    {
+      "text": "Разрыв союза с Англией",
+      "dateRaw": "1800",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1800,
+      "yearEnd": 1800,
+      "precision": "year",
+      "id": "11-0078"
+    },
+    {
+      "text": "Сближение России с Францией",
+      "dateRaw": "1800",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1800,
+      "yearEnd": 1800,
+      "precision": "year",
+      "id": "11-0079"
+    },
+    {
+      "text": "Вступление в Лигу вооружённого нейтралитета",
+      "dateRaw": "1800",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1800,
+      "yearEnd": 1800,
+      "precision": "year",
+      "id": "11-0080"
+    },
+    {
+      "text": "Подготовка Индийского похода",
+      "dateRaw": "1801",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1801,
+      "yearEnd": 1801,
+      "precision": "year",
+      "id": "11-0081"
+    },
+    {
+      "text": "Убийство Павла I",
+      "dateRaw": "1801",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1801,
+      "yearEnd": 1801,
+      "precision": "year",
+      "id": "11-0082"
+    },
+    {
+      "text": "Акт о престолонаследии",
+      "dateRaw": "1797",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1797,
+      "yearEnd": 1797,
+      "precision": "year",
+      "id": "11-0083"
+    },
+    {
+      "text": "Манифест о трёхдневной барщине",
+      "dateRaw": "1797",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1797,
+      "yearEnd": 1797,
+      "precision": "year",
+      "id": "11-0084"
+    },
+    {
+      "text": "Вступление России во Вторую коалицию",
+      "dateRaw": "1798",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1798,
+      "yearEnd": 1798,
+      "precision": "year",
+      "id": "11-0085"
+    },
+    {
+      "text": "Средиземноморский поход",
+      "dateRaw": "1798–1800",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1798,
+      "yearEnd": 1800,
+      "precision": "range",
+      "id": "11-0086"
+    },
+    {
+      "text": "Взятие Корфу",
+      "dateRaw": "1799",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0087"
+    },
+    {
+      "text": "Итальянский поход",
+      "dateRaw": "1799",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0088"
+    },
+    {
+      "text": "Швейцарский поход",
+      "dateRaw": "1799",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "11-0089"
+    },
+    {
+      "text": "Лига вооружённого нейтралитета",
+      "dateRaw": "1800",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1800,
+      "yearEnd": 1800,
+      "precision": "year",
+      "id": "11-0090"
+    }
+  ]
+}
