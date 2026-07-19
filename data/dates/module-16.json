@@ -1,0 +1,483 @@
+{
+  "module": 16,
+  "title": "Правление Александра II. Внешняя политика",
+  "events": [
+    {
+      "text": "Заключение Парижского мирного договора",
+      "dateRaw": "1856",
+      "section": "Последствия Крымской Войны",
+      "yearStart": 1856,
+      "yearEnd": 1856,
+      "precision": "year",
+      "id": "16-0001"
+    },
+    {
+      "text": "Начало внешнеполитического курса по пересмотру условий Парижского мира",
+      "dateRaw": "1856",
+      "section": "Последствия Крымской Войны",
+      "yearStart": 1856,
+      "yearEnd": 1856,
+      "precision": "year",
+      "id": "16-0002"
+    },
+    {
+      "text": "Отмена ограничений Парижского мирного договора",
+      "dateRaw": "1871",
+      "section": "Последствия Крымской Войны",
+      "yearStart": 1871,
+      "yearEnd": 1871,
+      "precision": "year",
+      "id": "16-0003"
+    },
+    {
+      "text": "Лондонская конференция",
+      "dateRaw": "1871",
+      "section": "Последствия Крымской Войны",
+      "yearStart": 1871,
+      "yearEnd": 1871,
+      "precision": "year",
+      "id": "16-0004"
+    },
+    {
+      "text": "Лондонская конвенция",
+      "dateRaw": "1871",
+      "section": "Последствия Крымской Войны",
+      "yearStart": 1871,
+      "yearEnd": 1871,
+      "precision": "year",
+      "id": "16-0005"
+    },
+    {
+      "text": "Айгунский договор с Китаем",
+      "dateRaw": "1858",
+      "section": "Дальний Восток",
+      "yearStart": 1858,
+      "yearEnd": 1858,
+      "precision": "year",
+      "id": "16-0006"
+    },
+    {
+      "text": "Тяньцзиньский договор с Китаем",
+      "dateRaw": "1858",
+      "section": "Дальний Восток",
+      "yearStart": 1858,
+      "yearEnd": 1858,
+      "precision": "year",
+      "id": "16-0007"
+    },
+    {
+      "text": "Пекинский договор с Китаем",
+      "dateRaw": "1860",
+      "section": "Дальний Восток",
+      "yearStart": 1860,
+      "yearEnd": 1860,
+      "precision": "year",
+      "id": "16-0008"
+    },
+    {
+      "text": "Основание Владивостока",
+      "dateRaw": "1860",
+      "section": "Дальний Восток",
+      "yearStart": 1860,
+      "yearEnd": 1860,
+      "precision": "year",
+      "id": "16-0009"
+    },
+    {
+      "text": "Присоединение Приамурья",
+      "dateRaw": "1858",
+      "section": "Дальний Восток",
+      "yearStart": 1858,
+      "yearEnd": 1858,
+      "precision": "year",
+      "id": "16-0010"
+    },
+    {
+      "text": "Присоединение Уссурийского края",
+      "dateRaw": "1860",
+      "section": "Дальний Восток",
+      "yearStart": 1860,
+      "yearEnd": 1860,
+      "precision": "year",
+      "id": "16-0011"
+    },
+    {
+      "text": "Продажа Аляски Соединённым Штатам",
+      "dateRaw": "1867",
+      "section": "Дальний Восток",
+      "yearStart": 1867,
+      "yearEnd": 1867,
+      "precision": "year",
+      "id": "16-0012"
+    },
+    {
+      "text": "Взятие Ташкента",
+      "dateRaw": "1865",
+      "section": "Средняя Азия",
+      "yearStart": 1865,
+      "yearEnd": 1865,
+      "precision": "year",
+      "id": "16-0013"
+    },
+    {
+      "text": "Образование Туркестанского генерал-губернаторства",
+      "dateRaw": "1867",
+      "section": "Средняя Азия",
+      "yearStart": 1867,
+      "yearEnd": 1867,
+      "precision": "year",
+      "id": "16-0014"
+    },
+    {
+      "text": "Присоединение Бухарского эмирата в качестве протектората",
+      "dateRaw": "1868",
+      "section": "Средняя Азия",
+      "yearStart": 1868,
+      "yearEnd": 1868,
+      "precision": "year",
+      "id": "16-0015"
+    },
+    {
+      "text": "Взятие Самарканда",
+      "dateRaw": "1868",
+      "section": "Средняя Азия",
+      "yearStart": 1868,
+      "yearEnd": 1868,
+      "precision": "year",
+      "id": "16-0016"
+    },
+    {
+      "text": "Присоединение Кокандского ханства",
+      "dateRaw": "1876",
+      "section": "Средняя Азия",
+      "yearStart": 1876,
+      "yearEnd": 1876,
+      "precision": "year",
+      "id": "16-0017"
+    },
+    {
+      "text": "Ликвидация Кокандского ханства",
+      "dateRaw": "1876",
+      "section": "Средняя Азия",
+      "yearStart": 1876,
+      "yearEnd": 1876,
+      "precision": "year",
+      "id": "16-0018"
+    },
+    {
+      "text": "Образование Ферганской области",
+      "dateRaw": "1876",
+      "section": "Средняя Азия",
+      "yearStart": 1876,
+      "yearEnd": 1876,
+      "precision": "year",
+      "id": "16-0019"
+    },
+    {
+      "text": "Пленение имама Шамиля",
+      "dateRaw": "1859",
+      "section": "Кавказ",
+      "yearStart": 1859,
+      "yearEnd": 1859,
+      "precision": "year",
+      "id": "16-0020"
+    },
+    {
+      "text": "Завершение Кавказской войны на Восточном Кавказе",
+      "dateRaw": "1859",
+      "section": "Кавказ",
+      "yearStart": 1859,
+      "yearEnd": 1859,
+      "precision": "year",
+      "id": "16-0021"
+    },
+    {
+      "text": "Окончание Кавказской войны",
+      "dateRaw": "1864",
+      "section": "Кавказ",
+      "yearStart": 1864,
+      "yearEnd": 1864,
+      "precision": "year",
+      "id": "16-0022"
+    },
+    {
+      "text": "Завершение присоединения Западного Кавказа",
+      "dateRaw": "1864",
+      "section": "Кавказ",
+      "yearStart": 1864,
+      "yearEnd": 1864,
+      "precision": "year",
+      "id": "16-0023"
+    },
+    {
+      "text": "Начало русско-турецкой войны",
+      "dateRaw": "1877",
+      "section": "Русско-Турецкая Война",
+      "yearStart": 1877,
+      "yearEnd": 1877,
+      "precision": "year",
+      "id": "16-0024"
+    },
+    {
+      "text": "Форсирование Дуная русскими войсками",
+      "dateRaw": "1877",
+      "section": "Русско-Турецкая Война",
+      "yearStart": 1877,
+      "yearEnd": 1877,
+      "precision": "year",
+      "id": "16-0025"
+    },
+    {
+      "text": "Осада Плевны",
+      "dateRaw": "1877",
+      "section": "Русско-Турецкая Война",
+      "yearStart": 1877,
+      "yearEnd": 1877,
+      "precision": "year",
+      "id": "16-0026"
+    },
+    {
+      "text": "Третья осада Плевны",
+      "dateRaw": "1877",
+      "section": "Русско-Турецкая Война",
+      "yearStart": 1877,
+      "yearEnd": 1877,
+      "precision": "year",
+      "id": "16-0027"
+    },
+    {
+      "text": "Падение Плевны",
+      "dateRaw": "1877",
+      "section": "Русско-Турецкая Война",
+      "yearStart": 1877,
+      "yearEnd": 1877,
+      "precision": "year",
+      "id": "16-0028"
+    },
+    {
+      "text": "Оборона Шипкинского перевала",
+      "dateRaw": "1877",
+      "section": "Русско-Турецкая Война",
+      "yearStart": 1877,
+      "yearEnd": 1877,
+      "precision": "year",
+      "id": "16-0029"
+    },
+    {
+      "text": "Сражение при Шейново",
+      "dateRaw": "1878",
+      "section": "Русско-Турецкая Война",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0030"
+    },
+    {
+      "text": "Взятие Адрианополя русскими войсками",
+      "dateRaw": "1878",
+      "section": "Русско-Турецкая Война",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0031"
+    },
+    {
+      "text": "Заключение Сан-Стефанского мирного договора",
+      "dateRaw": "1878",
+      "section": "Русско-Турецкая Война",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0032"
+    },
+    {
+      "text": "Берлинский конгресс",
+      "dateRaw": "1878",
+      "section": "Берлинский Конгресс",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0033"
+    },
+    {
+      "text": "Подписание Берлинского трактата",
+      "dateRaw": "1878",
+      "section": "Берлинский Конгресс",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0034"
+    },
+    {
+      "text": "Пересмотр условий Сан-Стефанского мира",
+      "dateRaw": "1878",
+      "section": "Берлинский Конгресс",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0035"
+    },
+    {
+      "text": "Боснийско-герцеговинское восстание",
+      "dateRaw": "1875",
+      "section": "Балканский Вопрос",
+      "yearStart": 1875,
+      "yearEnd": 1875,
+      "precision": "year",
+      "id": "16-0036"
+    },
+    {
+      "text": "Апрельское восстание в Болгарии",
+      "dateRaw": "1876",
+      "section": "Балканский Вопрос",
+      "yearStart": 1876,
+      "yearEnd": 1876,
+      "precision": "year",
+      "id": "16-0037"
+    },
+    {
+      "text": "Константинопольская конференция",
+      "dateRaw": "1876",
+      "section": "Балканский Вопрос",
+      "yearStart": 1876,
+      "yearEnd": 1876,
+      "precision": "year",
+      "id": "16-0038"
+    },
+    {
+      "text": "Провозглашение независимости Румынии",
+      "dateRaw": "1877",
+      "section": "Балканский Вопрос",
+      "yearStart": 1877,
+      "yearEnd": 1877,
+      "precision": "year",
+      "id": "16-0039"
+    },
+    {
+      "text": "Провозглашение независимости Сербии",
+      "dateRaw": "1878",
+      "section": "Балканский Вопрос",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0040"
+    },
+    {
+      "text": "Провозглашение независимости Черногории",
+      "dateRaw": "1878",
+      "section": "Балканский Вопрос",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0041"
+    },
+    {
+      "text": "Создание автономного Болгарского княжества",
+      "dateRaw": "1878",
+      "section": "Балканский Вопрос",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0042"
+    },
+    {
+      "text": "Айгунский договор",
+      "dateRaw": "1858",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1858,
+      "yearEnd": 1858,
+      "precision": "year",
+      "id": "16-0043"
+    },
+    {
+      "text": "Пекинский договор",
+      "dateRaw": "1860",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1860,
+      "yearEnd": 1860,
+      "precision": "year",
+      "id": "16-0044"
+    },
+    {
+      "text": "Основание Владивостока",
+      "dateRaw": "1860",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1860,
+      "yearEnd": 1860,
+      "precision": "year",
+      "id": "16-0045"
+    },
+    {
+      "text": "Окончание Кавказской войны",
+      "dateRaw": "1864",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1864,
+      "yearEnd": 1864,
+      "precision": "year",
+      "id": "16-0046"
+    },
+    {
+      "text": "Продажа Аляски",
+      "dateRaw": "1867",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1867,
+      "yearEnd": 1867,
+      "precision": "year",
+      "id": "16-0047"
+    },
+    {
+      "text": "Образование Туркестанского генерал-губернаторства",
+      "dateRaw": "1867",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1867,
+      "yearEnd": 1867,
+      "precision": "year",
+      "id": "16-0048"
+    },
+    {
+      "text": "Ликвидация Кокандского ханства",
+      "dateRaw": "1876",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1876,
+      "yearEnd": 1876,
+      "precision": "year",
+      "id": "16-0049"
+    },
+    {
+      "text": "Русско-турецкая война",
+      "dateRaw": "1877–1878",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1877,
+      "yearEnd": 1878,
+      "precision": "range",
+      "id": "16-0050"
+    },
+    {
+      "text": "Сан-Стефанский мирный договор",
+      "dateRaw": "1878",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0051"
+    },
+    {
+      "text": "Берлинский конгресс",
+      "dateRaw": "1878",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0052"
+    },
+    {
+      "text": "Берлинский трактат",
+      "dateRaw": "1878",
+      "section": "Итоги Внешней Политики",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "16-0053"
+    }
+  ]
+}
