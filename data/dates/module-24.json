@@ -1,0 +1,852 @@
+{
+  "module": "24",
+  "title": "СССР В 1930-Е ГОДЫ. ЧАСТЬ 1. ИНДУСТРИАЛИЗАЦИЯ, КОЛЛЕКТИВИЗАЦИЯ, ВНУТРЕННЯЯ ПОЛИТИКА",
+  "events": [
+    {
+      "text": "Провозглашение курса на индустриализацию",
+      "dateRaw": "1925",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1925,
+      "yearEnd": 1925,
+      "precision": "year",
+      "id": "24-0001"
+    },
+    {
+      "text": "XV съезд ВКП(б)",
+      "dateRaw": "1927",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1927,
+      "yearEnd": 1927,
+      "precision": "year",
+      "id": "24-0002"
+    },
+    {
+      "text": "Начало первого пятилетнего плана",
+      "dateRaw": "1928",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1928,
+      "yearEnd": 1928,
+      "precision": "year",
+      "id": "24-0003"
+    },
+    {
+      "text": "Первая пятилетка",
+      "dateRaw": "1928–1932",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1928,
+      "yearEnd": 1932,
+      "precision": "range",
+      "id": "24-0004"
+    },
+    {
+      "text": "Начало строительства Магнитогорского металлургического комбината",
+      "dateRaw": "1929",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "precision": "year",
+      "id": "24-0005"
+    },
+    {
+      "text": "Начало строительства Туркестано-Сибирской железной дороги (Турксиб)",
+      "dateRaw": "1927",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1927,
+      "yearEnd": 1927,
+      "precision": "year",
+      "id": "24-0006"
+    },
+    {
+      "text": "Открытие Днепрогэса",
+      "dateRaw": "1932",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1932,
+      "yearEnd": 1932,
+      "precision": "year",
+      "id": "24-0007"
+    },
+    {
+      "text": "Открытие Горьковского автомобильного завода (ГАЗ)",
+      "dateRaw": "1932",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1932,
+      "yearEnd": 1932,
+      "precision": "year",
+      "id": "24-0008"
+    },
+    {
+      "text": "Ввод в строй Магнитогорского металлургического комбината",
+      "dateRaw": "1932",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1932,
+      "yearEnd": 1932,
+      "precision": "year",
+      "id": "24-0009"
+    },
+    {
+      "text": "Начало второй пятилетки",
+      "dateRaw": "1933",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1933,
+      "yearEnd": 1933,
+      "precision": "year",
+      "id": "24-0010"
+    },
+    {
+      "text": "Вторая пятилетка",
+      "dateRaw": "1933–1937",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1933,
+      "yearEnd": 1937,
+      "precision": "range",
+      "id": "24-0011"
+    },
+    {
+      "text": "Открытие Московского метрополитена",
+      "dateRaw": "1935",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1935,
+      "yearEnd": 1935,
+      "precision": "year",
+      "id": "24-0012"
+    },
+    {
+      "text": "Завершение второй пятилетки",
+      "dateRaw": "1937",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0013"
+    },
+    {
+      "text": "Начало третьей пятилетки",
+      "dateRaw": "1938",
+      "section": "ИНДУСТРИАЛИЗАЦИЯ",
+      "yearStart": 1938,
+      "yearEnd": 1938,
+      "precision": "year",
+      "id": "24-0014"
+    },
+    {
+      "text": "Начало сплошной коллективизации",
+      "dateRaw": "1929",
+      "section": "КОЛЛЕКТИВИЗАЦИЯ",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "precision": "year",
+      "id": "24-0015"
+    },
+    {
+      "text": "Статья И. В. Сталина «Год великого перелома»",
+      "dateRaw": "1929",
+      "section": "КОЛЛЕКТИВИЗАЦИЯ",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "precision": "year",
+      "id": "24-0016"
+    },
+    {
+      "text": "Постановление «О темпах коллективизации...»",
+      "dateRaw": "1930",
+      "section": "КОЛЛЕКТИВИЗАЦИЯ",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "precision": "year",
+      "id": "24-0017"
+    },
+    {
+      "text": "Статья И. В. Сталина «Головокружение от успехов»",
+      "dateRaw": "1930",
+      "section": "КОЛЛЕКТИВИЗАЦИЯ",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "precision": "year",
+      "id": "24-0018"
+    },
+    {
+      "text": "Начало раскулачивания",
+      "dateRaw": "1930",
+      "section": "КОЛЛЕКТИВИЗАЦИЯ",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "precision": "year",
+      "id": "24-0019"
+    },
+    {
+      "text": "Создание машинно-тракторных станций (МТС)",
+      "dateRaw": "1930",
+      "section": "КОЛЛЕКТИВИЗАЦИЯ",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "precision": "year",
+      "id": "24-0020"
+    },
+    {
+      "text": "Массовое создание колхозов",
+      "dateRaw": "1930–1932",
+      "section": "КОЛЛЕКТИВИЗАЦИЯ",
+      "yearStart": 1930,
+      "yearEnd": 1932,
+      "precision": "range",
+      "id": "24-0021"
+    },
+    {
+      "text": "Голод в СССР",
+      "dateRaw": "1932–1933",
+      "section": "КОЛЛЕКТИВИЗАЦИЯ",
+      "yearStart": 1932,
+      "yearEnd": 1933,
+      "precision": "range",
+      "id": "24-0022"
+    },
+    {
+      "text": "Введение паспортной системы",
+      "dateRaw": "1932",
+      "section": "КОЛЛЕКТИВИЗАЦИЯ",
+      "yearStart": 1932,
+      "yearEnd": 1932,
+      "precision": "year",
+      "id": "24-0023"
+    },
+    {
+      "text": "Ликвидация безработицы в СССР",
+      "dateRaw": "начало 1930-х гг.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0024"
+    },
+    {
+      "text": "Отмена карточной системы снабжения",
+      "dateRaw": "1935",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1935,
+      "yearEnd": 1935,
+      "precision": "year",
+      "id": "24-0025"
+    },
+    {
+      "text": "Стахановское движение",
+      "dateRaw": "1935",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1935,
+      "yearEnd": 1935,
+      "precision": "year",
+      "id": "24-0026"
+    },
+    {
+      "text": "Начало стахановского движения",
+      "dateRaw": "1935",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1935,
+      "yearEnd": 1935,
+      "precision": "year",
+      "id": "24-0027"
+    },
+    {
+      "text": "Оформление административно-командной системы",
+      "dateRaw": "1930-е гг.",
+      "section": "ПОЛИТИЧЕСКОЕ РАЗВИТИЕ",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0028"
+    },
+    {
+      "text": "Укрепление личной власти И. В. Сталина",
+      "dateRaw": "1930-е гг.",
+      "section": "ПОЛИТИЧЕСКОЕ РАЗВИТИЕ",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0029"
+    },
+    {
+      "text": "XVII съезд ВКП(б) («съезд победителей»)",
+      "dateRaw": "1934",
+      "section": "ПОЛИТИЧЕСКОЕ РАЗВИТИЕ",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0030"
+    },
+    {
+      "text": "Убийство С. М. Кирова",
+      "dateRaw": "1934",
+      "section": "ПОЛИТИЧЕСКОЕ РАЗВИТИЕ",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0031"
+    },
+    {
+      "text": "Создание Народного комиссариата внутренних дел (НКВД)",
+      "dateRaw": "1934",
+      "section": "ПОЛИТИЧЕСКОЕ РАЗВИТИЕ",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0032"
+    },
+    {
+      "text": "Начало Большого террора",
+      "dateRaw": "1936",
+      "section": "МАССОВЫЕ РЕПРЕССИИ",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "24-0033"
+    },
+    {
+      "text": "Первый Московский процесс",
+      "dateRaw": "1936",
+      "section": "МАССОВЫЕ РЕПРЕССИИ",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "24-0034"
+    },
+    {
+      "text": "Принятие Конституции СССР («Сталинской»)",
+      "dateRaw": "1936",
+      "section": "МАССОВЫЕ РЕПРЕССИИ",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "24-0035"
+    },
+    {
+      "text": "Второй Московский процесс",
+      "dateRaw": "1937",
+      "section": "МАССОВЫЕ РЕПРЕССИИ",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0036"
+    },
+    {
+      "text": "Пик массовых репрессий",
+      "dateRaw": "1937–1938",
+      "section": "МАССОВЫЕ РЕПРЕССИИ",
+      "yearStart": 1937,
+      "yearEnd": 1938,
+      "precision": "range",
+      "id": "24-0037"
+    },
+    {
+      "text": "Третий Московский процесс",
+      "dateRaw": "1938",
+      "section": "МАССОВЫЕ РЕПРЕССИИ",
+      "yearStart": 1938,
+      "yearEnd": 1938,
+      "precision": "year",
+      "id": "24-0038"
+    },
+    {
+      "text": "Завершение Большого террора",
+      "dateRaw": "1938",
+      "section": "МАССОВЫЕ РЕПРЕССИИ",
+      "yearStart": 1938,
+      "yearEnd": 1938,
+      "precision": "year",
+      "id": "24-0039"
+    },
+    {
+      "text": "Смещение Н. И. Ежова",
+      "dateRaw": "1938",
+      "section": "МАССОВЫЕ РЕПРЕССИИ",
+      "yearStart": 1938,
+      "yearEnd": 1938,
+      "precision": "year",
+      "id": "24-0040"
+    },
+    {
+      "text": "Назначение Л. П. Берии наркомом внутренних дел",
+      "dateRaw": "1938",
+      "section": "МАССОВЫЕ РЕПРЕССИИ",
+      "yearStart": 1938,
+      "yearEnd": 1938,
+      "precision": "year",
+      "id": "24-0041"
+    },
+    {
+      "text": "Начало массовых репрессий в Красной армии",
+      "dateRaw": "1937",
+      "section": "АРМИЯ",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0042"
+    },
+    {
+      "text": "Арест М. Н. Тухачевского",
+      "dateRaw": "1937",
+      "section": "АРМИЯ",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0043"
+    },
+    {
+      "text": "Дело Тухачевского",
+      "dateRaw": "1937",
+      "section": "АРМИЯ",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0044"
+    },
+    {
+      "text": "Курс на индустриализацию",
+      "dateRaw": "1925",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1925,
+      "yearEnd": 1925,
+      "precision": "year",
+      "id": "24-0045"
+    },
+    {
+      "text": "Первая пятилетка",
+      "dateRaw": "1928–1932",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1928,
+      "yearEnd": 1932,
+      "precision": "range",
+      "id": "24-0046"
+    },
+    {
+      "text": "Начало коллективизации",
+      "dateRaw": "1929",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "precision": "year",
+      "id": "24-0047"
+    },
+    {
+      "text": "Раскулачивание",
+      "dateRaw": "1930",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "precision": "year",
+      "id": "24-0048"
+    },
+    {
+      "text": "Голод",
+      "dateRaw": "1932–1933",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1932,
+      "yearEnd": 1933,
+      "precision": "range",
+      "id": "24-0049"
+    },
+    {
+      "text": "Открытие Московского метро",
+      "dateRaw": "1935",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1935,
+      "yearEnd": 1935,
+      "precision": "year",
+      "id": "24-0050"
+    },
+    {
+      "text": "Конституция СССР",
+      "dateRaw": "1936",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "24-0051"
+    },
+    {
+      "text": "Большой террор",
+      "dateRaw": "1936–1938",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1936,
+      "yearEnd": 1938,
+      "precision": "range",
+      "id": "24-0052"
+    },
+    {
+      "text": "Репрессии в Красной армии",
+      "dateRaw": "1937",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0053"
+    },
+    {
+      "text": "Введение всеобщего начального обучения",
+      "dateRaw": "1930",
+      "section": "ОБРАЗОВАНИЕ",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "precision": "year",
+      "id": "24-0054"
+    },
+    {
+      "text": "Начало массового развития советской системы образования",
+      "dateRaw": "1930-е гг.",
+      "section": "ОБРАЗОВАНИЕ",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0055"
+    },
+    {
+      "text": "Введение обязательного семилетнего обучения",
+      "dateRaw": "1930-е гг.",
+      "section": "ОБРАЗОВАНИЕ",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0056"
+    },
+    {
+      "text": "Переход к обязательному среднему образованию в городах",
+      "dateRaw": "конец 1930-х гг.",
+      "section": "ОБРАЗОВАНИЕ",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0057"
+    },
+    {
+      "text": "Создание Академии наук СССР",
+      "dateRaw": "1925",
+      "section": "НАУКА И ТЕХНИКА",
+      "yearStart": 1925,
+      "yearEnd": 1925,
+      "precision": "year",
+      "id": "24-0058"
+    },
+    {
+      "text": "Переезд Академии наук СССР из Ленинграда в Москву",
+      "dateRaw": "1934",
+      "section": "НАУКА И ТЕХНИКА",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0059"
+    },
+    {
+      "text": "Основание Главной геофизической обсерватории имени А. И. Воейкова",
+      "dateRaw": "1929",
+      "section": "НАУКА И ТЕХНИКА",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "precision": "year",
+      "id": "24-0060"
+    },
+    {
+      "text": "Первый полёт стратостата «СССР-1»",
+      "dateRaw": "1933",
+      "section": "НАУКА И ТЕХНИКА",
+      "yearStart": 1933,
+      "yearEnd": 1933,
+      "precision": "year",
+      "id": "24-0061"
+    },
+    {
+      "text": "Экспедиция И. Д. Папанина на Северный полюс",
+      "dateRaw": "1937",
+      "section": "НАУКА И ТЕХНИКА",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0062"
+    },
+    {
+      "text": "Первый полёт самолёта АНТ-25 через Северный полюс",
+      "dateRaw": "1937",
+      "section": "НАУКА И ТЕХНИКА",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0063"
+    },
+    {
+      "text": "Создание Российской ассоциации пролетарских писателей (РАПП)",
+      "dateRaw": "1925",
+      "section": "КУЛЬТУРА И ИДЕОЛОГИЯ",
+      "yearStart": 1925,
+      "yearEnd": 1925,
+      "precision": "year",
+      "id": "24-0064"
+    },
+    {
+      "text": "Постановление ЦК ВКП(б) «О перестройке литературно-художественных организаций»",
+      "dateRaw": "1932",
+      "section": "КУЛЬТУРА И ИДЕОЛОГИЯ",
+      "yearStart": 1932,
+      "yearEnd": 1932,
+      "precision": "year",
+      "id": "24-0065"
+    },
+    {
+      "text": "Создание Союза советских писателей",
+      "dateRaw": "1934",
+      "section": "КУЛЬТУРА И ИДЕОЛОГИЯ",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0066"
+    },
+    {
+      "text": "Первый Всесоюзный съезд советских писателей",
+      "dateRaw": "1934",
+      "section": "КУЛЬТУРА И ИДЕОЛОГИЯ",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0067"
+    },
+    {
+      "text": "Утверждение метода социалистического реализма",
+      "dateRaw": "1934",
+      "section": "КУЛЬТУРА И ИДЕОЛОГИЯ",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0068"
+    },
+    {
+      "text": "Выход первого советского звукового фильма «Путёвка в жизнь»",
+      "dateRaw": "1931",
+      "section": "КИНО И ИСКУССТВО",
+      "yearStart": 1931,
+      "yearEnd": 1931,
+      "precision": "year",
+      "id": "24-0069"
+    },
+    {
+      "text": "Выход фильма «Чапаев»",
+      "dateRaw": "1934",
+      "section": "КИНО И ИСКУССТВО",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0070"
+    },
+    {
+      "text": "Начало строительства ВДНХ (ВСХВ)",
+      "dateRaw": "1935",
+      "section": "КИНО И ИСКУССТВО",
+      "yearStart": 1935,
+      "yearEnd": 1935,
+      "precision": "year",
+      "id": "24-0071"
+    },
+    {
+      "text": "Открытие Всесоюзной сельскохозяйственной выставки",
+      "dateRaw": "1939",
+      "section": "КИНО И ИСКУССТВО",
+      "yearStart": 1939,
+      "yearEnd": 1939,
+      "precision": "year",
+      "id": "24-0072"
+    },
+    {
+      "text": "Усиление антирелигиозной политики",
+      "dateRaw": "1930-е гг.",
+      "section": "РЕЛИГИОЗНАЯ ПОЛИТИКА",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0073"
+    },
+    {
+      "text": "Закрытие и разрушение части храмов",
+      "dateRaw": "1930-е гг.",
+      "section": "РЕЛИГИОЗНАЯ ПОЛИТИКА",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0074"
+    },
+    {
+      "text": "Создание Союза воинствующих безбожников",
+      "dateRaw": "1925",
+      "section": "РЕЛИГИОЗНАЯ ПОЛИТИКА",
+      "yearStart": 1925,
+      "yearEnd": 1925,
+      "precision": "year",
+      "id": "24-0075"
+    },
+    {
+      "text": "Начало политики коренизации в союзных республиках",
+      "dateRaw": "1920-е гг.",
+      "section": "НАЦИОНАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0076"
+    },
+    {
+      "text": "Переход от политики коренизации к русификации",
+      "dateRaw": "1930-е гг.",
+      "section": "НАЦИОНАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0077"
+    },
+    {
+      "text": "Принятие Конституции СССР",
+      "dateRaw": "1936",
+      "section": "НАЦИОНАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "24-0078"
+    },
+    {
+      "text": "Образование новых союзных республик",
+      "dateRaw": "1930-е гг.",
+      "section": "НАЦИОНАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": null,
+      "yearEnd": null,
+      "precision": "period",
+      "id": "24-0079"
+    },
+    {
+      "text": "Упразднение Карело-Финской АССР и создание Карело-Финской ССР",
+      "dateRaw": "1940",
+      "section": "НАЦИОНАЛЬНАЯ ПОЛИТИКА",
+      "yearStart": 1940,
+      "yearEnd": 1940,
+      "precision": "year",
+      "id": "24-0080"
+    },
+    {
+      "text": "Создание Всесоюзной пионерской организации имени В. И. Ленина",
+      "dateRaw": "1922",
+      "section": "ОБЩЕСТВЕННАЯ ЖИЗНЬ",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "24-0081"
+    },
+    {
+      "text": "Создание Всесоюзного ленинского коммунистического союза молодёжи (ВЛКСМ)",
+      "dateRaw": "1926",
+      "section": "ОБЩЕСТВЕННАЯ ЖИЗНЬ",
+      "yearStart": 1926,
+      "yearEnd": 1926,
+      "precision": "year",
+      "id": "24-0082"
+    },
+    {
+      "text": "Массовое распространение стахановского движения",
+      "dateRaw": "1935",
+      "section": "ОБЩЕСТВЕННАЯ ЖИЗНЬ",
+      "yearStart": 1935,
+      "yearEnd": 1935,
+      "precision": "year",
+      "id": "24-0083"
+    },
+    {
+      "text": "Первый Всесоюзный съезд колхозников-ударников",
+      "dateRaw": "1933",
+      "section": "ОБЩЕСТВЕННАЯ ЖИЗНЬ",
+      "yearStart": 1933,
+      "yearEnd": 1933,
+      "precision": "year",
+      "id": "24-0084"
+    },
+    {
+      "text": "Принятие новой Конституции СССР",
+      "dateRaw": "1936",
+      "section": "КОНСТИТУЦИЯ 1936 ГОДА",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "24-0085"
+    },
+    {
+      "text": "Введение всеобщего, равного и прямого избирательного права",
+      "dateRaw": "1936",
+      "section": "КОНСТИТУЦИЯ 1936 ГОДА",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "24-0086"
+    },
+    {
+      "text": "Проведение первых выборов в Верховный Совет СССР",
+      "dateRaw": "1937",
+      "section": "КОНСТИТУЦИЯ 1936 ГОДА",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0087"
+    },
+    {
+      "text": "Создание Академии наук СССР",
+      "dateRaw": "1925",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1925,
+      "yearEnd": 1925,
+      "precision": "year",
+      "id": "24-0088"
+    },
+    {
+      "text": "Создание Союза советских писателей",
+      "dateRaw": "1934",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0089"
+    },
+    {
+      "text": "Первый съезд советских писателей",
+      "dateRaw": "1934",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "precision": "year",
+      "id": "24-0090"
+    },
+    {
+      "text": "Конституция СССР",
+      "dateRaw": "1936",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "24-0091"
+    },
+    {
+      "text": "Первые выборы в Верховный Совет СССР",
+      "dateRaw": "1937",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0092"
+    },
+    {
+      "text": "Экспедиция Папанина на Северный полюс",
+      "dateRaw": "1937",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "24-0093"
+    },
+    {
+      "text": "Открытие ВСХВ",
+      "dateRaw": "1939",
+      "section": "ИТОГИ ПЕРИОДА",
+      "yearStart": 1939,
+      "yearEnd": 1939,
+      "precision": "year",
+      "id": "24-0094"
+    }
+  ]
+}
