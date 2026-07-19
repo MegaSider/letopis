@@ -1,0 +1,631 @@
+{
+  "module": "09",
+  "title": "ЭПОХА ДВОРЦОВЫХ ПЕРЕВОРОТОВ",
+  "events": [
+    {
+      "text": "Смерть Петра I",
+      "dateRaw": "1725",
+      "section": "НАЧАЛО ЭПОХИ",
+      "yearStart": 1725,
+      "yearEnd": 1725,
+      "precision": "year",
+      "id": "09-0001"
+    },
+    {
+      "text": "Первый дворцовый переворот",
+      "dateRaw": "1725",
+      "section": "НАЧАЛО ЭПОХИ",
+      "yearStart": 1725,
+      "yearEnd": 1725,
+      "precision": "year",
+      "id": "09-0002"
+    },
+    {
+      "text": "Начало эпохи дворцовых переворотов",
+      "dateRaw": "1725",
+      "section": "НАЧАЛО ЭПОХИ",
+      "yearStart": 1725,
+      "yearEnd": 1725,
+      "precision": "year",
+      "id": "09-0003"
+    },
+    {
+      "text": "Начало правления Екатерины I",
+      "dateRaw": "1725",
+      "section": "НАЧАЛО ЭПОХИ",
+      "yearStart": 1725,
+      "yearEnd": 1725,
+      "precision": "year",
+      "id": "09-0004"
+    },
+    {
+      "text": "Учреждение Верховного тайного совета",
+      "dateRaw": "1726",
+      "section": "НАЧАЛО ЭПОХИ",
+      "yearStart": 1726,
+      "yearEnd": 1726,
+      "precision": "year",
+      "id": "09-0005"
+    },
+    {
+      "text": "Смерть Екатерины I",
+      "dateRaw": "1727",
+      "section": "НАЧАЛО ЭПОХИ",
+      "yearStart": 1727,
+      "yearEnd": 1727,
+      "precision": "year",
+      "id": "09-0006"
+    },
+    {
+      "text": "Начало правления Петра II",
+      "dateRaw": "1727",
+      "section": "ПРАВЛЕНИЕ ПЕТРА II",
+      "yearStart": 1727,
+      "yearEnd": 1727,
+      "precision": "year",
+      "id": "09-0007"
+    },
+    {
+      "text": "Падение А. Д. Меншикова",
+      "dateRaw": "1727",
+      "section": "ПРАВЛЕНИЕ ПЕТРА II",
+      "yearStart": 1727,
+      "yearEnd": 1727,
+      "precision": "year",
+      "id": "09-0008"
+    },
+    {
+      "text": "Ссылка А. Д. Меншикова",
+      "dateRaw": "1727",
+      "section": "ПРАВЛЕНИЕ ПЕТРА II",
+      "yearStart": 1727,
+      "yearEnd": 1727,
+      "precision": "year",
+      "id": "09-0009"
+    },
+    {
+      "text": "Перенос двора из Санкт-Петербурга в Москву",
+      "dateRaw": "1728",
+      "section": "ПРАВЛЕНИЕ ПЕТРА II",
+      "yearStart": 1728,
+      "yearEnd": 1728,
+      "precision": "year",
+      "id": "09-0010"
+    },
+    {
+      "text": "Усиление влияния князей Долгоруковых",
+      "dateRaw": "1728–1730",
+      "section": "ПРАВЛЕНИЕ ПЕТРА II",
+      "yearStart": 1728,
+      "yearEnd": 1730,
+      "precision": "range",
+      "id": "09-0011"
+    },
+    {
+      "text": "Смерть Петра II",
+      "dateRaw": "1730",
+      "section": "ПРАВЛЕНИЕ ПЕТРА II",
+      "yearStart": 1730,
+      "yearEnd": 1730,
+      "precision": "year",
+      "id": "09-0012"
+    },
+    {
+      "text": "Пресечение мужской линии Романовых",
+      "dateRaw": "1730",
+      "section": "ПРАВЛЕНИЕ ПЕТРА II",
+      "yearStart": 1730,
+      "yearEnd": 1730,
+      "precision": "year",
+      "id": "09-0013"
+    },
+    {
+      "text": "Избрание Анны Иоанновны на престол",
+      "dateRaw": "1730",
+      "section": "АННА ИОАННОВНА",
+      "yearStart": 1730,
+      "yearEnd": 1730,
+      "precision": "year",
+      "id": "09-0014"
+    },
+    {
+      "text": "Подписание Кондиций",
+      "dateRaw": "1730",
+      "section": "АННА ИОАННОВНА",
+      "yearStart": 1730,
+      "yearEnd": 1730,
+      "precision": "year",
+      "id": "09-0015"
+    },
+    {
+      "text": "Разрыв Кондиций",
+      "dateRaw": "1730",
+      "section": "АННА ИОАННОВНА",
+      "yearStart": 1730,
+      "yearEnd": 1730,
+      "precision": "year",
+      "id": "09-0016"
+    },
+    {
+      "text": "Ликвидация Верховного тайного совета",
+      "dateRaw": "1730",
+      "section": "АННА ИОАННОВНА",
+      "yearStart": 1730,
+      "yearEnd": 1730,
+      "precision": "year",
+      "id": "09-0017"
+    },
+    {
+      "text": "Учреждение Кабинета министров",
+      "dateRaw": "1731",
+      "section": "АННА ИОАННОВНА",
+      "yearStart": 1731,
+      "yearEnd": 1731,
+      "precision": "year",
+      "id": "09-0018"
+    },
+    {
+      "text": "Восстановление роли Сената",
+      "dateRaw": "1730",
+      "section": "АННА ИОАННОВНА",
+      "yearStart": 1730,
+      "yearEnd": 1730,
+      "precision": "year",
+      "id": "09-0019"
+    },
+    {
+      "text": "Создание Канцелярии тайных розыскных дел",
+      "dateRaw": "1731",
+      "section": "АННА ИОАННОВНА",
+      "yearStart": 1731,
+      "yearEnd": 1731,
+      "precision": "year",
+      "id": "09-0020"
+    },
+    {
+      "text": "Создание Измайловского гвардейского полка",
+      "dateRaw": "1730",
+      "section": "АННА ИОАННОВНА",
+      "yearStart": 1730,
+      "yearEnd": 1730,
+      "precision": "year",
+      "id": "09-0021"
+    },
+    {
+      "text": "Начало периода «бироновщины»",
+      "dateRaw": "1730-е гг.",
+      "section": "АННА ИОАННОВНА",
+      "yearStart": 1730,
+      "yearEnd": 1739,
+      "precision": "decade",
+      "decade": 1730,
+      "id": "09-0022"
+    },
+    {
+      "text": "Война за польское наследство",
+      "dateRaw": "1733–1735",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА АННЫ ИОАННОВНЫ",
+      "yearStart": 1733,
+      "yearEnd": 1735,
+      "precision": "range",
+      "id": "09-0023"
+    },
+    {
+      "text": "Русско-турецкая война",
+      "dateRaw": "1735–1739",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА АННЫ ИОАННОВНЫ",
+      "yearStart": 1735,
+      "yearEnd": 1739,
+      "precision": "range",
+      "id": "09-0024"
+    },
+    {
+      "text": "Взятие Азова",
+      "dateRaw": "1736",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА АННЫ ИОАННОВНЫ",
+      "yearStart": 1736,
+      "yearEnd": 1736,
+      "precision": "year",
+      "id": "09-0025"
+    },
+    {
+      "text": "Белградский мир",
+      "dateRaw": "1739",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА АННЫ ИОАННОВНЫ",
+      "yearStart": 1739,
+      "yearEnd": 1739,
+      "precision": "year",
+      "id": "09-0026"
+    },
+    {
+      "text": "Возвращение Азова России",
+      "dateRaw": "1739",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА АННЫ ИОАННОВНЫ",
+      "yearStart": 1739,
+      "yearEnd": 1739,
+      "precision": "year",
+      "id": "09-0027"
+    },
+    {
+      "text": "Отмена указа о единонаследии",
+      "dateRaw": "1731",
+      "section": "ЭКОНОМИКА И ОБЩЕСТВО",
+      "yearStart": 1731,
+      "yearEnd": 1731,
+      "precision": "year",
+      "id": "09-0028"
+    },
+    {
+      "text": "Создание Шляхетского кадетского корпуса",
+      "dateRaw": "1731",
+      "section": "ЭКОНОМИКА И ОБЩЕСТВО",
+      "yearStart": 1731,
+      "yearEnd": 1731,
+      "precision": "year",
+      "id": "09-0029"
+    },
+    {
+      "text": "Ограничение срока службы дворян",
+      "dateRaw": "1736",
+      "section": "ЭКОНОМИКА И ОБЩЕСТВО",
+      "yearStart": 1736,
+      "yearEnd": 1736,
+      "precision": "year",
+      "id": "09-0030"
+    },
+    {
+      "text": "Закрепление работников за мануфактурами",
+      "dateRaw": "1736",
+      "section": "ЭКОНОМИКА И ОБЩЕСТВО",
+      "yearStart": 1736,
+      "yearEnd": 1736,
+      "precision": "year",
+      "id": "09-0031"
+    },
+    {
+      "text": "Провозглашение Ивана VI императором",
+      "dateRaw": "1740",
+      "section": "ИВАН VI",
+      "yearStart": 1740,
+      "yearEnd": 1740,
+      "precision": "year",
+      "id": "09-0032"
+    },
+    {
+      "text": "Начало регентства Бирона",
+      "dateRaw": "1740",
+      "section": "ИВАН VI",
+      "yearStart": 1740,
+      "yearEnd": 1740,
+      "precision": "year",
+      "id": "09-0033"
+    },
+    {
+      "text": "Арест Бирона",
+      "dateRaw": "1740",
+      "section": "ИВАН VI",
+      "yearStart": 1740,
+      "yearEnd": 1740,
+      "precision": "year",
+      "id": "09-0034"
+    },
+    {
+      "text": "Начало регентства Анны Леопольдовны",
+      "dateRaw": "1740",
+      "section": "ИВАН VI",
+      "yearStart": 1740,
+      "yearEnd": 1740,
+      "precision": "year",
+      "id": "09-0035"
+    },
+    {
+      "text": "Дворцовый переворот",
+      "dateRaw": "1741",
+      "section": "ЕЛИЗАВЕТА ПЕТРОВНА",
+      "yearStart": 1741,
+      "yearEnd": 1741,
+      "precision": "year",
+      "id": "09-0036"
+    },
+    {
+      "text": "Начало правления Елизаветы Петровны",
+      "dateRaw": "1741",
+      "section": "ЕЛИЗАВЕТА ПЕТРОВНА",
+      "yearStart": 1741,
+      "yearEnd": 1741,
+      "precision": "year",
+      "id": "09-0037"
+    },
+    {
+      "text": "Восстановление роли Сената",
+      "dateRaw": "1741",
+      "section": "ЕЛИЗАВЕТА ПЕТРОВНА",
+      "yearStart": 1741,
+      "yearEnd": 1741,
+      "precision": "year",
+      "id": "09-0038"
+    },
+    {
+      "text": "Отмена внутренних таможенных пошлин",
+      "dateRaw": "1754",
+      "section": "ЕЛИЗАВЕТА ПЕТРОВНА",
+      "yearStart": 1754,
+      "yearEnd": 1754,
+      "precision": "year",
+      "id": "09-0039"
+    },
+    {
+      "text": "Учреждение Дворянского и Купеческого банков",
+      "dateRaw": "1754",
+      "section": "ЕЛИЗАВЕТА ПЕТРОВНА",
+      "yearStart": 1754,
+      "yearEnd": 1754,
+      "precision": "year",
+      "id": "09-0040"
+    },
+    {
+      "text": "Основание Московского университета",
+      "dateRaw": "1755",
+      "section": "ЕЛИЗАВЕТА ПЕТРОВНА",
+      "yearStart": 1755,
+      "yearEnd": 1755,
+      "precision": "year",
+      "id": "09-0041"
+    },
+    {
+      "text": "Учреждение Академии художеств",
+      "dateRaw": "1757",
+      "section": "ЕЛИЗАВЕТА ПЕТРОВНА",
+      "yearStart": 1757,
+      "yearEnd": 1757,
+      "precision": "year",
+      "id": "09-0042"
+    },
+    {
+      "text": "Русско-шведская война",
+      "dateRaw": "1741–1743",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА ЕЛИЗАВЕТЫ",
+      "yearStart": 1741,
+      "yearEnd": 1743,
+      "precision": "range",
+      "id": "09-0043"
+    },
+    {
+      "text": "Абоский мир",
+      "dateRaw": "1743",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА ЕЛИЗАВЕТЫ",
+      "yearStart": 1743,
+      "yearEnd": 1743,
+      "precision": "year",
+      "id": "09-0044"
+    },
+    {
+      "text": "Участие России в Семилетней войне",
+      "dateRaw": "1756–1763",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА ЕЛИЗАВЕТЫ",
+      "yearStart": 1756,
+      "yearEnd": 1763,
+      "precision": "range",
+      "id": "09-0045"
+    },
+    {
+      "text": "Сражение при Гросс-Егерсдорфе",
+      "dateRaw": "1757",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА ЕЛИЗАВЕТЫ",
+      "yearStart": 1757,
+      "yearEnd": 1757,
+      "precision": "year",
+      "id": "09-0046"
+    },
+    {
+      "text": "Сражение при Цорндорфе",
+      "dateRaw": "1758",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА ЕЛИЗАВЕТЫ",
+      "yearStart": 1758,
+      "yearEnd": 1758,
+      "precision": "year",
+      "id": "09-0047"
+    },
+    {
+      "text": "Сражение при Кунерсдорфе",
+      "dateRaw": "1759",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА ЕЛИЗАВЕТЫ",
+      "yearStart": 1759,
+      "yearEnd": 1759,
+      "precision": "year",
+      "id": "09-0048"
+    },
+    {
+      "text": "Взятие Берлина русскими войсками",
+      "dateRaw": "1760",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА ЕЛИЗАВЕТЫ",
+      "yearStart": 1760,
+      "yearEnd": 1760,
+      "precision": "year",
+      "id": "09-0049"
+    },
+    {
+      "text": "Смерть Елизаветы Петровны",
+      "dateRaw": "1761",
+      "section": "ВНЕШНЯЯ ПОЛИТИКА ЕЛИЗАВЕТЫ",
+      "yearStart": 1761,
+      "yearEnd": 1761,
+      "precision": "year",
+      "id": "09-0050"
+    },
+    {
+      "text": "Начало правления Петра III",
+      "dateRaw": "1761",
+      "section": "ПЁТР III",
+      "yearStart": 1761,
+      "yearEnd": 1761,
+      "precision": "year",
+      "id": "09-0051"
+    },
+    {
+      "text": "Манифест о вольности дворянства",
+      "dateRaw": "1762",
+      "section": "ПЁТР III",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0052"
+    },
+    {
+      "text": "Ликвидация Тайной канцелярии",
+      "dateRaw": "1762",
+      "section": "ПЁТР III",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0053"
+    },
+    {
+      "text": "Заключение Петербургского мира с Пруссией",
+      "dateRaw": "1762",
+      "section": "ПЁТР III",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0054"
+    },
+    {
+      "text": "Выход России из Семилетней войны",
+      "dateRaw": "1762",
+      "section": "ПЁТР III",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0055"
+    },
+    {
+      "text": "Подготовка секуляризации церковных земель",
+      "dateRaw": "1762",
+      "section": "ПЁТР III",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0056"
+    },
+    {
+      "text": "Дворцовый переворот",
+      "dateRaw": "1762",
+      "section": "ЗАВЕРШЕНИЕ ЭПОХИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0057"
+    },
+    {
+      "text": "Свержение Петра III",
+      "dateRaw": "1762",
+      "section": "ЗАВЕРШЕНИЕ ЭПОХИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0058"
+    },
+    {
+      "text": "Начало правления Екатерины II",
+      "dateRaw": "1762",
+      "section": "ЗАВЕРШЕНИЕ ЭПОХИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0059"
+    },
+    {
+      "text": "Гибель Петра III",
+      "dateRaw": "1762",
+      "section": "ЗАВЕРШЕНИЕ ЭПОХИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0060"
+    },
+    {
+      "text": "Окончание эпохи дворцовых переворотов",
+      "dateRaw": "1762",
+      "section": "ЗАВЕРШЕНИЕ ЭПОХИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0061"
+    },
+    {
+      "text": "Основание Академии художеств",
+      "dateRaw": "1757",
+      "section": "КУЛЬТУРА И НАУКА",
+      "yearStart": 1757,
+      "yearEnd": 1757,
+      "precision": "year",
+      "id": "09-0062"
+    },
+    {
+      "text": "Расцвет деятельности М. В. Ломоносова",
+      "dateRaw": "середина XVIII в.",
+      "section": "КУЛЬТУРА И НАУКА",
+      "yearStart": 1738,
+      "yearEnd": 1763,
+      "precision": "century-part",
+      "century": 18,
+      "id": "09-0063"
+    },
+    {
+      "text": "Развитие русского классицизма",
+      "dateRaw": "середина XVIII в.",
+      "section": "КУЛЬТУРА И НАУКА",
+      "yearStart": 1738,
+      "yearEnd": 1763,
+      "precision": "century-part",
+      "century": 18,
+      "id": "09-0064"
+    },
+    {
+      "text": "Развитие отечественной науки",
+      "dateRaw": "середина XVIII в.",
+      "section": "КУЛЬТУРА И НАУКА",
+      "yearStart": 1738,
+      "yearEnd": 1763,
+      "precision": "century-part",
+      "century": 18,
+      "id": "09-0065"
+    },
+    {
+      "text": "Кондиции",
+      "dateRaw": "1730",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1730,
+      "yearEnd": 1730,
+      "precision": "year",
+      "id": "09-0066"
+    },
+    {
+      "text": "Дворцовый переворот Елизаветы Петровны",
+      "dateRaw": "1741",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1741,
+      "yearEnd": 1741,
+      "precision": "year",
+      "id": "09-0067"
+    },
+    {
+      "text": "Семилетняя война",
+      "dateRaw": "1756–1763",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1756,
+      "yearEnd": 1763,
+      "precision": "range",
+      "id": "09-0068"
+    },
+    {
+      "text": "Дворцовый переворот Екатерины II",
+      "dateRaw": "1762",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1762,
+      "yearEnd": 1762,
+      "precision": "year",
+      "id": "09-0069"
+    }
+  ]
+}
