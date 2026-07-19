@@ -1,0 +1,856 @@
+{
+  "module": "07",
+  "title": "СМУТНОЕ ВРЕМЯ И ПЕРВЫЕ РОМАНОВЫ",
+  "events": [
+    {
+      "text": "Начало правления Фёдора Ивановича",
+      "dateRaw": "1584",
+      "section": "ПОСЛЕДНИЕ РЮРИКОВИЧИ",
+      "yearStart": 1584,
+      "yearEnd": 1584,
+      "precision": "year",
+      "id": "07-0001"
+    },
+    {
+      "text": "Учреждение патриаршества в России",
+      "dateRaw": "1589",
+      "section": "ПОСЛЕДНИЕ РЮРИКОВИЧИ",
+      "yearStart": 1589,
+      "yearEnd": 1589,
+      "precision": "year",
+      "id": "07-0002"
+    },
+    {
+      "text": "Избрание Иова первым патриархом Московским и всея Руси",
+      "dateRaw": "1589",
+      "section": "ПОСЛЕДНИЕ РЮРИКОВИЧИ",
+      "yearStart": 1589,
+      "yearEnd": 1589,
+      "precision": "year",
+      "id": "07-0003"
+    },
+    {
+      "text": "Гибель царевича Дмитрия в Угличе",
+      "dateRaw": "1591",
+      "section": "ПОСЛЕДНИЕ РЮРИКОВИЧИ",
+      "yearStart": 1591,
+      "yearEnd": 1591,
+      "precision": "year",
+      "id": "07-0004"
+    },
+    {
+      "text": "Указ об «урочных летах»",
+      "dateRaw": "1597",
+      "section": "ПОСЛЕДНИЕ РЮРИКОВИЧИ",
+      "yearStart": 1597,
+      "yearEnd": 1597,
+      "precision": "year",
+      "id": "07-0005"
+    },
+    {
+      "text": "Смерть царя Фёдора Ивановича",
+      "dateRaw": "1598",
+      "section": "ПОСЛЕДНИЕ РЮРИКОВИЧИ",
+      "yearStart": 1598,
+      "yearEnd": 1598,
+      "precision": "year",
+      "id": "07-0006"
+    },
+    {
+      "text": "Прекращение династии Рюриковичей",
+      "dateRaw": "1598",
+      "section": "ПОСЛЕДНИЕ РЮРИКОВИЧИ",
+      "yearStart": 1598,
+      "yearEnd": 1598,
+      "precision": "year",
+      "id": "07-0007"
+    },
+    {
+      "text": "Избрание Бориса Годунова на царство Земским собором",
+      "dateRaw": "1598",
+      "section": "ПРАВЛЕНИЕ БОРИСА ГОДУНОВА",
+      "yearStart": 1598,
+      "yearEnd": 1598,
+      "precision": "year",
+      "id": "07-0008"
+    },
+    {
+      "text": "Начало правления Бориса Годунова",
+      "dateRaw": "1598",
+      "section": "ПРАВЛЕНИЕ БОРИСА ГОДУНОВА",
+      "yearStart": 1598,
+      "yearEnd": 1598,
+      "precision": "year",
+      "id": "07-0009"
+    },
+    {
+      "text": "Основание города Томска",
+      "dateRaw": "1604",
+      "section": "ПРАВЛЕНИЕ БОРИСА ГОДУНОВА",
+      "yearStart": 1604,
+      "yearEnd": 1604,
+      "precision": "year",
+      "id": "07-0010"
+    },
+    {
+      "text": "Голод в России",
+      "dateRaw": "1601–1603",
+      "section": "ПРАВЛЕНИЕ БОРИСА ГОДУНОВА",
+      "yearStart": 1601,
+      "yearEnd": 1603,
+      "precision": "range",
+      "id": "07-0011"
+    },
+    {
+      "text": "Массовый голод и эпидемии",
+      "dateRaw": "1601–1603",
+      "section": "ПРАВЛЕНИЕ БОРИСА ГОДУНОВА",
+      "yearStart": 1601,
+      "yearEnd": 1603,
+      "precision": "range",
+      "id": "07-0012"
+    },
+    {
+      "text": "Восстание Хлопка Косолапа",
+      "dateRaw": "1603",
+      "section": "ПРАВЛЕНИЕ БОРИСА ГОДУНОВА",
+      "yearStart": 1603,
+      "yearEnd": 1603,
+      "precision": "year",
+      "id": "07-0013"
+    },
+    {
+      "text": "Появление Лжедмитрия I в Речи Посполитой",
+      "dateRaw": "1603",
+      "section": "ПРАВЛЕНИЕ БОРИСА ГОДУНОВА",
+      "yearStart": 1603,
+      "yearEnd": 1603,
+      "precision": "year",
+      "id": "07-0014"
+    },
+    {
+      "text": "Начало похода Лжедмитрия I на Москву",
+      "dateRaw": "1604",
+      "section": "ПРАВЛЕНИЕ БОРИСА ГОДУНОВА",
+      "yearStart": 1604,
+      "yearEnd": 1604,
+      "precision": "year",
+      "id": "07-0015"
+    },
+    {
+      "text": "Смерть Бориса Годунова",
+      "dateRaw": "1605",
+      "section": "ПРАВЛЕНИЕ БОРИСА ГОДУНОВА",
+      "yearStart": 1605,
+      "yearEnd": 1605,
+      "precision": "year",
+      "id": "07-0016"
+    },
+    {
+      "text": "Вступление Лжедмитрия I в Москву",
+      "dateRaw": "1605",
+      "section": "ЛЖЕДМИТРИЙ I",
+      "yearStart": 1605,
+      "yearEnd": 1605,
+      "precision": "year",
+      "id": "07-0017"
+    },
+    {
+      "text": "Начало правления Лжедмитрия I",
+      "dateRaw": "1605",
+      "section": "ЛЖЕДМИТРИЙ I",
+      "yearStart": 1605,
+      "yearEnd": 1605,
+      "precision": "year",
+      "id": "07-0018"
+    },
+    {
+      "text": "Коронация Лжедмитрия I",
+      "dateRaw": "1605",
+      "section": "ЛЖЕДМИТРИЙ I",
+      "yearStart": 1605,
+      "yearEnd": 1605,
+      "precision": "year",
+      "id": "07-0019"
+    },
+    {
+      "text": "Брак Лжедмитрия I с Мариной Мнишек",
+      "dateRaw": "1606",
+      "section": "ЛЖЕДМИТРИЙ I",
+      "yearStart": 1606,
+      "yearEnd": 1606,
+      "precision": "year",
+      "id": "07-0020"
+    },
+    {
+      "text": "Свержение и гибель Лжедмитрия I",
+      "dateRaw": "1606",
+      "section": "ЛЖЕДМИТРИЙ I",
+      "yearStart": 1606,
+      "yearEnd": 1606,
+      "precision": "year",
+      "id": "07-0021"
+    },
+    {
+      "text": "Избрание Василия Шуйского царём",
+      "dateRaw": "1606",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1606,
+      "yearEnd": 1606,
+      "precision": "year",
+      "id": "07-0022"
+    },
+    {
+      "text": "Начало правления Василия Шуйского",
+      "dateRaw": "1606",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1606,
+      "yearEnd": 1606,
+      "precision": "year",
+      "id": "07-0023"
+    },
+    {
+      "text": "Восстание Ивана Болотникова",
+      "dateRaw": "1606–1607",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1606,
+      "yearEnd": 1607,
+      "precision": "range",
+      "id": "07-0024"
+    },
+    {
+      "text": "Осада Тулы",
+      "dateRaw": "1607",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1607,
+      "yearEnd": 1607,
+      "precision": "year",
+      "id": "07-0025"
+    },
+    {
+      "text": "Подавление восстания Болотникова",
+      "dateRaw": "1607",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1607,
+      "yearEnd": 1607,
+      "precision": "year",
+      "id": "07-0026"
+    },
+    {
+      "text": "Появление Лжедмитрия II",
+      "dateRaw": "1607",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1607,
+      "yearEnd": 1607,
+      "precision": "year",
+      "id": "07-0027"
+    },
+    {
+      "text": "Образование Тушинского лагеря",
+      "dateRaw": "1608",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1608,
+      "yearEnd": 1608,
+      "precision": "year",
+      "id": "07-0028"
+    },
+    {
+      "text": "Начало польской интервенции",
+      "dateRaw": "1609",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1609,
+      "yearEnd": 1609,
+      "precision": "year",
+      "id": "07-0029"
+    },
+    {
+      "text": "Выборгский договор со Швецией",
+      "dateRaw": "1609",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1609,
+      "yearEnd": 1609,
+      "precision": "year",
+      "id": "07-0030"
+    },
+    {
+      "text": "Оборона Троице-Сергиева монастыря",
+      "dateRaw": "1608–1610",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1608,
+      "yearEnd": 1610,
+      "precision": "range",
+      "id": "07-0031"
+    },
+    {
+      "text": "Сражение при Клушине",
+      "dateRaw": "1610",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1610,
+      "yearEnd": 1610,
+      "precision": "year",
+      "id": "07-0032"
+    },
+    {
+      "text": "Свержение Василия Шуйского",
+      "dateRaw": "1610",
+      "section": "ВАСИЛИЙ ШУЙСКИЙ",
+      "yearStart": 1610,
+      "yearEnd": 1610,
+      "precision": "year",
+      "id": "07-0033"
+    },
+    {
+      "text": "Начало правления Семибоярщины",
+      "dateRaw": "1610",
+      "section": "СЕМИБОЯРЩИНА",
+      "yearStart": 1610,
+      "yearEnd": 1610,
+      "precision": "year",
+      "id": "07-0034"
+    },
+    {
+      "text": "Вступление польского гарнизона в Москву",
+      "dateRaw": "1610",
+      "section": "СЕМИБОЯРЩИНА",
+      "yearStart": 1610,
+      "yearEnd": 1610,
+      "precision": "year",
+      "id": "07-0035"
+    },
+    {
+      "text": "Приглашение Владислава на русский престол",
+      "dateRaw": "1610",
+      "section": "СЕМИБОЯРЩИНА",
+      "yearStart": 1610,
+      "yearEnd": 1610,
+      "precision": "year",
+      "id": "07-0036"
+    },
+    {
+      "text": "Создание Первого народного ополчения",
+      "dateRaw": "1611",
+      "section": "ОПОЛЧЕНИЯ",
+      "yearStart": 1611,
+      "yearEnd": 1611,
+      "precision": "year",
+      "id": "07-0037"
+    },
+    {
+      "text": "Распад Первого ополчения",
+      "dateRaw": "1611",
+      "section": "ОПОЛЧЕНИЯ",
+      "yearStart": 1611,
+      "yearEnd": 1611,
+      "precision": "year",
+      "id": "07-0038"
+    },
+    {
+      "text": "Создание Второго народного ополчения в Нижнем Новгороде",
+      "dateRaw": "1611",
+      "section": "ОПОЛЧЕНИЯ",
+      "yearStart": 1611,
+      "yearEnd": 1611,
+      "precision": "year",
+      "id": "07-0039"
+    },
+    {
+      "text": "Начало руководства Кузьмы Минина и Дмитрия Пожарского",
+      "dateRaw": "1611",
+      "section": "ОПОЛЧЕНИЯ",
+      "yearStart": 1611,
+      "yearEnd": 1611,
+      "precision": "year",
+      "id": "07-0040"
+    },
+    {
+      "text": "Поход Второго ополчения к Москве",
+      "dateRaw": "1612",
+      "section": "ОПОЛЧЕНИЯ",
+      "yearStart": 1612,
+      "yearEnd": 1612,
+      "precision": "year",
+      "id": "07-0041"
+    },
+    {
+      "text": "Освобождение Китай-города",
+      "dateRaw": "1612",
+      "section": "ОПОЛЧЕНИЯ",
+      "yearStart": 1612,
+      "yearEnd": 1612,
+      "precision": "year",
+      "id": "07-0042"
+    },
+    {
+      "text": "Освобождение Москвы от польского гарнизона",
+      "dateRaw": "1612",
+      "section": "ОПОЛЧЕНИЯ",
+      "yearStart": 1612,
+      "yearEnd": 1612,
+      "precision": "year",
+      "id": "07-0043"
+    },
+    {
+      "text": "Капитуляция польского гарнизона",
+      "dateRaw": "1612",
+      "section": "ОПОЛЧЕНИЯ",
+      "yearStart": 1612,
+      "yearEnd": 1612,
+      "precision": "year",
+      "id": "07-0044"
+    },
+    {
+      "text": "Созыв Земского собора",
+      "dateRaw": "1613",
+      "section": "ЗАВЕРШЕНИЕ СМУТЫ",
+      "yearStart": 1613,
+      "yearEnd": 1613,
+      "precision": "year",
+      "id": "07-0045"
+    },
+    {
+      "text": "Избрание Михаила Фёдоровича Романова царём",
+      "dateRaw": "1613",
+      "section": "ЗАВЕРШЕНИЕ СМУТЫ",
+      "yearStart": 1613,
+      "yearEnd": 1613,
+      "precision": "year",
+      "id": "07-0046"
+    },
+    {
+      "text": "Начало правления династии Романовых",
+      "dateRaw": "1613",
+      "section": "ЗАВЕРШЕНИЕ СМУТЫ",
+      "yearStart": 1613,
+      "yearEnd": 1613,
+      "precision": "year",
+      "id": "07-0047"
+    },
+    {
+      "text": "Окончание Смутного времени",
+      "dateRaw": "1613",
+      "section": "ЗАВЕРШЕНИЕ СМУТЫ",
+      "yearStart": 1613,
+      "yearEnd": 1613,
+      "precision": "year",
+      "id": "07-0048"
+    },
+    {
+      "text": "Начало правления Михаила Фёдоровича",
+      "dateRaw": "1613",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1613,
+      "yearEnd": 1613,
+      "precision": "year",
+      "id": "07-0049"
+    },
+    {
+      "text": "Столбовский мир со Швецией",
+      "dateRaw": "1617",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1617,
+      "yearEnd": 1617,
+      "precision": "year",
+      "id": "07-0050"
+    },
+    {
+      "text": "Деулинское перемирие с Речью Посполитой",
+      "dateRaw": "1618",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1618,
+      "yearEnd": 1618,
+      "precision": "year",
+      "id": "07-0051"
+    },
+    {
+      "text": "Возвращение патриарха Филарета из польского плена",
+      "dateRaw": "1619",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1619,
+      "yearEnd": 1619,
+      "precision": "year",
+      "id": "07-0052"
+    },
+    {
+      "text": "Начало фактического соправления Михаила и Филарета",
+      "dateRaw": "1619",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1619,
+      "yearEnd": 1619,
+      "precision": "year",
+      "id": "07-0053"
+    },
+    {
+      "text": "Основание Красноярска",
+      "dateRaw": "1628",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1628,
+      "yearEnd": 1628,
+      "precision": "year",
+      "id": "07-0054"
+    },
+    {
+      "text": "Начало формирования полков нового строя",
+      "dateRaw": "1630-е гг.",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1630,
+      "yearEnd": 1639,
+      "precision": "decade",
+      "decade": 1630,
+      "id": "07-0055"
+    },
+    {
+      "text": "Смоленская война",
+      "dateRaw": "1632–1634",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1632,
+      "yearEnd": 1634,
+      "precision": "range",
+      "id": "07-0056"
+    },
+    {
+      "text": "Поляновский мир",
+      "dateRaw": "1634",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1634,
+      "yearEnd": 1634,
+      "precision": "year",
+      "id": "07-0057"
+    },
+    {
+      "text": "Смерть Михаила Фёдоровича",
+      "dateRaw": "1645",
+      "section": "МИХАИЛ ФЁДОРОВИЧ",
+      "yearStart": 1645,
+      "yearEnd": 1645,
+      "precision": "year",
+      "id": "07-0058"
+    },
+    {
+      "text": "Начало правления Алексея Михайловича",
+      "dateRaw": "1645",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1645,
+      "yearEnd": 1645,
+      "precision": "year",
+      "id": "07-0059"
+    },
+    {
+      "text": "Соляной бунт",
+      "dateRaw": "1648",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1648,
+      "yearEnd": 1648,
+      "precision": "year",
+      "id": "07-0060"
+    },
+    {
+      "text": "Принятие Соборного уложения",
+      "dateRaw": "1649",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1649,
+      "yearEnd": 1649,
+      "precision": "year",
+      "id": "07-0061"
+    },
+    {
+      "text": "Отмена урочных лет",
+      "dateRaw": "1649",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1649,
+      "yearEnd": 1649,
+      "precision": "year",
+      "id": "07-0062"
+    },
+    {
+      "text": "Окончательное закрепощение крестьян",
+      "dateRaw": "1649",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1649,
+      "yearEnd": 1649,
+      "precision": "year",
+      "id": "07-0063"
+    },
+    {
+      "text": "Новоторговый устав",
+      "dateRaw": "1667",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1667,
+      "yearEnd": 1667,
+      "precision": "year",
+      "id": "07-0064"
+    },
+    {
+      "text": "Медный бунт",
+      "dateRaw": "1662",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1662,
+      "yearEnd": 1662,
+      "precision": "year",
+      "id": "07-0065"
+    },
+    {
+      "text": "Церковная реформа патриарха Никона",
+      "dateRaw": "1653–1656",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1653,
+      "yearEnd": 1656,
+      "precision": "range",
+      "id": "07-0066"
+    },
+    {
+      "text": "Начало церковного раскола",
+      "dateRaw": "середина XVII в.",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1638,
+      "yearEnd": 1663,
+      "precision": "century-part",
+      "century": 17,
+      "id": "07-0067"
+    },
+    {
+      "text": "Переяславская рада",
+      "dateRaw": "1654",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1654,
+      "yearEnd": 1654,
+      "precision": "year",
+      "id": "07-0068"
+    },
+    {
+      "text": "Вхождение Левобережной Украины в состав России",
+      "dateRaw": "1654",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1654,
+      "yearEnd": 1654,
+      "precision": "year",
+      "id": "07-0069"
+    },
+    {
+      "text": "Русско-польская война",
+      "dateRaw": "1654–1667",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1654,
+      "yearEnd": 1667,
+      "precision": "range",
+      "id": "07-0070"
+    },
+    {
+      "text": "Русско-шведская война",
+      "dateRaw": "1656–1658",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1656,
+      "yearEnd": 1658,
+      "precision": "range",
+      "id": "07-0071"
+    },
+    {
+      "text": "Андрусовское перемирие",
+      "dateRaw": "1667",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1667,
+      "yearEnd": 1667,
+      "precision": "year",
+      "id": "07-0072"
+    },
+    {
+      "text": "Соловецкое восстание",
+      "dateRaw": "1668–1676",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1668,
+      "yearEnd": 1676,
+      "precision": "range",
+      "id": "07-0073"
+    },
+    {
+      "text": "Восстание Степана Разина",
+      "dateRaw": "1670–1671",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1670,
+      "yearEnd": 1671,
+      "precision": "range",
+      "id": "07-0074"
+    },
+    {
+      "text": "Смерть Алексея Михайловича",
+      "dateRaw": "1676",
+      "section": "АЛЕКСЕЙ МИХАЙЛОВИЧ",
+      "yearStart": 1676,
+      "yearEnd": 1676,
+      "precision": "year",
+      "id": "07-0075"
+    },
+    {
+      "text": "Начало правления Фёдора Алексеевича",
+      "dateRaw": "1676",
+      "section": "ФЁДОР АЛЕКСЕЕВИЧ",
+      "yearStart": 1676,
+      "yearEnd": 1676,
+      "precision": "year",
+      "id": "07-0076"
+    },
+    {
+      "text": "Чигиринские походы",
+      "dateRaw": "1677–1678",
+      "section": "ФЁДОР АЛЕКСЕЕВИЧ",
+      "yearStart": 1677,
+      "yearEnd": 1678,
+      "precision": "range",
+      "id": "07-0077"
+    },
+    {
+      "text": "Бахчисарайский мир",
+      "dateRaw": "1681",
+      "section": "ФЁДОР АЛЕКСЕЕВИЧ",
+      "yearStart": 1681,
+      "yearEnd": 1681,
+      "precision": "year",
+      "id": "07-0078"
+    },
+    {
+      "text": "Отмена местничества",
+      "dateRaw": "1682",
+      "section": "ФЁДОР АЛЕКСЕЕВИЧ",
+      "yearStart": 1682,
+      "yearEnd": 1682,
+      "precision": "year",
+      "id": "07-0079"
+    },
+    {
+      "text": "Смерть Фёдора Алексеевича",
+      "dateRaw": "1682",
+      "section": "ФЁДОР АЛЕКСЕЕВИЧ",
+      "yearStart": 1682,
+      "yearEnd": 1682,
+      "precision": "year",
+      "id": "07-0080"
+    },
+    {
+      "text": "Стрелецкий бунт",
+      "dateRaw": "1682",
+      "section": "СТРЕЛЕЦКИЙ БУНТ И РЕГЕНТСТВО СОФЬИ",
+      "yearStart": 1682,
+      "yearEnd": 1682,
+      "precision": "year",
+      "id": "07-0081"
+    },
+    {
+      "text": "Провозглашение Ивана V и Петра I царями",
+      "dateRaw": "1682",
+      "section": "СТРЕЛЕЦКИЙ БУНТ И РЕГЕНТСТВО СОФЬИ",
+      "yearStart": 1682,
+      "yearEnd": 1682,
+      "precision": "year",
+      "id": "07-0082"
+    },
+    {
+      "text": "Начало регентства Софьи Алексеевны",
+      "dateRaw": "1682",
+      "section": "СТРЕЛЕЦКИЙ БУНТ И РЕГЕНТСТВО СОФЬИ",
+      "yearStart": 1682,
+      "yearEnd": 1682,
+      "precision": "year",
+      "id": "07-0083"
+    },
+    {
+      "text": "Заключение «Вечного мира» с Речью Посполитой",
+      "dateRaw": "1686",
+      "section": "СТРЕЛЕЦКИЙ БУНТ И РЕГЕНТСТВО СОФЬИ",
+      "yearStart": 1686,
+      "yearEnd": 1686,
+      "precision": "year",
+      "id": "07-0084"
+    },
+    {
+      "text": "Первый Крымский поход",
+      "dateRaw": "1687",
+      "section": "СТРЕЛЕЦКИЙ БУНТ И РЕГЕНТСТВО СОФЬИ",
+      "yearStart": 1687,
+      "yearEnd": 1687,
+      "precision": "year",
+      "id": "07-0085"
+    },
+    {
+      "text": "Второй Крымский поход",
+      "dateRaw": "1689",
+      "section": "СТРЕЛЕЦКИЙ БУНТ И РЕГЕНТСТВО СОФЬИ",
+      "yearStart": 1689,
+      "yearEnd": 1689,
+      "precision": "year",
+      "id": "07-0086"
+    },
+    {
+      "text": "Падение регентства Софьи",
+      "dateRaw": "1689",
+      "section": "СТРЕЛЕЦКИЙ БУНТ И РЕГЕНТСТВО СОФЬИ",
+      "yearStart": 1689,
+      "yearEnd": 1689,
+      "precision": "year",
+      "id": "07-0087"
+    },
+    {
+      "text": "Издание «Соборного уложения»",
+      "dateRaw": "1649",
+      "section": "КУЛЬТУРА XVII ВЕКА",
+      "yearStart": 1649,
+      "yearEnd": 1649,
+      "precision": "year",
+      "id": "07-0088"
+    },
+    {
+      "text": "Начало деятельности Симеона Полоцкого",
+      "dateRaw": "вторая половина XVII в.",
+      "section": "КУЛЬТУРА XVII ВЕКА",
+      "yearStart": 1651,
+      "yearEnd": 1700,
+      "precision": "century-part",
+      "century": 17,
+      "id": "07-0089"
+    },
+    {
+      "text": "Основание Славяно-греко-латинской академии",
+      "dateRaw": "1687",
+      "section": "КУЛЬТУРА XVII ВЕКА",
+      "yearStart": 1687,
+      "yearEnd": 1687,
+      "precision": "year",
+      "id": "07-0090"
+    },
+    {
+      "text": "Строительство Теремного дворца Московского Кремля",
+      "dateRaw": "1635–1636",
+      "section": "КУЛЬТУРА XVII ВЕКА",
+      "yearStart": 1635,
+      "yearEnd": 1636,
+      "precision": "range",
+      "id": "07-0091"
+    },
+    {
+      "text": "Появление первых светских портретов (парсун)",
+      "dateRaw": "XVII в.",
+      "section": "КУЛЬТУРА XVII ВЕКА",
+      "yearStart": 1601,
+      "yearEnd": 1700,
+      "precision": "century",
+      "century": 17,
+      "id": "07-0092"
+    },
+    {
+      "text": "Начало правления Романовых",
+      "dateRaw": "1613",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1613,
+      "yearEnd": 1613,
+      "precision": "year",
+      "id": "07-0093"
+    },
+    {
+      "text": "Начало самостоятельного правления Петра I",
+      "dateRaw": "1689",
+      "section": "ИТОГИ ЭПОХИ",
+      "yearStart": 1689,
+      "yearEnd": 1689,
+      "precision": "year",
+      "id": "07-0094"
+    }
+  ]
+}
