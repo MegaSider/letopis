@@ -1,0 +1,1825 @@
+{
+  "module": "08",
+  "title": "ЭПОХА ПЕТРА I",
+  "events": [
+    {
+      "text": "Провозглашение Петра I царём",
+      "dateRaw": "1682",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1682,
+      "yearEnd": 1682,
+      "precision": "year",
+      "id": "08-0001"
+    },
+    {
+      "text": "Начало совместного правления Петра I и Ивана V",
+      "dateRaw": "1682",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1682,
+      "yearEnd": 1682,
+      "precision": "year",
+      "id": "08-0002"
+    },
+    {
+      "text": "Начало регентства Софьи Алексеевны",
+      "dateRaw": "1682",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1682,
+      "yearEnd": 1682,
+      "precision": "year",
+      "id": "08-0003"
+    },
+    {
+      "text": "Стрелецкий бунт",
+      "dateRaw": "1682",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1682,
+      "yearEnd": 1682,
+      "precision": "year",
+      "id": "08-0004"
+    },
+    {
+      "text": "Первый Крымский поход В. В. Голицына",
+      "dateRaw": "1687",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1687,
+      "yearEnd": 1687,
+      "precision": "year",
+      "id": "08-0005"
+    },
+    {
+      "text": "Второй Крымский поход В. В. Голицына",
+      "dateRaw": "1689",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1689,
+      "yearEnd": 1689,
+      "precision": "year",
+      "id": "08-0006"
+    },
+    {
+      "text": "Падение регентства Софьи",
+      "dateRaw": "1689",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1689,
+      "yearEnd": 1689,
+      "precision": "year",
+      "id": "08-0007"
+    },
+    {
+      "text": "Начало самостоятельного правления Петра I",
+      "dateRaw": "1689",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1689,
+      "yearEnd": 1689,
+      "precision": "year",
+      "id": "08-0008"
+    },
+    {
+      "text": "Смерть Ивана V",
+      "dateRaw": "1696",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1696,
+      "yearEnd": 1696,
+      "precision": "year",
+      "id": "08-0009"
+    },
+    {
+      "text": "Пётр I становится единоличным правителем",
+      "dateRaw": "1696",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ПЕТРА I",
+      "yearStart": 1696,
+      "yearEnd": 1696,
+      "precision": "year",
+      "id": "08-0010"
+    },
+    {
+      "text": "Создание Преображенского полка",
+      "dateRaw": "конец XVII в.",
+      "section": "ПЕРВЫЕ РЕФОРМЫ И ВОЕННЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1676,
+      "yearEnd": 1700,
+      "precision": "century-part",
+      "century": 17,
+      "id": "08-0011"
+    },
+    {
+      "text": "Создание Семёновского полка",
+      "dateRaw": "конец XVII в.",
+      "section": "ПЕРВЫЕ РЕФОРМЫ И ВОЕННЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1676,
+      "yearEnd": 1700,
+      "precision": "century-part",
+      "century": 17,
+      "id": "08-0012"
+    },
+    {
+      "text": "Проведение Кожуховских манёвров",
+      "dateRaw": "1694",
+      "section": "ПЕРВЫЕ РЕФОРМЫ И ВОЕННЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1694,
+      "yearEnd": 1694,
+      "precision": "year",
+      "id": "08-0013"
+    },
+    {
+      "text": "Начало строительства регулярного военно-морского флота",
+      "dateRaw": "1696",
+      "section": "ПЕРВЫЕ РЕФОРМЫ И ВОЕННЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1696,
+      "yearEnd": 1696,
+      "precision": "year",
+      "id": "08-0014"
+    },
+    {
+      "text": "Учреждение Военно-морского приказа",
+      "dateRaw": "конец XVII в.",
+      "section": "ПЕРВЫЕ РЕФОРМЫ И ВОЕННЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1676,
+      "yearEnd": 1700,
+      "precision": "century-part",
+      "century": 17,
+      "id": "08-0015"
+    },
+    {
+      "text": "Начало строительства кораблей в Воронеже",
+      "dateRaw": "1695–1696",
+      "section": "ПЕРВЫЕ РЕФОРМЫ И ВОЕННЫЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1695,
+      "yearEnd": 1696,
+      "precision": "range",
+      "id": "08-0016"
+    },
+    {
+      "text": "Первый Азовский поход",
+      "dateRaw": "1695",
+      "section": "АЗОВСКИЕ ПОХОДЫ",
+      "yearStart": 1695,
+      "yearEnd": 1695,
+      "precision": "year",
+      "id": "08-0017"
+    },
+    {
+      "text": "Неудачная осада Азова",
+      "dateRaw": "1695",
+      "section": "АЗОВСКИЕ ПОХОДЫ",
+      "yearStart": 1695,
+      "yearEnd": 1695,
+      "precision": "year",
+      "id": "08-0018"
+    },
+    {
+      "text": "Второй Азовский поход",
+      "dateRaw": "1696",
+      "section": "АЗОВСКИЕ ПОХОДЫ",
+      "yearStart": 1696,
+      "yearEnd": 1696,
+      "precision": "year",
+      "id": "08-0019"
+    },
+    {
+      "text": "Взятие крепости Азов",
+      "dateRaw": "1696",
+      "section": "АЗОВСКИЕ ПОХОДЫ",
+      "yearStart": 1696,
+      "yearEnd": 1696,
+      "precision": "year",
+      "id": "08-0020"
+    },
+    {
+      "text": "Создание первой военно-морской базы в Таганроге",
+      "dateRaw": "1698",
+      "section": "АЗОВСКИЕ ПОХОДЫ",
+      "yearStart": 1698,
+      "yearEnd": 1698,
+      "precision": "year",
+      "id": "08-0021"
+    },
+    {
+      "text": "Основание Таганрога",
+      "dateRaw": "1698",
+      "section": "АЗОВСКИЕ ПОХОДЫ",
+      "yearStart": 1698,
+      "yearEnd": 1698,
+      "precision": "year",
+      "id": "08-0022"
+    },
+    {
+      "text": "Начало Великого посольства",
+      "dateRaw": "1697",
+      "section": "ВЕЛИКОЕ ПОСОЛЬСТВО",
+      "yearStart": 1697,
+      "yearEnd": 1697,
+      "precision": "year",
+      "id": "08-0023"
+    },
+    {
+      "text": "Посещение Петром I Голландии",
+      "dateRaw": "1697",
+      "section": "ВЕЛИКОЕ ПОСОЛЬСТВО",
+      "yearStart": 1697,
+      "yearEnd": 1697,
+      "precision": "year",
+      "id": "08-0024"
+    },
+    {
+      "text": "Работа Петра I на верфях Саардама",
+      "dateRaw": "1697",
+      "section": "ВЕЛИКОЕ ПОСОЛЬСТВО",
+      "yearStart": 1697,
+      "yearEnd": 1697,
+      "precision": "year",
+      "id": "08-0025"
+    },
+    {
+      "text": "Посещение Англии",
+      "dateRaw": "1698",
+      "section": "ВЕЛИКОЕ ПОСОЛЬСТВО",
+      "yearStart": 1698,
+      "yearEnd": 1698,
+      "precision": "year",
+      "id": "08-0026"
+    },
+    {
+      "text": "Переговоры с европейскими государствами",
+      "dateRaw": "1697–1698",
+      "section": "ВЕЛИКОЕ ПОСОЛЬСТВО",
+      "yearStart": 1697,
+      "yearEnd": 1698,
+      "precision": "range",
+      "id": "08-0027"
+    },
+    {
+      "text": "Возвращение Петра I в Россию",
+      "dateRaw": "1698",
+      "section": "ВЕЛИКОЕ ПОСОЛЬСТВО",
+      "yearStart": 1698,
+      "yearEnd": 1698,
+      "precision": "year",
+      "id": "08-0028"
+    },
+    {
+      "text": "Стрелецкое восстание",
+      "dateRaw": "1698",
+      "section": "СТРЕЛЕЦКОЕ ВОССТАНИЕ",
+      "yearStart": 1698,
+      "yearEnd": 1698,
+      "precision": "year",
+      "id": "08-0029"
+    },
+    {
+      "text": "Подавление стрелецкого восстания",
+      "dateRaw": "1698",
+      "section": "СТРЕЛЕЦКОЕ ВОССТАНИЕ",
+      "yearStart": 1698,
+      "yearEnd": 1698,
+      "precision": "year",
+      "id": "08-0030"
+    },
+    {
+      "text": "Расформирование стрелецкого войска",
+      "dateRaw": "конец XVII в.",
+      "section": "СТРЕЛЕЦКОЕ ВОССТАНИЕ",
+      "yearStart": 1676,
+      "yearEnd": 1700,
+      "precision": "century-part",
+      "century": 17,
+      "id": "08-0031"
+    },
+    {
+      "text": "Введение нового летоисчисления",
+      "dateRaw": "1700",
+      "section": "НАЧАЛО ПРЕОБРАЗОВАНИЙ",
+      "yearStart": 1700,
+      "yearEnd": 1700,
+      "precision": "year",
+      "id": "08-0032"
+    },
+    {
+      "text": "Начало летоисчисления от Рождества Христова",
+      "dateRaw": "1700",
+      "section": "НАЧАЛО ПРЕОБРАЗОВАНИЙ",
+      "yearStart": 1700,
+      "yearEnd": 1700,
+      "precision": "year",
+      "id": "08-0033"
+    },
+    {
+      "text": "Перенос празднования Нового года на 1 января",
+      "dateRaw": "1700",
+      "section": "НАЧАЛО ПРЕОБРАЗОВАНИЙ",
+      "yearStart": 1700,
+      "yearEnd": 1700,
+      "precision": "year",
+      "id": "08-0034"
+    },
+    {
+      "text": "Указ о ношении европейской одежды",
+      "dateRaw": "1699–1700",
+      "section": "НАЧАЛО ПРЕОБРАЗОВАНИЙ",
+      "yearStart": 1699,
+      "yearEnd": 1700,
+      "precision": "range",
+      "id": "08-0035"
+    },
+    {
+      "text": "Начало бритья бород",
+      "dateRaw": "1698",
+      "section": "НАЧАЛО ПРЕОБРАЗОВАНИЙ",
+      "yearStart": 1698,
+      "yearEnd": 1698,
+      "precision": "year",
+      "id": "08-0036"
+    },
+    {
+      "text": "Введение налога на бороды",
+      "dateRaw": "начало XVIII в.",
+      "section": "НАЧАЛО ПРЕОБРАЗОВАНИЙ",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0037"
+    },
+    {
+      "text": "Учреждение Бурмистерской палаты",
+      "dateRaw": "1699",
+      "section": "НАЧАЛО ПРЕОБРАЗОВАНИЙ",
+      "yearStart": 1699,
+      "yearEnd": 1699,
+      "precision": "year",
+      "id": "08-0038"
+    },
+    {
+      "text": "Городская реформа",
+      "dateRaw": "1699",
+      "section": "НАЧАЛО ПРЕОБРАЗОВАНИЙ",
+      "yearStart": 1699,
+      "yearEnd": 1699,
+      "precision": "year",
+      "id": "08-0039"
+    },
+    {
+      "text": "Заключение Северного союза",
+      "dateRaw": "1699",
+      "section": "СЕВЕРНАЯ ВОЙНА (НАЧАЛО)",
+      "yearStart": 1699,
+      "yearEnd": 1699,
+      "precision": "year",
+      "id": "08-0040"
+    },
+    {
+      "text": "Начало Северной войны",
+      "dateRaw": "1700",
+      "section": "СЕВЕРНАЯ ВОЙНА (НАЧАЛО)",
+      "yearStart": 1700,
+      "yearEnd": 1700,
+      "precision": "year",
+      "id": "08-0041"
+    },
+    {
+      "text": "Битва под Нарвой",
+      "dateRaw": "1700",
+      "section": "СЕВЕРНАЯ ВОЙНА (НАЧАЛО)",
+      "yearStart": 1700,
+      "yearEnd": 1700,
+      "precision": "year",
+      "id": "08-0042"
+    },
+    {
+      "text": "Поражение русской армии под Нарвой",
+      "dateRaw": "1700",
+      "section": "СЕВЕРНАЯ ВОЙНА (НАЧАЛО)",
+      "yearStart": 1700,
+      "yearEnd": 1700,
+      "precision": "year",
+      "id": "08-0043"
+    },
+    {
+      "text": "Начало создания регулярной армии",
+      "dateRaw": "начало XVIII в.",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0044"
+    },
+    {
+      "text": "Создание гвардейских полков",
+      "dateRaw": "начало XVIII в.",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0045"
+    },
+    {
+      "text": "Введение рекрутской повинности",
+      "dateRaw": "1705",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1705,
+      "yearEnd": 1705,
+      "precision": "year",
+      "id": "08-0046"
+    },
+    {
+      "text": "Создание новых артиллерийских частей",
+      "dateRaw": "начало XVIII в.",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0047"
+    },
+    {
+      "text": "Развитие отечественного оружейного производства",
+      "dateRaw": "начало XVIII в.",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0048"
+    },
+    {
+      "text": "Основание Санкт-Петербурга",
+      "dateRaw": "1703",
+      "section": "ОСНОВАНИЕ САНКТ-ПЕТЕРБУРГА",
+      "yearStart": 1703,
+      "yearEnd": 1703,
+      "precision": "year",
+      "id": "08-0049"
+    },
+    {
+      "text": "Начало строительства Петропавловской крепости",
+      "dateRaw": "1703",
+      "section": "ОСНОВАНИЕ САНКТ-ПЕТЕРБУРГА",
+      "yearStart": 1703,
+      "yearEnd": 1703,
+      "precision": "year",
+      "id": "08-0050"
+    },
+    {
+      "text": "Основание Кронштадта",
+      "dateRaw": "1704",
+      "section": "ОСНОВАНИЕ САНКТ-ПЕТЕРБУРГА",
+      "yearStart": 1704,
+      "yearEnd": 1704,
+      "precision": "year",
+      "id": "08-0051"
+    },
+    {
+      "text": "Начало строительства Адмиралтейства",
+      "dateRaw": "1704",
+      "section": "ОСНОВАНИЕ САНКТ-ПЕТЕРБУРГА",
+      "yearStart": 1704,
+      "yearEnd": 1704,
+      "precision": "year",
+      "id": "08-0052"
+    },
+    {
+      "text": "Взятие крепости Нотебург (Орешек)",
+      "dateRaw": "1702",
+      "section": "ПЕРВЫЕ ПОБЕДЫ В СЕВЕРНОЙ ВОЙНЕ",
+      "yearStart": 1702,
+      "yearEnd": 1702,
+      "precision": "year",
+      "id": "08-0053"
+    },
+    {
+      "text": "Взятие крепости Ниеншанц",
+      "dateRaw": "1703",
+      "section": "ПЕРВЫЕ ПОБЕДЫ В СЕВЕРНОЙ ВОЙНЕ",
+      "yearStart": 1703,
+      "yearEnd": 1703,
+      "precision": "year",
+      "id": "08-0054"
+    },
+    {
+      "text": "Морское сражение в устье Невы",
+      "dateRaw": "1703",
+      "section": "ПЕРВЫЕ ПОБЕДЫ В СЕВЕРНОЙ ВОЙНЕ",
+      "yearStart": 1703,
+      "yearEnd": 1703,
+      "precision": "year",
+      "id": "08-0055"
+    },
+    {
+      "text": "Взятие Дерпта",
+      "dateRaw": "1704",
+      "section": "ПЕРВЫЕ ПОБЕДЫ В СЕВЕРНОЙ ВОЙНЕ",
+      "yearStart": 1704,
+      "yearEnd": 1704,
+      "precision": "year",
+      "id": "08-0056"
+    },
+    {
+      "text": "Взятие Нарвы",
+      "dateRaw": "1704",
+      "section": "ПЕРВЫЕ ПОБЕДЫ В СЕВЕРНОЙ ВОЙНЕ",
+      "yearStart": 1704,
+      "yearEnd": 1704,
+      "precision": "year",
+      "id": "08-0057"
+    },
+    {
+      "text": "Начало строительства мануфактур",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИЧЕСКИЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0058"
+    },
+    {
+      "text": "Создание казённых металлургических заводов",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИЧЕСКИЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0059"
+    },
+    {
+      "text": "Развитие Уральской металлургии",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИЧЕСКИЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0060"
+    },
+    {
+      "text": "Политика меркантилизма",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИЧЕСКИЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0061"
+    },
+    {
+      "text": "Политика протекционизма",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИЧЕСКИЕ ПРЕОБРАЗОВАНИЯ",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0062"
+    },
+    {
+      "text": "Открытие Школы математических и навигацких наук",
+      "dateRaw": "1701",
+      "section": "ПРОСВЕЩЕНИЕ И КУЛЬТУРА",
+      "yearStart": 1701,
+      "yearEnd": 1701,
+      "precision": "year",
+      "id": "08-0063"
+    },
+    {
+      "text": "Основание Пушкарской школы",
+      "dateRaw": "1701",
+      "section": "ПРОСВЕЩЕНИЕ И КУЛЬТУРА",
+      "yearStart": 1701,
+      "yearEnd": 1701,
+      "precision": "year",
+      "id": "08-0064"
+    },
+    {
+      "text": "Начало издания первой русской печатной газеты «Ведомости»",
+      "dateRaw": "1703",
+      "section": "ПРОСВЕЩЕНИЕ И КУЛЬТУРА",
+      "yearStart": 1703,
+      "yearEnd": 1703,
+      "precision": "year",
+      "id": "08-0065"
+    },
+    {
+      "text": "Создание первой общедоступной библиотеки (предпосылки)",
+      "dateRaw": "начало XVIII в.",
+      "section": "ПРОСВЕЩЕНИЕ И КУЛЬТУРА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0066"
+    },
+    {
+      "text": "Введение гражданского шрифта (подготовка реформы)",
+      "dateRaw": "начало XVIII в.",
+      "section": "ПРОСВЕЩЕНИЕ И КУЛЬТУРА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0067"
+    },
+    {
+      "text": "Великое посольство",
+      "dateRaw": "1697–1698",
+      "section": "ИТОГИ ПЕРВОГО ЭТАПА ПРАВЛЕНИЯ",
+      "yearStart": 1697,
+      "yearEnd": 1698,
+      "precision": "range",
+      "id": "08-0068"
+    },
+    {
+      "text": "Первые крупные победы России в Прибалтике",
+      "dateRaw": "1702–1704",
+      "section": "ИТОГИ ПЕРВОГО ЭТАПА ПРАВЛЕНИЯ",
+      "yearStart": 1702,
+      "yearEnd": 1704,
+      "precision": "range",
+      "id": "08-0069"
+    },
+    {
+      "text": "Основание Петропавловской крепости",
+      "dateRaw": "1703",
+      "section": "СЕВЕРНАЯ ВОЙНА",
+      "yearStart": 1703,
+      "yearEnd": 1703,
+      "precision": "year",
+      "id": "08-0070"
+    },
+    {
+      "text": "Астраханское восстание",
+      "dateRaw": "1705–1706",
+      "section": "СЕВЕРНАЯ ВОЙНА",
+      "yearStart": 1705,
+      "yearEnd": 1706,
+      "precision": "range",
+      "id": "08-0071"
+    },
+    {
+      "text": "Башкирское восстание",
+      "dateRaw": "1705–1711",
+      "section": "СЕВЕРНАЯ ВОЙНА",
+      "yearStart": 1705,
+      "yearEnd": 1711,
+      "precision": "range",
+      "id": "08-0072"
+    },
+    {
+      "text": "Восстание Кондратия Булавина",
+      "dateRaw": "1707–1708",
+      "section": "СЕВЕРНАЯ ВОЙНА",
+      "yearStart": 1707,
+      "yearEnd": 1708,
+      "precision": "range",
+      "id": "08-0073"
+    },
+    {
+      "text": "Битва при Лесной",
+      "dateRaw": "1708",
+      "section": "СЕВЕРНАЯ ВОЙНА",
+      "yearStart": 1708,
+      "yearEnd": 1708,
+      "precision": "year",
+      "id": "08-0074"
+    },
+    {
+      "text": "Полтавская битва",
+      "dateRaw": "1709",
+      "section": "СЕВЕРНАЯ ВОЙНА",
+      "yearStart": 1709,
+      "yearEnd": 1709,
+      "precision": "year",
+      "id": "08-0075"
+    },
+    {
+      "text": "Капитуляция шведской армии у Переволочной",
+      "dateRaw": "1709",
+      "section": "СЕВЕРНАЯ ВОЙНА",
+      "yearStart": 1709,
+      "yearEnd": 1709,
+      "precision": "year",
+      "id": "08-0076"
+    },
+    {
+      "text": "Перенос военных действий за пределы России",
+      "dateRaw": "после 1709",
+      "section": "СЕВЕРНАЯ ВОЙНА",
+      "yearStart": 1710,
+      "yearEnd": 1710,
+      "precision": "after",
+      "id": "08-0077"
+    },
+    {
+      "text": "Начало губернской реформы",
+      "dateRaw": "1708",
+      "section": "АДМИНИСТРАТИВНЫЕ РЕФОРМЫ",
+      "yearStart": 1708,
+      "yearEnd": 1708,
+      "precision": "year",
+      "id": "08-0078"
+    },
+    {
+      "text": "Разделение России на восемь губерний",
+      "dateRaw": "1708",
+      "section": "АДМИНИСТРАТИВНЫЕ РЕФОРМЫ",
+      "yearStart": 1708,
+      "yearEnd": 1708,
+      "precision": "year",
+      "id": "08-0079"
+    },
+    {
+      "text": "Продолжение губернской реформы",
+      "dateRaw": "1719",
+      "section": "АДМИНИСТРАТИВНЫЕ РЕФОРМЫ",
+      "yearStart": 1719,
+      "yearEnd": 1719,
+      "precision": "year",
+      "id": "08-0080"
+    },
+    {
+      "text": "Создание провинций",
+      "dateRaw": "1719",
+      "section": "АДМИНИСТРАТИВНЫЕ РЕФОРМЫ",
+      "yearStart": 1719,
+      "yearEnd": 1719,
+      "precision": "year",
+      "id": "08-0081"
+    },
+    {
+      "text": "Создание дистриктов",
+      "dateRaw": "1719",
+      "section": "АДМИНИСТРАТИВНЫЕ РЕФОРМЫ",
+      "yearStart": 1719,
+      "yearEnd": 1719,
+      "precision": "year",
+      "id": "08-0082"
+    },
+    {
+      "text": "Учреждение Правительствующего Сената",
+      "dateRaw": "1711",
+      "section": "АДМИНИСТРАТИВНЫЕ РЕФОРМЫ",
+      "yearStart": 1711,
+      "yearEnd": 1711,
+      "precision": "year",
+      "id": "08-0083"
+    },
+    {
+      "text": "Создание института фискалов",
+      "dateRaw": "1711",
+      "section": "АДМИНИСТРАТИВНЫЕ РЕФОРМЫ",
+      "yearStart": 1711,
+      "yearEnd": 1711,
+      "precision": "year",
+      "id": "08-0084"
+    },
+    {
+      "text": "Учреждение должности генерал-фискала",
+      "dateRaw": "1711",
+      "section": "АДМИНИСТРАТИВНЫЕ РЕФОРМЫ",
+      "yearStart": 1711,
+      "yearEnd": 1711,
+      "precision": "year",
+      "id": "08-0085"
+    },
+    {
+      "text": "Создание регулярной армии",
+      "dateRaw": "начало XVIII в.",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0086"
+    },
+    {
+      "text": "Развитие артиллерии",
+      "dateRaw": "начало XVIII в.",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0087"
+    },
+    {
+      "text": "Развитие Балтийского флота",
+      "dateRaw": "начало XVIII в.",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0088"
+    },
+    {
+      "text": "Принятие Воинского устава",
+      "dateRaw": "1716",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1716,
+      "yearEnd": 1716,
+      "precision": "year",
+      "id": "08-0089"
+    },
+    {
+      "text": "Создание Военной коллегии (подготовка реформы)",
+      "dateRaw": "конец 1710-х гг.",
+      "section": "ВОЕННАЯ РЕФОРМА",
+      "yearStart": 1716,
+      "yearEnd": 1719,
+      "precision": "decade-part",
+      "decade": 1710,
+      "id": "08-0090"
+    },
+    {
+      "text": "Введение гербовой бумаги",
+      "dateRaw": "1699",
+      "section": "ФИНАНСЫ И НАЛОГИ",
+      "yearStart": 1699,
+      "yearEnd": 1699,
+      "precision": "year",
+      "id": "08-0091"
+    },
+    {
+      "text": "Введение новых косвенных налогов",
+      "dateRaw": "начало XVIII в.",
+      "section": "ФИНАНСЫ И НАЛОГИ",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0092"
+    },
+    {
+      "text": "Введение бородовой подати",
+      "dateRaw": "1705",
+      "section": "ФИНАНСЫ И НАЛОГИ",
+      "yearStart": 1705,
+      "yearEnd": 1705,
+      "precision": "year",
+      "id": "08-0093"
+    },
+    {
+      "text": "Первая перепись населения (ревизия)",
+      "dateRaw": "1718–1724",
+      "section": "ФИНАНСЫ И НАЛОГИ",
+      "yearStart": 1718,
+      "yearEnd": 1724,
+      "precision": "range",
+      "id": "08-0094"
+    },
+    {
+      "text": "Подготовка перехода к подушному налогообложению",
+      "dateRaw": "1718",
+      "section": "ФИНАНСЫ И НАЛОГИ",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0095"
+    },
+    {
+      "text": "Введение подушной подати",
+      "dateRaw": "1724",
+      "section": "ФИНАНСЫ И НАЛОГИ",
+      "yearStart": 1724,
+      "yearEnd": 1724,
+      "precision": "year",
+      "id": "08-0096"
+    },
+    {
+      "text": "Развитие мануфактурного производства",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0097"
+    },
+    {
+      "text": "Строительство металлургических предприятий на Урале",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0098"
+    },
+    {
+      "text": "Создание оружейных заводов",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0099"
+    },
+    {
+      "text": "Развитие судостроительных верфей",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0100"
+    },
+    {
+      "text": "Проведение политики протекционизма",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0101"
+    },
+    {
+      "text": "Проведение политики меркантилизма",
+      "dateRaw": "начало XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-part",
+      "century": 18,
+      "id": "08-0102"
+    },
+    {
+      "text": "Принятие Таможенного тарифа",
+      "dateRaw": "1724",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1724,
+      "yearEnd": 1724,
+      "precision": "year",
+      "id": "08-0103"
+    },
+    {
+      "text": "Прутский поход",
+      "dateRaw": "1711",
+      "section": "ПРУТСКИЙ ПОХОД",
+      "yearStart": 1711,
+      "yearEnd": 1711,
+      "precision": "year",
+      "id": "08-0104"
+    },
+    {
+      "text": "Заключение Прутского мирного договора",
+      "dateRaw": "1711",
+      "section": "ПРУТСКИЙ ПОХОД",
+      "yearStart": 1711,
+      "yearEnd": 1711,
+      "precision": "year",
+      "id": "08-0105"
+    },
+    {
+      "text": "Возвращение Азова Османской империи",
+      "dateRaw": "1711",
+      "section": "ПРУТСКИЙ ПОХОД",
+      "yearStart": 1711,
+      "yearEnd": 1711,
+      "precision": "year",
+      "id": "08-0106"
+    },
+    {
+      "text": "Утрата Таганрога",
+      "dateRaw": "1711",
+      "section": "ПРУТСКИЙ ПОХОД",
+      "yearStart": 1711,
+      "yearEnd": 1711,
+      "precision": "year",
+      "id": "08-0107"
+    },
+    {
+      "text": "Перенос столицы в Санкт-Петербург",
+      "dateRaw": "1712",
+      "section": "СТОЛИЦА РОССИИ",
+      "yearStart": 1712,
+      "yearEnd": 1712,
+      "precision": "year",
+      "id": "08-0108"
+    },
+    {
+      "text": "Издание Указа о единонаследии",
+      "dateRaw": "1714",
+      "section": "ДВОРЯНСТВО И ГОСУДАРСТВЕННАЯ СЛУЖБА",
+      "yearStart": 1714,
+      "yearEnd": 1714,
+      "precision": "year",
+      "id": "08-0109"
+    },
+    {
+      "text": "Обязательность государственной службы для дворян",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ДВОРЯНСТВО И ГОСУДАРСТВЕННАЯ СЛУЖБА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0110"
+    },
+    {
+      "text": "Развитие системы служебного продвижения",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ДВОРЯНСТВО И ГОСУДАРСТВЕННАЯ СЛУЖБА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0111"
+    },
+    {
+      "text": "Открытие Инженерной школы",
+      "dateRaw": "1712",
+      "section": "ОБРАЗОВАНИЕ И КУЛЬТУРА",
+      "yearStart": 1712,
+      "yearEnd": 1712,
+      "precision": "year",
+      "id": "08-0112"
+    },
+    {
+      "text": "Основание Морской академии",
+      "dateRaw": "1715",
+      "section": "ОБРАЗОВАНИЕ И КУЛЬТУРА",
+      "yearStart": 1715,
+      "yearEnd": 1715,
+      "precision": "year",
+      "id": "08-0113"
+    },
+    {
+      "text": "Введение гражданского шрифта",
+      "dateRaw": "1708",
+      "section": "ОБРАЗОВАНИЕ И КУЛЬТУРА",
+      "yearStart": 1708,
+      "yearEnd": 1708,
+      "precision": "year",
+      "id": "08-0114"
+    },
+    {
+      "text": "Начало массового издания учебной литературы",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ОБРАЗОВАНИЕ И КУЛЬТУРА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0115"
+    },
+    {
+      "text": "Развитие светского образования",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ОБРАЗОВАНИЕ И КУЛЬТУРА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0116"
+    },
+    {
+      "text": "Создание Кунсткамеры",
+      "dateRaw": "1714",
+      "section": "ОБРАЗОВАНИЕ И КУЛЬТУРА",
+      "yearStart": 1714,
+      "yearEnd": 1714,
+      "precision": "year",
+      "id": "08-0117"
+    },
+    {
+      "text": "Открытие Кунсткамеры для посетителей",
+      "dateRaw": "1719",
+      "section": "ОБРАЗОВАНИЕ И КУЛЬТУРА",
+      "yearStart": 1719,
+      "yearEnd": 1719,
+      "precision": "year",
+      "id": "08-0118"
+    },
+    {
+      "text": "Учреждение первых ассамблей",
+      "dateRaw": "1718",
+      "section": "ОБРАЗОВАНИЕ И КУЛЬТУРА",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0119"
+    },
+    {
+      "text": "Смерть патриарха Адриана",
+      "dateRaw": "1700",
+      "section": "ЦЕРКОВНАЯ РЕФОРМА",
+      "yearStart": 1700,
+      "yearEnd": 1700,
+      "precision": "year",
+      "id": "08-0120"
+    },
+    {
+      "text": "Отказ от избрания нового патриарха",
+      "dateRaw": "1700",
+      "section": "ЦЕРКОВНАЯ РЕФОРМА",
+      "yearStart": 1700,
+      "yearEnd": 1700,
+      "precision": "year",
+      "id": "08-0121"
+    },
+    {
+      "text": "Назначение местоблюстителя патриаршего престола",
+      "dateRaw": "1700",
+      "section": "ЦЕРКОВНАЯ РЕФОРМА",
+      "yearStart": 1700,
+      "yearEnd": 1700,
+      "precision": "year",
+      "id": "08-0122"
+    },
+    {
+      "text": "Подготовка церковной реформы",
+      "dateRaw": "1700–1721",
+      "section": "ЦЕРКОВНАЯ РЕФОРМА",
+      "yearStart": 1700,
+      "yearEnd": 1721,
+      "precision": "range",
+      "id": "08-0123"
+    },
+    {
+      "text": "Губернская реформа",
+      "dateRaw": "1708",
+      "section": "КРУПНЕЙШИЕ СОБЫТИЯ ПЕРИОДА",
+      "yearStart": 1708,
+      "yearEnd": 1708,
+      "precision": "year",
+      "id": "08-0124"
+    },
+    {
+      "text": "Учреждение Сената",
+      "dateRaw": "1711",
+      "section": "КРУПНЕЙШИЕ СОБЫТИЯ ПЕРИОДА",
+      "yearStart": 1711,
+      "yearEnd": 1711,
+      "precision": "year",
+      "id": "08-0125"
+    },
+    {
+      "text": "Указ о единонаследии",
+      "dateRaw": "1714",
+      "section": "КРУПНЕЙШИЕ СОБЫТИЯ ПЕРИОДА",
+      "yearStart": 1714,
+      "yearEnd": 1714,
+      "precision": "year",
+      "id": "08-0126"
+    },
+    {
+      "text": "Учреждение ассамблей",
+      "dateRaw": "1718",
+      "section": "КРУПНЕЙШИЕ СОБЫТИЯ ПЕРИОДА",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0127"
+    },
+    {
+      "text": "Начало первой ревизии населения",
+      "dateRaw": "1718",
+      "section": "КРУПНЕЙШИЕ СОБЫТИЯ ПЕРИОДА",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0128"
+    },
+    {
+      "text": "Осада Выборга",
+      "dateRaw": "1710",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1710,
+      "yearEnd": 1710,
+      "precision": "year",
+      "id": "08-0129"
+    },
+    {
+      "text": "Взятие Выборга",
+      "dateRaw": "1710",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1710,
+      "yearEnd": 1710,
+      "precision": "year",
+      "id": "08-0130"
+    },
+    {
+      "text": "Взятие Риги",
+      "dateRaw": "1710",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1710,
+      "yearEnd": 1710,
+      "precision": "year",
+      "id": "08-0131"
+    },
+    {
+      "text": "Взятие Ревеля (Таллина)",
+      "dateRaw": "1710",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1710,
+      "yearEnd": 1710,
+      "precision": "year",
+      "id": "08-0132"
+    },
+    {
+      "text": "Взятие Кексгольма",
+      "dateRaw": "1710",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1710,
+      "yearEnd": 1710,
+      "precision": "year",
+      "id": "08-0133"
+    },
+    {
+      "text": "Морское сражение у мыса Гангут",
+      "dateRaw": "1714",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1714,
+      "yearEnd": 1714,
+      "precision": "year",
+      "id": "08-0134"
+    },
+    {
+      "text": "Первая крупная победа русского флота",
+      "dateRaw": "1714",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1714,
+      "yearEnd": 1714,
+      "precision": "year",
+      "id": "08-0135"
+    },
+    {
+      "text": "Высадка русского десанта на побережье Швеции",
+      "dateRaw": "1719",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1719,
+      "yearEnd": 1719,
+      "precision": "year",
+      "id": "08-0136"
+    },
+    {
+      "text": "Морское сражение у острова Гренгам",
+      "dateRaw": "1720",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1720,
+      "yearEnd": 1720,
+      "precision": "year",
+      "id": "08-0137"
+    },
+    {
+      "text": "Победа русского флота при Гренгаме",
+      "dateRaw": "1720",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1720,
+      "yearEnd": 1720,
+      "precision": "year",
+      "id": "08-0138"
+    },
+    {
+      "text": "Заключение Ништадтского мирного договора",
+      "dateRaw": "1721",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0139"
+    },
+    {
+      "text": "Окончание Северной войны",
+      "dateRaw": "1721",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0140"
+    },
+    {
+      "text": "Присоединение Ингерманландии",
+      "dateRaw": "1721",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0141"
+    },
+    {
+      "text": "Присоединение Эстляндии",
+      "dateRaw": "1721",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0142"
+    },
+    {
+      "text": "Присоединение Лифляндии",
+      "dateRaw": "1721",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0143"
+    },
+    {
+      "text": "Присоединение части Карелии",
+      "dateRaw": "1721",
+      "section": "СЕВЕРНАЯ ВОЙНА (ЗАВЕРШАЮЩИЙ ЭТАП)",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0144"
+    },
+    {
+      "text": "Учреждение Духовной коллегии",
+      "dateRaw": "1721",
+      "section": "ЦЕРКОВНАЯ РЕФОРМА",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0145"
+    },
+    {
+      "text": "Учреждение Святейшего Правительствующего Синода",
+      "dateRaw": "1721",
+      "section": "ЦЕРКОВНАЯ РЕФОРМА",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0146"
+    },
+    {
+      "text": "Упразднение патриаршества",
+      "dateRaw": "1721",
+      "section": "ЦЕРКОВНАЯ РЕФОРМА",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0147"
+    },
+    {
+      "text": "Подчинение Русской православной церкви государству",
+      "dateRaw": "1721",
+      "section": "ЦЕРКОВНАЯ РЕФОРМА",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0148"
+    },
+    {
+      "text": "Учреждение должности обер-прокурора Синода",
+      "dateRaw": "1722",
+      "section": "ЦЕРКОВНАЯ РЕФОРМА",
+      "yearStart": 1722,
+      "yearEnd": 1722,
+      "precision": "year",
+      "id": "08-0149"
+    },
+    {
+      "text": "Начало создания коллегий",
+      "dateRaw": "1717",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1717,
+      "yearEnd": 1717,
+      "precision": "year",
+      "id": "08-0150"
+    },
+    {
+      "text": "Учреждение коллегий",
+      "dateRaw": "1718",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0151"
+    },
+    {
+      "text": "Завершение формирования системы коллегий",
+      "dateRaw": "1721",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0152"
+    },
+    {
+      "text": "Учреждение Юстиц-коллегии",
+      "dateRaw": "1718",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0153"
+    },
+    {
+      "text": "Учреждение Адмиралтейств-коллегии",
+      "dateRaw": "1718",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0154"
+    },
+    {
+      "text": "Учреждение Военной коллегии",
+      "dateRaw": "1718",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0155"
+    },
+    {
+      "text": "Учреждение Камер-коллегии",
+      "dateRaw": "1718",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0156"
+    },
+    {
+      "text": "Учреждение Коммерц-коллегии",
+      "dateRaw": "1718",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0157"
+    },
+    {
+      "text": "Учреждение Берг-коллегии",
+      "dateRaw": "1719",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1719,
+      "yearEnd": 1719,
+      "precision": "year",
+      "id": "08-0158"
+    },
+    {
+      "text": "Учреждение Мануфактур-коллегии",
+      "dateRaw": "1719",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1719,
+      "yearEnd": 1719,
+      "precision": "year",
+      "id": "08-0159"
+    },
+    {
+      "text": "Принятие Генерального регламента",
+      "dateRaw": "1720",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1720,
+      "yearEnd": 1720,
+      "precision": "year",
+      "id": "08-0160"
+    },
+    {
+      "text": "Учреждение Главного магистрата",
+      "dateRaw": "1720",
+      "section": "ОРГАНЫ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ",
+      "yearStart": 1720,
+      "yearEnd": 1720,
+      "precision": "year",
+      "id": "08-0161"
+    },
+    {
+      "text": "Принятие Табели о рангах",
+      "dateRaw": "1722",
+      "section": "ГОСУДАРСТВЕННАЯ СЛУЖБА",
+      "yearStart": 1722,
+      "yearEnd": 1722,
+      "precision": "year",
+      "id": "08-0162"
+    },
+    {
+      "text": "Введение единой системы чинов",
+      "dateRaw": "1722",
+      "section": "ГОСУДАРСТВЕННАЯ СЛУЖБА",
+      "yearStart": 1722,
+      "yearEnd": 1722,
+      "precision": "year",
+      "id": "08-0163"
+    },
+    {
+      "text": "Окончательное оформление принципа служебного продвижения по заслугам",
+      "dateRaw": "1722",
+      "section": "ГОСУДАРСТВЕННАЯ СЛУЖБА",
+      "yearStart": 1722,
+      "yearEnd": 1722,
+      "precision": "year",
+      "id": "08-0164"
+    },
+    {
+      "text": "Издание Указа о престолонаследии",
+      "dateRaw": "1722",
+      "section": "ГОСУДАРСТВЕННАЯ СЛУЖБА",
+      "yearStart": 1722,
+      "yearEnd": 1722,
+      "precision": "year",
+      "id": "08-0165"
+    },
+    {
+      "text": "Начало Персидского (Каспийского) похода",
+      "dateRaw": "1722",
+      "section": "КАСПИЙСКИЙ ПОХОД",
+      "yearStart": 1722,
+      "yearEnd": 1722,
+      "precision": "year",
+      "id": "08-0166"
+    },
+    {
+      "text": "Взятие Дербента",
+      "dateRaw": "1722",
+      "section": "КАСПИЙСКИЙ ПОХОД",
+      "yearStart": 1722,
+      "yearEnd": 1722,
+      "precision": "year",
+      "id": "08-0167"
+    },
+    {
+      "text": "Продолжение Персидского похода",
+      "dateRaw": "1723",
+      "section": "КАСПИЙСКИЙ ПОХОД",
+      "yearStart": 1723,
+      "yearEnd": 1723,
+      "precision": "year",
+      "id": "08-0168"
+    },
+    {
+      "text": "Взятие Баку",
+      "dateRaw": "1723",
+      "section": "КАСПИЙСКИЙ ПОХОД",
+      "yearStart": 1723,
+      "yearEnd": 1723,
+      "precision": "year",
+      "id": "08-0169"
+    },
+    {
+      "text": "Петербургский договор с Персией",
+      "dateRaw": "1723",
+      "section": "КАСПИЙСКИЙ ПОХОД",
+      "yearStart": 1723,
+      "yearEnd": 1723,
+      "precision": "year",
+      "id": "08-0170"
+    },
+    {
+      "text": "Присоединение западного побережья Каспийского моря",
+      "dateRaw": "1723",
+      "section": "КАСПИЙСКИЙ ПОХОД",
+      "yearStart": 1723,
+      "yearEnd": 1723,
+      "precision": "year",
+      "id": "08-0171"
+    },
+    {
+      "text": "Первая ревизия населения",
+      "dateRaw": "1718–1724",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1718,
+      "yearEnd": 1724,
+      "precision": "range",
+      "id": "08-0172"
+    },
+    {
+      "text": "Развитие металлургии на Урале",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0173"
+    },
+    {
+      "text": "Рост числа мануфактур",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0174"
+    },
+    {
+      "text": "Развитие государственного судостроения",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0175"
+    },
+    {
+      "text": "Расширение внутренней торговли",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ЭКОНОМИКА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0176"
+    },
+    {
+      "text": "Учреждение Кунсткамеры",
+      "dateRaw": "1714",
+      "section": "ОБРАЗОВАНИЕ, НАУКА И КУЛЬТУРА",
+      "yearStart": 1714,
+      "yearEnd": 1714,
+      "precision": "year",
+      "id": "08-0177"
+    },
+    {
+      "text": "Издание «Юности честное зерцало»",
+      "dateRaw": "1717",
+      "section": "ОБРАЗОВАНИЕ, НАУКА И КУЛЬТУРА",
+      "yearStart": 1717,
+      "yearEnd": 1717,
+      "precision": "year",
+      "id": "08-0178"
+    },
+    {
+      "text": "Создание Академии наук",
+      "dateRaw": "1724",
+      "section": "ОБРАЗОВАНИЕ, НАУКА И КУЛЬТУРА",
+      "yearStart": 1724,
+      "yearEnd": 1724,
+      "precision": "year",
+      "id": "08-0179"
+    },
+    {
+      "text": "Открытие Академии наук (после смерти Петра I)",
+      "dateRaw": "1725",
+      "section": "ОБРАЗОВАНИЕ, НАУКА И КУЛЬТУРА",
+      "yearStart": 1725,
+      "yearEnd": 1725,
+      "precision": "year",
+      "id": "08-0180"
+    },
+    {
+      "text": "Развитие инженерных школ",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ОБРАЗОВАНИЕ, НАУКА И КУЛЬТУРА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0181"
+    },
+    {
+      "text": "Развитие медицинского образования",
+      "dateRaw": "первая четверть XVIII в.",
+      "section": "ОБРАЗОВАНИЕ, НАУКА И КУЛЬТУРА",
+      "yearStart": 1701,
+      "yearEnd": 1725,
+      "precision": "century-quarter",
+      "century": 18,
+      "id": "08-0182"
+    },
+    {
+      "text": "Начало регулярных ассамблей",
+      "dateRaw": "1718",
+      "section": "ОБРАЗОВАНИЕ, НАУКА И КУЛЬТУРА",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0183"
+    },
+    {
+      "text": "Суд над царевичем Алексеем",
+      "dateRaw": "1718",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0184"
+    },
+    {
+      "text": "Смерть царевича Алексея",
+      "dateRaw": "1718",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1718,
+      "yearEnd": 1718,
+      "precision": "year",
+      "id": "08-0185"
+    },
+    {
+      "text": "Провозглашение России Российской империей",
+      "dateRaw": "1721",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0186"
+    },
+    {
+      "text": "Принятие Петром титула Императора Всероссийского",
+      "dateRaw": "1721",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0187"
+    },
+    {
+      "text": "Принятие титула «Отец Отечества»",
+      "dateRaw": "1721",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0188"
+    },
+    {
+      "text": "Смерть Петра I",
+      "dateRaw": "1725",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1725,
+      "yearEnd": 1725,
+      "precision": "year",
+      "id": "08-0189"
+    },
+    {
+      "text": "Начало правления Екатерины I",
+      "dateRaw": "1725",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1725,
+      "yearEnd": 1725,
+      "precision": "year",
+      "id": "08-0190"
+    },
+    {
+      "text": "Азовские походы",
+      "dateRaw": "1695–1696",
+      "section": "ИТОГИ ЭПОХИ ПЕТРА I",
+      "yearStart": 1695,
+      "yearEnd": 1696,
+      "precision": "range",
+      "id": "08-0191"
+    },
+    {
+      "text": "Гангутское сражение",
+      "dateRaw": "1714",
+      "section": "ИТОГИ ЭПОХИ ПЕТРА I",
+      "yearStart": 1714,
+      "yearEnd": 1714,
+      "precision": "year",
+      "id": "08-0192"
+    },
+    {
+      "text": "Создание коллегий",
+      "dateRaw": "1717–1721",
+      "section": "ИТОГИ ЭПОХИ ПЕТРА I",
+      "yearStart": 1717,
+      "yearEnd": 1721,
+      "precision": "range",
+      "id": "08-0193"
+    },
+    {
+      "text": "Ништадтский мир",
+      "dateRaw": "1721",
+      "section": "ИТОГИ ЭПОХИ ПЕТРА I",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0194"
+    },
+    {
+      "text": "Провозглашение Российской империи",
+      "dateRaw": "1721",
+      "section": "ИТОГИ ЭПОХИ ПЕТРА I",
+      "yearStart": 1721,
+      "yearEnd": 1721,
+      "precision": "year",
+      "id": "08-0195"
+    },
+    {
+      "text": "Табель о рангах",
+      "dateRaw": "1722",
+      "section": "ИТОГИ ЭПОХИ ПЕТРА I",
+      "yearStart": 1722,
+      "yearEnd": 1722,
+      "precision": "year",
+      "id": "08-0196"
+    },
+    {
+      "text": "Указ о престолонаследии",
+      "dateRaw": "1722",
+      "section": "ИТОГИ ЭПОХИ ПЕТРА I",
+      "yearStart": 1722,
+      "yearEnd": 1722,
+      "precision": "year",
+      "id": "08-0197"
+    },
+    {
+      "text": "Персидский поход",
+      "dateRaw": "1722–1723",
+      "section": "ИТОГИ ЭПОХИ ПЕТРА I",
+      "yearStart": 1722,
+      "yearEnd": 1723,
+      "precision": "range",
+      "id": "08-0198"
+    }
+  ]
+}
