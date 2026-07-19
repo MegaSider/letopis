@@ -1,0 +1,388 @@
+{
+  "module": "05",
+  "title": "РУССКОЕ ГОСУДАРСТВО В КОНЦЕ XV – ПЕРВОЙ ПОЛОВИНЕ XVI ВЕКА",
+  "events": [
+    {
+      "text": "Начало княжения Василия III",
+      "dateRaw": "1505",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1505,
+      "yearEnd": 1505,
+      "precision": "year",
+      "id": "05-0001"
+    },
+    {
+      "text": "Продолжение политики объединения русских земель",
+      "dateRaw": "начало XVI в.",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1501,
+      "yearEnd": 1525,
+      "precision": "century-part",
+      "century": 16,
+      "id": "05-0002"
+    },
+    {
+      "text": "Присоединение Пскова к Московскому государству",
+      "dateRaw": "1510",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1510,
+      "yearEnd": 1510,
+      "precision": "year",
+      "id": "05-0003"
+    },
+    {
+      "text": "Ликвидация Псковской вечевой республики",
+      "dateRaw": "1510",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1510,
+      "yearEnd": 1510,
+      "precision": "year",
+      "id": "05-0004"
+    },
+    {
+      "text": "Русско-литовская война",
+      "dateRaw": "1507–1508",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1507,
+      "yearEnd": 1508,
+      "precision": "range",
+      "id": "05-0005"
+    },
+    {
+      "text": "Русско-литовская война",
+      "dateRaw": "1512–1522",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1512,
+      "yearEnd": 1522,
+      "precision": "range",
+      "id": "05-0006"
+    },
+    {
+      "text": "Взятие Смоленска русскими войсками",
+      "dateRaw": "1514",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1514,
+      "yearEnd": 1514,
+      "precision": "year",
+      "id": "05-0007"
+    },
+    {
+      "text": "Битва под Оршей",
+      "dateRaw": "1514",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1514,
+      "yearEnd": 1514,
+      "precision": "year",
+      "id": "05-0008"
+    },
+    {
+      "text": "Присоединение Рязанского княжества",
+      "dateRaw": "1521",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1521,
+      "yearEnd": 1521,
+      "precision": "year",
+      "id": "05-0009"
+    },
+    {
+      "text": "Русско-казанская война",
+      "dateRaw": "1523–1524",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1523,
+      "yearEnd": 1524,
+      "precision": "range",
+      "id": "05-0010"
+    },
+    {
+      "text": "Основание крепости Васильсурск",
+      "dateRaw": "1523",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1523,
+      "yearEnd": 1523,
+      "precision": "year",
+      "id": "05-0011"
+    },
+    {
+      "text": "Строительство Новодевичьего монастыря в Москве",
+      "dateRaw": "1524",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1524,
+      "yearEnd": 1524,
+      "precision": "year",
+      "id": "05-0012"
+    },
+    {
+      "text": "Развод Василия III с Соломонией Сабуровой",
+      "dateRaw": "1525",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1525,
+      "yearEnd": 1525,
+      "precision": "year",
+      "id": "05-0013"
+    },
+    {
+      "text": "Брак Василия III с Еленой Глинской",
+      "dateRaw": "1526",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1526,
+      "yearEnd": 1526,
+      "precision": "year",
+      "id": "05-0014"
+    },
+    {
+      "text": "Русско-литовская война",
+      "dateRaw": "1534–1537",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1534,
+      "yearEnd": 1537,
+      "precision": "range",
+      "id": "05-0015"
+    },
+    {
+      "text": "Смерть Василия III",
+      "dateRaw": "1533",
+      "section": "ВАСИЛИЙ III",
+      "yearStart": 1533,
+      "yearEnd": 1533,
+      "precision": "year",
+      "id": "05-0016"
+    },
+    {
+      "text": "Начало регентства Елены Глинской",
+      "dateRaw": "1533",
+      "section": "РЕГЕНТСТВО ЕЛЕНЫ ГЛИНСКОЙ",
+      "yearStart": 1533,
+      "yearEnd": 1533,
+      "precision": "year",
+      "id": "05-0017"
+    },
+    {
+      "text": "Арест князя Юрия Дмитровского",
+      "dateRaw": "1533",
+      "section": "РЕГЕНТСТВО ЕЛЕНЫ ГЛИНСКОЙ",
+      "yearStart": 1533,
+      "yearEnd": 1533,
+      "precision": "year",
+      "id": "05-0018"
+    },
+    {
+      "text": "Денежная реформа",
+      "dateRaw": "1535",
+      "section": "РЕГЕНТСТВО ЕЛЕНЫ ГЛИНСКОЙ",
+      "yearStart": 1535,
+      "yearEnd": 1535,
+      "precision": "year",
+      "id": "05-0019"
+    },
+    {
+      "text": "Введение единой денежной системы",
+      "dateRaw": "1535",
+      "section": "РЕГЕНТСТВО ЕЛЕНЫ ГЛИНСКОЙ",
+      "yearStart": 1535,
+      "yearEnd": 1535,
+      "precision": "year",
+      "id": "05-0020"
+    },
+    {
+      "text": "Начало строительства Китайгородской стены в Москве",
+      "dateRaw": "1535",
+      "section": "РЕГЕНТСТВО ЕЛЕНЫ ГЛИНСКОЙ",
+      "yearStart": 1535,
+      "yearEnd": 1535,
+      "precision": "year",
+      "id": "05-0021"
+    },
+    {
+      "text": "Заключение перемирия с Литвой",
+      "dateRaw": "1537",
+      "section": "РЕГЕНТСТВО ЕЛЕНЫ ГЛИНСКОЙ",
+      "yearStart": 1537,
+      "yearEnd": 1537,
+      "precision": "year",
+      "id": "05-0022"
+    },
+    {
+      "text": "Смерть Елены Глинской",
+      "dateRaw": "1538",
+      "section": "РЕГЕНТСТВО ЕЛЕНЫ ГЛИНСКОЙ",
+      "yearStart": 1538,
+      "yearEnd": 1538,
+      "precision": "year",
+      "id": "05-0023"
+    },
+    {
+      "text": "Начало периода боярского правления",
+      "dateRaw": "1538",
+      "section": "БОЯРСКОЕ ПРАВЛЕНИЕ",
+      "yearStart": 1538,
+      "yearEnd": 1538,
+      "precision": "year",
+      "id": "05-0024"
+    },
+    {
+      "text": "Борьба боярских группировок за власть",
+      "dateRaw": "1538–1547",
+      "section": "БОЯРСКОЕ ПРАВЛЕНИЕ",
+      "yearStart": 1538,
+      "yearEnd": 1547,
+      "precision": "range",
+      "id": "05-0025"
+    },
+    {
+      "text": "Возвышение Шуйских",
+      "dateRaw": "1538–1543",
+      "section": "БОЯРСКОЕ ПРАВЛЕНИЕ",
+      "yearStart": 1538,
+      "yearEnd": 1543,
+      "precision": "range",
+      "id": "05-0026"
+    },
+    {
+      "text": "Возвышение Бельских",
+      "dateRaw": "1540-е гг.",
+      "section": "БОЯРСКОЕ ПРАВЛЕНИЕ",
+      "yearStart": 1540,
+      "yearEnd": 1549,
+      "precision": "decade",
+      "decade": 1540,
+      "id": "05-0027"
+    },
+    {
+      "text": "Совершеннолетие Ивана IV",
+      "dateRaw": "1545",
+      "section": "БОЯРСКОЕ ПРАВЛЕНИЕ",
+      "yearStart": 1545,
+      "yearEnd": 1545,
+      "precision": "year",
+      "id": "05-0028"
+    },
+    {
+      "text": "Деятельность Иосифа Волоцкого",
+      "dateRaw": "конец XV – начало XVI вв.",
+      "section": "РУССКАЯ ПРАВОСЛАВНАЯ ЦЕРКОВЬ",
+      "yearStart": 1476,
+      "yearEnd": 1525,
+      "precision": "century-transition",
+      "centuryStart": 15,
+      "centuryEnd": 16,
+      "id": "05-0029"
+    },
+    {
+      "text": "Деятельность Нила Сорского",
+      "dateRaw": "конец XV – начало XVI вв.",
+      "section": "РУССКАЯ ПРАВОСЛАВНАЯ ЦЕРКОВЬ",
+      "yearStart": 1476,
+      "yearEnd": 1525,
+      "precision": "century-transition",
+      "centuryStart": 15,
+      "centuryEnd": 16,
+      "id": "05-0030"
+    },
+    {
+      "text": "Полемика нестяжателей и иосифлян",
+      "dateRaw": "конец XV – начало XVI вв.",
+      "section": "РУССКАЯ ПРАВОСЛАВНАЯ ЦЕРКОВЬ",
+      "yearStart": 1476,
+      "yearEnd": 1525,
+      "precision": "century-transition",
+      "centuryStart": 15,
+      "centuryEnd": 16,
+      "id": "05-0031"
+    },
+    {
+      "text": "Укрепление влияния Русской православной церкви",
+      "dateRaw": "первая половина XVI в.",
+      "section": "РУССКАЯ ПРАВОСЛАВНАЯ ЦЕРКОВЬ",
+      "yearStart": 1501,
+      "yearEnd": 1550,
+      "precision": "century-part",
+      "century": 16,
+      "id": "05-0032"
+    },
+    {
+      "text": "Расширение монастырского землевладения",
+      "dateRaw": "первая половина XVI в.",
+      "section": "РУССКАЯ ПРАВОСЛАВНАЯ ЦЕРКОВЬ",
+      "yearStart": 1501,
+      "yearEnd": 1550,
+      "precision": "century-part",
+      "century": 16,
+      "id": "05-0033"
+    },
+    {
+      "text": "Строительство Архангельского собора Московского Кремля",
+      "dateRaw": "1505–1508",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1505,
+      "yearEnd": 1508,
+      "precision": "range",
+      "id": "05-0034"
+    },
+    {
+      "text": "Строительство колокольни Ивана Великого",
+      "dateRaw": "1505–1508",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1505,
+      "yearEnd": 1508,
+      "precision": "range",
+      "id": "05-0035"
+    },
+    {
+      "text": "Создание первого варианта Московского летописного свода",
+      "dateRaw": "начало XVI в.",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1501,
+      "yearEnd": 1525,
+      "precision": "century-part",
+      "century": 16,
+      "id": "05-0036"
+    },
+    {
+      "text": "Создание \"Хронографа\"",
+      "dateRaw": "первая половина XVI в.",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1501,
+      "yearEnd": 1550,
+      "precision": "century-part",
+      "century": 16,
+      "id": "05-0037"
+    },
+    {
+      "text": "Развитие приказного управления",
+      "dateRaw": "первая половина XVI в.",
+      "section": "КУЛЬТУРА И ОБЩЕСТВО",
+      "yearStart": 1501,
+      "yearEnd": 1550,
+      "precision": "century-part",
+      "century": 16,
+      "id": "05-0038"
+    },
+    {
+      "text": "Начало правления Ивана IV (формально)",
+      "dateRaw": "1533",
+      "section": "ЗАВЕРШЕНИЕ ЭПОХИ",
+      "yearStart": 1533,
+      "yearEnd": 1533,
+      "precision": "year",
+      "id": "05-0039"
+    },
+    {
+      "text": "Окончание боярского правления",
+      "dateRaw": "1547",
+      "section": "ЗАВЕРШЕНИЕ ЭПОХИ",
+      "yearStart": 1547,
+      "yearEnd": 1547,
+      "precision": "year",
+      "id": "05-0040"
+    },
+    {
+      "text": "Начало самостоятельного правления Ивана IV",
+      "dateRaw": "1547",
+      "section": "ЗАВЕРШЕНИЕ ЭПОХИ",
+      "yearStart": 1547,
+      "yearEnd": 1547,
+      "precision": "year",
+      "id": "05-0041"
+    }
+  ]
+}
