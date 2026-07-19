@@ -1,0 +1,644 @@
+{
+  "module": "06",
+  "title": "РОССИЯ ПРИ ИВАНЕ IV (ВНУТРЕННЯЯ И ВНЕШНЯЯ ПОЛИТИКА)",
+  "events": [
+    {
+      "text": "Начало формального правления Ивана IV",
+      "dateRaw": "1533",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ИВАНА IV",
+      "yearStart": 1533,
+      "yearEnd": 1533,
+      "precision": "year",
+      "id": "06-0001"
+    },
+    {
+      "text": "Начало боярского правления",
+      "dateRaw": "1538",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ИВАНА IV",
+      "yearStart": 1538,
+      "yearEnd": 1538,
+      "precision": "year",
+      "id": "06-0002"
+    },
+    {
+      "text": "Московское восстание",
+      "dateRaw": "1547",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ИВАНА IV",
+      "yearStart": 1547,
+      "yearEnd": 1547,
+      "precision": "year",
+      "id": "06-0003"
+    },
+    {
+      "text": "Венчание Ивана IV на царство",
+      "dateRaw": "1547",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ИВАНА IV",
+      "yearStart": 1547,
+      "yearEnd": 1547,
+      "precision": "year",
+      "id": "06-0004"
+    },
+    {
+      "text": "Начало самостоятельного правления Ивана IV",
+      "dateRaw": "1547",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ИВАНА IV",
+      "yearStart": 1547,
+      "yearEnd": 1547,
+      "precision": "year",
+      "id": "06-0005"
+    },
+    {
+      "text": "Формирование Избранной рады",
+      "dateRaw": "конец 1540-х гг.",
+      "section": "НАЧАЛО ПРАВЛЕНИЯ ИВАНА IV",
+      "yearStart": 1546,
+      "yearEnd": 1549,
+      "precision": "decade-part",
+      "decade": 1540,
+      "id": "06-0006"
+    },
+    {
+      "text": "Созыв первого Земского собора",
+      "dateRaw": "1549",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1549,
+      "yearEnd": 1549,
+      "precision": "year",
+      "id": "06-0007"
+    },
+    {
+      "text": "Судебная реформа",
+      "dateRaw": "1550",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1550,
+      "yearEnd": 1550,
+      "precision": "year",
+      "id": "06-0008"
+    },
+    {
+      "text": "Принятие Судебника Ивана IV",
+      "dateRaw": "1550",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1550,
+      "yearEnd": 1550,
+      "precision": "year",
+      "id": "06-0009"
+    },
+    {
+      "text": "Создание стрелецкого войска",
+      "dateRaw": "1550",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1550,
+      "yearEnd": 1550,
+      "precision": "year",
+      "id": "06-0010"
+    },
+    {
+      "text": "Ограничение местничества при военных походах",
+      "dateRaw": "1550",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1550,
+      "yearEnd": 1550,
+      "precision": "year",
+      "id": "06-0011"
+    },
+    {
+      "text": "Учреждение приказа Челобитных",
+      "dateRaw": "середина XVI в.",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1538,
+      "yearEnd": 1563,
+      "precision": "century-part",
+      "century": 16,
+      "id": "06-0012"
+    },
+    {
+      "text": "Созыв Стоглавого собора",
+      "dateRaw": "1551",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1551,
+      "yearEnd": 1551,
+      "precision": "year",
+      "id": "06-0013"
+    },
+    {
+      "text": "Принятие Стоглава",
+      "dateRaw": "1551",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1551,
+      "yearEnd": 1551,
+      "precision": "year",
+      "id": "06-0014"
+    },
+    {
+      "text": "Военная реформа",
+      "dateRaw": "1550-е гг.",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1550,
+      "yearEnd": 1559,
+      "precision": "decade",
+      "decade": 1550,
+      "id": "06-0015"
+    },
+    {
+      "text": "Формирование приказной системы центрального управления",
+      "dateRaw": "середина XVI в.",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1538,
+      "yearEnd": 1563,
+      "precision": "century-part",
+      "century": 16,
+      "id": "06-0016"
+    },
+    {
+      "text": "Реформа местного управления",
+      "dateRaw": "1555–1556",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1555,
+      "yearEnd": 1556,
+      "precision": "range",
+      "id": "06-0017"
+    },
+    {
+      "text": "Отмена кормлений",
+      "dateRaw": "1555–1556",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1555,
+      "yearEnd": 1556,
+      "precision": "range",
+      "id": "06-0018"
+    },
+    {
+      "text": "Принятие Уложения о службе",
+      "dateRaw": "1556",
+      "section": "РЕФОРМЫ ИЗБРАННОЙ РАДЫ",
+      "yearStart": 1556,
+      "yearEnd": 1556,
+      "precision": "year",
+      "id": "06-0019"
+    },
+    {
+      "text": "Начало строительства Покровского собора (храма Василия Блаженного)",
+      "dateRaw": "1555",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1555,
+      "yearEnd": 1555,
+      "precision": "year",
+      "id": "06-0020"
+    },
+    {
+      "text": "Завершение строительства Покровского собора",
+      "dateRaw": "1561",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1561,
+      "yearEnd": 1561,
+      "precision": "year",
+      "id": "06-0021"
+    },
+    {
+      "text": "Смерть Анастасии Романовой",
+      "dateRaw": "1560",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1560,
+      "yearEnd": 1560,
+      "precision": "year",
+      "id": "06-0022"
+    },
+    {
+      "text": "Распад Избранной рады",
+      "dateRaw": "около 1560",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1560,
+      "yearEnd": 1560,
+      "precision": "approx",
+      "id": "06-0023"
+    },
+    {
+      "text": "Бегство князя Андрея Курбского в Литву",
+      "dateRaw": "1564",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1564,
+      "yearEnd": 1564,
+      "precision": "year",
+      "id": "06-0024"
+    },
+    {
+      "text": "Переписка Ивана IV и Андрея Курбского",
+      "dateRaw": "с 1564",
+      "section": "ВНУТРЕННЯЯ ПОЛИТИКА",
+      "yearStart": 1564,
+      "yearEnd": 1564,
+      "precision": "since",
+      "id": "06-0025"
+    },
+    {
+      "text": "Учреждение опричнины",
+      "dateRaw": "1565",
+      "section": "ОПРИЧНИНА",
+      "yearStart": 1565,
+      "yearEnd": 1565,
+      "precision": "year",
+      "id": "06-0026"
+    },
+    {
+      "text": "Разделение государства на опричнину и земщину",
+      "dateRaw": "1565",
+      "section": "ОПРИЧНИНА",
+      "yearStart": 1565,
+      "yearEnd": 1565,
+      "precision": "year",
+      "id": "06-0027"
+    },
+    {
+      "text": "Начало массовых опал бояр",
+      "dateRaw": "1565",
+      "section": "ОПРИЧНИНА",
+      "yearStart": 1565,
+      "yearEnd": 1565,
+      "precision": "year",
+      "id": "06-0028"
+    },
+    {
+      "text": "Поход опричного войска на Новгород",
+      "dateRaw": "1570",
+      "section": "ОПРИЧНИНА",
+      "yearStart": 1570,
+      "yearEnd": 1570,
+      "precision": "year",
+      "id": "06-0029"
+    },
+    {
+      "text": "Новгородский погром",
+      "dateRaw": "1570",
+      "section": "ОПРИЧНИНА",
+      "yearStart": 1570,
+      "yearEnd": 1570,
+      "precision": "year",
+      "id": "06-0030"
+    },
+    {
+      "text": "Поход Девлет-Гирея на Москву",
+      "dateRaw": "1571",
+      "section": "ОПРИЧНИНА",
+      "yearStart": 1571,
+      "yearEnd": 1571,
+      "precision": "year",
+      "id": "06-0031"
+    },
+    {
+      "text": "Пожар Москвы",
+      "dateRaw": "1571",
+      "section": "ОПРИЧНИНА",
+      "yearStart": 1571,
+      "yearEnd": 1571,
+      "precision": "year",
+      "id": "06-0032"
+    },
+    {
+      "text": "Битва при Молодях",
+      "dateRaw": "1572",
+      "section": "ОПРИЧНИНА",
+      "yearStart": 1572,
+      "yearEnd": 1572,
+      "precision": "year",
+      "id": "06-0033"
+    },
+    {
+      "text": "Отмена опричнины",
+      "dateRaw": "1572",
+      "section": "ОПРИЧНИНА",
+      "yearStart": 1572,
+      "yearEnd": 1572,
+      "precision": "year",
+      "id": "06-0034"
+    },
+    {
+      "text": "Первый поход на Казань",
+      "dateRaw": "1547–1548",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1547,
+      "yearEnd": 1548,
+      "precision": "range",
+      "id": "06-0035"
+    },
+    {
+      "text": "Второй поход на Казань",
+      "dateRaw": "1549–1550",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1549,
+      "yearEnd": 1550,
+      "precision": "range",
+      "id": "06-0036"
+    },
+    {
+      "text": "Основание крепости Свияжск",
+      "dateRaw": "1551",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1551,
+      "yearEnd": 1551,
+      "precision": "year",
+      "id": "06-0037"
+    },
+    {
+      "text": "Третий поход на Казань",
+      "dateRaw": "1552",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1552,
+      "yearEnd": 1552,
+      "precision": "year",
+      "id": "06-0038"
+    },
+    {
+      "text": "Взятие Казани",
+      "dateRaw": "1552",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1552,
+      "yearEnd": 1552,
+      "precision": "year",
+      "id": "06-0039"
+    },
+    {
+      "text": "Присоединение Казанского ханства",
+      "dateRaw": "1552",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1552,
+      "yearEnd": 1552,
+      "precision": "year",
+      "id": "06-0040"
+    },
+    {
+      "text": "Поход на Астрахань",
+      "dateRaw": "1554",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1554,
+      "yearEnd": 1554,
+      "precision": "year",
+      "id": "06-0041"
+    },
+    {
+      "text": "Окончательное присоединение Астраханского ханства",
+      "dateRaw": "1556",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1556,
+      "yearEnd": 1556,
+      "precision": "year",
+      "id": "06-0042"
+    },
+    {
+      "text": "Присоединение Башкирии к Русскому государству",
+      "dateRaw": "1557",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1557,
+      "yearEnd": 1557,
+      "precision": "year",
+      "id": "06-0043"
+    },
+    {
+      "text": "Начало присоединения народов Поволжья",
+      "dateRaw": "середина XVI в.",
+      "section": "ВОСТОЧНОЕ НАПРАВЛЕНИЕ ВНЕШНЕЙ ПОЛИТИКИ",
+      "yearStart": 1538,
+      "yearEnd": 1563,
+      "precision": "century-part",
+      "century": 16,
+      "id": "06-0044"
+    },
+    {
+      "text": "Начало Ливонской войны",
+      "dateRaw": "1558",
+      "section": "ЛИВОНСКАЯ ВОЙНА",
+      "yearStart": 1558,
+      "yearEnd": 1558,
+      "precision": "year",
+      "id": "06-0045"
+    },
+    {
+      "text": "Взятие Нарвы",
+      "dateRaw": "1558",
+      "section": "ЛИВОНСКАЯ ВОЙНА",
+      "yearStart": 1558,
+      "yearEnd": 1558,
+      "precision": "year",
+      "id": "06-0046"
+    },
+    {
+      "text": "Взятие Дерпта (Юрьева)",
+      "dateRaw": "1558",
+      "section": "ЛИВОНСКАЯ ВОЙНА",
+      "yearStart": 1558,
+      "yearEnd": 1558,
+      "precision": "year",
+      "id": "06-0047"
+    },
+    {
+      "text": "Распад Ливонского ордена",
+      "dateRaw": "1561",
+      "section": "ЛИВОНСКАЯ ВОЙНА",
+      "yearStart": 1561,
+      "yearEnd": 1561,
+      "precision": "year",
+      "id": "06-0048"
+    },
+    {
+      "text": "Образование Речи Посполитой",
+      "dateRaw": "1569",
+      "section": "ЛИВОНСКАЯ ВОЙНА",
+      "yearStart": 1569,
+      "yearEnd": 1569,
+      "precision": "year",
+      "id": "06-0049"
+    },
+    {
+      "text": "Оборона Пскова",
+      "dateRaw": "1581–1582",
+      "section": "ЛИВОНСКАЯ ВОЙНА",
+      "yearStart": 1581,
+      "yearEnd": 1582,
+      "precision": "range",
+      "id": "06-0050"
+    },
+    {
+      "text": "Ям-Запольское перемирие с Речью Посполитой",
+      "dateRaw": "1582",
+      "section": "ЛИВОНСКАЯ ВОЙНА",
+      "yearStart": 1582,
+      "yearEnd": 1582,
+      "precision": "year",
+      "id": "06-0051"
+    },
+    {
+      "text": "Плюсское перемирие со Швецией",
+      "dateRaw": "1583",
+      "section": "ЛИВОНСКАЯ ВОЙНА",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "precision": "year",
+      "id": "06-0052"
+    },
+    {
+      "text": "Окончание Ливонской войны",
+      "dateRaw": "1583",
+      "section": "ЛИВОНСКАЯ ВОЙНА",
+      "yearStart": 1583,
+      "yearEnd": 1583,
+      "precision": "year",
+      "id": "06-0053"
+    },
+    {
+      "text": "Начало походов крымских татар против Русского государства",
+      "dateRaw": "XVI в.",
+      "section": "ЮЖНОЕ И СИБИРСКОЕ НАПРАВЛЕНИЯ",
+      "yearStart": 1501,
+      "yearEnd": 1600,
+      "precision": "century",
+      "century": 16,
+      "id": "06-0054"
+    },
+    {
+      "text": "Поход Ермака в Сибирь",
+      "dateRaw": "1581",
+      "section": "ЮЖНОЕ И СИБИРСКОЕ НАПРАВЛЕНИЯ",
+      "yearStart": 1581,
+      "yearEnd": 1581,
+      "precision": "year",
+      "id": "06-0055"
+    },
+    {
+      "text": "Начало присоединения Сибирского ханства",
+      "dateRaw": "1581",
+      "section": "ЮЖНОЕ И СИБИРСКОЕ НАПРАВЛЕНИЯ",
+      "yearStart": 1581,
+      "yearEnd": 1581,
+      "precision": "year",
+      "id": "06-0056"
+    },
+    {
+      "text": "Взятие столицы Сибирского ханства Кашлыка",
+      "dateRaw": "1582",
+      "section": "ЮЖНОЕ И СИБИРСКОЕ НАПРАВЛЕНИЯ",
+      "yearStart": 1582,
+      "yearEnd": 1582,
+      "precision": "year",
+      "id": "06-0057"
+    },
+    {
+      "text": "Гибель Ермака",
+      "dateRaw": "1585",
+      "section": "ЮЖНОЕ И СИБИРСКОЕ НАПРАВЛЕНИЯ",
+      "yearStart": 1585,
+      "yearEnd": 1585,
+      "precision": "year",
+      "id": "06-0058"
+    },
+    {
+      "text": "Гибель царевича Ивана",
+      "dateRaw": "1581",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1581,
+      "yearEnd": 1581,
+      "precision": "year",
+      "id": "06-0059"
+    },
+    {
+      "text": "Смерть Ивана IV",
+      "dateRaw": "1584",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1584,
+      "yearEnd": 1584,
+      "precision": "year",
+      "id": "06-0060"
+    },
+    {
+      "text": "Начало правления Фёдора Ивановича",
+      "dateRaw": "1584",
+      "section": "ПОСЛЕДНИЕ ГОДЫ ПРАВЛЕНИЯ",
+      "yearStart": 1584,
+      "yearEnd": 1584,
+      "precision": "year",
+      "id": "06-0061"
+    },
+    {
+      "text": "Стоглавый собор",
+      "dateRaw": "1551",
+      "section": "КУЛЬТУРА И ЦЕРКОВЬ",
+      "yearStart": 1551,
+      "yearEnd": 1551,
+      "precision": "year",
+      "id": "06-0062"
+    },
+    {
+      "text": "Строительство Покровского собора",
+      "dateRaw": "1555–1561",
+      "section": "КУЛЬТУРА И ЦЕРКОВЬ",
+      "yearStart": 1555,
+      "yearEnd": 1561,
+      "precision": "range",
+      "id": "06-0063"
+    },
+    {
+      "text": "Начало книгопечатания в России",
+      "dateRaw": "1563",
+      "section": "КУЛЬТУРА И ЦЕРКОВЬ",
+      "yearStart": 1563,
+      "yearEnd": 1563,
+      "precision": "year",
+      "id": "06-0064"
+    },
+    {
+      "text": "Издание первой русской датированной печатной книги «Апостол»",
+      "dateRaw": "1564",
+      "section": "КУЛЬТУРА И ЦЕРКОВЬ",
+      "yearStart": 1564,
+      "yearEnd": 1564,
+      "precision": "year",
+      "id": "06-0065"
+    },
+    {
+      "text": "Открытие Московского печатного двора",
+      "dateRaw": "XVI в.",
+      "section": "КУЛЬТУРА И ЦЕРКОВЬ",
+      "yearStart": 1501,
+      "yearEnd": 1600,
+      "precision": "century",
+      "century": 16,
+      "id": "06-0066"
+    },
+    {
+      "text": "Издание «Часовника»",
+      "dateRaw": "1565",
+      "section": "КУЛЬТУРА И ЦЕРКОВЬ",
+      "yearStart": 1565,
+      "yearEnd": 1565,
+      "precision": "year",
+      "id": "06-0067"
+    },
+    {
+      "text": "Завершение реформ Избранной рады",
+      "dateRaw": "начало 1560-х гг.",
+      "section": "ОСНОВНЫЕ ИТОГИ ЭПОХИ",
+      "yearStart": 1560,
+      "yearEnd": 1563,
+      "precision": "decade-part",
+      "decade": 1560,
+      "id": "06-0068"
+    },
+    {
+      "text": "Завершение присоединения Казанского и Астраханского ханств",
+      "dateRaw": "1556",
+      "section": "ОСНОВНЫЕ ИТОГИ ЭПОХИ",
+      "yearStart": 1556,
+      "yearEnd": 1556,
+      "precision": "year",
+      "id": "06-0069"
+    },
+    {
+      "text": "Завершение правления Ивана IV",
+      "dateRaw": "1584",
+      "section": "ОСНОВНЫЕ ИТОГИ ЭПОХИ",
+      "yearStart": 1584,
+      "yearEnd": 1584,
+      "precision": "year",
+      "id": "06-0070"
+    }
+  ]
+}
