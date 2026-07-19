@@ -1,0 +1,589 @@
+{
+  "module": "02",
+  "title": "КИЕВСКАЯ РУСЬ (X – НАЧАЛО XII ВЕКА)",
+  "events": [
+    {
+      "text": "Начало княжения Владимира Святославича",
+      "dateRaw": "980",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 980,
+      "yearEnd": 980,
+      "precision": "year",
+      "id": "02-0001"
+    },
+    {
+      "text": "Языческая реформа Владимира",
+      "dateRaw": "980",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 980,
+      "yearEnd": 980,
+      "precision": "year",
+      "id": "02-0002"
+    },
+    {
+      "text": "Поход на Полоцк",
+      "dateRaw": "980",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 980,
+      "yearEnd": 980,
+      "precision": "year",
+      "id": "02-0003"
+    },
+    {
+      "text": "Присоединение Червенских городов",
+      "dateRaw": "981",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 981,
+      "yearEnd": 981,
+      "precision": "year",
+      "id": "02-0004"
+    },
+    {
+      "text": "Поход против вятичей",
+      "dateRaw": "981",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 981,
+      "yearEnd": 981,
+      "precision": "year",
+      "id": "02-0005"
+    },
+    {
+      "text": "Поход против ятвягов",
+      "dateRaw": "983",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 983,
+      "yearEnd": 983,
+      "precision": "year",
+      "id": "02-0006"
+    },
+    {
+      "text": "Поход против радимичей",
+      "dateRaw": "984",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 984,
+      "yearEnd": 984,
+      "precision": "year",
+      "id": "02-0007"
+    },
+    {
+      "text": "Поход против волжских булгар",
+      "dateRaw": "985",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 985,
+      "yearEnd": 985,
+      "precision": "year",
+      "id": "02-0008"
+    },
+    {
+      "text": "Заключение мира с Волжской Булгарией",
+      "dateRaw": "985",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 985,
+      "yearEnd": 985,
+      "precision": "year",
+      "id": "02-0009"
+    },
+    {
+      "text": "Выбор государственной религии (по летописной традиции)",
+      "dateRaw": "986–987",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 986,
+      "yearEnd": 987,
+      "precision": "range",
+      "id": "02-0010"
+    },
+    {
+      "text": "Осада Корсуни (Херсонеса)",
+      "dateRaw": "988",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 988,
+      "yearEnd": 988,
+      "precision": "year",
+      "id": "02-0011"
+    },
+    {
+      "text": "Крещение Владимира Святославича",
+      "dateRaw": "988",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 988,
+      "yearEnd": 988,
+      "precision": "year",
+      "id": "02-0012"
+    },
+    {
+      "text": "Крещение Руси",
+      "dateRaw": "988",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 988,
+      "yearEnd": 988,
+      "precision": "year",
+      "id": "02-0013"
+    },
+    {
+      "text": "Начало массового строительства православных храмов",
+      "dateRaw": "с 988",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 988,
+      "yearEnd": 988,
+      "precision": "since",
+      "id": "02-0014"
+    },
+    {
+      "text": "Основание Десятинной церкви",
+      "dateRaw": "989",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 989,
+      "yearEnd": 989,
+      "precision": "year",
+      "id": "02-0015"
+    },
+    {
+      "text": "Строительство оборонительных линий против печенегов",
+      "dateRaw": "конец X в.",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 976,
+      "yearEnd": 1000,
+      "precision": "century-part",
+      "century": 10,
+      "id": "02-0016"
+    },
+    {
+      "text": "Развитие системы пограничных крепостей",
+      "dateRaw": "конец X – начало XI вв.",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 976,
+      "yearEnd": 1025,
+      "precision": "century-transition",
+      "centuryStart": 10,
+      "centuryEnd": 11,
+      "id": "02-0017"
+    },
+    {
+      "text": "Смерть Владимира Святославича",
+      "dateRaw": "1015",
+      "section": "ВЛАДИМИР СВЯТОСЛАВИЧ",
+      "yearStart": 1015,
+      "yearEnd": 1015,
+      "precision": "year",
+      "id": "02-0018"
+    },
+    {
+      "text": "Начало усобицы между сыновьями Владимира",
+      "dateRaw": "1015",
+      "section": "БОРЬБА ЗА ВЛАСТЬ ПОСЛЕ СМЕРТИ ВЛАДИМИРА",
+      "yearStart": 1015,
+      "yearEnd": 1015,
+      "precision": "year",
+      "id": "02-0019"
+    },
+    {
+      "text": "Убийство Бориса",
+      "dateRaw": "1015",
+      "section": "БОРЬБА ЗА ВЛАСТЬ ПОСЛЕ СМЕРТИ ВЛАДИМИРА",
+      "yearStart": 1015,
+      "yearEnd": 1015,
+      "precision": "year",
+      "id": "02-0020"
+    },
+    {
+      "text": "Убийство Глеба",
+      "dateRaw": "1015",
+      "section": "БОРЬБА ЗА ВЛАСТЬ ПОСЛЕ СМЕРТИ ВЛАДИМИРА",
+      "yearStart": 1015,
+      "yearEnd": 1015,
+      "precision": "year",
+      "id": "02-0021"
+    },
+    {
+      "text": "Начало правления Святополка Окаянного",
+      "dateRaw": "1015",
+      "section": "БОРЬБА ЗА ВЛАСТЬ ПОСЛЕ СМЕРТИ ВЛАДИМИРА",
+      "yearStart": 1015,
+      "yearEnd": 1015,
+      "precision": "year",
+      "id": "02-0022"
+    },
+    {
+      "text": "Битва при Любече",
+      "dateRaw": "1016",
+      "section": "БОРЬБА ЗА ВЛАСТЬ ПОСЛЕ СМЕРТИ ВЛАДИМИРА",
+      "yearStart": 1016,
+      "yearEnd": 1016,
+      "precision": "year",
+      "id": "02-0023"
+    },
+    {
+      "text": "Первое изгнание Святополка",
+      "dateRaw": "1016",
+      "section": "БОРЬБА ЗА ВЛАСТЬ ПОСЛЕ СМЕРТИ ВЛАДИМИРА",
+      "yearStart": 1016,
+      "yearEnd": 1016,
+      "precision": "year",
+      "id": "02-0024"
+    },
+    {
+      "text": "Возвращение Святополка с польской помощью",
+      "dateRaw": "1018",
+      "section": "БОРЬБА ЗА ВЛАСТЬ ПОСЛЕ СМЕРТИ ВЛАДИМИРА",
+      "yearStart": 1018,
+      "yearEnd": 1018,
+      "precision": "year",
+      "id": "02-0025"
+    },
+    {
+      "text": "Битва на реке Альте",
+      "dateRaw": "1019",
+      "section": "БОРЬБА ЗА ВЛАСТЬ ПОСЛЕ СМЕРТИ ВЛАДИМИРА",
+      "yearStart": 1019,
+      "yearEnd": 1019,
+      "precision": "year",
+      "id": "02-0026"
+    },
+    {
+      "text": "Окончательная победа Ярослава",
+      "dateRaw": "1019",
+      "section": "БОРЬБА ЗА ВЛАСТЬ ПОСЛЕ СМЕРТИ ВЛАДИМИРА",
+      "yearStart": 1019,
+      "yearEnd": 1019,
+      "precision": "year",
+      "id": "02-0027"
+    },
+    {
+      "text": "Начало княжения Ярослава Мудрого в Киеве",
+      "dateRaw": "1019",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1019,
+      "yearEnd": 1019,
+      "precision": "year",
+      "id": "02-0028"
+    },
+    {
+      "text": "Раздел власти с Мстиславом Тмутараканским",
+      "dateRaw": "1024",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1024,
+      "yearEnd": 1024,
+      "precision": "year",
+      "id": "02-0029"
+    },
+    {
+      "text": "Основание города Юрьева",
+      "dateRaw": "1030",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1030,
+      "yearEnd": 1030,
+      "precision": "year",
+      "id": "02-0030"
+    },
+    {
+      "text": "Поход против чуди",
+      "dateRaw": "1030",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1030,
+      "yearEnd": 1030,
+      "precision": "year",
+      "id": "02-0031"
+    },
+    {
+      "text": "Смерть Мстислава Тмутараканского",
+      "dateRaw": "1036",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1036,
+      "yearEnd": 1036,
+      "precision": "year",
+      "id": "02-0032"
+    },
+    {
+      "text": "Объединение Руси под властью Ярослава",
+      "dateRaw": "1036",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1036,
+      "yearEnd": 1036,
+      "precision": "year",
+      "id": "02-0033"
+    },
+    {
+      "text": "Разгром печенегов под Киевом",
+      "dateRaw": "1036",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1036,
+      "yearEnd": 1036,
+      "precision": "year",
+      "id": "02-0034"
+    },
+    {
+      "text": "Основание Софийского собора в Киеве",
+      "dateRaw": "1037",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1037,
+      "yearEnd": 1037,
+      "precision": "year",
+      "id": "02-0035"
+    },
+    {
+      "text": "Основание Золотых ворот Киева",
+      "dateRaw": "1037",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1037,
+      "yearEnd": 1037,
+      "precision": "year",
+      "id": "02-0036"
+    },
+    {
+      "text": "Основание Киево-Печерского монастыря",
+      "dateRaw": "около 1051",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1051,
+      "yearEnd": 1051,
+      "precision": "approx",
+      "id": "02-0037"
+    },
+    {
+      "text": "Избрание Илариона первым русским митрополитом",
+      "dateRaw": "1051",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1051,
+      "yearEnd": 1051,
+      "precision": "year",
+      "id": "02-0038"
+    },
+    {
+      "text": "Создание древнейшей части Русской Правды («Правда Ярослава»)",
+      "dateRaw": "первая половина XI в.",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1001,
+      "yearEnd": 1050,
+      "precision": "century-part",
+      "century": 11,
+      "id": "02-0039"
+    },
+    {
+      "text": "Расширение международных династических связей Руси",
+      "dateRaw": "XI в.",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1001,
+      "yearEnd": 1100,
+      "precision": "century",
+      "century": 11,
+      "id": "02-0040"
+    },
+    {
+      "text": "Смерть Ярослава Мудрого",
+      "dateRaw": "1054",
+      "section": "ЯРОСЛАВ МУДРЫЙ",
+      "yearStart": 1054,
+      "yearEnd": 1054,
+      "precision": "year",
+      "id": "02-0041"
+    },
+    {
+      "text": "Начало совместного правления Ярославичей",
+      "dateRaw": "1054",
+      "section": "ЯРОСЛАВИЧИ",
+      "yearStart": 1054,
+      "yearEnd": 1054,
+      "precision": "year",
+      "id": "02-0042"
+    },
+    {
+      "text": "Принятие Правды Ярославичей",
+      "dateRaw": "около 1072",
+      "section": "ЯРОСЛАВИЧИ",
+      "yearStart": 1072,
+      "yearEnd": 1072,
+      "precision": "approx",
+      "id": "02-0043"
+    },
+    {
+      "text": "Поражение русских войск от половцев на реке Альте",
+      "dateRaw": "1068",
+      "section": "ЯРОСЛАВИЧИ",
+      "yearStart": 1068,
+      "yearEnd": 1068,
+      "precision": "year",
+      "id": "02-0044"
+    },
+    {
+      "text": "Восстание в Киеве",
+      "dateRaw": "1068",
+      "section": "ЯРОСЛАВИЧИ",
+      "yearStart": 1068,
+      "yearEnd": 1068,
+      "precision": "year",
+      "id": "02-0045"
+    },
+    {
+      "text": "Первое упоминание половцев в русских летописях",
+      "dateRaw": "1055",
+      "section": "ЯРОСЛАВИЧИ",
+      "yearStart": 1055,
+      "yearEnd": 1055,
+      "precision": "year",
+      "id": "02-0046"
+    },
+    {
+      "text": "Съезд князей в Вышгороде",
+      "dateRaw": "1072",
+      "section": "ЯРОСЛАВИЧИ",
+      "yearStart": 1072,
+      "yearEnd": 1072,
+      "precision": "year",
+      "id": "02-0047"
+    },
+    {
+      "text": "Начало княжения Всеволода Ярославича в Киеве",
+      "dateRaw": "1078",
+      "section": "ЯРОСЛАВИЧИ",
+      "yearStart": 1078,
+      "yearEnd": 1078,
+      "precision": "year",
+      "id": "02-0048"
+    },
+    {
+      "text": "Смерть Всеволода Ярославича",
+      "dateRaw": "1093",
+      "section": "ЯРОСЛАВИЧИ",
+      "yearStart": 1093,
+      "yearEnd": 1093,
+      "precision": "year",
+      "id": "02-0049"
+    },
+    {
+      "text": "Долобский съезд князей",
+      "dateRaw": "1103",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1103,
+      "yearEnd": 1103,
+      "precision": "year",
+      "id": "02-0050"
+    },
+    {
+      "text": "Совместный поход русских князей против половцев",
+      "dateRaw": "1103",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1103,
+      "yearEnd": 1103,
+      "precision": "year",
+      "id": "02-0051"
+    },
+    {
+      "text": "Новый поход против половцев",
+      "dateRaw": "1107",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1107,
+      "yearEnd": 1107,
+      "precision": "year",
+      "id": "02-0052"
+    },
+    {
+      "text": "Разгром половцев на Сальнице",
+      "dateRaw": "1111",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1111,
+      "yearEnd": 1111,
+      "precision": "year",
+      "id": "02-0053"
+    },
+    {
+      "text": "Восстание в Киеве",
+      "dateRaw": "1113",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1113,
+      "yearEnd": 1113,
+      "precision": "year",
+      "id": "02-0054"
+    },
+    {
+      "text": "Начало княжения Владимира Мономаха",
+      "dateRaw": "1113",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1113,
+      "yearEnd": 1113,
+      "precision": "year",
+      "id": "02-0055"
+    },
+    {
+      "text": "Принятие Устава Владимира Мономаха",
+      "dateRaw": "1113",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1113,
+      "yearEnd": 1113,
+      "precision": "year",
+      "id": "02-0056"
+    },
+    {
+      "text": "Создание «Поучения детям»",
+      "dateRaw": "начало XII в.",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1101,
+      "yearEnd": 1125,
+      "precision": "century-part",
+      "century": 12,
+      "id": "02-0057"
+    },
+    {
+      "text": "Продолжение борьбы с половцами",
+      "dateRaw": "XII в.",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1101,
+      "yearEnd": 1200,
+      "precision": "century",
+      "century": 12,
+      "id": "02-0058"
+    },
+    {
+      "text": "Смерть Владимира Мономаха",
+      "dateRaw": "1125",
+      "section": "ВЛАДИМИР МОНОМАХ",
+      "yearStart": 1125,
+      "yearEnd": 1125,
+      "precision": "year",
+      "id": "02-0059"
+    },
+    {
+      "text": "Начало княжения Мстислава Великого",
+      "dateRaw": "1125",
+      "section": "МСТИСЛАВ ВЕЛИКИЙ",
+      "yearStart": 1125,
+      "yearEnd": 1125,
+      "precision": "year",
+      "id": "02-0060"
+    },
+    {
+      "text": "Походы против прибалтийских племён",
+      "dateRaw": "1127–1132",
+      "section": "МСТИСЛАВ ВЕЛИКИЙ",
+      "yearStart": 1127,
+      "yearEnd": 1132,
+      "precision": "range",
+      "id": "02-0061"
+    },
+    {
+      "text": "Укрепление великокняжеской власти",
+      "dateRaw": "1125–1132",
+      "section": "МСТИСЛАВ ВЕЛИКИЙ",
+      "yearStart": 1125,
+      "yearEnd": 1132,
+      "precision": "range",
+      "id": "02-0062"
+    },
+    {
+      "text": "Смерть Мстислава Великого",
+      "dateRaw": "1132",
+      "section": "МСТИСЛАВ ВЕЛИКИЙ",
+      "yearStart": 1132,
+      "yearEnd": 1132,
+      "precision": "year",
+      "id": "02-0063"
+    },
+    {
+      "text": "Начало периода политической раздробленности Руси",
+      "dateRaw": "1132",
+      "section": "ЗАВЕРШЕНИЕ ЭПОХИ КИЕВСКОЙ РУСИ",
+      "yearStart": 1132,
+      "yearEnd": 1132,
+      "precision": "year",
+      "id": "02-0064"
+    }
+  ]
+}
