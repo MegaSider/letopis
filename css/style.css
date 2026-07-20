@@ -104,6 +104,20 @@ main{padding-top:30px;}
 .hero h2{font-family:'Yeseva One',serif;font-weight:400;font-size:2rem;margin:0 0 12px;line-height:1.2;}
 .hero p{color:var(--text-dim);margin:0 0 18px;font-size:0.95rem;}
 .hero .actions{display:flex;gap:10px;flex-wrap:wrap;}
+.live-badge{
+  display:inline-flex;align-items:center;gap:7px;font-size:0.78rem;color:var(--text-dim);
+  margin:0 0 16px;font-family:'JetBrains Mono',monospace;
+}
+.live-badge b{color:var(--text);font-weight:700;}
+.live-dot{
+  width:7px;height:7px;border-radius:50%;background:var(--success);flex-shrink:0;
+  box-shadow:0 0 0 0 rgba(62,207,142,0.6);animation:live-pulse 2s infinite;
+}
+@keyframes live-pulse{
+  0%{box-shadow:0 0 0 0 rgba(62,207,142,0.5);}
+  70%{box-shadow:0 0 0 6px rgba(62,207,142,0);}
+  100%{box-shadow:0 0 0 0 rgba(62,207,142,0);}
+}
 .btn{background:var(--accent);color:#1a1200;border:none;padding:11px 18px;border-radius:8px;font-size:0.88rem;font-weight:700;text-decoration:none;display:inline-block;}
 .btn:hover{background:#e8b968;}
 .btn.outline{background:transparent;color:var(--text);border:1.5px solid var(--border);}
@@ -238,6 +252,9 @@ footer.site{margin-top:56px;padding:24px 0;text-align:center;color:var(--text-fa
 .auth-note{font-size:0.76rem;color:var(--text-faint);margin-top:14px;line-height:1.5;}
 .profile-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;display:flex;gap:16px;align-items:center;margin-bottom:24px;}
 .profile-avatar{width:52px;height:52px;border-radius:50%;background:linear-gradient(155deg,var(--accent),#a97a26);display:flex;align-items:center;justify-content:center;font-family:'Yeseva One',serif;font-size:1.3rem;color:#1a1200;flex-shrink:0;}
+.rank-tag{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--accent);background:var(--accent-soft);border:1px solid var(--accent-dim);border-radius:20px;padding:2px 10px;margin:4px 0 6px;}
+.rank-title{font-family:'Yeseva One',serif;font-size:1.4rem;color:var(--accent);}
+.rank-desc{color:var(--text-dim);font-size:0.86rem;margin-top:4px;}
 
 /* readable stat rows (levels / categories on profile page) */
 .stat-rows{display:flex;flex-direction:column;gap:9px;margin-top:16px;}
