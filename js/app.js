@@ -7,6 +7,7 @@ import {
   PERSONS, PERSON_CATEGORIES, DATES_KB, CATS, CAT_LABEL
 } from './data.js';
 import { EGE_VARIANTS } from './ege.js';
+import { discoverDateModules } from './dates-loader.js';
 import {
   auth, db,
   createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut,
@@ -24,7 +25,12 @@ const state = {
   mistakes: new Set(),       // id вопросов, отвеченных сейчас неверно
   premiumInterest: false, premiumEmail:'',
   builder: { count:15, levels: new Set(LEVELS), cats: new Set(CATS), type:'any' },
-  egeTest: null
+  egeTest: null,
+  datesModules: null,      // null = ещё не грузили, 'loading' = идёт загрузка, [] = список найден
+  datesModuleSel: null,    // номер выбранного модуля
+  datesYearIndex: null,    // [[год, [события]], ...] для выбранного модуля
+  datesYearIdx: 0,
+  datesSearchOpen: false
 };
 LEVELS.forEach(l => state.stats[l] = {answered:0, correct:0});
 CATS.forEach(c => state.catStats[c] = {answered:0, correct:0});
@@ -771,44 +777,128 @@ function renderPerson(){
 /* ========================================================================
    БАЗА ЗНАНИЙ (даты) — навигатор по годам
    ======================================================================== */
+/* ========================================================================
+   БАЗА ЗНАНИЙ (даты) — реальные модули, подгружаются с сервера
+   ======================================================================== */
+function loadDateModules(){
+  if(state.datesModules) return;
+  state.datesModules = 'loading';
+  discoverDateModules().then(mods => {
+    state.datesModules = mods;
+    if(state.screen === 'yearsdb') render();
+  });
+}
+
+function buildYearIndex(events){
+  const map = new Map();
+  events.forEach(ev => {
+    if(ev.yearStart == null) return;
+    if(!map.has(ev.yearStart)) map.set(ev.yearStart, []);
+    map.get(ev.yearStart).push(ev);
+  });
+  return [...map.entries()].sort((a,b) => a[0]-b[0]);
+}
+
+function selectDateModule(num){
+  const mod = state.datesModules.find(m => m.num === num);
+  if(!mod) return;
+  state.datesModuleSel = num;
+  state.datesYearIndex = buildYearIndex(mod.events);
+  state.datesYearIdx = 0;
+  render();
+}
+
 function renderDatesDB(){
+  if(state.datesModules === null){ loadDateModules(); }
+
+  if(state.datesModules === 'loading'){
+    return el(`
+      <div>
+        <div class="section-head"><h2>Даты</h2></div>
+        <p class="lede">Загружаю модули дат…</p>
+      </div>
+    `);
+  }
+
+  if(state.datesModules && state.datesModules.length === 0){
+    return el(`
+      <div>
+        <div class="section-head"><h2>Даты</h2></div>
+        <p class="lede">Пока не нашёл ни одного модуля в <code>data/dates/</code>. Как только там появятся файлы module-01.json и далее — они сами покажутся здесь.</p>
+      </div>
+    `);
+  }
+
+  if(state.datesModuleSel === null){
+    const totalEvents = state.datesModules.reduce((s,m)=>s+m.events.length,0);
+    const wrap = el(`
+      <div>
+        <div class="section-head"><h2>Даты</h2><span class="count">${state.datesModules.length} модулей · ${totalEvents} событий</span></div>
+        <p class="lede">Выбери период — внутри можно листать год за годом или искать конкретный год.</p>
+        <div class="grid" id="modGrid"></div>
+      </div>
+    `);
+    const grid = wrap.querySelector('#modGrid');
+    state.datesModules.forEach(m=>{
+      const years = m.events.filter(e=>e.yearStart!=null).map(e=>e.yearStart);
+      const range = years.length ? `${Math.min(...years)} — ${Math.max(...years)}` : '';
+      const card = el(`
+        <div class="card"><div class="body">
+          <h3>${m.title}</h3>
+          <div class="years">${range} · ${m.events.length} событий</div>
+          <button class="cta">Открыть</button>
+        </div></div>
+      `);
+      card.querySelector('.cta').onclick = () => selectDateModule(m.num);
+      grid.appendChild(card);
+    });
+    return wrap;
+  }
+
+  const mod = state.datesModules.find(m => m.num === state.datesModuleSel);
   const wrap = el(`
     <div>
-      <div class="section-head"><h2>Даты</h2><span class="count">${DATES_KB.length} записей · 862 — 2020-е</span></div>
-      <p class="lede">Введи год, чтобы узнать, что произошло в этом году, и листай вперёд-назад по ближайшим датам. Раздел будет пополняться.</p>
+      <div class="section-head"><h2>${mod.title}</h2><span class="count">${mod.events.length} событий</span></div>
       <div class="search-row">
         <input type="number" id="yearSearch" placeholder="Например, 1812">
         <button class="btn" id="yearGoBtn">Найти</button>
       </div>
       <div id="yearNavHolder"></div>
-      <div class="section-head" style="margin-top:34px"><h2>Все записи</h2></div>
+      <div class="section-head" style="margin-top:34px"><h2>Все события модуля</h2></div>
       <div class="date-list" id="dateListHolder"></div>
     </div>
   `);
+  const back = el(`<a class="back-link" href="#">← Ко всем модулям</a>`);
+  back.onclick = (e) => { e.preventDefault(); state.datesModuleSel = null; render(); };
+  wrap.insertBefore(back, wrap.firstChild);
+
   const holder = wrap.querySelector('#yearNavHolder');
   renderYearNav(holder);
 
   const input = wrap.querySelector('#yearSearch');
   const go = () => {
     const y = parseInt(input.value, 10);
-    if(isNaN(y)) return;
-    let idx = DATES_KB.findIndex(d=>d.year===y);
-    if(idx===-1){
-      // ближайший год
-      let best=0, bestDiff=Infinity;
-      DATES_KB.forEach((d,i)=>{ const diff=Math.abs(d.year-y); if(diff<bestDiff){bestDiff=diff; best=i;} });
+    if(isNaN(y) || state.datesYearIndex.length === 0) return;
+    let idx = state.datesYearIndex.findIndex(([yr]) => yr === y);
+    if(idx === -1){
+      let best = 0, bestDiff = Infinity;
+      state.datesYearIndex.forEach(([yr], i) => { const diff = Math.abs(yr-y); if(diff<bestDiff){ bestDiff=diff; best=i; } });
       idx = best;
     }
-    state.dateIdx = idx;
+    state.datesYearIdx = idx;
     renderYearNav(holder);
   };
   wrap.querySelector('#yearGoBtn').onclick = go;
-  input.addEventListener('keydown', (e)=>{ if(e.key==='Enter') go(); });
+  input.addEventListener('keydown', (e) => { if(e.key==='Enter') go(); });
 
   const list = wrap.querySelector('#dateListHolder');
-  DATES_KB.forEach((d,i)=>{
-    const row = el(`<div class="date-row"><div class="y">${d.year}</div><div class="t">${d.title}</div></div>`);
-    row.onclick = () => { state.dateIdx = i; renderYearNav(holder); window.scrollTo({top:0, behavior:'smooth'}); };
+  const sorted = mod.events.slice().sort((a,b) => (a.yearStart ?? 0) - (b.yearStart ?? 0));
+  sorted.forEach(ev => {
+    const row = el(`<div class="date-row"><div class="y">${ev.dateRaw}</div><div class="t">${ev.text}</div></div>`);
+    row.onclick = () => {
+      const idx = state.datesYearIndex.findIndex(([yr]) => yr === ev.yearStart);
+      if(idx !== -1){ state.datesYearIdx = idx; renderYearNav(holder); window.scrollTo({top:0, behavior:'smooth'}); }
+    };
     list.appendChild(row);
   });
   return wrap;
@@ -816,24 +906,36 @@ function renderDatesDB(){
 
 function renderYearNav(holder){
   holder.innerHTML = '';
-  const i = state.dateIdx;
-  const d = DATES_KB[i];
-  const prevBtn = el(`<button class="arrow" ${i<=0?'disabled':''}>‹</button>`);
-  const nextBtn = el(`<button class="arrow" ${i>=DATES_KB.length-1?'disabled':''}>›</button>`);
-  prevBtn.onclick = () => { if(i>0){ state.dateIdx--; renderYearNav(holder); } };
-  nextBtn.onclick = () => { if(i<DATES_KB.length-1){ state.dateIdx++; renderYearNav(holder); } };
+  const idx = state.datesYearIdx;
+  const yi = state.datesYearIndex;
+  if(!yi || yi.length === 0){
+    holder.appendChild(el(`<div class="empty-note">В этом модуле нет дат с точным годом для навигации.</div>`));
+    return;
+  }
+  const [year, events] = yi[idx];
+  const prevBtn = el(`<button class="arrow" ${idx<=0?'disabled':''}>‹</button>`);
+  const nextBtn = el(`<button class="arrow" ${idx>=yi.length-1?'disabled':''}>›</button>`);
+  prevBtn.onclick = () => { if(idx>0){ state.datesYearIdx--; renderYearNav(holder); } };
+  nextBtn.onclick = () => { if(idx<yi.length-1){ state.datesYearIdx++; renderYearNav(holder); } };
+  const eventsHtml = events.map(ev => `
+    <div class="year-event">
+      <div class="year-event-date">${ev.dateRaw}${ev.section ? ' · '+ev.section : ''}</div>
+      <div class="year-event-text">${ev.text}</div>
+    </div>
+  `).join('');
   const body = el(`
     <div class="year-body">
-      <div class="year-num">${d.year}</div>
-      <div class="year-title">${d.title}</div>
-      <div class="year-desc">${d.desc}</div>
-      <div class="year-pos">запись ${i+1} из ${DATES_KB.length}</div>
+      <div class="year-num">${year}</div>
+      ${eventsHtml}
+      <div class="year-pos">год ${idx+1} из ${yi.length} в этом модуле</div>
     </div>
   `);
   const nav = el(`<div class="year-nav"></div>`);
   nav.appendChild(prevBtn); nav.appendChild(body); nav.appendChild(nextBtn);
   holder.appendChild(nav);
 }
+
+
 
 function renderDateOfDay(holder){
   if(!holder) return;
