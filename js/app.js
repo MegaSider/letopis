@@ -4,7 +4,7 @@
 // ============================================================================
 import {
   IMG, RULERS, PERIODS, LEVELS, LEVEL_DESC, QUESTIONS,
-  PERSONS, PERSON_CATEGORIES, DATES_KB, CATS, CAT_LABEL
+  PERSONS, PERSON_CATEGORIES, DATES_KB, CATS, CAT_LABEL, RANKS
 } from './data.js';
 import { EGE_VARIANTS } from './ege.js';
 import { discoverDateModules } from './dates-loader.js';
@@ -52,6 +52,18 @@ function recordAnswer(q, correct){
   if(correct) state.mistakes.delete(q.id); else state.mistakes.add(q.id);
   if(state.test){ state.test.results = state.test.results || []; state.test.results.push({cat:q.cat, correct}); }
 }
+function computeRank(){
+  let totalCorrect = 0;
+  LEVELS.forEach(l => totalCorrect += state.stats[l].correct);
+  let current = RANKS[0], next = null;
+  for(let i = 0; i < RANKS.length; i++){
+    if(totalCorrect >= RANKS[i].min) current = RANKS[i];
+    else { next = RANKS[i]; break; }
+  }
+  const progress = next ? Math.round(((totalCorrect - current.min) / (next.min - current.min)) * 100) : 100;
+  return {current, next, totalCorrect, progress};
+}
+
 function computeLevelInfo(){
   let total = 0;
   LEVELS.forEach(l => total += state.stats[l].answered);
@@ -76,6 +88,35 @@ function shuffle(arr){
   const a = arr.slice();
   for(let i=a.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]] = [a[j],a[i]]; }
   return a;
+}
+
+/* Псевдослучайный, но детерминированный "счётчик активности": одинаковый
+   для всех в один и тот же 5-минутный отрезок времени, без всякого бэкенда.
+   Пересчитывается заново от начала суток (UTC), поэтому цикл короткий. */
+function mulberry32(seed){
+  return function(){
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function getLiveActivityCount(){
+  const MIN = 180, MAX = 350, BUCKET_MS = 5*60*1000;
+  const now = new Date();
+  const dayStart = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  const bucketsElapsed = Math.floor((now.getTime() - dayStart) / BUCKET_MS);
+  const rng = mulberry32(Math.floor(dayStart / 1000) % 2147483647);
+  let value = MIN + Math.floor(rng() * (MAX - MIN));
+  for(let i = 0; i < bucketsElapsed; i++){
+    const step = 5 + Math.floor(rng() * 6); // 5..10
+    const dir = rng() < 0.5 ? -1 : 1;
+    value += dir * step;
+    if(value > MAX) value = MAX - (value - MAX);
+    if(value < MIN) value = MIN + (MIN - value);
+    value = Math.max(MIN, Math.min(MAX, value));
+  }
+  return value;
 }
 
 /* ========================================================================
@@ -185,7 +226,14 @@ function renderHeaderLevel(){
   const lvl = estimateLevel();
   document.getElementById('headerLevel').innerHTML = 'Уровень: <b>' + (lvl || '—') + '</b>';
   const acc = document.getElementById('headerAccount');
-  acc.textContent = state.user ? ('👤 ' + state.user.name) : 'Войти';
+  if(state.user){
+    const rank = computeRank();
+    acc.textContent = '📜 ' + state.user.name;
+    acc.title = rank.current.title;
+  } else {
+    acc.textContent = 'Войти';
+    acc.title = '';
+  }
   acc.onclick = () => setScreen('profile');
 }
 function el(html){ const d = document.createElement('div'); d.innerHTML = html.trim(); return d.firstChild; }
@@ -210,6 +258,7 @@ function renderHome(){
         <h2>Проверь, насколько хорошо ты знаешь историю России</h2>
         <p>Тесты по правителям (от Ивана III до Путина), эпохам и культуре — с вариантами ответа и короткими письменными ответами,
         как в первой части ЕГЭ. Система незаметно следит за твоим уровнем подготовки, от A1 до C2.</p>
+        <div class="live-badge" id="liveBadge"></div>
         <div class="actions">
           <button class="btn" onclick="startMockExam()">Пробник ЕГЭ · часть 1 (35 мин)</button>
           <button class="btn outline" onclick="setScreen('levels')">Начать с уровня</button>
@@ -223,6 +272,7 @@ function renderHome(){
     </div>
   `));
   renderDateOfDay(wrap.querySelector('#dateOfDay'));
+  renderLiveBadge(wrap.querySelector('#liveBadge'));
 
   const rulerCount = RULERS.length, periodCount = PERIODS.length, qCount = QUESTIONS.length;
   const statRow = el(`<div class="stat-row"></div>`);
@@ -558,11 +608,13 @@ function renderProfile(){
   const wrap = document.createElement('div');
   wrap.appendChild(el(`<div class="section-head"><h2>Профиль</h2></div>`));
 
+  const rank = computeRank();
   wrap.appendChild(el(`
     <div class="profile-card">
       <div class="profile-avatar">${state.user.name[0].toUpperCase()}</div>
       <div style="flex:1">
         <h3>${state.user.name}</h3>
+        <div class="rank-tag">${rank.current.title}</div>
         <div class="years">${state.user.email || 'без почты'}</div>
       </div>
     </div>
@@ -570,6 +622,22 @@ function renderProfile(){
   const settingsBtn = el(`<button class="btn outline" style="margin-top:14px">⚙ Настройки аккаунта</button>`);
   settingsBtn.onclick = () => setScreen('settings');
   wrap.appendChild(settingsBtn);
+
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Звание летописца</h2></div>`));
+  wrap.appendChild(el(`
+    <div class="chronicle" style="max-width:560px">
+      <div class="rank-title">${rank.current.title}</div>
+      <div class="rank-desc">${rank.current.desc}</div>
+      ${rank.next ? `
+        <div style="margin-top:14px">
+          <div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-faint);margin-bottom:4px">
+            <span>До звания «${rank.next.title}»</span><span>${rank.totalCorrect} / ${rank.next.min}</span>
+          </div>
+          <div class="test-progress-bar" style="margin-bottom:0"><div class="fill" style="width:${rank.progress}%"></div></div>
+        </div>
+      ` : `<div style="margin-top:14px;color:var(--accent);font-size:0.82rem">Высшее звание летописи достигнуто.</div>`}
+    </div>
+  `));
 
   const lvl = computeLevelInfo();
   wrap.appendChild(el(`
@@ -628,6 +696,7 @@ function computeAchievements(){
   const perfectDates = done.some(t=>t.kind==='dates' && t.correct===t.total && t.total>0);
   const mockDone = done.some(t=>t.kind==='mock');
   const lvl = estimateLevel();
+  const rank = computeRank();
   return [
     {icon:'🏁', title:'Первые шаги', desc:'Пройди свой первый тест', earned: done.length>=1},
     {icon:'📜', title:'Знаток дат', desc:'Пройди тест на даты без единой ошибки', earned: perfectDates},
@@ -636,6 +705,8 @@ function computeAchievements(){
     {icon:'⏱️', title:'Экзаменатор', desc:'Пройди мини-пробник ЕГЭ целиком', earned: mockDone},
     {icon:'🔥', title:'Марафонец', desc:'Пройди 10 тестов', earned: done.length>=10},
     {icon:'🎓', title:'Эксперт', desc:'Достигни уровня C2', earned: lvl==='C2'},
+    {icon:'📖', title:'Хранитель хронологии', desc:'Получи звание «Хранитель хронологии» (100 верных ответов)', earned: rank.totalCorrect>=100},
+    {icon:'👑', title:'Великий летописец', desc:'Дойди до высшего звания летописи (600 верных ответов)', earned: rank.totalCorrect>=600},
   ];
 }
 
@@ -799,13 +870,15 @@ function buildYearIndex(events){
   return [...map.entries()].sort((a,b) => a[0]-b[0]);
 }
 
-function selectDateModule(num){
+function selectDateModule(num, jumpYear){
   const mod = state.datesModules.find(m => m.num === num);
   if(!mod) return;
   state.datesModuleSel = num;
   state.datesYearIndex = buildYearIndex(mod.events);
-  state.datesYearIdx = 0;
+  const found = jumpYear!=null ? state.datesYearIndex.findIndex(([yr]) => yr === jumpYear) : -1;
+  state.datesYearIdx = found !== -1 ? found : 0;
   render();
+  window.scrollTo({top:0, behavior:'smooth'});
 }
 
 function renderDatesDB(){
@@ -834,10 +907,55 @@ function renderDatesDB(){
     const wrap = el(`
       <div>
         <div class="section-head"><h2>Даты</h2><span class="count">${state.datesModules.length} модулей · ${totalEvents} событий</span></div>
-        <p class="lede">Выбери период — внутри можно листать год за годом или искать конкретный год.</p>
+        <p class="lede">Ищи год сразу по всей базе — или выбери период ниже и листай год за годом внутри него.</p>
+        <div class="search-row">
+          <input type="number" id="globalYearSearch" placeholder="Например, 1237 — искать во всех модулях">
+          <button class="btn" id="globalYearGoBtn">Найти</button>
+        </div>
+        <div id="globalResults"></div>
+        <div class="section-head" style="margin-top:30px"><h2>Все периоды</h2></div>
         <div class="grid" id="modGrid"></div>
       </div>
     `);
+    const resultsHolder = wrap.querySelector('#globalResults');
+    const doGlobalSearch = () => {
+      const input = wrap.querySelector('#globalYearSearch');
+      const y = parseInt(input.value, 10);
+      resultsHolder.innerHTML = '';
+      if(isNaN(y)) return;
+      let matches = [];
+      state.datesModules.forEach(m=>{
+        m.events.forEach(ev=>{
+          if(ev.yearStart!=null && ev.yearEnd!=null && y>=ev.yearStart && y<=ev.yearEnd){
+            matches.push({...ev, moduleNum:m.num, moduleTitle:m.title});
+          }
+        });
+      });
+      let note = `Найдено точных совпадений: ${matches.length}`;
+      if(matches.length === 0){
+        // ищем ближайший год по всей базе
+        let best=null, bestDiff=Infinity;
+        state.datesModules.forEach(m=>{
+          m.events.forEach(ev=>{
+            if(ev.yearStart==null) return;
+            const diff = Math.abs(ev.yearStart-y);
+            if(diff<bestDiff){ bestDiff=diff; best={...ev, moduleNum:m.num, moduleTitle:m.title}; }
+          });
+        });
+        if(best){ matches = [best]; note = `Точных совпадений нет, ближайшее — ${best.dateRaw}`; }
+      }
+      resultsHolder.appendChild(el(`<div class="empty-note" style="padding:10px 4px">${note}</div>`));
+      const list = el(`<div class="date-list"></div>`);
+      matches.forEach(ev=>{
+        const row = el(`<div class="date-row"><div class="y">${ev.dateRaw}</div><div class="t">${ev.text} <span style="color:var(--text-faint)">· ${ev.moduleTitle}</span></div></div>`);
+        row.onclick = () => selectDateModule(ev.moduleNum, ev.yearStart);
+        list.appendChild(row);
+      });
+      resultsHolder.appendChild(list);
+    };
+    wrap.querySelector('#globalYearGoBtn').onclick = doGlobalSearch;
+    wrap.querySelector('#globalYearSearch').addEventListener('keydown', (e)=>{ if(e.key==='Enter') doGlobalSearch(); });
+
     const grid = wrap.querySelector('#modGrid');
     state.datesModules.forEach(m=>{
       const years = m.events.filter(e=>e.yearStart!=null).map(e=>e.yearStart);
@@ -956,6 +1074,16 @@ function renderDateOfDay(holder){
   paint();
 }
 
+function renderLiveBadge(holder){
+  if(!holder) return;
+  const paint = () => {
+    if(!document.body.contains(holder)) { clearInterval(timer); return; }
+    holder.innerHTML = `<span class="live-dot"></span>Сейчас разбирают историю: <b>${getLiveActivityCount()}</b> человек`;
+  };
+  paint();
+  const timer = setInterval(paint, 20000); // раз в 20 сек — достаточно, чтобы поймать смену 5-минутного окна
+}
+
 /* ========================================================================
    АККАУНТ (демо-режим, без бэкенда — данные живут только в этой сессии)
    ======================================================================== */
@@ -963,7 +1091,7 @@ function renderAuthForm(){
   const wrap = el(`
     <div>
       <div class="section-head"><h2>Профиль</h2></div>
-      <p class="lede">Зарегистрируйся, чтобы прогресс сохранялся навсегда и был доступен с любого устройства.</p>
+      <p class="lede">Зарегистрируйся, чтобы стать летописцем «Летописи»: прогресс сохранится навсегда и будет доступен с любого устройства.</p>
       <div class="auth-card">
         <div class="auth-tabs">
           <button data-m="login" class="${state.authMode==='login'?'active':''}">Вход</button>
