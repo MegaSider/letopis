@@ -1073,27 +1073,17 @@ function renderDateOfDay(holder){
   };
   paint();
 }
+const paint = () => {
+  if (!document.body.contains(holder)) {
+    clearInterval(timer); // <-- тут timer ещё не существует (TDZ)
+    return;
+  }
+  // ...
+};
 
-function renderLiveBadge(holder) {
-  if (!holder) return;
-
-  let timer;
-
-  const paint = () => {
-    if (!document.body.contains(holder)) {
-      if (timer !== undefined) clearInterval(timer);
-      return;
-    }
-    holder.innerHTML = `<span class="live-dot"></span>Сейчас разбирают историю: <b>${getLiveActivityCount()}</b> человек`;
-  };
-
-  timer = setInterval(paint, 20000);
-  paint(); // опционально: если нужен мгновенный первый рендер
+paint();                  // <-- paint запускается ДО объявления timer
+const timer = setInterval(paint, 20000);
 }
-
-/* ========================================================================
-   АККАУНТ (демо-режим, без бэкенда — данные живут только в этой сессии)
-   ======================================================================== */
 function renderAuthForm(){
   const wrap = el(`
     <div>
