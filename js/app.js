@@ -1083,7 +1083,7 @@ const paint = () => {
 
 paint();                  // <-- paint запускается ДО объявления timer
 const timer = setInterval(paint, 20000);
-}
+
 function renderAuthForm(){
   const wrap = el(`
     <div>
