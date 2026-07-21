@@ -8,6 +8,7 @@ import {
 } from './data.js';
 import { EGE_VARIANTS } from './ege.js';
 import { discoverDateModules } from './dates-loader.js';
+import { discoverPersonModules } from './persons-loader.js';
 import {
   auth, db,
   createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut,
@@ -30,7 +31,10 @@ const state = {
   datesModuleSel: null,    // номер выбранного модуля
   datesYearIndex: null,    // [[год, [события]], ...] для выбранного модуля
   datesYearIdx: 0,
-  datesSearchOpen: false
+  datesSearchOpen: false,
+  personsModules: null,       // null / 'loading' / [список модулей]
+  personsModuleSel: null,
+  selectedPerson: null
 };
 LEVELS.forEach(l => state.stats[l] = {answered:0, correct:0});
 CATS.forEach(c => state.catStats[c] = {answered:0, correct:0});
@@ -245,7 +249,7 @@ function render(){
   app.innerHTML = '';
   if(state.screen === 'test' && state.test){ app.appendChild(renderTestScreen()); return; }
   if(state.screen === 'ege' && state.egeTest){ app.appendChild(renderEgeScreen()); return; }
-  const map = {home:renderHome, levels:renderLevels, rulers:renderRulers, periods:renderPeriods, culture:renderCulture, general:renderGeneral, knowledge:renderKnowledge, person:renderPerson, yearsdb:renderDatesDB, profile:renderProfile, settings:renderSettings, premium:renderPremium};
+  const map = {home:renderHome, levels:renderLevels, rulers:renderRulers, periods:renderPeriods, culture:renderCulture, general:renderGeneral, knowledge:renderKnowledge, person:renderPerson, modperson:renderModPerson, yearsdb:renderDatesDB, profile:renderProfile, settings:renderSettings, premium:renderPremium};
   app.appendChild((map[state.screen] || renderHome)());
 }
 
@@ -777,23 +781,47 @@ function renderPremium(){
 /* ========================================================================
    БАЗА ЗНАНИЙ (личности)
    ======================================================================== */
+function loadPersonModules(){
+  if(state.personsModules) return;
+  state.personsModules = 'loading';
+  discoverPersonModules().then(mods => {
+    state.personsModules = mods;
+    if(state.screen === 'knowledge') render();
+  });
+}
+
+function selectPersonModule(num){
+  state.personsModuleSel = num;
+  render();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function openModPerson(person, moduleTitle){
+  state.selectedPerson = {...person, moduleTitle};
+  setScreen('modperson');
+}
+
 function renderKnowledge(){
+  if(state.personsModules === null){ loadPersonModules(); }
+
   const wrap = el(`
     <div>
-      <div class="section-head"><h2>База знаний</h2><span class="count">${PERSONS.length} личностей</span></div>
-      <p class="lede">Исторические деятели России — правители, полководцы, деятели культуры и науки. Раздел будет пополняться.</p>
-      <div class="search-row"><input type="text" id="kbSearch" placeholder="Найти по имени..." value="${state.kbQuery}"></div>
-      <div class="chips" id="kbChips"></div>
-      <div class="grid" id="kbGrid"></div>
+      <div class="section-head"><h2>База знаний</h2><span class="count">${PERSONS.length} избранных + база модулей</span></div>
+      <p class="lede">Исторические деятели России — от легендарных основателей Киева до наших дней.</p>
     </div>
   `);
-  const chips = wrap.querySelector('#kbChips');
+
+  // ---- избранные (с фото) ----
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:10px"><h2>Избранные личности</h2></div>`));
+  wrap.appendChild(el(`<div class="search-row"><input type="text" id="kbSearch" placeholder="Найти по имени..." value="${state.kbQuery}"></div>`));
+  const chips = el(`<div class="chips"></div>`);
   PERSON_CATEGORIES.forEach(cat=>{
     const chip = el(`<button class="chip ${state.kbCategory===cat?'active':''}">${cat}</button>`);
     chip.onclick = () => { state.kbCategory = cat; render(); };
     chips.appendChild(chip);
   });
-  const grid = wrap.querySelector('#kbGrid');
+  wrap.appendChild(chips);
+  const grid = el(`<div class="grid"></div>`);
   const q = normalize(state.kbQuery);
   const filtered = PERSONS.filter(p=>{
     const matchQ = !q || normalize(p.name).includes(q);
@@ -818,8 +846,88 @@ function renderKnowledge(){
     card.onclick = () => { state.ctx = p.id; setScreen('person'); };
     grid.appendChild(card);
   });
-  const input = wrap.querySelector('#kbSearch');
-  input.addEventListener('input', (e)=>{ state.kbQuery = e.target.value; render(); document.getElementById('kbSearch').focus(); document.getElementById('kbSearch').selectionStart = document.getElementById('kbSearch').value.length; });
+  wrap.appendChild(grid);
+  setTimeout(()=>{
+    const input = document.getElementById('kbSearch');
+    if(!input) return;
+    input.addEventListener('input', (e)=>{ state.kbQuery = e.target.value; render(); const i2=document.getElementById('kbSearch'); if(i2){ i2.focus(); i2.selectionStart = i2.value.length; } });
+  }, 0);
+
+  // ---- полная база (модули) ----
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:36px"><h2>Полная база личностей</h2></div>`));
+
+  if(state.personsModules === 'loading'){
+    wrap.appendChild(el(`<p class="lede">Загружаю модули…</p>`));
+    return wrap;
+  }
+  if(!state.personsModules || state.personsModules.length === 0){
+    wrap.appendChild(el(`<p class="lede">Пока не нашёл ни одного модуля в <code>data/persons/</code>.</p>`));
+    return wrap;
+  }
+
+  const totalPersons = state.personsModules.reduce((s,m)=>s+m.persons.length,0);
+  wrap.appendChild(el(`<p class="lede">${state.personsModules.length} модулей · ${totalPersons} личностей. Ищи по имени сразу по всей базе или выбери период ниже.</p>`));
+  wrap.appendChild(el(`
+    <div class="search-row">
+      <input type="text" id="globalPersonSearch" placeholder="Например, Столыпин">
+      <button class="btn" id="globalPersonGoBtn">Найти</button>
+    </div>
+  `));
+  const resultsHolder = el(`<div></div>`);
+  wrap.appendChild(resultsHolder);
+
+  const doSearch = () => {
+    const input = wrap.querySelector('#globalPersonSearch');
+    const query = normalize(input.value);
+    resultsHolder.innerHTML = '';
+    if(!query) return;
+    const matches = [];
+    state.personsModules.forEach(m=>{
+      m.persons.forEach(p=>{
+        if(normalize(p.name).includes(query)) matches.push({...p, moduleTitle:m.title});
+      });
+    });
+    resultsHolder.appendChild(el(`<div class="empty-note" style="padding:10px 4px">Найдено: ${matches.length}</div>`));
+    const list = el(`<div class="date-list"></div>`);
+    matches.slice(0,60).forEach(p=>{
+      const row = el(`<div class="date-row"><div class="y">${p.years||'—'}</div><div class="t">${p.name} <span style="color:var(--text-faint)">· ${p.moduleTitle}</span></div></div>`);
+      row.onclick = () => openModPerson(p, p.moduleTitle);
+      list.appendChild(row);
+    });
+    resultsHolder.appendChild(list);
+  };
+  wrap.querySelector('#globalPersonGoBtn').onclick = doSearch;
+  wrap.querySelector('#globalPersonSearch').addEventListener('keydown', (e)=>{ if(e.key==='Enter') doSearch(); });
+
+  if(state.personsModuleSel === null){
+    const modGrid = el(`<div class="grid" style="margin-top:20px"></div>`);
+    state.personsModules.forEach(m=>{
+      const card = el(`
+        <div class="card"><div class="body">
+          <h3>${m.title}</h3>
+          <div class="years">${m.persons.length} личностей</div>
+          <button class="cta">Открыть</button>
+        </div></div>
+      `);
+      card.querySelector('.cta').onclick = () => selectPersonModule(m.num);
+      modGrid.appendChild(card);
+    });
+    wrap.appendChild(modGrid);
+  } else {
+    const mod = state.personsModules.find(m=>m.num===state.personsModuleSel);
+    const back = el(`<a class="back-link" href="#" style="display:block;margin-top:22px">← Ко всем модулям</a>`);
+    back.onclick = (e)=>{ e.preventDefault(); state.personsModuleSel = null; render(); };
+    wrap.appendChild(back);
+    wrap.appendChild(el(`<div class="section-head"><h2>${mod.title}</h2><span class="count">${mod.persons.length} личностей</span></div>`));
+    const list = el(`<div class="date-list"></div>`);
+    mod.persons.forEach(p=>{
+      const row = el(`<div class="date-row"><div class="y">${p.years||'—'}</div><div class="t">${p.name}${p.section?' <span style="color:var(--text-faint)">· '+p.section+'</span>':''}</div></div>`);
+      row.onclick = () => openModPerson(p, mod.title);
+      list.appendChild(row);
+    });
+    wrap.appendChild(list);
+  }
+
   return wrap;
 }
 
@@ -839,6 +947,27 @@ function renderPerson(){
         <h2>${p.name}</h2>
         <div class="years">${p.years}</div>
         <p>${p.bio}</p>
+      </div>
+    </div>
+  `));
+  return wrap;
+}
+
+function renderModPerson(){
+  const p = state.selectedPerson;
+  if(!p) return renderKnowledge();
+  const wrap = document.createElement('div');
+  const back = el(`<a class="back-link" href="#">← К базе личностей</a>`);
+  back.onclick = (e)=>{ e.preventDefault(); setScreen('knowledge'); };
+  wrap.appendChild(back);
+  wrap.appendChild(el(`
+    <div class="person-detail">
+      <div class="ph">${p.name[0]}</div>
+      <div>
+        <div class="role">${p.section || p.moduleTitle}</div>
+        <h2>${p.name}</h2>
+        <div class="years">${p.years ? p.years+' · ' : ''}${p.moduleTitle}</div>
+        <p>${p.description}</p>
       </div>
     </div>
   `));
@@ -1074,21 +1203,14 @@ function renderDateOfDay(holder){
   paint();
 }
 
-function renderLiveBadge(holder) {
-  if (!holder) return;
-
-  let timer;
-
+function renderLiveBadge(holder){
+  if(!holder) return;
   const paint = () => {
-    if (!document.body.contains(holder)) {
-      if (timer !== undefined) clearInterval(timer);
-      return;
-    }
+    if(!document.body.contains(holder)) { clearInterval(timer); return; }
     holder.innerHTML = `<span class="live-dot"></span>Сейчас разбирают историю: <b>${getLiveActivityCount()}</b> человек`;
   };
-
-  timer = setInterval(paint, 20000);
   paint();
+  const timer = setInterval(paint, 20000); // раз в 20 сек — достаточно, чтобы поймать смену 5-минутного окна
 }
 
 /* ========================================================================
