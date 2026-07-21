@@ -276,7 +276,6 @@ function renderHome(){
     </div>
   `));
   renderDateOfDay(wrap.querySelector('#dateOfDay'));
-  renderLiveBadge(wrap.querySelector('#liveBadge'));
 
   const rulerCount = RULERS.length, periodCount = PERIODS.length, qCount = QUESTIONS.length;
   const statRow = el(`<div class="stat-row"></div>`);
