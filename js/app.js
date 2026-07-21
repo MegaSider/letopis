@@ -1203,16 +1203,6 @@ function renderDateOfDay(holder){
   paint();
 }
 
-function renderLiveBadge(holder){
-  if(!holder) return;
-  const paint = () => {
-    if(!document.body.contains(holder)) { clearInterval(timer); return; }
-    holder.innerHTML = `<span class="live-dot"></span>Сейчас разбирают историю: <b>${getLiveActivityCount()}</b> человек`;
-  };
-  paint();
-  const timer = setInterval(paint, 20000); // раз в 20 сек — достаточно, чтобы поймать смену 5-минутного окна
-}
-
 /* ========================================================================
    АККАУНТ (демо-режим, без бэкенда — данные живут только в этой сессии)
    ======================================================================== */
