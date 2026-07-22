@@ -34,7 +34,10 @@ const state = {
   datesSearchOpen: false,
   personsModules: null,       // null / 'loading' / [список модулей]
   personsModuleSel: null,
-  selectedPerson: null
+  selectedPerson: null,
+  egeVariantsCompleted: new Set(),
+  nicknameChanged: false,
+  mistakesEverHad: false
 };
 LEVELS.forEach(l => state.stats[l] = {answered:0, correct:0});
 CATS.forEach(c => state.catStats[c] = {answered:0, correct:0});
@@ -53,7 +56,7 @@ function recordAnswer(q, correct){
   if(correct) s.correct++;
   const cs = state.catStats[q.cat];
   if(cs){ cs.answered++; if(correct) cs.correct++; }
-  if(correct) state.mistakes.delete(q.id); else state.mistakes.add(q.id);
+  if(correct) state.mistakes.delete(q.id); else { state.mistakes.add(q.id); state.mistakesEverHad = true; }
   if(state.test){ state.test.results = state.test.results || []; state.test.results.push({cat:q.cat, correct}); }
 }
 function computeRank(){
@@ -627,27 +630,27 @@ function renderProfile(){
   settingsBtn.onclick = () => setScreen('settings');
   wrap.appendChild(settingsBtn);
 
-  wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Звание летописца</h2></div>`));
-  wrap.appendChild(el(`
-    <div class="chronicle" style="max-width:560px">
-      <div class="rank-title">${rank.current.title}</div>
-      <div class="rank-desc">${rank.current.desc}</div>
-      ${rank.next ? `
-        <div style="margin-top:14px">
-          <div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-faint);margin-bottom:4px">
-            <span>До звания «${rank.next.title}»</span><span>${rank.totalCorrect} / ${rank.next.min}</span>
-          </div>
-          <div class="test-progress-bar" style="margin-bottom:0"><div class="fill" style="width:${rank.progress}%"></div></div>
-        </div>
-      ` : `<div style="margin-top:14px;color:var(--accent);font-size:0.82rem">Высшее звание летописи достигнуто.</div>`}
-    </div>
-  `));
-
   const lvl = computeLevelInfo();
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Звание и уровень</h2></div>`));
   wrap.appendChild(el(`
-    <div class="chronicle" style="max-width:560px;margin-top:28px">
-      <div class="caption">Текущая оценка</div>
-      ${renderScaleHTML(lvl)}
+    <div class="rank-level-row">
+      <div class="chronicle">
+        <div class="caption">Звание летописца</div>
+        <div class="rank-title">${rank.current.title}</div>
+        <div class="rank-desc">${rank.current.desc}</div>
+        ${rank.next ? `
+          <div style="margin-top:12px">
+            <div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-faint);margin-bottom:4px">
+              <span>До «${rank.next.title}»</span><span>${rank.totalCorrect} / ${rank.next.min}</span>
+            </div>
+            <div class="test-progress-bar" style="margin-bottom:0"><div class="fill" style="width:${rank.progress}%"></div></div>
+          </div>
+        ` : `<div style="margin-top:12px;color:var(--accent);font-size:0.82rem">Высшее звание летописи достигнуто.</div>`}
+      </div>
+      <div class="chronicle">
+        <div class="caption">Текущая оценка</div>
+        ${renderScaleHTML(lvl)}
+      </div>
     </div>
   `));
 
@@ -697,8 +700,16 @@ function renderProfile(){
 function computeAchievements(){
   const done = state.completedTests;
   const rulersTried = new Set(done.filter(t=>t.kind==='ruler').map(t=>t.ctx)).size;
+  const periodsTried = new Set(done.filter(t=>t.kind==='period').map(t=>t.ctx)).size;
   const perfectDates = done.some(t=>t.kind==='dates' && t.correct===t.total && t.total>0);
   const mockDone = done.some(t=>t.kind==='mock');
+  const cultureDone = done.some(t=>t.kind==='culture');
+  const datesDone = done.some(t=>t.kind==='dates');
+  const customDone = done.some(t=>t.kind==='custom');
+  const kindsSeen = new Set(done.map(t=>t.kind));
+  const fullCoverage = ['ruler','period','culture','dates'].every(k=>kindsSeen.has(k));
+  let totalAnswered = 0;
+  LEVELS.forEach(l => totalAnswered += state.stats[l].answered);
   const lvl = estimateLevel();
   const rank = computeRank();
   return [
@@ -711,6 +722,16 @@ function computeAchievements(){
     {icon:'🎓', title:'Эксперт', desc:'Достигни уровня C2', earned: lvl==='C2'},
     {icon:'📖', title:'Хранитель хронологии', desc:'Получи звание «Хранитель хронологии» (100 верных ответов)', earned: rank.totalCorrect>=100},
     {icon:'👑', title:'Великий летописец', desc:'Дойди до высшего звания летописи (600 верных ответов)', earned: rank.totalCorrect>=600},
+    {icon:'🏛️', title:'Периодовед', desc:'Пройди тесты по 5 разным периодам', earned: periodsTried>=5},
+    {icon:'🎭', title:'Культуролог', desc:'Пройди тест по культуре', earned: cultureDone},
+    {icon:'📅', title:'Хронолог', desc:'Пройди тест на даты хотя бы раз', earned: datesDone},
+    {icon:'🛠️', title:'Свой конструктор', desc:'Собери и пройди собственный тест', earned: customDone},
+    {icon:'📝', title:'Полный вариант', desc:'Реши целиком полный вариант ЕГЭ (части 1 и 2)', earned: state.egeVariantsCompleted.size>=1},
+    {icon:'✍️', title:'Своё имя', desc:'Смени имя в настройках аккаунта', earned: state.nicknameChanged},
+    {icon:'🧹', title:'Чистая совесть', desc:'Разбери все накопленные ошибки до нуля', earned: state.mistakesEverHad && state.mistakes.size===0},
+    {icon:'💯', title:'Сто записей', desc:'Ответь на 100 заданий (любой результат)', earned: totalAnswered>=100},
+    {icon:'📚', title:'Триста записей', desc:'Ответь на 300 заданий (любой результат)', earned: totalAnswered>=300},
+    {icon:'🌐', title:'Полный охват', desc:'Пройди хотя бы один тест из каждого раздела: правители, периоды, культура, даты', earned: fullCoverage},
   ];
 }
 
@@ -1316,6 +1337,7 @@ function renderSettings(){
       await updateProfile(auth.currentUser, {displayName:newName});
       await setDoc(doc(db,'users',state.user.uid), {name:newName}, {merge:true});
       state.user.name = newName;
+      state.nicknameChanged = true;
       nickMsg.appendChild(el(`<div class="feedback ok" style="margin:10px 0">Готово, имя обновлено.</div>`));
       renderHeaderLevel();
     } catch(e){
@@ -1507,6 +1529,10 @@ function addEgeNextButton(controls, t){
 function renderEgeResult(){
   const t = state.egeTest;
   const tasks = t.variant.tasks;
+  if(!t.recorded){
+    t.recorded = true;
+    state.egeVariantsCompleted.add(t.variant.id);
+  }
   let earned = 0, max = 0, part1 = 0, part1max = 0, part2 = 0, part2max = 0, unanswered = 0;
   tasks.forEach((task,i)=>{
     const pts = task.points || 1;
