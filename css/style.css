@@ -250,7 +250,9 @@ footer.site{margin-top:56px;padding:24px 0;text-align:center;color:var(--text-fa
 .field input{width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:8px;background:var(--bg-alt);color:var(--text);font-family:'Manrope',sans-serif;font-size:0.9rem;}
 .field input:focus{outline:none;border-color:var(--accent-dim);}
 .auth-note{font-size:0.76rem;color:var(--text-faint);margin-top:14px;line-height:1.5;}
-.profile-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;display:flex;gap:16px;align-items:center;margin-bottom:24px;}
+.profile-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:24px;}
+.profile-card > .btn{flex-shrink:0;margin-left:auto;}
+@media (max-width:520px){.profile-card > .btn{margin-left:0;width:100%;}}
 .profile-avatar{width:52px;height:52px;border-radius:50%;background:linear-gradient(155deg,var(--accent),#a97a26);display:flex;align-items:center;justify-content:center;font-family:'Yeseva One',serif;font-size:1.3rem;color:#1a1200;flex-shrink:0;}
 .rank-tag{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--accent);background:var(--accent-soft);border:1px solid var(--accent-dim);border-radius:20px;padding:2px 10px;margin:4px 0 6px;}
 .rank-title{font-family:'Yeseva One',serif;font-size:1.4rem;color:var(--accent);}
