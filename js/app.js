@@ -276,6 +276,7 @@ function renderHome(){
     </div>
   `));
   renderDateOfDay(wrap.querySelector('#dateOfDay'));
+  renderLiveBadge(wrap.querySelector('#liveBadge'));
 
   const rulerCount = RULERS.length, periodCount = PERIODS.length, qCount = QUESTIONS.length;
   const statRow = el(`<div class="stat-row"></div>`);
@@ -1200,6 +1201,16 @@ function renderDateOfDay(holder){
     holder.querySelector('.reroll').onclick = () => { idx = Math.floor(Math.random()*DATES_KB.length); paint(); };
   };
   paint();
+}
+
+function renderLiveBadge(holder){
+  if(!holder) return;
+  const paint = () => {
+    if(!document.body.contains(holder)) { clearInterval(timer); return; }
+    holder.innerHTML = `<span class="live-dot"></span>Сейчас разбирают историю: <b>${getLiveActivityCount()}</b> человек`;
+  };
+  paint();
+  const timer = setInterval(paint, 20000); // раз в 20 сек — достаточно, чтобы поймать смену 5-минутного окна
 }
 
 /* ========================================================================
