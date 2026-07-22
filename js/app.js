@@ -1206,8 +1206,10 @@ function renderDateOfDay(holder){
 function renderLiveBadge(holder){
   if(!holder) return;
   let timer = null;
+  let firstPaint = true;
   const paint = () => {
-    if(!document.body.contains(holder)) { clearInterval(timer); return; }
+    if(!firstPaint && !document.body.contains(holder)){ clearInterval(timer); return; }
+    firstPaint = false;
     holder.innerHTML = `<span class="live-dot"></span>Сейчас разбирают историю: <b>${getLiveActivityCount()}</b> человек`;
   };
   paint();
