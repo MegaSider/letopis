@@ -616,7 +616,7 @@ function renderProfile(){
   wrap.appendChild(el(`<div class="section-head"><h2>Профиль</h2></div>`));
 
   const rank = computeRank();
-  wrap.appendChild(el(`
+  const profileCard = el(`
     <div class="profile-card">
       <div class="profile-avatar">${state.user.name[0].toUpperCase()}</div>
       <div style="flex:1">
@@ -625,10 +625,11 @@ function renderProfile(){
         <div class="years">${state.user.email || 'без почты'}</div>
       </div>
     </div>
-  `));
-  const settingsBtn = el(`<button class="btn outline" style="margin-top:14px">⚙ Настройки аккаунта</button>`);
+  `);
+  const settingsBtn = el(`<button class="btn outline">⚙ Настройки аккаунта</button>`);
   settingsBtn.onclick = () => setScreen('settings');
-  wrap.appendChild(settingsBtn);
+  profileCard.appendChild(settingsBtn);
+  wrap.appendChild(profileCard);
 
   const lvl = computeLevelInfo();
   wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Звание и уровень</h2></div>`));
