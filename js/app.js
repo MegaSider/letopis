@@ -4,11 +4,12 @@
 // ============================================================================
 import {
   IMG, RULERS, PERIODS, LEVELS, LEVEL_DESC, QUESTIONS,
-  PERSONS, PERSON_CATEGORIES, DATES_KB, CATS, CAT_LABEL, RANKS
+  DATES_KB, CATS, CAT_LABEL, RANKS
 } from './data.js';
 import { EGE_VARIANTS } from './ege.js';
 import { discoverDateModules } from './dates-loader.js';
 import { discoverPersonModules } from './persons-loader.js';
+import { generatedDateQuestions, ensureDateQuestionsLoaded } from './date-questions.js';
 import {
   auth, db,
   createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut,
@@ -51,9 +52,11 @@ function checkAnswer(q, userValue){
   return accepted.includes(normalize(userValue));
 }
 function recordAnswer(q, correct){
-  const s = state.stats[q.lvl];
-  s.answered++;
-  if(correct) s.correct++;
+  if(q.lvl){
+    const s = state.stats[q.lvl];
+    s.answered++;
+    if(correct) s.correct++;
+  }
   const cs = state.catStats[q.cat];
   if(cs){ cs.answered++; if(correct) cs.correct++; }
   if(correct) state.mistakes.delete(q.id); else { state.mistakes.add(q.id); state.mistakesEverHad = true; }
@@ -133,23 +136,40 @@ function startLevelTest(level){ beginTest(shuffle(QUESTIONS.filter(q => q.lvl ==
 function startRulerTest(rulerId){ beginTest(shuffle(QUESTIONS.filter(q => q.cat==='ruler' && q.ref===rulerId)), 'ruler', rulerId); }
 function startPeriodTest(periodId){ beginTest(shuffle(QUESTIONS.filter(q => q.cat==='period' && q.ref===periodId)), 'period', periodId); }
 function startCultureTest(){ beginTest(shuffle(QUESTIONS.filter(q => q.cat==='culture')), 'culture', null); }
-function startDatesTest(){ beginTest(shuffle(QUESTIONS.filter(q => q.cat==='date')), 'dates', null); }
-function startRandomTest(){ beginTest(shuffle(QUESTIONS).slice(0,15), 'random', null); }
+function startDatesTest(){
+  const pool = QUESTIONS.filter(q => q.cat==='date').concat(generatedDateQuestions);
+  const n = Math.min(20, pool.length);
+  beginTest(shuffle(pool).slice(0,n), 'dates', null);
+}
+function startDateModuleTest(moduleNum){
+  const pool = generatedDateQuestions.filter(q => q.ref === moduleNum);
+  if(pool.length === 0) return;
+  const n = Math.min(20, pool.length);
+  beginTest(shuffle(pool).slice(0,n), 'datemodule', moduleNum);
+}
+function startRandomTest(){
+  const pool = QUESTIONS.concat(generatedDateQuestions);
+  beginTest(shuffle(pool).slice(0,15), 'random', null);
+}
 function startMistakesTest(){
-  const pool = QUESTIONS.filter(q => state.mistakes.has(q.id));
+  const pool = QUESTIONS.concat(generatedDateQuestions).filter(q => state.mistakes.has(q.id));
   if(pool.length === 0) return;
   beginTest(shuffle(pool), 'mistakes', null);
 }
 function startMockExam(){
   const byCat = {ruler:[], period:[], culture:[], date:[]};
   QUESTIONS.forEach(q => { if(byCat[q.cat]) byCat[q.cat].push(q); });
+  byCat.date = byCat.date.concat(generatedDateQuestions);
   const pick = (arr,n) => shuffle(arr).slice(0,n);
   const set = [...pick(byCat.ruler,9), ...pick(byCat.period,6), ...pick(byCat.culture,2), ...pick(byCat.date,2)];
   beginTest(shuffle(set), 'mock', null, {timed:true, seconds:2100});
 }
 function startCustomTest(){
   const b = state.builder;
-  const pool = QUESTIONS.filter(q => b.levels.has(q.lvl) && b.cats.has(q.cat) && (b.type==='any' || q.ty===b.type));
+  const pool = QUESTIONS.concat(generatedDateQuestions).filter(q => {
+    const levelOk = q.lvl ? b.levels.has(q.lvl) : true; // без калибровки уровня — не режем по уровню
+    return levelOk && b.cats.has(q.cat) && (b.type==='any' || q.ty===b.type);
+  });
   if(pool.length === 0) return;
   const n = Math.min(Math.max(1, b.count || 10), pool.length);
   beginTest(shuffle(pool).slice(0,n), 'custom', null);
@@ -252,7 +272,7 @@ function render(){
   app.innerHTML = '';
   if(state.screen === 'test' && state.test){ app.appendChild(renderTestScreen()); return; }
   if(state.screen === 'ege' && state.egeTest){ app.appendChild(renderEgeScreen()); return; }
-  const map = {home:renderHome, levels:renderLevels, rulers:renderRulers, periods:renderPeriods, culture:renderCulture, general:renderGeneral, knowledge:renderKnowledge, person:renderPerson, modperson:renderModPerson, yearsdb:renderDatesDB, profile:renderProfile, settings:renderSettings, premium:renderPremium};
+  const map = {home:renderHome, levels:renderLevels, rulers:renderRulers, periods:renderPeriods, culture:renderCulture, general:renderGeneral, knowledge:renderKnowledge, modperson:renderModPerson, yearsdb:renderDatesDB, profile:renderProfile, settings:renderSettings, premium:renderPremium};
   app.appendChild((map[state.screen] || renderHome)());
 }
 
@@ -503,7 +523,7 @@ function renderGeneral(){
     </div>
   `);
   const grid = wrap.querySelector('#generalGrid');
-  const dateCount = QUESTIONS.filter(q=>q.cat==='date').length;
+  const dateCount = QUESTIONS.filter(q=>q.cat==='date').length + generatedDateQuestions.length;
   const c0 = el(`<div class="card"><div class="body"><h3>Пробник ЕГЭ · часть 1</h3><div class="years">19 вопросов · 35 минут · с таймером</div><p class="desc">Пропорции разделов и лимит времени приближены к реальной части 1 экзамена: правители, периоды, культура, даты.</p><button class="cta">Начать</button></div></div>`);
   c0.querySelector('.cta').onclick = () => startMockExam();
   grid.appendChild(c0);
@@ -524,7 +544,7 @@ function renderGeneral(){
     egeGrid.appendChild(card);
   });
   wrap.appendChild(egeGrid);
-  const c1 = el(`<div class="card"><div class="body"><h3>Тест на даты</h3><div class="years">${dateCount} вопросов · впиши год</div><p class="desc">Только ключевые даты российской истории — впиши год цифрами.</p><button class="cta">Начать</button></div></div>`);
+  const c1 = el(`<div class="card"><div class="body"><h3>Тест на даты</h3><div class="years">${dateCount} вопросов в базе · впиши год</div><p class="desc">${generatedDateQuestions.length>0 ? 'Каждый раз новая случайная подборка из большой базы дат.' : 'База дат ещё грузится — вопросов станет заметно больше через пару секунд.'}</p><button class="cta">Начать</button></div></div>`);
   c1.querySelector('.cta').onclick = () => startDatesTest();
   grid.appendChild(c1);
   const c2 = el(`<div class="card"><div class="body"><h3>Полный рандом</h3><div class="years">15 вопросов из всей базы</div><p class="desc">Смесь правителей, эпох, культуры и дат любого уровня сложности.</p><button class="cta">Начать</button></div></div>`);
@@ -542,6 +562,7 @@ function renderGeneral(){
   const box = el(`<div class="chronicle" style="max-width:640px"></div>`);
 
   box.appendChild(el(`<div class="caption">Уровни сложности</div>`));
+  box.appendChild(el(`<div style="font-size:0.76rem;color:var(--text-faint);margin:-4px 0 10px">Даты пока не откалиброваны по уровню — при включённом разделе «Даты» фильтр по уровням на них не действует.</div>`));
   const lvlChips = el(`<div class="chips"></div>`);
   LEVELS.forEach(l=>{
     const chip = el(`<button class="chip ${b.levels.has(l)?'active':''}">${l}</button>`);
@@ -568,7 +589,10 @@ function renderGeneral(){
   });
   box.appendChild(typeChips);
 
-  const pool = QUESTIONS.filter(q => b.levels.has(q.lvl) && b.cats.has(q.cat) && (b.type==='any' || q.ty===b.type));
+  const pool = QUESTIONS.concat(generatedDateQuestions).filter(q => {
+    const levelOk = q.lvl ? b.levels.has(q.lvl) : true;
+    return levelOk && b.cats.has(q.cat) && (b.type==='any' || q.ty===b.type);
+  });
   const safeCount = Math.min(b.count || 10, Math.max(pool.length,1));
   const countRow = el(`
     <div style="margin-top:18px;display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap">
@@ -828,55 +852,13 @@ function renderKnowledge(){
 
   const wrap = el(`
     <div>
-      <div class="section-head"><h2>База знаний</h2><span class="count">${PERSONS.length} избранных + база модулей</span></div>
+      <div class="section-head"><h2>База знаний</h2></div>
       <p class="lede">Исторические деятели России — от легендарных основателей Киева до наших дней.</p>
     </div>
   `);
 
-  // ---- избранные (с фото) ----
-  wrap.appendChild(el(`<div class="section-head" style="margin-top:10px"><h2>Избранные личности</h2></div>`));
-  wrap.appendChild(el(`<div class="search-row"><input type="text" id="kbSearch" placeholder="Найти по имени..." value="${state.kbQuery}"></div>`));
-  const chips = el(`<div class="chips"></div>`);
-  PERSON_CATEGORIES.forEach(cat=>{
-    const chip = el(`<button class="chip ${state.kbCategory===cat?'active':''}">${cat}</button>`);
-    chip.onclick = () => { state.kbCategory = cat; render(); };
-    chips.appendChild(chip);
-  });
-  wrap.appendChild(chips);
-  const grid = el(`<div class="grid"></div>`);
-  const q = normalize(state.kbQuery);
-  const filtered = PERSONS.filter(p=>{
-    const matchQ = !q || normalize(p.name).includes(q);
-    const matchCat = state.kbCategory==='Все' || p.category===state.kbCategory;
-    return matchQ && matchCat;
-  });
-  if(filtered.length===0){
-    grid.appendChild(el(`<div class="empty-note">Никого не нашлось. Попробуй другой запрос или категорию.</div>`));
-  }
-  filtered.forEach(p=>{
-    const imgHtml = p.img ? `<img class="img" src="${p.img}" alt="${p.name}" loading="lazy">` : `<div class="img placeholder">${p.name[0]}</div>`;
-    const card = el(`
-      <div class="card person-card">
-        ${imgHtml}
-        <div class="body">
-          <h3>${p.name}</h3>
-          <div class="years">${p.years} · ${p.category}</div>
-          <p class="desc">${p.bio.slice(0,90)}${p.bio.length>90?'…':''}</p>
-        </div>
-      </div>
-    `);
-    card.onclick = () => { state.ctx = p.id; setScreen('person'); };
-    grid.appendChild(card);
-  });
-  wrap.appendChild(grid);
-  setTimeout(()=>{
-    const input = document.getElementById('kbSearch');
-    if(!input) return;
-    input.addEventListener('input', (e)=>{ state.kbQuery = e.target.value; render(); const i2=document.getElementById('kbSearch'); if(i2){ i2.focus(); i2.selectionStart = i2.value.length; } });
-  }, 0);
-
   // ---- полная база (модули) ----
-  wrap.appendChild(el(`<div class="section-head" style="margin-top:36px"><h2>Полная база личностей</h2></div>`));
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:10px"><h2>Полная база личностей</h2></div>`));
 
   if(state.personsModules === 'loading'){
     wrap.appendChild(el(`<p class="lede">Загружаю модули…</p>`));
@@ -953,27 +935,7 @@ function renderKnowledge(){
   return wrap;
 }
 
-function renderPerson(){
-  const p = PERSONS.find(x=>x.id===state.ctx);
-  if(!p) return renderKnowledge();
-  const wrap = document.createElement('div');
-  const back = el(`<a class="back-link" href="#">← Ко всей базе знаний</a>`);
-  back.onclick = (e)=>{ e.preventDefault(); setScreen('knowledge'); };
-  wrap.appendChild(back);
-  const imgHtml = p.img ? `<img src="${p.img}" alt="${p.name}">` : `<div class="ph">${p.name[0]}</div>`;
-  wrap.appendChild(el(`
-    <div class="person-detail">
-      ${imgHtml}
-      <div>
-        <div class="role">${p.category}</div>
-        <h2>${p.name}</h2>
-        <div class="years">${p.years}</div>
-        <p>${p.bio}</p>
-      </div>
-    </div>
-  `));
-  return wrap;
-}
+
 
 function renderModPerson(){
   const p = state.selectedPerson;
@@ -1059,6 +1021,7 @@ function renderDatesDB(){
       <div>
         <div class="section-head"><h2>Даты</h2><span class="count">${state.datesModules.length} модулей · ${totalEvents} событий</span></div>
         <p class="lede">Ищи год сразу по всей базе — или выбери период ниже и листай год за годом внутри него.</p>
+        <button class="btn" id="datesQuizBtn" style="margin-bottom:18px">📝 Пройти тест по всем датам</button>
         <div class="search-row">
           <input type="number" id="globalYearSearch" placeholder="Например, 1237 — искать во всех модулях">
           <button class="btn" id="globalYearGoBtn">Найти</button>
@@ -1068,6 +1031,7 @@ function renderDatesDB(){
         <div class="grid" id="modGrid"></div>
       </div>
     `);
+    wrap.querySelector('#datesQuizBtn').onclick = () => startDatesTest();
     const resultsHolder = wrap.querySelector('#globalResults');
     const doGlobalSearch = () => {
       const input = wrap.querySelector('#globalYearSearch');
@@ -1125,9 +1089,11 @@ function renderDatesDB(){
   }
 
   const mod = state.datesModules.find(m => m.num === state.datesModuleSel);
+  const moduleQuizCount = generatedDateQuestions.filter(q => q.ref === mod.num).length;
   const wrap = el(`
     <div>
       <div class="section-head"><h2>${mod.title}</h2><span class="count">${mod.events.length} событий</span></div>
+      <button class="btn" id="moduleQuizBtn" style="margin-bottom:14px" ${moduleQuizCount===0?'disabled':''}>${moduleQuizCount>0?'📝 Пройти тест по этому периоду':'Тест пока недоступен'}</button>
       <div class="search-row">
         <input type="number" id="yearSearch" placeholder="Например, 1812">
         <button class="btn" id="yearGoBtn">Найти</button>
@@ -1137,6 +1103,7 @@ function renderDatesDB(){
       <div class="date-list" id="dateListHolder"></div>
     </div>
   `);
+  if(moduleQuizCount>0) wrap.querySelector('#moduleQuizBtn').onclick = () => startDateModuleTest(mod.num);
   const back = el(`<a class="back-link" href="#">← Ко всем модулям</a>`);
   back.onclick = (e) => { e.preventDefault(); state.datesModuleSel = null; render(); };
   wrap.insertBefore(back, wrap.firstChild);
@@ -1624,6 +1591,7 @@ function exitTarget(){
   if(kind === 'period') return 'periods';
   if(kind === 'culture') return 'culture';
   if(kind === 'dates' || kind === 'random' || kind === 'mock' || kind === 'mistakes' || kind === 'custom') return 'general';
+  if(kind === 'datemodule') return 'yearsdb';
   return 'home';
 }
 
@@ -1706,6 +1674,7 @@ function renderResult(){
     else if(kind==='mock') startMockExam();
     else if(kind==='mistakes') startMistakesTest();
     else if(kind==='custom') startCustomTest();
+    else if(kind==='datemodule') startDateModuleTest(ctx);
     else startRandomTest();
   };
   back.onclick = () => setScreen(exitTarget());
@@ -1714,6 +1683,9 @@ function renderResult(){
 }
 
 render(); // первая отрисовка — гостевой вид, пока Firebase проверяет сессию
+ensureDateQuestionsLoaded().then(() => {
+  if(state.screen === 'general' || state.screen === 'home') render();
+}); // тихо подгружаем полную базу дат в фоне для тестов
 
 // Как только Firebase узнаёт, вошёл ли пользователь (это происходит
 // асинхронно, обычно доли секунды) — подгружаем его прогресс и перерисовываем.
