@@ -1,0 +1,3500 @@
+{
+  "events": [
+    {
+      "text": "падение Западной Римской империи",
+      "dateRaw": "476 г.",
+      "yearStart": 476,
+      "yearEnd": 476,
+      "precision": "year",
+      "id": "world-0001"
+    },
+    {
+      "text": "битва у города Суассон. Завоевание Галлии франками – возникновение государства франков",
+      "dateRaw": "486 г.",
+      "yearStart": 486,
+      "yearEnd": 486,
+      "precision": "year",
+      "id": "world-0002"
+    },
+    {
+      "text": "вторжение в Италию остготов",
+      "dateRaw": "493 г.",
+      "yearStart": 493,
+      "yearEnd": 493,
+      "precision": "year",
+      "id": "world-0003"
+    },
+    {
+      "text": "правление Юстиниана I в Византии",
+      "dateRaw": "527–565 гг.",
+      "yearStart": 527,
+      "yearEnd": 565,
+      "precision": "range",
+      "id": "world-0004"
+    },
+    {
+      "text": "восстание «Ника» в Константинополе",
+      "dateRaw": "532 г.",
+      "yearStart": 532,
+      "yearEnd": 532,
+      "precision": "year",
+      "id": "world-0005"
+    },
+    {
+      "text": "строительство храма Святой Софии в Константинополе",
+      "dateRaw": "532–537 гг.",
+      "yearStart": 532,
+      "yearEnd": 537,
+      "precision": "range",
+      "id": "world-0006"
+    },
+    {
+      "text": "Великий Тюркский каганат",
+      "dateRaw": "552–603 гг.",
+      "yearStart": 552,
+      "yearEnd": 603,
+      "precision": "range",
+      "id": "world-0007"
+    },
+    {
+      "text": "Аварский каганат",
+      "dateRaw": "562–790-е гг.",
+      "yearStart": 562,
+      "yearEnd": 799,
+      "precision": "range",
+      "id": "world-0008"
+    },
+    {
+      "text": "государство Харши в Северной Индии",
+      "dateRaw": "606–647 гг.",
+      "yearStart": 606,
+      "yearEnd": 647,
+      "precision": "range",
+      "id": "world-0009"
+    },
+    {
+      "text": "откровение пророку Мухаммеду – возникновение ислама",
+      "dateRaw": "610 г.",
+      "yearStart": 610,
+      "yearEnd": 610,
+      "precision": "year",
+      "id": "world-0010"
+    },
+    {
+      "text": "начало правления династии Тан в Китае",
+      "dateRaw": "618 г.",
+      "yearStart": 618,
+      "yearEnd": 618,
+      "precision": "year",
+      "id": "world-0011"
+    },
+    {
+      "text": "правление династии Тан в Китае",
+      "dateRaw": "618–907 гг.",
+      "yearStart": 618,
+      "yearEnd": 907,
+      "precision": "range",
+      "id": "world-0012"
+    },
+    {
+      "text": "переселение пророка Мухаммеда в Медину, начало мусульманского летоисчисления",
+      "dateRaw": "622 г.",
+      "yearStart": 622,
+      "yearEnd": 622,
+      "precision": "year",
+      "id": "world-0013"
+    },
+    {
+      "text": "осада Константинополя аварами, славянами и персами",
+      "dateRaw": "626 г.",
+      "yearStart": 626,
+      "yearEnd": 626,
+      "precision": "year",
+      "id": "world-0014"
+    },
+    {
+      "text": "победа ислама в Аравии",
+      "dateRaw": "630 г.",
+      "yearStart": 630,
+      "yearEnd": 630,
+      "precision": "year",
+      "id": "world-0015"
+    },
+    {
+      "text": "возникновение государства у арабов, смерть пророка Мухаммеда",
+      "dateRaw": "632 г.",
+      "yearStart": 632,
+      "yearEnd": 632,
+      "precision": "year",
+      "id": "world-0016"
+    },
+    {
+      "text": "правление «праведных халифов» в Аравии",
+      "dateRaw": "632–661 гг.",
+      "yearStart": 632,
+      "yearEnd": 661,
+      "precision": "range",
+      "id": "world-0017"
+    },
+    {
+      "text": "битва при Ярмуке – арабы разбили византийское войско",
+      "dateRaw": "636 г.",
+      "yearStart": 636,
+      "yearEnd": 636,
+      "precision": "year",
+      "id": "world-0018"
+    },
+    {
+      "text": "битва при Кадисии – арабы разбили иранское войско",
+      "dateRaw": "637 г.",
+      "yearStart": 637,
+      "yearEnd": 637,
+      "precision": "year",
+      "id": "world-0019"
+    },
+    {
+      "text": "завоевание арабами Иерусалима",
+      "dateRaw": "637 г.",
+      "yearStart": 637,
+      "yearEnd": 637,
+      "precision": "year",
+      "id": "world-0020"
+    },
+    {
+      "text": "покорение Персии (Ирана) арабами",
+      "dateRaw": "652 г.",
+      "yearStart": 652,
+      "yearEnd": 652,
+      "precision": "year",
+      "id": "world-0021"
+    },
+    {
+      "text": "начало правления халифов из династии Омейядов",
+      "dateRaw": "661 г.",
+      "yearStart": 661,
+      "yearEnd": 661,
+      "precision": "year",
+      "id": "world-0022"
+    },
+    {
+      "text": "образование Первого Болгарского царства",
+      "dateRaw": "681 г.",
+      "yearStart": 681,
+      "yearEnd": 681,
+      "precision": "year",
+      "id": "world-0023"
+    },
+    {
+      "text": "завоевание западной части Индии арабами",
+      "dateRaw": "712 г.",
+      "yearStart": 712,
+      "yearEnd": 712,
+      "precision": "year",
+      "id": "world-0024"
+    },
+    {
+      "text": "битва христиан с маврами в долине Ковадонга. Начало Реконкисты",
+      "dateRaw": "718 г.",
+      "yearStart": 718,
+      "yearEnd": 718,
+      "precision": "year",
+      "id": "world-0025"
+    },
+    {
+      "text": "битва у города Пуатье. Победа франков над арабами",
+      "dateRaw": "732 г.",
+      "yearStart": 732,
+      "yearEnd": 732,
+      "precision": "year",
+      "id": "world-0026"
+    },
+    {
+      "text": "начало правления халифов из династии Аббасидов",
+      "dateRaw": "750 г.",
+      "yearStart": 750,
+      "yearEnd": 750,
+      "precision": "year",
+      "id": "world-0027"
+    },
+    {
+      "text": "Таласская битва. Разгром Аббасидами китайского войска",
+      "dateRaw": "751 г.",
+      "yearStart": 751,
+      "yearEnd": 751,
+      "precision": "year",
+      "id": "world-0028"
+    },
+    {
+      "text": "начало правления династии Каролингов во Франкском королевстве",
+      "dateRaw": "751 г.",
+      "yearStart": 751,
+      "yearEnd": 751,
+      "precision": "year",
+      "id": "world-0029"
+    },
+    {
+      "text": "создание Папской области",
+      "dateRaw": "756 г.",
+      "yearStart": 756,
+      "yearEnd": 756,
+      "precision": "year",
+      "id": "world-0030"
+    },
+    {
+      "text": "образование империи Карла Великого",
+      "dateRaw": "800 г.",
+      "yearStart": 800,
+      "yearEnd": 800,
+      "precision": "year",
+      "id": "world-0031"
+    },
+    {
+      "text": "провозглашение Карла Великого императором",
+      "dateRaw": "800 г.",
+      "yearStart": 800,
+      "yearEnd": 800,
+      "precision": "year",
+      "id": "world-0032"
+    },
+    {
+      "text": "Верденский договор. Распад империи Карла Великого (Франкской империи)",
+      "dateRaw": "843 г.",
+      "yearStart": 843,
+      "yearEnd": 843,
+      "precision": "year",
+      "id": "world-0033"
+    },
+    {
+      "text": "открытие высшей школы в Константинополе",
+      "dateRaw": "855 г.",
+      "yearStart": 855,
+      "yearEnd": 855,
+      "precision": "year",
+      "id": "world-0034"
+    },
+    {
+      "text": "начало миссии Кирилла и Мефодия в Великой Моравии – создание славянской письменности",
+      "dateRaw": "863 г.",
+      "yearStart": 863,
+      "yearEnd": 863,
+      "precision": "year",
+      "id": "world-0035"
+    },
+    {
+      "text": "принятие болгарами христианства",
+      "dateRaw": "865 г.",
+      "yearStart": 865,
+      "yearEnd": 865,
+      "precision": "year",
+      "id": "world-0036"
+    },
+    {
+      "text": "образование Германского королевства",
+      "dateRaw": "919 г.",
+      "yearStart": 919,
+      "yearEnd": 919,
+      "precision": "year",
+      "id": "world-0037"
+    },
+    {
+      "text": "разгром германским войском венгров на реке Лех",
+      "dateRaw": "955 г.",
+      "yearStart": 955,
+      "yearEnd": 955,
+      "precision": "year",
+      "id": "world-0038"
+    },
+    {
+      "text": "начало правления династии Сун в Китае",
+      "dateRaw": "960 г.",
+      "yearStart": 960,
+      "yearEnd": 960,
+      "precision": "year",
+      "id": "world-0039"
+    },
+    {
+      "text": "создание Священной Римской империи",
+      "dateRaw": "962 г.",
+      "yearStart": 962,
+      "yearEnd": 962,
+      "precision": "year",
+      "id": "world-0040"
+    },
+    {
+      "text": "принятие христианства польским князем Мешко I",
+      "dateRaw": "966 г.",
+      "yearStart": 966,
+      "yearEnd": 966,
+      "precision": "year",
+      "id": "world-0041"
+    },
+    {
+      "text": "плавание викингов в Северную Америку",
+      "dateRaw": "1000 г.",
+      "yearStart": 1000,
+      "yearEnd": 1000,
+      "precision": "year",
+      "id": "world-0042"
+    },
+    {
+      "text": "образование Венгерского королевства",
+      "dateRaw": "1000 г.",
+      "yearStart": 1000,
+      "yearEnd": 1000,
+      "precision": "year",
+      "id": "world-0043"
+    },
+    {
+      "text": "начало походов в Индию султана Махмуда Газневи",
+      "dateRaw": "1001 г.",
+      "yearStart": 1001,
+      "yearEnd": 1001,
+      "precision": "year",
+      "id": "world-0044"
+    },
+    {
+      "text": "завоевание Болгарии византийцами. Падение Первого Болгарского царства",
+      "dateRaw": "1018 г.",
+      "yearStart": 1018,
+      "yearEnd": 1018,
+      "precision": "year",
+      "id": "world-0045"
+    },
+    {
+      "text": "Сельджукский султанат",
+      "dateRaw": "1038–1157 гг.",
+      "yearStart": 1038,
+      "yearEnd": 1157,
+      "precision": "range",
+      "id": "world-0046"
+    },
+    {
+      "text": "разделение христианской церкви на Восточную (православную) и Западную (католическую)",
+      "dateRaw": "1054 г.",
+      "yearStart": 1054,
+      "yearEnd": 1054,
+      "precision": "year",
+      "id": "world-0047"
+    },
+    {
+      "text": "Нормандское завоевание Англии (битва при Гастингсе)",
+      "dateRaw": "1066 г.",
+      "yearStart": 1066,
+      "yearEnd": 1066,
+      "precision": "year",
+      "id": "world-0048"
+    },
+    {
+      "text": "поражение Византии от тюрков-сельджуков в битве при Манцикерте",
+      "dateRaw": "1071 г.",
+      "yearStart": 1071,
+      "yearEnd": 1071,
+      "precision": "year",
+      "id": "world-0049"
+    },
+    {
+      "text": "«хождение в Каноссу» императора Генриха",
+      "dateRaw": "1077 г.",
+      "yearStart": 1077,
+      "yearEnd": 1077,
+      "precision": "year",
+      "id": "world-0050"
+    },
+    {
+      "text": "основание Болонского университета",
+      "dateRaw": "1088 г.",
+      "yearStart": 1088,
+      "yearEnd": 1088,
+      "precision": "year",
+      "id": "world-0051"
+    },
+    {
+      "text": "начало крестовых походов",
+      "dateRaw": "1096 г.",
+      "yearStart": 1096,
+      "yearEnd": 1096,
+      "precision": "year",
+      "id": "world-0052"
+    },
+    {
+      "text": "Первый крестовый поход",
+      "dateRaw": "1096–1099 гг.",
+      "yearStart": 1096,
+      "yearEnd": 1099,
+      "precision": "range",
+      "id": "world-0053"
+    },
+    {
+      "text": "завоевание крестоносцами Иерусалима",
+      "dateRaw": "1099 г.",
+      "yearStart": 1099,
+      "yearEnd": 1099,
+      "precision": "year",
+      "id": "world-0054"
+    },
+    {
+      "text": "Вормсский договор папы римского и императора",
+      "dateRaw": "1122 г.",
+      "yearStart": 1122,
+      "yearEnd": 1122,
+      "precision": "year",
+      "id": "world-0055"
+    },
+    {
+      "text": "битва при Леньяно, разгром итальянцами войск императора Фридриха Барбароссы",
+      "dateRaw": "1176 г.",
+      "yearStart": 1176,
+      "yearEnd": 1176,
+      "precision": "year",
+      "id": "world-0056"
+    },
+    {
+      "text": "восстановление Болгарией независимости от Византии, провозглашение Второго Болгарского царства",
+      "dateRaw": "1186 г.",
+      "yearStart": 1186,
+      "yearEnd": 1186,
+      "precision": "year",
+      "id": "world-0057"
+    },
+    {
+      "text": "захват Иерусалима арабами (под руководством Салах ад-Дина)",
+      "dateRaw": "1187 г.",
+      "yearStart": 1187,
+      "yearEnd": 1187,
+      "precision": "year",
+      "id": "world-0058"
+    },
+    {
+      "text": "созыв кортесов в Королевстве Леон",
+      "dateRaw": "1188 г.",
+      "yearStart": 1188,
+      "yearEnd": 1188,
+      "precision": "year",
+      "id": "world-0059"
+    },
+    {
+      "text": "признание Византией независимости Сербии",
+      "dateRaw": "1190 г.",
+      "yearStart": 1190,
+      "yearEnd": 1190,
+      "precision": "year",
+      "id": "world-0060"
+    },
+    {
+      "text": "установление власти сёгунов в Японии",
+      "dateRaw": "1192 г.",
+      "yearStart": 1192,
+      "yearEnd": 1192,
+      "precision": "year",
+      "id": "world-0061"
+    },
+    {
+      "text": "основание города Куско, появление государства инков",
+      "dateRaw": "1200 г.",
+      "yearStart": 1200,
+      "yearEnd": 1200,
+      "precision": "year",
+      "id": "world-0062"
+    },
+    {
+      "text": "Четвёртый крестовый поход",
+      "dateRaw": "1202–1204 гг.",
+      "yearStart": 1202,
+      "yearEnd": 1204,
+      "precision": "range",
+      "id": "world-0063"
+    },
+    {
+      "text": "захват крестоносцами Константинополя",
+      "dateRaw": "1204 г.",
+      "yearStart": 1204,
+      "yearEnd": 1204,
+      "precision": "year",
+      "id": "world-0064"
+    },
+    {
+      "text": "Латинская империя",
+      "dateRaw": "1204–1261 гг.",
+      "yearStart": 1204,
+      "yearEnd": 1261,
+      "precision": "range",
+      "id": "world-0065"
+    },
+    {
+      "text": "провозглашение Темучина Чингисханом. Создание Монгольской державы",
+      "dateRaw": "1206 г.",
+      "yearStart": 1206,
+      "yearEnd": 1206,
+      "precision": "year",
+      "id": "world-0066"
+    },
+    {
+      "text": "образование Делийского султаната в Индии",
+      "dateRaw": "1206 г.",
+      "yearStart": 1206,
+      "yearEnd": 1206,
+      "precision": "year",
+      "id": "world-0067"
+    },
+    {
+      "text": "Альбигойские войны",
+      "dateRaw": "1209–1229 гг.",
+      "yearStart": 1209,
+      "yearEnd": 1229,
+      "precision": "range",
+      "id": "world-0068"
+    },
+    {
+      "text": "сражение при Лас-Навас-де-Толосе. Перелом в Реконкисте",
+      "dateRaw": "1212 г.",
+      "yearStart": 1212,
+      "yearEnd": 1212,
+      "precision": "year",
+      "id": "world-0069"
+    },
+    {
+      "text": "подписание английским королём Иоанном Безземельным Великой хартии вольностей",
+      "dateRaw": "1215 г.",
+      "yearStart": 1215,
+      "yearEnd": 1215,
+      "precision": "year",
+      "id": "world-0070"
+    },
+    {
+      "text": "принятие Великой хартии вольностей в Англии",
+      "dateRaw": "1215 г.",
+      "yearStart": 1215,
+      "yearEnd": 1215,
+      "precision": "year",
+      "id": "world-0071"
+    },
+    {
+      "text": "провозглашение правителя Сербии Стефана королём",
+      "dateRaw": "1217 г.",
+      "yearStart": 1217,
+      "yearEnd": 1217,
+      "precision": "year",
+      "id": "world-0072"
+    },
+    {
+      "text": "смерть Чингисхана",
+      "dateRaw": "1227 г.",
+      "yearStart": 1227,
+      "yearEnd": 1227,
+      "precision": "year",
+      "id": "world-0073"
+    },
+    {
+      "text": "создание империи Мали в Африке",
+      "dateRaw": "ок. 1240 г.",
+      "yearStart": 1240,
+      "yearEnd": 1240,
+      "precision": "approx",
+      "id": "world-0074"
+    },
+    {
+      "text": "захват монголами Багдада – столицы Арабского халифата",
+      "dateRaw": "1258 г.",
+      "yearStart": 1258,
+      "yearEnd": 1258,
+      "precision": "year",
+      "id": "world-0075"
+    },
+    {
+      "text": "восстановление Византийской империи",
+      "dateRaw": "1261 г.",
+      "yearStart": 1261,
+      "yearEnd": 1261,
+      "precision": "year",
+      "id": "world-0076"
+    },
+    {
+      "text": "созыв парламента в Англии",
+      "dateRaw": "1265 г.",
+      "yearStart": 1265,
+      "yearEnd": 1265,
+      "precision": "year",
+      "id": "world-0077"
+    },
+    {
+      "text": "возникновение английского парламента",
+      "dateRaw": "1265 г.",
+      "yearStart": 1265,
+      "yearEnd": 1265,
+      "precision": "year",
+      "id": "world-0078"
+    },
+    {
+      "text": "начало правления монгольской династии Юань в Китае",
+      "dateRaw": "1271 г.",
+      "yearStart": 1271,
+      "yearEnd": 1271,
+      "precision": "year",
+      "id": "world-0079"
+    },
+    {
+      "text": "окончательное завоевание Китая монголами. Конец династии Сун",
+      "dateRaw": "1279 г.",
+      "yearStart": 1279,
+      "yearEnd": 1279,
+      "precision": "year",
+      "id": "world-0080"
+    },
+    {
+      "text": "потеря крестоносцами последних владений на Востоке. Падение крепости Акра – окончание Крестовых походов",
+      "dateRaw": "1291 г.",
+      "yearStart": 1291,
+      "yearEnd": 1291,
+      "precision": "year",
+      "id": "world-0081"
+    },
+    {
+      "text": "созыв Генеральных штатов во Франции",
+      "dateRaw": "1302 г.",
+      "yearStart": 1302,
+      "yearEnd": 1302,
+      "precision": "year",
+      "id": "world-0082"
+    },
+    {
+      "text": "Авиньонское пленение пап",
+      "dateRaw": "1309–1377 гг.",
+      "yearStart": 1309,
+      "yearEnd": 1377,
+      "precision": "range",
+      "id": "world-0083"
+    },
+    {
+      "text": "возведение Теночтитлана, появление государства ацтеков",
+      "dateRaw": "1325 г.",
+      "yearStart": 1325,
+      "yearEnd": 1325,
+      "precision": "year",
+      "id": "world-0084"
+    },
+    {
+      "text": "начало Столетней войны между Англией Францией",
+      "dateRaw": "1337 г.",
+      "yearStart": 1337,
+      "yearEnd": 1337,
+      "precision": "year",
+      "id": "world-0085"
+    },
+    {
+      "text": "Столетняя война",
+      "dateRaw": "1337–1453 гг.",
+      "yearStart": 1337,
+      "yearEnd": 1453,
+      "precision": "range",
+      "id": "world-0086"
+    },
+    {
+      "text": "битва при Креси (Столетняя война). Победа англичан над французами",
+      "dateRaw": "1346 г.",
+      "yearStart": 1346,
+      "yearEnd": 1346,
+      "precision": "year",
+      "id": "world-0087"
+    },
+    {
+      "text": "эпидемия чумы («Чёрной смерти») Европе",
+      "dateRaw": "1346–1353 гг.",
+      "yearStart": 1346,
+      "yearEnd": 1353,
+      "precision": "range",
+      "id": "world-0088"
+    },
+    {
+      "text": "начало антимонгольского восстания «красных повязок» в Китае",
+      "dateRaw": "1351 г.",
+      "yearStart": 1351,
+      "yearEnd": 1351,
+      "precision": "year",
+      "id": "world-0089"
+    },
+    {
+      "text": "начало османских завоеваний в Европе",
+      "dateRaw": "1352 г.",
+      "yearStart": 1352,
+      "yearEnd": 1352,
+      "precision": "year",
+      "id": "world-0090"
+    },
+    {
+      "text": "битва при Пуатье (Столетняя война). Победа англичан над французами",
+      "dateRaw": "1356 г.",
+      "yearStart": 1356,
+      "yearEnd": 1356,
+      "precision": "year",
+      "id": "world-0091"
+    },
+    {
+      "text": "избрание Карла IV императором Священной Римской империи и подписание “Золотой буллы”",
+      "dateRaw": "1356 г.",
+      "yearStart": 1356,
+      "yearEnd": 1356,
+      "precision": "year",
+      "id": "world-0092"
+    },
+    {
+      "text": "Жакерия во Франции",
+      "dateRaw": "1358 г.",
+      "yearStart": 1358,
+      "yearEnd": 1358,
+      "precision": "year",
+      "id": "world-0093"
+    },
+    {
+      "text": "свержение власти монголов в Китае, начало правления династии Мин",
+      "dateRaw": "1368 г.",
+      "yearStart": 1368,
+      "yearEnd": 1368,
+      "precision": "year",
+      "id": "world-0094"
+    },
+    {
+      "text": "восстание во Флоренции наёмных рабочих, занимавшихся обработкой шерсти",
+      "dateRaw": "1378 г.",
+      "yearStart": 1378,
+      "yearEnd": 1378,
+      "precision": "year",
+      "id": "world-0095"
+    },
+    {
+      "text": "восстание Уота Тайлера в Англии",
+      "dateRaw": "1381 г.",
+      "yearStart": 1381,
+      "yearEnd": 1381,
+      "precision": "year",
+      "id": "world-0096"
+    },
+    {
+      "text": "Кревская уния Великого княжества Литовского и Польши",
+      "dateRaw": "1385 г.",
+      "yearStart": 1385,
+      "yearEnd": 1385,
+      "precision": "year",
+      "id": "world-0097"
+    },
+    {
+      "text": "битва на Косовом поле. Победа османов над сербами",
+      "dateRaw": "1389 г.",
+      "yearStart": 1389,
+      "yearEnd": 1389,
+      "precision": "year",
+      "id": "world-0098"
+    },
+    {
+      "text": "завоевание турками-османами Болгарии, падение Второго Болгарского царства",
+      "dateRaw": "1396 г.",
+      "yearStart": 1396,
+      "yearEnd": 1396,
+      "precision": "year",
+      "id": "world-0099"
+    },
+    {
+      "text": "разгром турками-османами крестоносцев под Никополем",
+      "dateRaw": "1396 г.",
+      "yearStart": 1396,
+      "yearEnd": 1396,
+      "precision": "year",
+      "id": "world-0100"
+    },
+    {
+      "text": "вторжение в Индию Тимура",
+      "dateRaw": "1398 г.",
+      "yearStart": 1398,
+      "yearEnd": 1398,
+      "precision": "year",
+      "id": "world-0101"
+    },
+    {
+      "text": "разгром войск османов Тимуром у Анкары",
+      "dateRaw": "1402 г.",
+      "yearStart": 1402,
+      "yearEnd": 1402,
+      "precision": "year",
+      "id": "world-0102"
+    },
+    {
+      "text": "смерть Тимура",
+      "dateRaw": "1405 г.",
+      "yearStart": 1405,
+      "yearEnd": 1405,
+      "precision": "year",
+      "id": "world-0103"
+    },
+    {
+      "text": "первая морская экспедиция-посольство китайского флотоводца Чжэн Хэ",
+      "dateRaw": "1405 г.",
+      "yearStart": 1405,
+      "yearEnd": 1405,
+      "precision": "year",
+      "id": "world-0104"
+    },
+    {
+      "text": "открытие первой биржи в городе Брюгге",
+      "dateRaw": "1406 г.",
+      "yearStart": 1406,
+      "yearEnd": 1406,
+      "precision": "year",
+      "id": "world-0105"
+    },
+    {
+      "text": "Грюнвальдская битва, разгром Тевтонского ордена",
+      "dateRaw": "1410 г.",
+      "yearStart": 1410,
+      "yearEnd": 1410,
+      "precision": "year",
+      "id": "world-0106"
+    },
+    {
+      "text": "битва при Азенкуре (Столетняя война). Победа англичан над французами",
+      "dateRaw": "1415 г.",
+      "yearStart": 1415,
+      "yearEnd": 1415,
+      "precision": "year",
+      "id": "world-0107"
+    },
+    {
+      "text": "сожжение чешского священника Яна Гуса",
+      "dateRaw": "1415 г.",
+      "yearStart": 1415,
+      "yearEnd": 1415,
+      "precision": "year",
+      "id": "world-0108"
+    },
+    {
+      "text": "Гуситские войны в Чехии",
+      "dateRaw": "1419–1434 гг.",
+      "yearStart": 1419,
+      "yearEnd": 1434,
+      "precision": "range",
+      "id": "world-0109"
+    },
+    {
+      "text": "снятие осады Орлеана французским войском (Столетняя война)",
+      "dateRaw": "1429 г.",
+      "yearStart": 1429,
+      "yearEnd": 1429,
+      "precision": "year",
+      "id": "world-0110"
+    },
+    {
+      "text": "сожжение Жанны д’Арк",
+      "dateRaw": "1431 г.",
+      "yearStart": 1431,
+      "yearEnd": 1431,
+      "precision": "year",
+      "id": "world-0111"
+    },
+    {
+      "text": "подписание католиками и православными Флорентийской унии",
+      "dateRaw": "1439 г.",
+      "yearStart": 1439,
+      "yearEnd": 1439,
+      "precision": "year",
+      "id": "world-0112"
+    },
+    {
+      "text": "разгром турками-османами крестоносцев в битве при Варне",
+      "dateRaw": "1444 г.",
+      "yearStart": 1444,
+      "yearEnd": 1444,
+      "precision": "year",
+      "id": "world-0113"
+    },
+    {
+      "text": "выпуск Иоганном Гутенбергом первой печатной книги",
+      "dateRaw": "1445 г.",
+      "yearStart": 1445,
+      "yearEnd": 1445,
+      "precision": "year",
+      "id": "world-0114"
+    },
+    {
+      "text": "изобретение книгопечатания И. Гутенбергом",
+      "dateRaw": "1445 г.",
+      "yearStart": 1445,
+      "yearEnd": 1445,
+      "precision": "year",
+      "id": "world-0115"
+    },
+    {
+      "text": "годы жизни Леонардо да Винчи",
+      "dateRaw": "1452–1519 гг.",
+      "yearStart": 1452,
+      "yearEnd": 1519,
+      "precision": "range",
+      "id": "world-0116"
+    },
+    {
+      "text": "взятие Константинополя османами. Гибель Византии",
+      "dateRaw": "1453 г.",
+      "yearStart": 1453,
+      "yearEnd": 1453,
+      "precision": "year",
+      "id": "world-0117"
+    },
+    {
+      "text": "завершение Столетней войны",
+      "dateRaw": "1453 г.",
+      "yearStart": 1453,
+      "yearEnd": 1453,
+      "precision": "year",
+      "id": "world-0118"
+    },
+    {
+      "text": "падение Византийской империи",
+      "dateRaw": "1453 г.",
+      "yearStart": 1453,
+      "yearEnd": 1453,
+      "precision": "year",
+      "id": "world-0119"
+    },
+    {
+      "text": "Война Алой и Белой розы в Англии",
+      "dateRaw": "1455–1485 гг.",
+      "yearStart": 1455,
+      "yearEnd": 1485,
+      "precision": "range",
+      "id": "world-0120"
+    },
+    {
+      "text": "правление Людовика XI во Франции",
+      "dateRaw": "1461–1483 гг.",
+      "yearStart": 1461,
+      "yearEnd": 1483,
+      "precision": "range",
+      "id": "world-0121"
+    },
+    {
+      "text": "завоевание османами владений генуэзцев Крыму",
+      "dateRaw": "1475 г.",
+      "yearStart": 1475,
+      "yearEnd": 1475,
+      "precision": "year",
+      "id": "world-0122"
+    },
+    {
+      "text": "битва при Нанси, гибель герцога Бургундского Карла Смелого",
+      "dateRaw": "1477 г.",
+      "yearStart": 1477,
+      "yearEnd": 1477,
+      "precision": "year",
+      "id": "world-0123"
+    },
+    {
+      "text": "создание Испанского королевства под властью Изабеллы Кастильской и Фердинанда Арагонского",
+      "dateRaw": "1479 г.",
+      "yearStart": 1479,
+      "yearEnd": 1479,
+      "precision": "year",
+      "id": "world-0124"
+    },
+    {
+      "text": "начало правления династии Тюдоров в Англии",
+      "dateRaw": "1485 г.",
+      "yearStart": 1485,
+      "yearEnd": 1485,
+      "precision": "year",
+      "id": "world-0125"
+    },
+    {
+      "text": "правление Генриха VII в Англии",
+      "dateRaw": "1485–1509 гг.",
+      "yearStart": 1485,
+      "yearEnd": 1509,
+      "precision": "range",
+      "id": "world-0126"
+    },
+    {
+      "text": "завоевание Гранадского эмирата. Завершение Реконкисты",
+      "dateRaw": "1492 г.",
+      "yearStart": 1492,
+      "yearEnd": 1492,
+      "precision": "year",
+      "id": "world-0127"
+    },
+    {
+      "text": "завершение Реконкисты на Пиренейском полуострове",
+      "dateRaw": "1492 г.",
+      "yearStart": 1492,
+      "yearEnd": 1492,
+      "precision": "year",
+      "id": "world-0128"
+    },
+    {
+      "text": "открытие Америки Христофором Колумбом",
+      "dateRaw": "1492 г.",
+      "yearStart": 1492,
+      "yearEnd": 1492,
+      "precision": "year",
+      "id": "world-0129"
+    },
+    {
+      "text": "Итальянские войны",
+      "dateRaw": "1494–1559 гг.",
+      "yearStart": 1494,
+      "yearEnd": 1559,
+      "precision": "range",
+      "id": "world-0130"
+    },
+    {
+      "text": "открытие Васко да Гамой морского пути в Индию",
+      "dateRaw": "1498 г.",
+      "yearStart": 1498,
+      "yearEnd": 1498,
+      "precision": "year",
+      "id": "world-0131"
+    },
+    {
+      "text": "правление Афонсу I в Конго",
+      "dateRaw": "1506–1543 гг.",
+      "yearStart": 1506,
+      "yearEnd": 1543,
+      "precision": "range",
+      "id": "world-0132"
+    },
+    {
+      "text": "открытие Нуньесом де Бальбоа Тихого океана",
+      "dateRaw": "1513 г.",
+      "yearStart": 1513,
+      "yearEnd": 1513,
+      "precision": "year",
+      "id": "world-0133"
+    },
+    {
+      "text": "победа турок-османов над иранцами при Чалдыране",
+      "dateRaw": "1514 г.",
+      "yearStart": 1514,
+      "yearEnd": 1514,
+      "precision": "year",
+      "id": "world-0134"
+    },
+    {
+      "text": "выступление М. Лютера с 95 тезисами, начало Реформации в Германии",
+      "dateRaw": "1517 г.",
+      "yearStart": 1517,
+      "yearEnd": 1517,
+      "precision": "year",
+      "id": "world-0135"
+    },
+    {
+      "text": "проведение У. Цвингли Реформации в Швейцарии",
+      "dateRaw": "1518–1531 гг.",
+      "yearStart": 1518,
+      "yearEnd": 1531,
+      "precision": "range",
+      "id": "world-0136"
+    },
+    {
+      "text": "завоевание испанцами во главе с Э. Кортесом державы ацтеков",
+      "dateRaw": "1519–1521 гг.",
+      "yearStart": 1519,
+      "yearEnd": 1521,
+      "precision": "range",
+      "id": "world-0137"
+    },
+    {
+      "text": "кругосветное плавание экспедиции Ф. Магеллана",
+      "dateRaw": "1519–1522 гг.",
+      "yearStart": 1519,
+      "yearEnd": 1522,
+      "precision": "range",
+      "id": "world-0138"
+    },
+    {
+      "text": "правление императора Карла V",
+      "dateRaw": "1519–1556 гг.",
+      "yearStart": 1519,
+      "yearEnd": 1556,
+      "precision": "range",
+      "id": "world-0139"
+    },
+    {
+      "text": "правление султана Сулеймана I Великолепного",
+      "dateRaw": "1520–1566 гг.",
+      "yearStart": 1520,
+      "yearEnd": 1566,
+      "precision": "range",
+      "id": "world-0140"
+    },
+    {
+      "text": "Вормсский рейхстаг. Осуждение М. Лютера",
+      "dateRaw": "1521 г.",
+      "yearStart": 1521,
+      "yearEnd": 1521,
+      "precision": "year",
+      "id": "world-0141"
+    },
+    {
+      "text": "Крестьянская война в Германии",
+      "dateRaw": "1524–1525 гг.",
+      "yearStart": 1524,
+      "yearEnd": 1525,
+      "precision": "range",
+      "id": "world-0142"
+    },
+    {
+      "text": "победа турок над чешско-венгерским войском при Мохаче",
+      "dateRaw": "1526 г.",
+      "yearStart": 1526,
+      "yearEnd": 1526,
+      "precision": "year",
+      "id": "world-0143"
+    },
+    {
+      "text": "основание империи Великих Моголов в Индии",
+      "dateRaw": "1526 г.",
+      "yearStart": 1526,
+      "yearEnd": 1526,
+      "precision": "year",
+      "id": "world-0144"
+    },
+    {
+      "text": "завоевание испанцами во главе с Ф. Писарро державы инков",
+      "dateRaw": "1532–1535 гг.",
+      "yearStart": 1532,
+      "yearEnd": 1535,
+      "precision": "range",
+      "id": "world-0145"
+    },
+    {
+      "text": "начало Реформации в Англии",
+      "dateRaw": "1534 г.",
+      "yearStart": 1534,
+      "yearEnd": 1534,
+      "precision": "year",
+      "id": "world-0146"
+    },
+    {
+      "text": "основание ордена иезуитов",
+      "dateRaw": "1534 г.",
+      "yearStart": 1534,
+      "yearEnd": 1534,
+      "precision": "year",
+      "id": "world-0147"
+    },
+    {
+      "text": "выход в свет книги Коперника «О вращениях небесных сфер»",
+      "dateRaw": "1543 г.",
+      "yearStart": 1543,
+      "yearEnd": 1543,
+      "precision": "year",
+      "id": "world-0148"
+    },
+    {
+      "text": "Тридентский собор; начало Контрреформации в Европе",
+      "dateRaw": "1545–1563 гг.",
+      "yearStart": 1545,
+      "yearEnd": 1563,
+      "precision": "range",
+      "id": "world-0149"
+    },
+    {
+      "text": "основание в Лондоне Московской торговой компании. в 1555 г. – Аугсбургский религиозный мир",
+      "dateRaw": "1551 г.",
+      "yearStart": 1551,
+      "yearEnd": 1551,
+      "precision": "year",
+      "id": "world-0150"
+    },
+    {
+      "text": "Аугсбургский религиозный мир",
+      "dateRaw": "1555 г.",
+      "yearStart": 1555,
+      "yearEnd": 1555,
+      "precision": "year",
+      "id": "world-0151"
+    },
+    {
+      "text": "правление Филиппа II в Испании",
+      "dateRaw": "1556–1598 гг.",
+      "yearStart": 1556,
+      "yearEnd": 1598,
+      "precision": "range",
+      "id": "world-0152"
+    },
+    {
+      "text": "правление падишаха Акбара в Индии",
+      "dateRaw": "1556–1605 гг.",
+      "yearStart": 1556,
+      "yearEnd": 1605,
+      "precision": "range",
+      "id": "world-0153"
+    },
+    {
+      "text": "правление Елизаветы I Тюдор в Англии",
+      "dateRaw": "1558–1603 гг.",
+      "yearStart": 1558,
+      "yearEnd": 1603,
+      "precision": "range",
+      "id": "world-0154"
+    },
+    {
+      "text": "Религиозные войны во Франции",
+      "dateRaw": "1562–1598 гг.",
+      "yearStart": 1562,
+      "yearEnd": 1598,
+      "precision": "range",
+      "id": "world-0155"
+    },
+    {
+      "text": "освободительная война в Нидерландах",
+      "dateRaw": "1566–1609 гг.",
+      "yearStart": 1566,
+      "yearEnd": 1609,
+      "precision": "range",
+      "id": "world-0156"
+    },
+    {
+      "text": "Люблинская уния; образование Речи Посполитой",
+      "dateRaw": "1569 г.",
+      "yearStart": 1569,
+      "yearEnd": 1569,
+      "precision": "year",
+      "id": "world-0157"
+    },
+    {
+      "text": "битва при Лепанто между турками и венецианцами",
+      "dateRaw": "1571 г.",
+      "yearStart": 1571,
+      "yearEnd": 1571,
+      "precision": "year",
+      "id": "world-0158"
+    },
+    {
+      "text": "Варфоломеевская ночь во Франции",
+      "dateRaw": "1572 г.",
+      "yearStart": 1572,
+      "yearEnd": 1572,
+      "precision": "year",
+      "id": "world-0159"
+    },
+    {
+      "text": "Утрехтская уния",
+      "dateRaw": "1579 г.",
+      "yearStart": 1579,
+      "yearEnd": 1579,
+      "precision": "year",
+      "id": "world-0160"
+    },
+    {
+      "text": "разгром Англией Непобедимой армады",
+      "dateRaw": "1588 г.",
+      "yearStart": 1588,
+      "yearEnd": 1588,
+      "precision": "year",
+      "id": "world-0161"
+    },
+    {
+      "text": "правление шаха Ирана Аббаса I Великого",
+      "dateRaw": "1588–1629 гг.",
+      "yearStart": 1588,
+      "yearEnd": 1629,
+      "precision": "range",
+      "id": "world-0162"
+    },
+    {
+      "text": "Нантский эдикт Генриха IV во Франции",
+      "dateRaw": "1598 г.",
+      "yearStart": 1598,
+      "yearEnd": 1598,
+      "precision": "year",
+      "id": "world-0163"
+    },
+    {
+      "text": "правление сёгунов из рода Токугава в Японии",
+      "dateRaw": "1603–1867 гг.",
+      "yearStart": 1603,
+      "yearEnd": 1867,
+      "precision": "range",
+      "id": "world-0164"
+    },
+    {
+      "text": "основание первой английской колонии в Северной Америке (в Виргинии)",
+      "dateRaw": "1607 г.",
+      "yearStart": 1607,
+      "yearEnd": 1607,
+      "precision": "year",
+      "id": "world-0165"
+    },
+    {
+      "text": "Тридцатилетняя война",
+      "dateRaw": "1618–1648 гг.",
+      "yearStart": 1618,
+      "yearEnd": 1648,
+      "precision": "range",
+      "id": "world-0166"
+    },
+    {
+      "text": "деятельность кардинала Ришелье на посту первого министра Франции",
+      "dateRaw": "1624–1642 гг.",
+      "yearStart": 1624,
+      "yearEnd": 1642,
+      "precision": "range",
+      "id": "world-0167"
+    },
+    {
+      "text": "принятие английским парламентом “Петиции о праве”",
+      "dateRaw": "1628 г.",
+      "yearStart": 1628,
+      "yearEnd": 1628,
+      "precision": "year",
+      "id": "world-0168"
+    },
+    {
+      "text": "начало политики самоизоляции в Японии",
+      "dateRaw": "1633 г.",
+      "yearStart": 1633,
+      "yearEnd": 1633,
+      "precision": "year",
+      "id": "world-0169"
+    },
+    {
+      "text": "начало деятельности Долгого парламента в Англии, начало Английской буржуазной революции",
+      "dateRaw": "1640 г.",
+      "yearStart": 1640,
+      "yearEnd": 1640,
+      "precision": "year",
+      "id": "world-0170"
+    },
+    {
+      "text": "Английская революция",
+      "dateRaw": "1640–1660 гг.",
+      "yearStart": 1640,
+      "yearEnd": 1660,
+      "precision": "range",
+      "id": "world-0171"
+    },
+    {
+      "text": "принятие английским парламентом «Великой ремонстрации»",
+      "dateRaw": "1641 г.",
+      "yearStart": 1641,
+      "yearEnd": 1641,
+      "precision": "year",
+      "id": "world-0172"
+    },
+    {
+      "text": "плавания А. Тасмана, открытие Австралии",
+      "dateRaw": "1642–1644 гг.",
+      "yearStart": 1642,
+      "yearEnd": 1644,
+      "precision": "range",
+      "id": "world-0173"
+    },
+    {
+      "text": "гражданская война в Англии",
+      "dateRaw": "1642–1648 гг.",
+      "yearStart": 1642,
+      "yearEnd": 1648,
+      "precision": "range",
+      "id": "world-0174"
+    },
+    {
+      "text": "правление французского короля Людовика XIV",
+      "dateRaw": "1643–1715 гг.",
+      "yearStart": 1643,
+      "yearEnd": 1715,
+      "precision": "range",
+      "id": "world-0175"
+    },
+    {
+      "text": "правление маньчжурской династии Цин в Китае",
+      "dateRaw": "1644–1911 гг.",
+      "yearStart": 1644,
+      "yearEnd": 1911,
+      "precision": "range",
+      "id": "world-0176"
+    },
+    {
+      "text": "Вестфальский мир",
+      "dateRaw": "1648 г.",
+      "yearStart": 1648,
+      "yearEnd": 1648,
+      "precision": "year",
+      "id": "world-0177"
+    },
+    {
+      "text": "Фронда (антиправительственные выступления) во Франции",
+      "dateRaw": "1648–1653 гг.",
+      "yearStart": 1648,
+      "yearEnd": 1653,
+      "precision": "range",
+      "id": "world-0178"
+    },
+    {
+      "text": "казнь английского короля Карла I",
+      "dateRaw": "1649 г.",
+      "yearStart": 1649,
+      "yearEnd": 1649,
+      "precision": "year",
+      "id": "world-0179"
+    },
+    {
+      "text": "провозглашение Англии республикой",
+      "dateRaw": "1649 г.",
+      "yearStart": 1649,
+      "yearEnd": 1649,
+      "precision": "year",
+      "id": "world-0180"
+    },
+    {
+      "text": "протекторат О. Кромвеля",
+      "dateRaw": "1653–1658 гг.",
+      "yearStart": 1653,
+      "yearEnd": 1658,
+      "precision": "range",
+      "id": "world-0181"
+    },
+    {
+      "text": "реставрация династии Стюартов в Англии",
+      "dateRaw": "1660 г.",
+      "yearStart": 1660,
+      "yearEnd": 1660,
+      "precision": "year",
+      "id": "world-0182"
+    },
+    {
+      "text": "правление императора Канси в Китае",
+      "dateRaw": "1662–1722 гг.",
+      "yearStart": 1662,
+      "yearEnd": 1722,
+      "precision": "range",
+      "id": "world-0183"
+    },
+    {
+      "text": "основание Парижской академии наук",
+      "dateRaw": "1666 г.",
+      "yearStart": 1666,
+      "yearEnd": 1666,
+      "precision": "year",
+      "id": "world-0184"
+    },
+    {
+      "text": "поражение турок под Веной, конец османским завоеваниям в Европе",
+      "dateRaw": "1683 г.",
+      "yearStart": 1683,
+      "yearEnd": 1683,
+      "precision": "year",
+      "id": "world-0185"
+    },
+    {
+      "text": "«Славная революция» в Англии",
+      "dateRaw": "1688 г.",
+      "yearStart": 1688,
+      "yearEnd": 1688,
+      "precision": "year",
+      "id": "world-0186"
+    },
+    {
+      "text": "Война за испанское наследство",
+      "dateRaw": "1701–1714 гг.",
+      "yearStart": 1701,
+      "yearEnd": 1714,
+      "precision": "range",
+      "id": "world-0187"
+    },
+    {
+      "text": "“Акт единения” между Англией и Шотландией; создание Великобритании",
+      "dateRaw": "1707 г.",
+      "yearStart": 1707,
+      "yearEnd": 1707,
+      "precision": "year",
+      "id": "world-0188"
+    },
+    {
+      "text": "правление Ганноверской династии в Великобритании",
+      "dateRaw": "1714–1901 гг.",
+      "yearStart": 1714,
+      "yearEnd": 1901,
+      "precision": "range",
+      "id": "world-0189"
+    },
+    {
+      "text": "правление Людовика XV во Франции",
+      "dateRaw": "1715–1774 гг.",
+      "yearStart": 1715,
+      "yearEnd": 1774,
+      "precision": "range",
+      "id": "world-0190"
+    },
+    {
+      "text": "период преобразований в Османской империи (Эпоха тюльпанов)",
+      "dateRaw": "1718–1730 гг.",
+      "yearStart": 1718,
+      "yearEnd": 1730,
+      "precision": "range",
+      "id": "world-0191"
+    },
+    {
+      "text": "публикация романа Даниэля Дефо «Робинзон Крузо»",
+      "dateRaw": "1719 г.",
+      "yearStart": 1719,
+      "yearEnd": 1719,
+      "precision": "year",
+      "id": "world-0192"
+    },
+    {
+      "text": "издание романа Джонатана Свифта «Путешествия Гулливера»",
+      "dateRaw": "1726–1727 гг.",
+      "yearStart": 1726,
+      "yearEnd": 1727,
+      "precision": "range",
+      "id": "world-0193"
+    },
+    {
+      "text": "Война за польское наследство",
+      "dateRaw": "1733–1735 гг.",
+      "yearStart": 1733,
+      "yearEnd": 1735,
+      "precision": "range",
+      "id": "world-0194"
+    },
+    {
+      "text": "правление Надир-шаха в Иране",
+      "dateRaw": "1736–1747 гг.",
+      "yearStart": 1736,
+      "yearEnd": 1747,
+      "precision": "range",
+      "id": "world-0195"
+    },
+    {
+      "text": "правление Цяньлуна в Китае",
+      "dateRaw": "1736–1796 гг.",
+      "yearStart": 1736,
+      "yearEnd": 1796,
+      "precision": "range",
+      "id": "world-0196"
+    },
+    {
+      "text": "Война за австрийское наследство",
+      "dateRaw": "1740–1748 гг.",
+      "yearStart": 1740,
+      "yearEnd": 1748,
+      "precision": "range",
+      "id": "world-0197"
+    },
+    {
+      "text": "правление Марии Терезии в монархии Габсбургов",
+      "dateRaw": "1740–1780 гг.",
+      "yearStart": 1740,
+      "yearEnd": 1780,
+      "precision": "range",
+      "id": "world-0198"
+    },
+    {
+      "text": "правление Фридриха II в Пруссии",
+      "dateRaw": "1740–1786 гг.",
+      "yearStart": 1740,
+      "yearEnd": 1786,
+      "precision": "range",
+      "id": "world-0199"
+    },
+    {
+      "text": "издание во Франции «Энциклопедии…» Д. Дидро и Ж. Д’Аламбера, ставшей манифестом идей Просвещения",
+      "dateRaw": "1751–1780 гг.",
+      "yearStart": 1751,
+      "yearEnd": 1780,
+      "precision": "range",
+      "id": "world-0200"
+    },
+    {
+      "text": "битва при Плесси",
+      "dateRaw": "1757 г.",
+      "yearStart": 1757,
+      "yearEnd": 1757,
+      "precision": "year",
+      "id": "world-0201"
+    },
+    {
+      "text": "запрет в Китае на внешнюю торговлю во всех портах, кроме Гуанчжоу («закрытие» Китая)",
+      "dateRaw": "1757 г.",
+      "yearStart": 1757,
+      "yearEnd": 1757,
+      "precision": "year",
+      "id": "world-0202"
+    },
+    {
+      "text": "правление Карла III в Испании",
+      "dateRaw": "1759–1788 гг.",
+      "yearStart": 1759,
+      "yearEnd": 1788,
+      "precision": "range",
+      "id": "world-0203"
+    },
+    {
+      "text": "правление Георга III в Великобритании",
+      "dateRaw": "1760–1820 гг.",
+      "yearStart": 1760,
+      "yearEnd": 1820,
+      "precision": "range",
+      "id": "world-0204"
+    },
+    {
+      "text": "промышленная революция в Англии",
+      "dateRaw": "1760–1840-е гг.",
+      "yearStart": 1760,
+      "yearEnd": 1849,
+      "precision": "range",
+      "id": "world-0205"
+    },
+    {
+      "text": "создание Дж. Харгривсом механической прялки – начало промышленного переворота",
+      "dateRaw": "1765 г.",
+      "yearStart": 1765,
+      "yearEnd": 1765,
+      "precision": "year",
+      "id": "world-0206"
+    },
+    {
+      "text": "правление Иосифа II в Священной Римской империи",
+      "dateRaw": "1765–1790 гг.",
+      "yearStart": 1765,
+      "yearEnd": 1790,
+      "precision": "range",
+      "id": "world-0207"
+    },
+    {
+      "text": "кругосветные плавания Дж. Кука",
+      "dateRaw": "1768–1779 гг.",
+      "yearStart": 1768,
+      "yearEnd": 1779,
+      "precision": "range",
+      "id": "world-0208"
+    },
+    {
+      "text": "голод в Индии",
+      "dateRaw": "1769–1770 гг.",
+      "yearStart": 1769,
+      "yearEnd": 1770,
+      "precision": "range",
+      "id": "world-0209"
+    },
+    {
+      "text": "«Бостонское чаепитие»",
+      "dateRaw": "1773 г.",
+      "yearStart": 1773,
+      "yearEnd": 1773,
+      "precision": "year",
+      "id": "world-0210"
+    },
+    {
+      "text": "правление Людовика XVI во Франции",
+      "dateRaw": "1774–1792 гг.",
+      "yearStart": 1774,
+      "yearEnd": 1792,
+      "precision": "range",
+      "id": "world-0211"
+    },
+    {
+      "text": "Война за независимость; образование США",
+      "dateRaw": "1775–1783 гг.",
+      "yearStart": 1775,
+      "yearEnd": 1783,
+      "precision": "range",
+      "id": "world-0212"
+    },
+    {
+      "text": "«Декларация независимости» в США",
+      "dateRaw": "1776 г.",
+      "yearStart": 1776,
+      "yearEnd": 1776,
+      "precision": "year",
+      "id": "world-0213"
+    },
+    {
+      "text": "принятие Декларации независимости США",
+      "dateRaw": "1776 г.",
+      "yearStart": 1776,
+      "yearEnd": 1776,
+      "precision": "year",
+      "id": "world-0214"
+    },
+    {
+      "text": "правление Типу Султана в княжестве Майсур в Индии",
+      "dateRaw": "1782–1799 гг.",
+      "yearStart": 1782,
+      "yearEnd": 1799,
+      "precision": "range",
+      "id": "world-0215"
+    },
+    {
+      "text": "принятие Конституции США",
+      "dateRaw": "1787 г.",
+      "yearStart": 1787,
+      "yearEnd": 1787,
+      "precision": "year",
+      "id": "world-0216"
+    },
+    {
+      "text": "«Декларация прав человека и гражданина» во Франции",
+      "dateRaw": "1789 г.",
+      "yearStart": 1789,
+      "yearEnd": 1789,
+      "precision": "year",
+      "id": "world-0217"
+    },
+    {
+      "text": "начало революции во Франции",
+      "dateRaw": "1789 г.",
+      "yearStart": 1789,
+      "yearEnd": 1789,
+      "precision": "year",
+      "id": "world-0218"
+    },
+    {
+      "text": "принятие Декларации прав человека и гражданина",
+      "dateRaw": "1789 г.",
+      "yearStart": 1789,
+      "yearEnd": 1789,
+      "precision": "year",
+      "id": "world-0219"
+    },
+    {
+      "text": "президентство Дж. Вашингтона в США",
+      "dateRaw": "1789–1797 гг.",
+      "yearStart": 1789,
+      "yearEnd": 1797,
+      "precision": "range",
+      "id": "world-0220"
+    },
+    {
+      "text": "Французская революция",
+      "dateRaw": "1789–1799 гг.",
+      "yearStart": 1789,
+      "yearEnd": 1799,
+      "precision": "range",
+      "id": "world-0221"
+    },
+    {
+      "text": "правление Селима III в Османской империи",
+      "dateRaw": "1789–1807 гг.",
+      "yearStart": 1789,
+      "yearEnd": 1807,
+      "precision": "range",
+      "id": "world-0222"
+    },
+    {
+      "text": "принятие Билля о правах в США",
+      "dateRaw": "1791 г.",
+      "yearStart": 1791,
+      "yearEnd": 1791,
+      "precision": "year",
+      "id": "world-0223"
+    },
+    {
+      "text": "принятие Конституций во Франции",
+      "dateRaw": "1791, 1793, 1795",
+      "yearStart": 1791,
+      "yearEnd": 1795,
+      "precision": "multi-year",
+      "id": "world-0224"
+    },
+    {
+      "text": "начало революционных войн Франции",
+      "dateRaw": "1792 г.",
+      "yearStart": 1792,
+      "yearEnd": 1792,
+      "precision": "year",
+      "id": "world-0225"
+    },
+    {
+      "text": "крушение монархии во Франции",
+      "dateRaw": "1792 г.",
+      "yearStart": 1792,
+      "yearEnd": 1792,
+      "precision": "year",
+      "id": "world-0226"
+    },
+    {
+      "text": "Первая антифранцузская коалиция",
+      "dateRaw": "1792–1797 гг.",
+      "yearStart": 1792,
+      "yearEnd": 1797,
+      "precision": "range",
+      "id": "world-0227"
+    },
+    {
+      "text": "приход к власти во Франции якобинцев",
+      "dateRaw": "1793 г.",
+      "yearStart": 1793,
+      "yearEnd": 1793,
+      "precision": "year",
+      "id": "world-0228"
+    },
+    {
+      "text": "казнь короля Людовика XVI во Франции",
+      "dateRaw": "1793 г.",
+      "yearStart": 1793,
+      "yearEnd": 1793,
+      "precision": "year",
+      "id": "world-0229"
+    },
+    {
+      "text": "переход Капской колонии под власть Великобритании",
+      "dateRaw": "1795 г.",
+      "yearStart": 1795,
+      "yearEnd": 1795,
+      "precision": "year",
+      "id": "world-0230"
+    },
+    {
+      "text": "Итальянский поход Наполеона Бонапарта",
+      "dateRaw": "1796–1797 гг.",
+      "yearStart": 1796,
+      "yearEnd": 1797,
+      "precision": "range",
+      "id": "world-0231"
+    },
+    {
+      "text": "Египетский поход Наполеона Бонапарта",
+      "dateRaw": "1798–1801 гг.",
+      "yearStart": 1798,
+      "yearEnd": 1801,
+      "precision": "range",
+      "id": "world-0232"
+    },
+    {
+      "text": "Вторая антифранцузская коалиция",
+      "dateRaw": "1798–1802 гг.",
+      "yearStart": 1798,
+      "yearEnd": 1802,
+      "precision": "range",
+      "id": "world-0233"
+    },
+    {
+      "text": "государственный переворот Наполеона Бонапарта 18–19 брюмера",
+      "dateRaw": "1799 г.",
+      "yearStart": 1799,
+      "yearEnd": 1799,
+      "precision": "year",
+      "id": "world-0234"
+    },
+    {
+      "text": "режим Консульства во Франции",
+      "dateRaw": "1799–1804 гг.",
+      "yearStart": 1799,
+      "yearEnd": 1804,
+      "precision": "range",
+      "id": "world-0235"
+    },
+    {
+      "text": "путешествия А. фон Гумбольдта по Северной и Южной Америке",
+      "dateRaw": "1799–1804 гг.",
+      "yearStart": 1799,
+      "yearEnd": 1804,
+      "precision": "range",
+      "id": "world-0236"
+    },
+    {
+      "text": "Наполеоновские войны",
+      "dateRaw": "1799–1815 гг.",
+      "yearStart": 1799,
+      "yearEnd": 1815,
+      "precision": "range",
+      "id": "world-0237"
+    },
+    {
+      "text": "провозглашение Наполеона императором французов",
+      "dateRaw": "1804 г.",
+      "yearStart": 1804,
+      "yearEnd": 1804,
+      "precision": "year",
+      "id": "world-0238"
+    },
+    {
+      "text": "принятие Гражданского кодекса Наполеона",
+      "dateRaw": "1804 г.",
+      "yearStart": 1804,
+      "yearEnd": 1804,
+      "precision": "year",
+      "id": "world-0239"
+    },
+    {
+      "text": "провозглашение республики на о. Гаити",
+      "dateRaw": "1804 г.",
+      "yearStart": 1804,
+      "yearEnd": 1804,
+      "precision": "year",
+      "id": "world-0240"
+    },
+    {
+      "text": "Первая империя во Франции",
+      "dateRaw": "1804–1814 гг.",
+      "yearStart": 1804,
+      "yearEnd": 1814,
+      "precision": "range",
+      "id": "world-0241"
+    },
+    {
+      "text": "спуск на воду первого парохода в США",
+      "dateRaw": "1807 г.",
+      "yearStart": 1807,
+      "yearEnd": 1807,
+      "precision": "year",
+      "id": "world-0242"
+    },
+    {
+      "text": "законы против работорговли в Англии и США",
+      "dateRaw": "1807–1808 гг.",
+      "yearStart": 1807,
+      "yearEnd": 1808,
+      "precision": "range",
+      "id": "world-0243"
+    },
+    {
+      "text": "движение луддитов в Англии",
+      "dateRaw": "1810-е гг.",
+      "yearStart": 1810,
+      "yearEnd": 1819,
+      "precision": "decade",
+      "id": "world-0244"
+    },
+    {
+      "text": "Война испанских колоний Латинской Америки за независимость",
+      "dateRaw": "1810–1826 гг.",
+      "yearStart": 1810,
+      "yearEnd": 1826,
+      "precision": "range",
+      "id": "world-0245"
+    },
+    {
+      "text": "свержение Наполеона",
+      "dateRaw": "1814 г.",
+      "yearStart": 1814,
+      "yearEnd": 1814,
+      "precision": "year",
+      "id": "world-0246"
+    },
+    {
+      "text": "«Сто дней» Наполеона",
+      "dateRaw": "1815 г.",
+      "yearStart": 1815,
+      "yearEnd": 1815,
+      "precision": "year",
+      "id": "world-0247"
+    },
+    {
+      "text": "национально-освободительная война в Латинской Америке",
+      "dateRaw": "1815–1825 гг.",
+      "yearStart": 1815,
+      "yearEnd": 1825,
+      "precision": "range",
+      "id": "world-0248"
+    },
+    {
+      "text": "принятие в США «доктрины Монро»",
+      "dateRaw": "1823 г.",
+      "yearStart": 1823,
+      "yearEnd": 1823,
+      "precision": "year",
+      "id": "world-0249"
+    },
+    {
+      "text": "провозглашение доктрины Монро в США",
+      "dateRaw": "1823 г.",
+      "yearStart": 1823,
+      "yearEnd": 1823,
+      "precision": "year",
+      "id": "world-0250"
+    },
+    {
+      "text": "первая железная дорога (Англия)",
+      "dateRaw": "1825 г.",
+      "yearStart": 1825,
+      "yearEnd": 1825,
+      "precision": "year",
+      "id": "world-0251"
+    },
+    {
+      "text": "образование независимого государства Бельгия",
+      "dateRaw": "1830 г.",
+      "yearStart": 1830,
+      "yearEnd": 1830,
+      "precision": "year",
+      "id": "world-0252"
+    },
+    {
+      "text": "Июльская революция во Франции",
+      "dateRaw": "1830 г.",
+      "yearStart": 1830,
+      "yearEnd": 1830,
+      "precision": "year",
+      "id": "world-0253"
+    },
+    {
+      "text": "парламентская реформа в Англии",
+      "dateRaw": "1832 г.",
+      "yearStart": 1832,
+      "yearEnd": 1832,
+      "precision": "year",
+      "id": "world-0254"
+    },
+    {
+      "text": "создание германского Таможенного союза",
+      "dateRaw": "1834 г.",
+      "yearStart": 1834,
+      "yearEnd": 1834,
+      "precision": "year",
+      "id": "world-0255"
+    },
+    {
+      "text": "стачка ткачей в Лионе (Франция)",
+      "dateRaw": "1834 г.",
+      "yearStart": 1834,
+      "yearEnd": 1834,
+      "precision": "year",
+      "id": "world-0256"
+    },
+    {
+      "text": "чартистское движение в Англии",
+      "dateRaw": "1836–1848 гг.",
+      "yearStart": 1836,
+      "yearEnd": 1848,
+      "precision": "range",
+      "id": "world-0257"
+    },
+    {
+      "text": "начало реформ Танзимата в Османской империи",
+      "dateRaw": "1839 г.",
+      "yearStart": 1839,
+      "yearEnd": 1839,
+      "precision": "year",
+      "id": "world-0258"
+    },
+    {
+      "text": "первая «опиумная война»",
+      "dateRaw": "1840–1842 гг.",
+      "yearStart": 1840,
+      "yearEnd": 1842,
+      "precision": "range",
+      "id": "world-0259"
+    },
+    {
+      "text": "бабидские восстания в Иране",
+      "dateRaw": "1848–1852 гг.",
+      "yearStart": 1848,
+      "yearEnd": 1852,
+      "precision": "range",
+      "id": "world-0260"
+    },
+    {
+      "text": "«весна народов»: революции в Европе",
+      "dateRaw": "1849–1849 гг.",
+      "yearStart": 1849,
+      "yearEnd": 1849,
+      "precision": "range",
+      "id": "world-0261"
+    },
+    {
+      "text": "Тайпинское восстание в Китае против маньчжурской империи Цин",
+      "dateRaw": "1850–1864 гг.",
+      "yearStart": 1850,
+      "yearEnd": 1864,
+      "precision": "range",
+      "id": "world-0262"
+    },
+    {
+      "text": "первая Всемирная промышленная выставка в Лондоне",
+      "dateRaw": "1851 г.",
+      "yearStart": 1851,
+      "yearEnd": 1851,
+      "precision": "year",
+      "id": "world-0263"
+    },
+    {
+      "text": "установление Второй империи во Франции, провозглашение императором Наполеона III Бонапарта",
+      "dateRaw": "1852 г.",
+      "yearStart": 1852,
+      "yearEnd": 1852,
+      "precision": "year",
+      "id": "world-0264"
+    },
+    {
+      "text": "«открытие» Японии, установление дипломатических отношений с Россией, США, Францией, Великобританией",
+      "dateRaw": "1853–1854 гг.",
+      "yearStart": 1853,
+      "yearEnd": 1854,
+      "precision": "range",
+      "id": "world-0265"
+    },
+    {
+      "text": "вторая «опиумная война»",
+      "dateRaw": "1856–1860 гг.",
+      "yearStart": 1856,
+      "yearEnd": 1860,
+      "precision": "range",
+      "id": "world-0266"
+    },
+    {
+      "text": "восстание сипаев в Индии",
+      "dateRaw": "1857–1859 гг.",
+      "yearStart": 1857,
+      "yearEnd": 1859,
+      "precision": "range",
+      "id": "world-0267"
+    },
+    {
+      "text": "Австро-пьемонтско-французская война",
+      "dateRaw": "1859 г.",
+      "yearStart": 1859,
+      "yearEnd": 1859,
+      "precision": "year",
+      "id": "world-0268"
+    },
+    {
+      "text": "объединение Италии",
+      "dateRaw": "1859–1870 гг.",
+      "yearStart": 1859,
+      "yearEnd": 1870,
+      "precision": "range",
+      "id": "world-0269"
+    },
+    {
+      "text": "образование Королевства Италия",
+      "dateRaw": "1861 г.",
+      "yearStart": 1861,
+      "yearEnd": 1861,
+      "precision": "year",
+      "id": "world-0270"
+    },
+    {
+      "text": "Гражданская война в США",
+      "dateRaw": "1861–1865 гг.",
+      "yearStart": 1861,
+      "yearEnd": 1865,
+      "precision": "range",
+      "id": "world-0271"
+    },
+    {
+      "text": "объединение Италии",
+      "dateRaw": "1861–1870 гг.",
+      "yearStart": 1861,
+      "yearEnd": 1870,
+      "precision": "range",
+      "id": "world-0272"
+    },
+    {
+      "text": "издание Гомстед-акт: каждая американская семья может получить земельный надел в 64 га)",
+      "dateRaw": "1862 г.",
+      "yearStart": 1862,
+      "yearEnd": 1862,
+      "precision": "year",
+      "id": "world-0273"
+    },
+    {
+      "text": "в США А. Линкольн подписал «Прокламацию об освобождении рабов»",
+      "dateRaw": "1862 г.",
+      "yearStart": 1862,
+      "yearEnd": 1862,
+      "precision": "year",
+      "id": "world-0274"
+    },
+    {
+      "text": "деятельность Бисмарка во главе Пруссии и Германии",
+      "dateRaw": "1862–1890 гг.",
+      "yearStart": 1862,
+      "yearEnd": 1890,
+      "precision": "range",
+      "id": "world-0275"
+    },
+    {
+      "text": "создание Международного товарищества рабочих (I Интернационал)",
+      "dateRaw": "1864 г.",
+      "yearStart": 1864,
+      "yearEnd": 1864,
+      "precision": "year",
+      "id": "world-0276"
+    },
+    {
+      "text": "война Пруссии и Австрии против Дании",
+      "dateRaw": "1864 г.",
+      "yearStart": 1864,
+      "yearEnd": 1864,
+      "precision": "year",
+      "id": "world-0277"
+    },
+    {
+      "text": "Австро-прусская война",
+      "dateRaw": "1866 г.",
+      "yearStart": 1866,
+      "yearEnd": 1866,
+      "precision": "year",
+      "id": "world-0278"
+    },
+    {
+      "text": "образование Австро-Венгрии",
+      "dateRaw": "1867 г.",
+      "yearStart": 1867,
+      "yearEnd": 1867,
+      "precision": "year",
+      "id": "world-0279"
+    },
+    {
+      "text": "образование Северогерманского союза",
+      "dateRaw": "1867 г.",
+      "yearStart": 1867,
+      "yearEnd": 1867,
+      "precision": "year",
+      "id": "world-0280"
+    },
+    {
+      "text": "начало «Реставрации (революции) Мэйдзи» Японии",
+      "dateRaw": "1868 г.",
+      "yearStart": 1868,
+      "yearEnd": 1868,
+      "precision": "year",
+      "id": "world-0281"
+    },
+    {
+      "text": "революция Мэйдзи в Японии",
+      "dateRaw": "1868 г.",
+      "yearStart": 1868,
+      "yearEnd": 1868,
+      "precision": "year",
+      "id": "world-0282"
+    },
+    {
+      "text": "открытие Суэцкого канала (Египет)",
+      "dateRaw": "1869 г.",
+      "yearStart": 1869,
+      "yearEnd": 1869,
+      "precision": "year",
+      "id": "world-0283"
+    },
+    {
+      "text": "падение Второй империи во Франции",
+      "dateRaw": "1870 г.",
+      "yearStart": 1870,
+      "yearEnd": 1870,
+      "precision": "year",
+      "id": "world-0284"
+    },
+    {
+      "text": "Франко-германская война",
+      "dateRaw": "1870–1871 гг.",
+      "yearStart": 1870,
+      "yearEnd": 1871,
+      "precision": "range",
+      "id": "world-0285"
+    },
+    {
+      "text": "франко-прусская война",
+      "dateRaw": "1870–1871 гг.",
+      "yearStart": 1870,
+      "yearEnd": 1871,
+      "precision": "range",
+      "id": "world-0286"
+    },
+    {
+      "text": "Парижская коммуна",
+      "dateRaw": "1871 г.",
+      "yearStart": 1871,
+      "yearEnd": 1871,
+      "precision": "year",
+      "id": "world-0287"
+    },
+    {
+      "text": "провозглашение Германской империи",
+      "dateRaw": "1871 г.",
+      "yearStart": 1871,
+      "yearEnd": 1871,
+      "precision": "year",
+      "id": "world-0288"
+    },
+    {
+      "text": "установление Третьей республики во Франции",
+      "dateRaw": "1875 г.",
+      "yearStart": 1875,
+      "yearEnd": 1875,
+      "precision": "year",
+      "id": "world-0289"
+    },
+    {
+      "text": "Закон против социалистов в Германии",
+      "dateRaw": "1878 г.",
+      "yearStart": 1878,
+      "yearEnd": 1878,
+      "precision": "year",
+      "id": "world-0290"
+    },
+    {
+      "text": "австро-германский (Двойственный) союз",
+      "dateRaw": "1879 г.",
+      "yearStart": 1879,
+      "yearEnd": 1879,
+      "precision": "year",
+      "id": "world-0291"
+    },
+    {
+      "text": "создание Тройственного союза (Германия, Австро-Венгрия и Италия)",
+      "dateRaw": "1882 г.",
+      "yearStart": 1882,
+      "yearEnd": 1882,
+      "precision": "year",
+      "id": "world-0292"
+    },
+    {
+      "text": "захват англичанами Египта",
+      "dateRaw": "1882 г.",
+      "yearStart": 1882,
+      "yearEnd": 1882,
+      "precision": "year",
+      "id": "world-0293"
+    },
+    {
+      "text": "Берлинская конференция по Конго",
+      "dateRaw": "1884–1885 гг.",
+      "yearStart": 1884,
+      "yearEnd": 1885,
+      "precision": "range",
+      "id": "world-0294"
+    },
+    {
+      "text": "основание Индийского национального конгресса (ИНК)",
+      "dateRaw": "1885 г.",
+      "yearStart": 1885,
+      "yearEnd": 1885,
+      "precision": "year",
+      "id": "world-0295"
+    },
+    {
+      "text": "создание II Интернационала",
+      "dateRaw": "1889 г.",
+      "yearStart": 1889,
+      "yearEnd": 1889,
+      "precision": "year",
+      "id": "world-0296"
+    },
+    {
+      "text": "японо-китайская война",
+      "dateRaw": "1894 г.",
+      "yearStart": 1894,
+      "yearEnd": 1894,
+      "precision": "year",
+      "id": "world-0297"
+    },
+    {
+      "text": "изобретение кинематографа Л. Люмьером",
+      "dateRaw": "1895 г.",
+      "yearStart": 1895,
+      "yearEnd": 1895,
+      "precision": "year",
+      "id": "world-0298"
+    },
+    {
+      "text": "открытие радиоактивности А. Беккерелем",
+      "dateRaw": "1896 г.",
+      "yearStart": 1896,
+      "yearEnd": 1896,
+      "precision": "year",
+      "id": "world-0299"
+    },
+    {
+      "text": "испано-американская война",
+      "dateRaw": "1898 г.",
+      "yearStart": 1898,
+      "yearEnd": 1898,
+      "precision": "year",
+      "id": "world-0300"
+    },
+    {
+      "text": "Гаагская конференция по вопросам ограничения вооружения",
+      "dateRaw": "1899 г.",
+      "yearStart": 1899,
+      "yearEnd": 1899,
+      "precision": "year",
+      "id": "world-0301"
+    },
+    {
+      "text": "восстание ихэтуаней (боксёрское) Китае",
+      "dateRaw": "1899–1901 гг.",
+      "yearStart": 1899,
+      "yearEnd": 1901,
+      "precision": "range",
+      "id": "world-0302"
+    },
+    {
+      "text": "англо-бурская война (в Южной Африке)",
+      "dateRaw": "1899–1902 гг.",
+      "yearStart": 1899,
+      "yearEnd": 1902,
+      "precision": "range",
+      "id": "world-0303"
+    },
+    {
+      "text": "учреждение в Великобритании Комитета рабочего представительства (с 1906 г. Лейбористская партия)",
+      "dateRaw": "1900–1906 гг.",
+      "yearStart": 1900,
+      "yearEnd": 1906,
+      "precision": "range",
+      "id": "world-0304"
+    },
+    {
+      "text": "полёт братьев Райт на аэроплане",
+      "dateRaw": "1903 г.",
+      "yearStart": 1903,
+      "yearEnd": 1903,
+      "precision": "year",
+      "id": "world-0305"
+    },
+    {
+      "text": "создание Антанты (Россия, Англия и Франция)",
+      "dateRaw": "1904–1907 гг.",
+      "yearStart": 1904,
+      "yearEnd": 1907,
+      "precision": "range",
+      "id": "world-0306"
+    },
+    {
+      "text": "первый марокканский кризис",
+      "dateRaw": "1905 г.",
+      "yearStart": 1905,
+      "yearEnd": 1905,
+      "precision": "year",
+      "id": "world-0307"
+    },
+    {
+      "text": "Конституционная революция в Иране",
+      "dateRaw": "1905–1911 гг.",
+      "yearStart": 1905,
+      "yearEnd": 1911,
+      "precision": "range",
+      "id": "world-0308"
+    },
+    {
+      "text": "введение первого в Европе женского избирательного права в Великом княжестве Финляндском (Россия)",
+      "dateRaw": "1906 г.",
+      "yearStart": 1906,
+      "yearEnd": 1906,
+      "precision": "year",
+      "id": "world-0309"
+    },
+    {
+      "text": "англо-русское соглашение об Афганистане, Тибете и Иране",
+      "dateRaw": "1907 г.",
+      "yearStart": 1907,
+      "yearEnd": 1907,
+      "precision": "year",
+      "id": "world-0310"
+    },
+    {
+      "text": "Младотурецкая революция в Османской империи",
+      "dateRaw": "1908 г.",
+      "yearStart": 1908,
+      "yearEnd": 1908,
+      "precision": "year",
+      "id": "world-0311"
+    },
+    {
+      "text": "Боснийский кризис",
+      "dateRaw": "1908 г.",
+      "yearStart": 1908,
+      "yearEnd": 1908,
+      "precision": "year",
+      "id": "world-0312"
+    },
+    {
+      "text": "революция в Мексике",
+      "dateRaw": "1910–1917 гг.",
+      "yearStart": 1910,
+      "yearEnd": 1917,
+      "precision": "range",
+      "id": "world-0313"
+    },
+    {
+      "text": "второй марокканский кризис",
+      "dateRaw": "1911 г.",
+      "yearStart": 1911,
+      "yearEnd": 1911,
+      "precision": "year",
+      "id": "world-0314"
+    },
+    {
+      "text": "Синьхайская революция в Китае; свержение династии Цин и образование республики",
+      "dateRaw": "1911–1912 гг.",
+      "yearStart": 1911,
+      "yearEnd": 1912,
+      "precision": "range",
+      "id": "world-0315"
+    },
+    {
+      "text": "первая и вторая Балканские войны",
+      "dateRaw": "1912–1913 гг.",
+      "yearStart": 1912,
+      "yearEnd": 1913,
+      "precision": "range",
+      "id": "world-0316"
+    },
+    {
+      "text": "«Сараевский инцидент», убийство наследника австрийского престола эрцгерцога Франца Фердинанда",
+      "dateRaw": "1914 г.",
+      "yearStart": 1914,
+      "yearEnd": 1914,
+      "precision": "year",
+      "id": "world-0317"
+    },
+    {
+      "text": "битва на Марне",
+      "dateRaw": "1914 г.",
+      "yearStart": 1914,
+      "yearEnd": 1914,
+      "precision": "year",
+      "id": "world-0318"
+    },
+    {
+      "text": "вступление Османской империи в Первую мировую войну на стороне Центральных держав",
+      "dateRaw": "1914 г.",
+      "yearStart": 1914,
+      "yearEnd": 1914,
+      "precision": "year",
+      "id": "world-0319"
+    },
+    {
+      "text": "Первая мировая война",
+      "dateRaw": "1914–1918 гг.",
+      "yearStart": 1914,
+      "yearEnd": 1918,
+      "precision": "range",
+      "id": "world-0320"
+    },
+    {
+      "text": "газовая атака немцев под Ипром",
+      "dateRaw": "1915 г.",
+      "yearStart": 1915,
+      "yearEnd": 1915,
+      "precision": "year",
+      "id": "world-0321"
+    },
+    {
+      "text": "вступление Италии в войну на стороне Антанты",
+      "dateRaw": "1915 г.",
+      "yearStart": 1915,
+      "yearEnd": 1915,
+      "precision": "year",
+      "id": "world-0322"
+    },
+    {
+      "text": "вступление Болгарии в войну на стороне Центральных держав – образование Четверного союза",
+      "dateRaw": "1915 г.",
+      "yearStart": 1915,
+      "yearEnd": 1915,
+      "precision": "year",
+      "id": "world-0323"
+    },
+    {
+      "text": "бои под Верденом",
+      "dateRaw": "1916 г.",
+      "yearStart": 1916,
+      "yearEnd": 1916,
+      "precision": "year",
+      "id": "world-0324"
+    },
+    {
+      "text": "Ютландское морское сражение",
+      "dateRaw": "1916 г.",
+      "yearStart": 1916,
+      "yearEnd": 1916,
+      "precision": "year",
+      "id": "world-0325"
+    },
+    {
+      "text": "битва на Сомме – первое использование танков",
+      "dateRaw": "1916 г.",
+      "yearStart": 1916,
+      "yearEnd": 1916,
+      "precision": "year",
+      "id": "world-0326"
+    },
+    {
+      "text": "вступление в войну Румынии на стороне Антанты",
+      "dateRaw": "1916 г.",
+      "yearStart": 1916,
+      "yearEnd": 1916,
+      "precision": "year",
+      "id": "world-0327"
+    },
+    {
+      "text": "вступление в войну США",
+      "dateRaw": "1917 г.",
+      "yearStart": 1917,
+      "yearEnd": 1917,
+      "precision": "year",
+      "id": "world-0328"
+    },
+    {
+      "text": "выдвижение «14 пунктов» президента США Вильсона",
+      "dateRaw": "1918 г.",
+      "yearStart": 1918,
+      "yearEnd": 1918,
+      "precision": "year",
+      "id": "world-0329"
+    },
+    {
+      "text": "восстание матросов в Киле, начало революции в Германии",
+      "dateRaw": "1918 г.",
+      "yearStart": 1918,
+      "yearEnd": 1918,
+      "precision": "year",
+      "id": "world-0330"
+    },
+    {
+      "text": "подписание Компьенского перемирия о прекращении боевых действий",
+      "dateRaw": "1918 г.",
+      "yearStart": 1918,
+      "yearEnd": 1918,
+      "precision": "year",
+      "id": "world-0331"
+    },
+    {
+      "text": "Ноябрьская революция в Германии. Падение монархии",
+      "dateRaw": "1918 г.",
+      "yearStart": 1918,
+      "yearEnd": 1918,
+      "precision": "year",
+      "id": "world-0332"
+    },
+    {
+      "text": "свержение монархии в Австрии и Венгрии",
+      "dateRaw": "1918 г.",
+      "yearStart": 1918,
+      "yearEnd": 1918,
+      "precision": "year",
+      "id": "world-0333"
+    },
+    {
+      "text": "образование Королевства сербов, хорватов и словенцев",
+      "dateRaw": "1918 г.",
+      "yearStart": 1918,
+      "yearEnd": 1918,
+      "precision": "year",
+      "id": "world-0334"
+    },
+    {
+      "text": "война за независимость (кемалистская революция) в Турции, провозглашение республики",
+      "dateRaw": "1918–1923 гг.",
+      "yearStart": 1918,
+      "yearEnd": 1923,
+      "precision": "range",
+      "id": "world-0335"
+    },
+    {
+      "text": "Венгерская советская республика, революция в Венгрии",
+      "dateRaw": "1919 г.",
+      "yearStart": 1919,
+      "yearEnd": 1919,
+      "precision": "year",
+      "id": "world-0336"
+    },
+    {
+      "text": "подписание Версальского договора",
+      "dateRaw": "1919 г.",
+      "yearStart": 1919,
+      "yearEnd": 1919,
+      "precision": "year",
+      "id": "world-0337"
+    },
+    {
+      "text": "учреждение Лиги Наций",
+      "dateRaw": "1919 г.",
+      "yearStart": 1919,
+      "yearEnd": 1919,
+      "precision": "year",
+      "id": "world-0338"
+    },
+    {
+      "text": "Парижская мирная конференция",
+      "dateRaw": "1919–1920 гг.",
+      "yearStart": 1919,
+      "yearEnd": 1920,
+      "precision": "range",
+      "id": "world-0339"
+    },
+    {
+      "text": "Веймарская республика в Германии",
+      "dateRaw": "1919–1933 гг.",
+      "yearStart": 1919,
+      "yearEnd": 1933,
+      "precision": "range",
+      "id": "world-0340"
+    },
+    {
+      "text": "приход к власти Мустафы Кемаля Ататюрка в Турции",
+      "dateRaw": "1920 г.",
+      "yearStart": 1920,
+      "yearEnd": 1920,
+      "precision": "year",
+      "id": "world-0341"
+    },
+    {
+      "text": "образование Коммунистической партии Китая (КПК)",
+      "dateRaw": "1921 г.",
+      "yearStart": 1921,
+      "yearEnd": 1921,
+      "precision": "year",
+      "id": "world-0342"
+    },
+    {
+      "text": "Вашингтонская конференция. Завершение создания Версальско-Вашингтонской системы послевоенного мира",
+      "dateRaw": "1921–1922 гг.",
+      "yearStart": 1921,
+      "yearEnd": 1922,
+      "precision": "range",
+      "id": "world-0343"
+    },
+    {
+      "text": "Вашингтонская конференция",
+      "dateRaw": "1921–1922 гг.",
+      "yearStart": 1921,
+      "yearEnd": 1922,
+      "precision": "range",
+      "id": "world-0344"
+    },
+    {
+      "text": "подписание Вашингтонского соглашения",
+      "dateRaw": "1922 г.",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "world-0345"
+    },
+    {
+      "text": "приход фашистов к власти в Италии (Б. Муссолини)",
+      "dateRaw": "1922 г.",
+      "yearStart": 1922,
+      "yearEnd": 1922,
+      "precision": "year",
+      "id": "world-0346"
+    },
+    {
+      "text": "“пивной путч” в Германии, попытка прихода фашистов к власти",
+      "dateRaw": "1923 г.",
+      "yearStart": 1923,
+      "yearEnd": 1923,
+      "precision": "year",
+      "id": "world-0347"
+    },
+    {
+      "text": "авторитарные перевороты в Болгарии и Испании",
+      "dateRaw": "1923 г.",
+      "yearStart": 1923,
+      "yearEnd": 1923,
+      "precision": "year",
+      "id": "world-0348"
+    },
+    {
+      "text": "революция в Китае (Чан Кайши – партия Гоминьдан)",
+      "dateRaw": "1925–1927 гг.",
+      "yearStart": 1925,
+      "yearEnd": 1927,
+      "precision": "range",
+      "id": "world-0349"
+    },
+    {
+      "text": "установление режима санации в Польше",
+      "dateRaw": "1926 г.",
+      "yearStart": 1926,
+      "yearEnd": 1926,
+      "precision": "year",
+      "id": "world-0350"
+    },
+    {
+      "text": "начало Северного похода в Китае",
+      "dateRaw": "1926 г.",
+      "yearStart": 1926,
+      "yearEnd": 1926,
+      "precision": "year",
+      "id": "world-0351"
+    },
+    {
+      "text": "гражданская война в Китае",
+      "dateRaw": "1927–1937 гг.",
+      "yearStart": 1927,
+      "yearEnd": 1937,
+      "precision": "range",
+      "id": "world-0352"
+    },
+    {
+      "text": "подписание Латеранских соглашений",
+      "dateRaw": "1929 г.",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "precision": "year",
+      "id": "world-0353"
+    },
+    {
+      "text": "мировой экономический кризис, «великая депрессия»",
+      "dateRaw": "1929–1933 гг.",
+      "yearStart": 1929,
+      "yearEnd": 1933,
+      "precision": "range",
+      "id": "world-0354"
+    },
+    {
+      "text": "Великая депрессия в США",
+      "dateRaw": "1929–1938 гг.",
+      "yearStart": 1929,
+      "yearEnd": 1938,
+      "precision": "range",
+      "id": "world-0355"
+    },
+    {
+      "text": "вторжение японской армии в Маньчжурию",
+      "dateRaw": "1931 г.",
+      "yearStart": 1931,
+      "yearEnd": 1931,
+      "precision": "year",
+      "id": "world-0356"
+    },
+    {
+      "text": "создание Британского союза фашистов",
+      "dateRaw": "1932 г.",
+      "yearStart": 1932,
+      "yearEnd": 1932,
+      "precision": "year",
+      "id": "world-0357"
+    },
+    {
+      "text": "избрание президентом США Ф. Рузвельта",
+      "dateRaw": "1932 г.",
+      "yearStart": 1932,
+      "yearEnd": 1932,
+      "precision": "year",
+      "id": "world-0358"
+    },
+    {
+      "text": "выход Германии из Лиги Наций",
+      "dateRaw": "1933 г.",
+      "yearStart": 1933,
+      "yearEnd": 1933,
+      "precision": "year",
+      "id": "world-0359"
+    },
+    {
+      "text": "создание «трудовых лагерей» для безработных в США",
+      "dateRaw": "1933 г.",
+      "yearStart": 1933,
+      "yearEnd": 1933,
+      "precision": "year",
+      "id": "world-0360"
+    },
+    {
+      "text": "назначение Гитлера канцлером – приход фашистов к власти в Германии",
+      "dateRaw": "1933 г.",
+      "yearStart": 1933,
+      "yearEnd": 1933,
+      "precision": "year",
+      "id": "world-0361"
+    },
+    {
+      "text": "«Новый курс» Ф. Рузвельта в США",
+      "dateRaw": "1933–1938 гг.",
+      "yearStart": 1933,
+      "yearEnd": 1938,
+      "precision": "range",
+      "id": "world-0362"
+    },
+    {
+      "text": "Великий (Северо-Западный) поход китайских коммунистов",
+      "dateRaw": "1934–1936 гг.",
+      "yearStart": 1934,
+      "yearEnd": 1936,
+      "precision": "range",
+      "id": "world-0363"
+    },
+    {
+      "text": "захват фашистской Италией Абисинии (Эфиопии)",
+      "dateRaw": "1935–1936 гг.",
+      "yearStart": 1935,
+      "yearEnd": 1936,
+      "precision": "range",
+      "id": "world-0364"
+    },
+    {
+      "text": "ввод германских войск в Рейнскую в демилитаризованную зону",
+      "dateRaw": "1936 г.",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "world-0365"
+    },
+    {
+      "text": "Антикоминтерновский пакт Германии и Японии",
+      "dateRaw": "1936 г.",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "precision": "year",
+      "id": "world-0366"
+    },
+    {
+      "text": "заключение Антикоминтерновского пакта между Германией, Японией и Италией",
+      "dateRaw": "1936–1937 гг.",
+      "yearStart": 1936,
+      "yearEnd": 1937,
+      "precision": "range",
+      "id": "world-0367"
+    },
+    {
+      "text": "правительство Народного фронта во Франции",
+      "dateRaw": "1936–1938 гг.",
+      "yearStart": 1936,
+      "yearEnd": 1938,
+      "precision": "range",
+      "id": "world-0368"
+    },
+    {
+      "text": "фашистский мятеж и гражданская война в Испании",
+      "dateRaw": "1936–1939 гг.",
+      "yearStart": 1936,
+      "yearEnd": 1939,
+      "precision": "range",
+      "id": "world-0369"
+    },
+    {
+      "text": "1945 гг . – японо-китайская война",
+      "dateRaw": "1937 г.",
+      "yearStart": 1937,
+      "yearEnd": 1937,
+      "precision": "year",
+      "id": "world-0370"
+    },
+    {
+      "text": "подписание Мюнхенского соглашения",
+      "dateRaw": "1938 г.",
+      "yearStart": 1938,
+      "yearEnd": 1938,
+      "precision": "year",
+      "id": "world-0371"
+    },
+    {
+      "text": "захват Австрии нацистской Германией (аншлюс)",
+      "dateRaw": "1938 г.",
+      "yearStart": 1938,
+      "yearEnd": 1938,
+      "precision": "year",
+      "id": "world-0372"
+    },
+    {
+      "text": "захват гитлеровской Германией Чехословакии",
+      "dateRaw": "1939 г.",
+      "yearStart": 1939,
+      "yearEnd": 1939,
+      "precision": "year",
+      "id": "world-0373"
+    },
+    {
+      "text": "нападение Германии на Польшу, начало Второй мировой войны",
+      "dateRaw": "1939 г.",
+      "yearStart": 1939,
+      "yearEnd": 1939,
+      "precision": "year",
+      "id": "world-0374"
+    },
+    {
+      "text": "“странная война” на Западном фронте (военные действия Франции и Великобритании против Германии – низкая интенсивность и оборонительная тактика)",
+      "dateRaw": "1939–1940 гг.",
+      "yearStart": 1939,
+      "yearEnd": 1940,
+      "precision": "range",
+      "id": "world-0375"
+    },
+    {
+      "text": "Вторая мировая война",
+      "dateRaw": "1939–1945 гг.",
+      "yearStart": 1939,
+      "yearEnd": 1945,
+      "precision": "range",
+      "id": "world-0376"
+    },
+    {
+      "text": "завоевание Германией Дании и Норвегии",
+      "dateRaw": "1940 г.",
+      "yearStart": 1940,
+      "yearEnd": 1940,
+      "precision": "year",
+      "id": "world-0377"
+    },
+    {
+      "text": "разгром Бельгии и Голландии, капитуляция Франции",
+      "dateRaw": "1940 г.",
+      "yearStart": 1940,
+      "yearEnd": 1940,
+      "precision": "year",
+      "id": "world-0378"
+    },
+    {
+      "text": "битва за Англию",
+      "dateRaw": "1940 г.",
+      "yearStart": 1940,
+      "yearEnd": 1940,
+      "precision": "year",
+      "id": "world-0379"
+    },
+    {
+      "text": "захват Германией и Италией Югославии и Греции",
+      "dateRaw": "1941 г.",
+      "yearStart": 1941,
+      "yearEnd": 1941,
+      "precision": "year",
+      "id": "world-0380"
+    },
+    {
+      "text": "высадка немецкого экспедиционного корпуса в Ливии",
+      "dateRaw": "1941 г.",
+      "yearStart": 1941,
+      "yearEnd": 1941,
+      "precision": "year",
+      "id": "world-0381"
+    },
+    {
+      "text": "подписание США и Великобританией Атлантической хартии",
+      "dateRaw": "1941 г.",
+      "yearStart": 1941,
+      "yearEnd": 1941,
+      "precision": "year",
+      "id": "world-0382"
+    },
+    {
+      "text": "японская атака на Пёрл-Харбор и вступление США в войну",
+      "dateRaw": "1941 г.",
+      "yearStart": 1941,
+      "yearEnd": 1941,
+      "precision": "year",
+      "id": "world-0383"
+    },
+    {
+      "text": "подписание Декларации Объединённых Наций",
+      "dateRaw": "1942 г.",
+      "yearStart": 1942,
+      "yearEnd": 1942,
+      "precision": "year",
+      "id": "world-0384"
+    },
+    {
+      "text": "сражение у атолла Мидуэй – разгром японского флота силами США",
+      "dateRaw": "1942 г.",
+      "yearStart": 1942,
+      "yearEnd": 1942,
+      "precision": "year",
+      "id": "world-0385"
+    },
+    {
+      "text": "сражение под Эль-Аламейном",
+      "dateRaw": "1942 г.",
+      "yearStart": 1942,
+      "yearEnd": 1942,
+      "precision": "year",
+      "id": "world-0386"
+    },
+    {
+      "text": "высадка англо-американских войск на Сицилии",
+      "dateRaw": "1943 г.",
+      "yearStart": 1943,
+      "yearEnd": 1943,
+      "precision": "year",
+      "id": "world-0387"
+    },
+    {
+      "text": "разгром немецких войск в Северной Африке",
+      "dateRaw": "1943 г.",
+      "yearStart": 1943,
+      "yearEnd": 1943,
+      "precision": "year",
+      "id": "world-0388"
+    },
+    {
+      "text": "высадка англо-американских войск в Нормандии. Открытие Второго фронта",
+      "dateRaw": "1944 г.",
+      "yearStart": 1944,
+      "yearEnd": 1944,
+      "precision": "year",
+      "id": "world-0389"
+    },
+    {
+      "text": "освобождение Парижа",
+      "dateRaw": "1944 г.",
+      "yearStart": 1944,
+      "yearEnd": 1944,
+      "precision": "year",
+      "id": "world-0390"
+    },
+    {
+      "text": "освобождение Франции и Бельгии, выход союзников к границе Германии",
+      "dateRaw": "1944 г.",
+      "yearStart": 1944,
+      "yearEnd": 1944,
+      "precision": "year",
+      "id": "world-0391"
+    },
+    {
+      "text": "освобождение Освенцима",
+      "dateRaw": "1945 г.",
+      "yearStart": 1945,
+      "yearEnd": 1945,
+      "precision": "year",
+      "id": "world-0392"
+    },
+    {
+      "text": "Конференция Объединённых наций в Сан- Франциско. Принятие Устава ООН",
+      "dateRaw": "1945 г.",
+      "yearStart": 1945,
+      "yearEnd": 1945,
+      "precision": "year",
+      "id": "world-0393"
+    },
+    {
+      "text": "атомная бомбардировка США Хиросимы и Нагасаки (6 и 9 августа)",
+      "dateRaw": "1945 г.",
+      "yearStart": 1945,
+      "yearEnd": 1945,
+      "precision": "year",
+      "id": "world-0394"
+    },
+    {
+      "text": "капитуляция Японии и окончание Второй мировой войны",
+      "dateRaw": "1945 г.",
+      "yearStart": 1945,
+      "yearEnd": 1945,
+      "precision": "year",
+      "id": "world-0395"
+    },
+    {
+      "text": "Нюрнбергский процесс над нацистскими преступниками",
+      "dateRaw": "1945–1946 гг.",
+      "yearStart": 1945,
+      "yearEnd": 1946,
+      "precision": "range",
+      "id": "world-0396"
+    },
+    {
+      "text": "Фултонская речь У. Черчилля",
+      "dateRaw": "1946 г.",
+      "yearStart": 1946,
+      "yearEnd": 1946,
+      "precision": "year",
+      "id": "world-0397"
+    },
+    {
+      "text": "выдвижение плана Маршалла",
+      "dateRaw": "1947 г.",
+      "yearStart": 1947,
+      "yearEnd": 1947,
+      "precision": "year",
+      "id": "world-0398"
+    },
+    {
+      "text": "обретение независимости Индии и Пакистана",
+      "dateRaw": "1947 г.",
+      "yearStart": 1947,
+      "yearEnd": 1947,
+      "precision": "year",
+      "id": "world-0399"
+    },
+    {
+      "text": "создание государства Израиль",
+      "dateRaw": "1948 г.",
+      "yearStart": 1948,
+      "yearEnd": 1948,
+      "precision": "year",
+      "id": "world-0400"
+    },
+    {
+      "text": "1-й Берлинский кризис",
+      "dateRaw": "1948–1949 гг.",
+      "yearStart": 1948,
+      "yearEnd": 1949,
+      "precision": "range",
+      "id": "world-0401"
+    },
+    {
+      "text": "создание Организации Североатлантического договора (НАТО)",
+      "dateRaw": "1949 г.",
+      "yearStart": 1949,
+      "yearEnd": 1949,
+      "precision": "year",
+      "id": "world-0402"
+    },
+    {
+      "text": "провозглашение Китайской Народной Республики",
+      "dateRaw": "1949 г.",
+      "yearStart": 1949,
+      "yearEnd": 1949,
+      "precision": "year",
+      "id": "world-0403"
+    },
+    {
+      "text": "образование HATО",
+      "dateRaw": "1949 г.",
+      "yearStart": 1949,
+      "yearEnd": 1949,
+      "precision": "year",
+      "id": "world-0404"
+    },
+    {
+      "text": "война в Корее",
+      "dateRaw": "1950–1953 гг.",
+      "yearStart": 1950,
+      "yearEnd": 1953,
+      "precision": "range",
+      "id": "world-0405"
+    },
+    {
+      "text": "создание Организации Варшавского договора (ОВД)",
+      "dateRaw": "1955 г.",
+      "yearStart": 1955,
+      "yearEnd": 1955,
+      "precision": "year",
+      "id": "world-0406"
+    },
+    {
+      "text": "Суэцкий кризис",
+      "dateRaw": "1956 г.",
+      "yearStart": 1956,
+      "yearEnd": 1956,
+      "precision": "year",
+      "id": "world-0407"
+    },
+    {
+      "text": "политический кризис в Венгрии",
+      "dateRaw": "1956 г.",
+      "yearStart": 1956,
+      "yearEnd": 1956,
+      "precision": "year",
+      "id": "world-0408"
+    },
+    {
+      "text": "Римский договор – создание Европейского экономического сообщества (ЕЭС)",
+      "dateRaw": "1957 г.",
+      "yearStart": 1957,
+      "yearEnd": 1957,
+      "precision": "year",
+      "id": "world-0409"
+    },
+    {
+      "text": "победа революции на Кубе",
+      "dateRaw": "1959 г.",
+      "yearStart": 1959,
+      "yearEnd": 1959,
+      "precision": "year",
+      "id": "world-0410"
+    },
+    {
+      "text": "Год Африки, предоставление независимости 17 государствам",
+      "dateRaw": "1960 г.",
+      "yearStart": 1960,
+      "yearEnd": 1960,
+      "precision": "year",
+      "id": "world-0411"
+    },
+    {
+      "text": "2-й Берлинский кризис – Берлинская стена",
+      "dateRaw": "1961 г.",
+      "yearStart": 1961,
+      "yearEnd": 1961,
+      "precision": "year",
+      "id": "world-0412"
+    },
+    {
+      "text": "война США во Вьетнаме",
+      "dateRaw": "1965–1973 гг.",
+      "yearStart": 1965,
+      "yearEnd": 1973,
+      "precision": "range",
+      "id": "world-0413"
+    },
+    {
+      "text": "«Культурная революция» в Китае",
+      "dateRaw": "1966–1976 гг.",
+      "yearStart": 1966,
+      "yearEnd": 1976,
+      "precision": "range",
+      "id": "world-0414"
+    },
+    {
+      "text": "арабо-израильская война",
+      "dateRaw": "1967 г.",
+      "yearStart": 1967,
+      "yearEnd": 1967,
+      "precision": "year",
+      "id": "world-0415"
+    },
+    {
+      "text": "социальный кризис во Франции (“Май 1968”). Студенческие выступления",
+      "dateRaw": "1968 г.",
+      "yearStart": 1968,
+      "yearEnd": 1968,
+      "precision": "year",
+      "id": "world-0416"
+    },
+    {
+      "text": "«Пражская весна». Ввод войск стран ОВД в Чехословакию",
+      "dateRaw": "1968 г.",
+      "yearStart": 1968,
+      "yearEnd": 1968,
+      "precision": "year",
+      "id": "world-0417"
+    },
+    {
+      "text": "война на Ближнем Востоке (арабо- израильская) и рост мировых цен на нефть",
+      "dateRaw": "1973 г.",
+      "yearStart": 1973,
+      "yearEnd": 1973,
+      "precision": "year",
+      "id": "world-0418"
+    },
+    {
+      "text": "завершающий этап Совещания по безопасности и сотрудничеству в Европе (СБСЕ) в Хельсинки. Подписание Заключительного акта",
+      "dateRaw": "1975 г.",
+      "yearStart": 1975,
+      "yearEnd": 1975,
+      "precision": "year",
+      "id": "world-0419"
+    },
+    {
+      "text": "начало реформ в Китайской Народной Республике (Дэн Сяопин)",
+      "dateRaw": "1978 г.",
+      "yearStart": 1978,
+      "yearEnd": 1978,
+      "precision": "year",
+      "id": "world-0420"
+    },
+    {
+      "text": "исламская революция в Иране",
+      "dateRaw": "1979 г.",
+      "yearStart": 1979,
+      "yearEnd": 1979,
+      "precision": "year",
+      "id": "world-0421"
+    },
+    {
+      "text": "начало неоконсервативного курса в Англии при М. Тэтчер",
+      "dateRaw": "1979 г.",
+      "yearStart": 1979,
+      "yearEnd": 1979,
+      "precision": "year",
+      "id": "world-0422"
+    },
+    {
+      "text": "начало неоконсервативной модернизации в США при Р. Рейгане",
+      "dateRaw": "1981 г.",
+      "yearStart": 1981,
+      "yearEnd": 1981,
+      "precision": "year",
+      "id": "world-0423"
+    },
+    {
+      "text": "«бархатные» революции в странах Центральной и Восточной Европы",
+      "dateRaw": "1989–1991 гг.",
+      "yearStart": 1989,
+      "yearEnd": 1991,
+      "precision": "range",
+      "id": "world-0424"
+    },
+    {
+      "text": "объединение ГДР и ФРГ",
+      "dateRaw": "1990 г.",
+      "yearStart": 1990,
+      "yearEnd": 1990,
+      "precision": "year",
+      "id": "world-0425"
+    },
+    {
+      "text": "война коалиции во главе с США против Ирака",
+      "dateRaw": "1991 г.",
+      "yearStart": 1991,
+      "yearEnd": 1991,
+      "precision": "year",
+      "id": "world-0426"
+    },
+    {
+      "text": "Маастрихтский договор и создание Европейского Союза (ЕС)",
+      "dateRaw": "1992 г.",
+      "yearStart": 1992,
+      "yearEnd": 1992,
+      "precision": "year",
+      "id": "world-0427"
+    },
+    {
+      "text": "война в Боснии",
+      "dateRaw": "1992–1995 гг.",
+      "yearStart": 1992,
+      "yearEnd": 1995,
+      "precision": "range",
+      "id": "world-0428"
+    },
+    {
+      "text": "падение режима апартеида в ЮАР",
+      "dateRaw": "1993 г.",
+      "yearStart": 1993,
+      "yearEnd": 1993,
+      "precision": "year",
+      "id": "world-0429"
+    },
+    {
+      "text": "агрессия НАТО против Югославии",
+      "dateRaw": "1999 г.",
+      "yearStart": 1999,
+      "yearEnd": 1999,
+      "precision": "year",
+      "id": "world-0430"
+    },
+    {
+      "text": "террористические акты в США",
+      "dateRaw": "2001 г.",
+      "yearStart": 2001,
+      "yearEnd": 2001,
+      "precision": "year",
+      "id": "world-0431"
+    },
+    {
+      "text": "вторжение войск США и их союзников в Афганистан",
+      "dateRaw": "2001 г.",
+      "yearStart": 2001,
+      "yearEnd": 2001,
+      "precision": "year",
+      "id": "world-0432"
+    },
+    {
+      "text": "введение единой валюты евро",
+      "dateRaw": "2002 г.",
+      "yearStart": 2002,
+      "yearEnd": 2002,
+      "precision": "year",
+      "id": "world-0433"
+    },
+    {
+      "text": "вторжение войск США и их союзников в Ирак",
+      "dateRaw": "2003 г.",
+      "yearStart": 2003,
+      "yearEnd": 2003,
+      "precision": "year",
+      "id": "world-0434"
+    },
+    {
+      "text": "начало мирового финансово экономического кризиса",
+      "dateRaw": "2008 г.",
+      "yearStart": 2008,
+      "yearEnd": 2008,
+      "precision": "year",
+      "id": "world-0435"
+    },
+    {
+      "text": "выход Великобритании из ЕС",
+      "dateRaw": "2020 г.",
+      "yearStart": 2020,
+      "yearEnd": 2020,
+      "precision": "year",
+      "id": "world-0436"
+    },
+    {
+      "text": "пандемия COVID-19",
+      "dateRaw": "2020–2023 гг.",
+      "yearStart": 2020,
+      "yearEnd": 2023,
+      "precision": "range",
+      "id": "world-0437"
+    }
+  ]
+}
