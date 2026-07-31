@@ -10,6 +10,7 @@ import { EGE_VARIANTS } from './ege.js';
 import { discoverDateModules } from './dates-loader.js';
 import { discoverPersonModules } from './persons-loader.js';
 import { generatedDateQuestions, ensureDateQuestionsLoaded } from './date-questions.js';
+import { generateTask1, generateTask2 } from './ege-generators.js';
 import {
   auth, db,
   createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut,
@@ -37,6 +38,8 @@ const state = {
   personsModuleSel: null,
   selectedPerson: null,
   egeVariantsCompleted: new Set(),
+  drillLoading: false,
+  drillFailed: false,
   nicknameChanged: false,
   mistakesEverHad: false
 };
@@ -187,6 +190,40 @@ function startEgeVariant(variantId){
   state.screen = 'ege';
   render();
 }
+async function startTask1Drill(){
+  state.drillLoading = true;
+  state.screen = 'ege';
+  state.egeTest = null;
+  render();
+  const task = await generateTask1();
+  state.drillLoading = false;
+  if(!task){
+    state.drillFailed = true;
+    render();
+    return;
+  }
+  state.drillFailed = false;
+  const variant = { id:'drill-task1', title:'Задание 1 · тренировка', source:'Генерируется автоматически из базы дат — каждый раз новая комбинация.', tasks:[task] };
+  state.egeTest = { variant, idx:0, answers:[''], checked:[false], correct:[null] };
+  render();
+}
+async function startTask2Drill(){
+  state.drillLoading = true;
+  state.screen = 'ege';
+  state.egeTest = null;
+  render();
+  const task = await generateTask2();
+  state.drillLoading = false;
+  if(!task){
+    state.drillFailed = true;
+    render();
+    return;
+  }
+  state.drillFailed = false;
+  const variant = { id:'drill-task2', title:'Задание 2 · тренировка', source:'Генерируется автоматически из базы дат (история России и всемирная история) — каждый раз новая комбинация.', tasks:[task] };
+  state.egeTest = { variant, idx:0, answers:[''], checked:[false], correct:[null] };
+  render();
+}
 function clearTestTimer(){
   if(state.test && state.test.timerId){ clearInterval(state.test.timerId); state.test.timerId = null; }
 }
@@ -272,6 +309,7 @@ function render(){
   app.innerHTML = '';
   if(state.screen === 'test' && state.test){ app.appendChild(renderTestScreen()); return; }
   if(state.screen === 'ege' && state.egeTest){ app.appendChild(renderEgeScreen()); return; }
+  if(state.screen === 'ege' && !state.egeTest){ app.appendChild(renderDrillLoading()); return; }
   const map = {home:renderHome, levels:renderLevels, rulers:renderRulers, periods:renderPeriods, culture:renderCulture, general:renderGeneral, knowledge:renderKnowledge, modperson:renderModPerson, yearsdb:renderDatesDB, profile:renderProfile, settings:renderSettings, premium:renderPremium};
   app.appendChild((map[state.screen] || renderHome)());
 }
@@ -544,6 +582,32 @@ function renderGeneral(){
     egeGrid.appendChild(card);
   });
   wrap.appendChild(egeGrid);
+
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Тренировка по заданиям</h2><span class="count">генерируются автоматически</span></div>`));
+  wrap.appendChild(el(`<p class="lede">Отдельные типы заданий ЕГЭ, каждое собирается из базы дат заново — вариантов практически бесконечно много. Пока доступны задания 1 и 2, дальше добавим остальные.</p>`));
+  const drillGrid = el(`<div class="grid"></div>`);
+  const drillCard = el(`
+    <div class="card"><div class="body">
+      <h3>Задание 1</h3>
+      <div class="years">Соответствие событие — год</div>
+      <p class="desc">4 события, 6 вариантов дат на выбор. Каждый раз новая случайная комбинация из всей базы дат.</p>
+      <button class="cta">Начать</button>
+    </div></div>
+  `);
+  drillCard.querySelector('.cta').onclick = () => startTask1Drill();
+  drillGrid.appendChild(drillCard);
+  const drillCard2 = el(`
+    <div class="card"><div class="body">
+      <h3>Задание 2</h3>
+      <div class="years">Хронологическая последовательность</div>
+      <p class="desc">3 события — расположи по порядку. Обычно 2 из истории России и 1 всемирная, изредка другие пропорции — как на настоящем экзамене.</p>
+      <button class="cta">Начать</button>
+    </div></div>
+  `);
+  drillCard2.querySelector('.cta').onclick = () => startTask2Drill();
+  drillGrid.appendChild(drillCard2);
+  wrap.appendChild(drillGrid);
+
   const c1 = el(`<div class="card"><div class="body"><h3>Тест на даты</h3><div class="years">${dateCount} вопросов в базе · впиши год</div><p class="desc">${generatedDateQuestions.length>0 ? 'Каждый раз новая случайная подборка из большой базы дат.' : 'База дат ещё грузится — вопросов станет заметно больше через пару секунд.'}</p><button class="cta">Начать</button></div></div>`);
   c1.querySelector('.cta').onclick = () => startDatesTest();
   grid.appendChild(c1);
@@ -1399,6 +1463,28 @@ async function loadProgress(uid){
 /* ========================================================================
    ПОЛНЫЙ ВАРИАНТ ЕГЭ
    ======================================================================== */
+function renderDrillLoading(){
+  const wrap = document.createElement('div');
+  wrap.className = 'test-shell';
+  const back = el(`<a class="back-link" href="#">← Прервать и вернуться</a>`);
+  back.onclick = (e) => { e.preventDefault(); setScreen('general'); };
+  wrap.appendChild(back);
+  if(state.drillFailed){
+    wrap.appendChild(el(`
+      <div class="question-card">
+        <p class="qtext">База дат ещё маловата для генерации этого задания — подожди, пока подгрузится больше модулей, и попробуй снова через пару секунд.</p>
+      </div>
+    `));
+  } else {
+    wrap.appendChild(el(`
+      <div class="question-card">
+        <p class="qtext">Собираю задание из базы дат…</p>
+      </div>
+    `));
+  }
+  return wrap;
+}
+
 function renderEgeScreen(){
   const t = state.egeTest;
   const wrap = document.createElement('div');
@@ -1497,9 +1583,10 @@ function addEgeNextButton(controls, t){
 function renderEgeResult(){
   const t = state.egeTest;
   const tasks = t.variant.tasks;
+  const isDrill = t.variant.id === 'drill-task1' || t.variant.id === 'drill-task2';
   if(!t.recorded){
     t.recorded = true;
-    state.egeVariantsCompleted.add(t.variant.id);
+    if(!isDrill) state.egeVariantsCompleted.add(t.variant.id);
   }
   let earned = 0, max = 0, part1 = 0, part1max = 0, part2 = 0, part2max = 0, unanswered = 0;
   tasks.forEach((task,i)=>{
@@ -1514,20 +1601,27 @@ function renderEgeResult(){
     if(task.part===1){ part1max += pts; part1 += got; } else { part2max += pts; part2 += got; }
   });
   const round1 = n => Math.round(n*10)/10;
+  const summaryLine = isDrill
+    ? `${earned>0 ? 'Верно!' : 'Не в этот раз.'}`
+    : `Часть 1: ${round1(part1)} из ${part1max} · Часть 2 (самооценка): ${round1(part2)} из ${part2max}${unanswered?` · пропущено заданий: ${unanswered}`:''}`;
   const wrap = el(`
     <div class="result-card">
-      <div style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:1px">Вариант завершён</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:1px">${isDrill ? 'Задание проверено' : 'Вариант завершён'}</div>
       <div class="score">${round1(earned)} / ${max}</div>
-      <p>Часть 1: ${round1(part1)} из ${part1max} · Часть 2 (самооценка): ${round1(part2)} из ${part2max}${unanswered?` · пропущено заданий: ${unanswered}`:''}</p>
-      <p style="font-size:0.78rem">Часть 2 оценивается тобой самостоятельно по эталону — это ориентир, а не официальный балл ЕГЭ.</p>
+      <p>${summaryLine}</p>
+      ${isDrill ? '' : '<p style="font-size:0.78rem">Часть 2 оценивается тобой самостоятельно по эталону — это ориентир, а не официальный балл ЕГЭ.</p>'}
       <div class="actions" style="display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap">
-        <button class="btn">Пройти ещё раз</button>
+        <button class="btn">${isDrill ? 'Ещё одно задание' : 'Пройти ещё раз'}</button>
         <button class="btn outline">Назад</button>
       </div>
     </div>
   `);
   const [again, back] = wrap.querySelectorAll('.actions button');
-  again.onclick = () => startEgeVariant(t.variant.id);
+  again.onclick = () => {
+    if(t.variant.id === 'drill-task1') startTask1Drill();
+    else if(t.variant.id === 'drill-task2') startTask2Drill();
+    else startEgeVariant(t.variant.id);
+  };
   back.onclick = () => setScreen('general');
   return wrap;
 }
