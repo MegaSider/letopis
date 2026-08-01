@@ -40,6 +40,7 @@ const state = {
   egeVariantsCompleted: new Set(),
   drillLoading: false,
   drillFailed: false,
+  drillTasksCompleted: 0,
   nicknameChanged: false,
   mistakesEverHad: false
 };
@@ -828,6 +829,7 @@ function computeAchievements(){
     {icon:'📖', title:'Хранитель хронологии', desc:'Получи звание «Хранитель хронологии» (100 верных ответов)', earned: rank.totalCorrect>=100},
     {icon:'👑', title:'Великий летописец', desc:'Дойди до высшего звания летописи (600 верных ответов)', earned: rank.totalCorrect>=600},
     {icon:'🏛️', title:'Периодовед', desc:'Пройди тесты по 5 разным периодам', earned: periodsTried>=5},
+    {icon:'🎲', title:'Конструктор заданий', desc:'Реши 20 сгенерированных заданий 1 или 2', earned: state.drillTasksCompleted>=20},
     {icon:'🎭', title:'Культуролог', desc:'Пройди тест по культуре', earned: cultureDone},
     {icon:'📅', title:'Хронолог', desc:'Пройди тест на даты хотя бы раз', earned: datesDone},
     {icon:'🛠️', title:'Свой конструктор', desc:'Собери и пройди собственный тест', earned: customDone},
@@ -1541,6 +1543,7 @@ function renderEgeScreen(){
       const ok = checkAnswer({ty:'t', a:task.answer, alt:[]}, val);
       t.checked[t.idx] = true;
       t.correct[t.idx] = ok;
+      t.answers[t.idx] = val;
       [...form.querySelectorAll('input,button')].forEach(elm => elm.disabled = true);
       feedbackHolder.appendChild(el(ok ? `<div class="feedback ok">Верно!</div>` : `<div class="feedback bad">Неверно. Правильный ответ: ${task.answer}</div>`));
       addEgeNextButton(controls, t);
@@ -1603,6 +1606,7 @@ function renderEgeResult(){
   if(!t.recorded){
     t.recorded = true;
     if(!isDrill) state.egeVariantsCompleted.add(t.variant.id);
+    else state.drillTasksCompleted += tasks.length;
   }
   let earned = 0, max = 0, part1 = 0, part1max = 0, part2 = 0, part2max = 0, unanswered = 0;
   tasks.forEach((task,i)=>{
@@ -1636,6 +1640,41 @@ function renderEgeResult(){
     </div>
   `);
   const [again, back] = wrap.querySelectorAll('.actions button');
+
+  if(tasks.length > 1){
+    const reviewBtn = el(`<button class="btn outline" style="width:100%;margin-top:16px">Показать разбор всех заданий</button>`);
+    wrap.appendChild(reviewBtn);
+    const reviewHolder = el(`<div style="margin-top:14px"></div>`);
+    wrap.appendChild(reviewHolder);
+    reviewBtn.onclick = () => {
+      reviewBtn.remove();
+      tasks.forEach((task, i) => {
+        let feedbackHtml;
+        if(task.type === 'seq'){
+          const ok = t.correct[i] === true;
+          const given = (t.answers[i] || '').trim() || '—';
+          feedbackHtml = `<div class="feedback ${ok ? 'ok' : 'bad'}" style="margin-top:12px">
+            Твой ответ: <b>${given}</b>${ok ? '' : ` · Правильный: <b>${task.answer}</b>`}
+          </div>`;
+        } else {
+          const grade = t.correct[i];
+          const label = grade === 1 ? 'Справился полностью' : grade === 0.5 ? 'Частично' : grade === 0 ? 'Не справился' : 'Не оценено';
+          feedbackHtml = `<div class="feedback ${grade === 1 ? 'ok' : grade === null || grade === undefined ? '' : 'bad'}" style="margin-top:12px">
+            Самооценка: <b>${label}</b>
+          </div>`;
+        }
+        const row = el(`
+          <div class="question-card" style="margin-bottom:12px;padding:16px 18px">
+            <div class="ege-num">Задание ${task.n != null ? task.n : i+1}</div>
+            ${task.context || ''}
+            ${feedbackHtml}
+          </div>
+        `);
+        reviewHolder.appendChild(row);
+      });
+    };
+  }
+
   again.onclick = () => {
     if(t.variant.id === 'drill-task1') startTask1Drill(t.variant.tasks.length);
     else if(t.variant.id === 'drill-task2') startTask2Drill(t.variant.tasks.length);
