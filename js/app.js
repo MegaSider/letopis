@@ -41,6 +41,7 @@ const state = {
   drillLoading: false,
   drillFailed: false,
   drillTasksCompleted: 0,
+  drillMistakes: [],
   nicknameChanged: false,
   mistakesEverHad: false
 };
@@ -237,6 +238,25 @@ async function startTask2Drill(count){
   state.drillFailed = false;
   const variant = { id:'drill-task2', title:'Задание 2 · тренировка', source:'Генерируется автоматически из базы дат (история России и всемирная история) — каждый раз новая комбинация.', tasks };
   state.egeTest = { variant, idx:0, answers: new Array(tasks.length).fill(''), checked: new Array(tasks.length).fill(false), correct: new Array(tasks.length).fill(null) };
+  render();
+}
+let drillMistakeCounter = 0;
+function addDrillMistake(task, sourceLabel){
+  const id = 'dm-' + (++drillMistakeCounter) + '-' + Date.now();
+  const frozen = JSON.parse(JSON.stringify(task));
+  frozen._mistakeId = id;
+  state.drillMistakes.push({ id, task: frozen, source: sourceLabel });
+  if(state.drillMistakes.length > 60) state.drillMistakes.shift();
+}
+function removeDrillMistake(id){
+  state.drillMistakes = state.drillMistakes.filter(m => m.id !== id);
+}
+function startDrillMistakesReview(){
+  if(state.drillMistakes.length === 0) return;
+  const tasks = state.drillMistakes.map(m => m.task);
+  const variant = { id:'drill-mistakes', title:'Работа над ошибками · тренажёр ЕГЭ', source:'Задания, в которых ты ошибся в генераторе или в вариантах ЕГЭ — показаны как есть, без изменений.', tasks };
+  state.egeTest = { variant, idx:0, answers:new Array(tasks.length).fill(''), checked:new Array(tasks.length).fill(false), correct:new Array(tasks.length).fill(null) };
+  state.screen = 'ege';
   render();
 }
 function clearTestTimer(){
@@ -624,6 +644,18 @@ function renderGeneral(){
   drillCard2.querySelector('.cta').onclick = () => startTask2Drill(parseInt(drillCard2.querySelector('input').value, 10));
   drillGrid.appendChild(drillCard2);
   wrap.appendChild(drillGrid);
+
+  const dmCount = state.drillMistakes.length;
+  const dmCard = el(`
+    <div class="card" style="margin-top:14px"><div class="body">
+      <h3>Работа над ошибками в тренажёре</h3>
+      <div class="years">${dmCount} задани${dmCount===1?'е':(dmCount>=2&&dmCount<=4?'я':'й')} на повторе</div>
+      <p class="desc">${dmCount>0 ? 'Те же самые задания, где ты ошибся в генераторе или в вариантах ЕГЭ, — без изменений.' : 'Пока пусто — появится здесь, как только где-то ошибёшься в генераторе заданий или в варианте ЕГЭ.'}</p>
+      <button class="cta" ${dmCount===0?'disabled':''}>${dmCount>0?'Отработать':'Пока пусто'}</button>
+    </div></div>
+  `);
+  if(dmCount>0) dmCard.querySelector('.cta').onclick = () => startDrillMistakesReview();
+  wrap.appendChild(dmCard);
 
   const c1 = el(`<div class="card"><div class="body"><h3>Тест на даты</h3><div class="years">${dateCount} вопросов в базе · впиши год</div><p class="desc">${generatedDateQuestions.length>0 ? 'Каждый раз новая случайная подборка из большой базы дат.' : 'База дат ещё грузится — вопросов станет заметно больше через пару секунд.'}</p><button class="cta">Начать</button></div></div>`);
   c1.querySelector('.cta').onclick = () => startDatesTest();
@@ -1544,6 +1576,16 @@ function renderEgeScreen(){
       t.checked[t.idx] = true;
       t.correct[t.idx] = ok;
       t.answers[t.idx] = val;
+      // задания 1/2 всегда про даты — считаем в общую статистику раздела "Даты"
+      if(t.variant.id.startsWith('drill-')){
+        const cs = state.catStats['date'];
+        if(cs){ cs.answered++; if(ok) cs.correct++; }
+      }
+      if(ok){
+        if(task._mistakeId) removeDrillMistake(task._mistakeId);
+      } else if(!task._mistakeId){
+        addDrillMistake(task, t.variant.title);
+      }
       [...form.querySelectorAll('input,button')].forEach(elm => elm.disabled = true);
       feedbackHolder.appendChild(el(ok ? `<div class="feedback ok">Верно!</div>` : `<div class="feedback bad">Неверно. Правильный ответ: ${task.answer}</div>`));
       addEgeNextButton(controls, t);
@@ -1602,7 +1644,7 @@ function addEgeNextButton(controls, t){
 function renderEgeResult(){
   const t = state.egeTest;
   const tasks = t.variant.tasks;
-  const isDrill = t.variant.id === 'drill-task1' || t.variant.id === 'drill-task2';
+  const isDrill = t.variant.id === 'drill-task1' || t.variant.id === 'drill-task2' || t.variant.id === 'drill-mistakes';
   if(!t.recorded){
     t.recorded = true;
     if(!isDrill) state.egeVariantsCompleted.add(t.variant.id);
@@ -1678,6 +1720,7 @@ function renderEgeResult(){
   again.onclick = () => {
     if(t.variant.id === 'drill-task1') startTask1Drill(t.variant.tasks.length);
     else if(t.variant.id === 'drill-task2') startTask2Drill(t.variant.tasks.length);
+    else if(t.variant.id === 'drill-mistakes') startDrillMistakesReview();
     else startEgeVariant(t.variant.id);
   };
   back.onclick = () => setScreen('general');
