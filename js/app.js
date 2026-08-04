@@ -42,6 +42,9 @@ const state = {
   drillFailed: false,
   drillTasksCompleted: 0,
   drillMistakes: [],
+  streak: 0,
+  longestStreak: 0,
+  lastActiveDate: null,
   nicknameChanged: false,
   mistakesEverHad: false
 };
@@ -645,27 +648,30 @@ function renderGeneral(){
   drillGrid.appendChild(drillCard2);
   wrap.appendChild(drillGrid);
 
-  const dmCount = state.drillMistakes.length;
-  const dmCard = el(`
-    <div class="card" style="margin-top:14px"><div class="body">
-      <h3>Работа над ошибками в тренажёре</h3>
-      <div class="years">${dmCount} задани${dmCount===1?'е':(dmCount>=2&&dmCount<=4?'я':'й')} на повторе</div>
-      <p class="desc">${dmCount>0 ? 'Те же самые задания, где ты ошибся в генераторе или в вариантах ЕГЭ, — без изменений.' : 'Пока пусто — появится здесь, как только где-то ошибёшься в генераторе заданий или в варианте ЕГЭ.'}</p>
-      <button class="cta" ${dmCount===0?'disabled':''}>${dmCount>0?'Отработать':'Пока пусто'}</button>
-    </div></div>
-  `);
-  if(dmCount>0) dmCard.querySelector('.cta').onclick = () => startDrillMistakesReview();
-  wrap.appendChild(dmCard);
-
   const c1 = el(`<div class="card"><div class="body"><h3>Тест на даты</h3><div class="years">${dateCount} вопросов в базе · впиши год</div><p class="desc">${generatedDateQuestions.length>0 ? 'Каждый раз новая случайная подборка из большой базы дат.' : 'База дат ещё грузится — вопросов станет заметно больше через пару секунд.'}</p><button class="cta">Начать</button></div></div>`);
   c1.querySelector('.cta').onclick = () => startDatesTest();
   grid.appendChild(c1);
   const c2 = el(`<div class="card"><div class="body"><h3>Полный рандом</h3><div class="years">15 вопросов из всей базы</div><p class="desc">Смесь правителей, эпох, культуры и дат любого уровня сложности.</p><button class="cta">Начать</button></div></div>`);
   c2.querySelector('.cta').onclick = () => startRandomTest();
   grid.appendChild(c2);
+
   const mistakeCount = state.mistakes.size;
-  const c3 = el(`<div class="card"><div class="body"><h3>Работа над ошибками</h3><div class="years">${mistakeCount} вопрос${mistakeCount===1?'':(mistakeCount>=2&&mistakeCount<=4?'а':'ов')} в списке</div><p class="desc">Все вопросы, где ты пока ответил неверно, собраны в один тест.</p><button class="cta" ${mistakeCount===0?'disabled':''}>${mistakeCount===0?'Пока пусто':'Начать'}</button></div></div>`);
-  if(mistakeCount>0) c3.querySelector('.cta').onclick = () => startMistakesTest();
+  const dmCount = state.drillMistakes.length;
+  const totalMistakes = mistakeCount + dmCount;
+  const c3 = el(`
+    <div class="card"><div class="body">
+      <h3>Работа над ошибками</h3>
+      <div class="years">${totalMistakes} задани${totalMistakes===1?'е':(totalMistakes>=2&&totalMistakes<=4?'я':'й')} на повторе</div>
+      <p class="desc">Всё, где ты пока ответил неверно, — и в обычных тестах, и в тренажёре ЕГЭ.</p>
+      <div style="display:flex;flex-direction:column;gap:6px;margin-top:8px">
+        <button class="cta" style="align-self:stretch;text-align:left" ${mistakeCount===0?'disabled':''}>${mistakeCount>0?`Обычные вопросы (${mistakeCount})`:'Обычных вопросов нет'}</button>
+        <button class="cta" style="align-self:stretch;text-align:left" ${dmCount===0?'disabled':''}>${dmCount>0?`Задания ЕГЭ-тренажёра (${dmCount})`:'Заданий тренажёра нет'}</button>
+      </div>
+    </div></div>
+  `);
+  const [mistakeBtn, dmBtn] = c3.querySelectorAll('.cta');
+  if(mistakeCount>0) mistakeBtn.onclick = () => startMistakesTest();
+  if(dmCount>0) dmBtn.onclick = () => startDrillMistakesReview();
   grid.appendChild(c3);
 
   wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Собрать свой тест</h2></div>`));
@@ -768,6 +774,18 @@ function renderProfile(){
   profileCard.appendChild(settingsBtn);
   wrap.appendChild(profileCard);
 
+  if(state.streak > 0){
+    wrap.appendChild(el(`
+      <div class="streak-bar">
+        <span class="streak-fire">🔥</span>
+        <div>
+          <div class="streak-num">${state.streak} ${streakWord(state.streak)} подряд</div>
+          <div class="streak-sub">Личный рекорд: ${state.longestStreak} ${streakWord(state.longestStreak)}</div>
+        </div>
+      </div>
+    `));
+  }
+
   const lvl = computeLevelInfo();
   wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Звание и уровень</h2></div>`));
   wrap.appendChild(el(`
@@ -803,18 +821,20 @@ function renderProfile(){
   wrap.appendChild(catRows);
 
   const mistakeCount = state.mistakes.size;
-  wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Работа над ошибками</h2><span class="count">${mistakeCount} вопросов</span></div>`));
+  const dmCount = state.drillMistakes.length;
+  const totalMistakes = mistakeCount + dmCount;
+  wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Работа над ошибками</h2><span class="count">${totalMistakes} всего</span></div>`));
   const mistakeBox = el(`
     <div class="chronicle" style="max-width:520px">
       <p style="margin:0 0 14px;color:var(--text-dim);font-size:0.88rem">
-        ${mistakeCount>0
-          ? 'Здесь копятся все вопросы, на которые ты пока ответил неверно. Пройди их ещё раз — верный ответ уберёт вопрос из списка.'
+        ${totalMistakes>0
+          ? `Обычных вопросов: ${mistakeCount} · заданий тренажёра ЕГЭ: ${dmCount}. Полный список и повтор — во вкладке «Общие тесты».`
           : 'Пока нет накопленных ошибок — они появятся здесь сразу, как только ты где-то ответишь неверно.'}
       </p>
-      <button class="btn" ${mistakeCount===0?'disabled':''}>Пройти работу над ошибками</button>
+      <button class="btn" ${totalMistakes===0?'disabled':''}>Перейти к работе над ошибками</button>
     </div>
   `);
-  if(mistakeCount>0) mistakeBox.querySelector('.btn').onclick = () => startMistakesTest();
+  if(totalMistakes>0) mistakeBox.querySelector('.btn').onclick = () => setScreen('general');
   wrap.appendChild(mistakeBox);
 
   wrap.appendChild(el(`<div class="section-head" style="margin-top:34px"><h2>Достижения</h2><span class="count">${computeAchievements().filter(b=>b.earned).length} / ${computeAchievements().length}</span></div>`));
@@ -862,6 +882,8 @@ function computeAchievements(){
     {icon:'👑', title:'Великий летописец', desc:'Дойди до высшего звания летописи (600 верных ответов)', earned: rank.totalCorrect>=600},
     {icon:'🏛️', title:'Периодовед', desc:'Пройди тесты по 5 разным периодам', earned: periodsTried>=5},
     {icon:'🎲', title:'Конструктор заданий', desc:'Реши 20 сгенерированных заданий 1 или 2', earned: state.drillTasksCompleted>=20},
+    {icon:'🔥', title:'Неделя подряд', desc:'Заходи и занимайся 7 дней подряд', earned: state.longestStreak>=7},
+    {icon:'🔥', title:'Месяц подряд', desc:'Заходи и занимайся 30 дней подряд', earned: state.longestStreak>=30},
     {icon:'🎭', title:'Культуролог', desc:'Пройди тест по культуре', earned: cultureDone},
     {icon:'📅', title:'Хронолог', desc:'Пройди тест на даты хотя бы раз', earned: datesDone},
     {icon:'🛠️', title:'Свой конструктор', desc:'Собери и пройди собственный тест', earned: customDone},
@@ -1480,6 +1502,32 @@ function renderSettings(){
 /* ========================================================================
    FIREBASE: сохранение и загрузка прогресса
    ======================================================================== */
+function streakWord(n){
+  const n10 = n % 10, n100 = n % 100;
+  if(n100 >= 11 && n100 <= 14) return 'дней';
+  if(n10 === 1) return 'день';
+  if(n10 >= 2 && n10 <= 4) return 'дня';
+  return 'дней';
+}
+function todayStr(){
+  return new Date().toISOString().slice(0,10);
+}
+function daysBetween(a, b){
+  return Math.round((new Date(b) - new Date(a)) / 86400000);
+}
+function updateStreak(){
+  const today = todayStr();
+  if(state.lastActiveDate === today) return false; // уже засчитан сегодня
+  if(state.lastActiveDate && daysBetween(state.lastActiveDate, today) === 1){
+    state.streak += 1; // пришёл ровно на следующий день — серия продолжается
+  } else {
+    state.streak = 1; // первый визит или пропуск дня — начинаем заново
+  }
+  state.lastActiveDate = today;
+  state.longestStreak = Math.max(state.longestStreak, state.streak);
+  return true;
+}
+
 async function saveProgress(){
   if(!state.user || !state.user.uid) return;
   try{
@@ -1490,6 +1538,9 @@ async function saveProgress(){
       catStats: state.catStats,
       mistakes: Array.from(state.mistakes),
       completedTests: state.completedTests,
+      streak: state.streak,
+      longestStreak: state.longestStreak,
+      lastActiveDate: state.lastActiveDate,
       updatedAt: Date.now()
     }, {merge:true});
   } catch(e){ console.error('Не удалось сохранить прогресс:', e); }
@@ -1503,7 +1554,11 @@ async function loadProgress(uid){
       if(d.catStats) Object.assign(state.catStats, d.catStats);
       if(d.mistakes) state.mistakes = new Set(d.mistakes);
       if(d.completedTests) state.completedTests = d.completedTests;
+      if(d.streak != null) state.streak = d.streak;
+      if(d.longestStreak != null) state.longestStreak = d.longestStreak;
+      if(d.lastActiveDate) state.lastActiveDate = d.lastActiveDate;
     }
+    if(updateStreak()) await saveProgress(); // засчитываем сегодняшний визит и сразу сохраняем
   } catch(e){ console.error('Не удалось загрузить прогресс:', e); }
 }
 
