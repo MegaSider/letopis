@@ -307,7 +307,22 @@ const TABS = [
   {id:'profile', label:'Профиль'},
 ];
 
-function setScreen(id){ clearTestTimer(); state.screen = id; render(); window.scrollTo({top:0, behavior:'smooth'}); }
+// Только "простые" экраны получают настоящий адрес в URL — то есть те,
+// куда можно зайти напрямую по ссылке без предварительного состояния.
+// Экраны вроде текущего теста или сгенerированного задания ЕГЭ не входят
+// сюда осознанно: их нельзя восстановить только по адресу (нужен живой
+// объект теста в памяти), так что ссылка на них была бы нерабочей.
+const HASH_ROUTABLE = new Set(['home','levels','rulers','periods','culture','general','knowledge','yearsdb','profile','settings','premium']);
+
+function setScreen(id){
+  clearTestTimer();
+  state.screen = id;
+  if(HASH_ROUTABLE.has(id) && location.hash.slice(1) !== id){
+    location.hash = id;
+  }
+  render();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
 
 function renderTabs(){
   const nav = document.getElementById('tabs');
@@ -327,6 +342,14 @@ function renderTabs(){
 function renderHeaderLevel(){
   const lvl = estimateLevel();
   document.getElementById('headerLevel').innerHTML = 'Уровень: <b>' + (lvl || '—') + '</b>';
+  const streakEl = document.getElementById('headerStreak');
+  if(state.user && state.streak > 0){
+    streakEl.style.display = '';
+    streakEl.innerHTML = '🔥 <b>' + state.streak + '</b>';
+    streakEl.title = state.streak + ' ' + streakWord(state.streak) + ' подряд · рекорд: ' + state.longestStreak;
+  } else {
+    streakEl.style.display = 'none';
+  }
   const acc = document.getElementById('headerAccount');
   if(state.user){
     const rank = computeRank();
@@ -355,6 +378,13 @@ function render(){
 function renderHome(){
   const wrap = document.createElement('div');
   const lvl = computeLevelInfo();
+  const daysLeft = getEgeCountdown();
+  wrap.appendChild(el(`
+    <div class="countdown-bar">
+      <span class="countdown-num">${Math.abs(daysLeft)}</span>
+      <span class="countdown-text">${daysLeft>=0 ? 'дней до ЕГЭ по истории' : 'дней прошло с последнего ЕГЭ по истории'}</span>
+    </div>
+  `));
   wrap.appendChild(el(`
     <div class="hero">
       <div>
@@ -1509,6 +1539,21 @@ function streakWord(n){
   if(n10 >= 2 && n10 <= 4) return 'дня';
   return 'дней';
 }
+// Дата экзамена по истории. Основной период ЕГЭ-2026 (история) прошёл
+// 1 июня 2026 — на момент разработки уже позади, поэтому отсчёт ведём
+// до 2027 года. Официальное расписание на 2027 год ещё не объявлено
+// (обычно публикуется осенью), дата ниже — ориентир по историческому
+// паттерну (история почти всегда в первый день основного периода,
+// начало июня). Как только выйдет официальный приказ — поправить дату.
+const EGE_HISTORY_DATE = new Date('2027-06-01T00:00:00');
+
+function getEgeCountdown(){
+  const now = new Date();
+  const diffMs = EGE_HISTORY_DATE - now;
+  const days = Math.ceil(diffMs / 86400000);
+  return days;
+}
+
 function todayStr(){
   return new Date().toISOString().slice(0,10);
 }
@@ -1932,7 +1977,25 @@ function renderResult(){
   return wrap;
 }
 
+// Если открыли сайт сразу по ссылке на конкретный раздел (например,
+// сайт.ру/#rulers) — сразу показываем этот раздел, а не всегда главную.
+const initialHash = location.hash.slice(1);
+if(HASH_ROUTABLE.has(initialHash)) state.screen = initialHash;
+
 render(); // первая отрисовка — гостевой вид, пока Firebase проверяет сессию
+
+// Кнопки "назад"/"вперёд" в браузере должны переключать разделы сайта,
+// а не просто листать историю адресов вникуда.
+window.addEventListener('hashchange', () => {
+  const id = location.hash.slice(1);
+  if(HASH_ROUTABLE.has(id) && state.screen !== id){
+    clearTestTimer();
+    state.screen = id;
+    render();
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+});
+
 ensureDateQuestionsLoaded().then(() => {
   if(state.screen === 'general' || state.screen === 'home') render();
 }); // тихо подгружаем полную базу дат в фоне для тестов
