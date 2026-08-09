@@ -51,6 +51,8 @@ header.top p{margin:0;color:var(--text-faint);font-size:0.78rem;}
   padding:6px 13px;border-radius:20px;font-family:'JetBrains Mono',monospace;font-size:0.78rem;white-space:nowrap;
 }
 .level-pill b{font-weight:700;}
+.streak-pill{background:rgba(229,85,92,0.12);border-color:rgba(229,85,92,0.35);color:#f5989d;cursor:default;}
+.streak-pill b{color:#ffb3b8;}
 
 nav.tabs{display:flex;gap:2px;flex-wrap:wrap;max-width:1120px;margin:14px auto 0;padding:0 20px;overflow-x:auto;}
 nav.tabs button{
@@ -94,6 +96,15 @@ main{padding-top:30px;}
 
 .level-card{border-top:2px solid var(--accent);}
 .level-card .letter{font-family:'Yeseva One',serif;font-size:2rem;color:var(--accent);}
+
+.countdown-bar{
+  display:flex;align-items:baseline;gap:10px;justify-content:center;
+  background:linear-gradient(120deg,var(--accent-soft),transparent);
+  border:1px solid var(--accent-dim);border-radius:12px;
+  padding:12px 20px;margin-bottom:16px;
+}
+.countdown-num{font-family:'Yeseva One',serif;font-size:1.7rem;color:var(--accent);line-height:1;}
+.countdown-text{font-size:0.85rem;color:var(--text-dim);}
 
 .hero{
   background:linear-gradient(160deg,var(--card),var(--bg-alt));
