@@ -343,12 +343,14 @@ function renderHeaderLevel(){
   const lvl = estimateLevel();
   document.getElementById('headerLevel').innerHTML = 'Уровень: <b>' + (lvl || '—') + '</b>';
   const streakEl = document.getElementById('headerStreak');
-  if(state.user && state.streak > 0){
-    streakEl.style.display = '';
-    streakEl.innerHTML = '🔥 <b>' + state.streak + '</b>';
-    streakEl.title = state.streak + ' ' + streakWord(state.streak) + ' подряд · рекорд: ' + state.longestStreak;
-  } else {
-    streakEl.style.display = 'none';
+  if(streakEl){
+    if(state.user && state.streak > 0){
+      streakEl.style.display = '';
+      streakEl.innerHTML = '🔥 <b>' + state.streak + '</b>';
+      streakEl.title = state.streak + ' ' + streakWord(state.streak) + ' подряд · рекорд: ' + state.longestStreak;
+    } else {
+      streakEl.style.display = 'none';
+    }
   }
   const acc = document.getElementById('headerAccount');
   if(state.user){
